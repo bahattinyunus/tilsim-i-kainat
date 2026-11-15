@@ -1,168 +1,191 @@
 # 📖 Kavramlar Sözlüğü (Glossary)
 
-> Tılsım-ı Kâinat dokümanlarında geçen ıstılahların alfabetik açıklamaları.
-> Her madde; **kısa tanım**, **açılım** ve ilgili dokümana **bağlantı** içerir.
+> Tılsım-ı Kâinat dokümanlarında geçen Kur'ânî ve Risale-i Nur kaynaklı ıstılahların şerhli lügati.
+> Her madde; **orijinal ıstılah**, **lügat ve ıstılah manası**, **orijinal risale metinlerinden alıntılar** ve ilgili dokümana **bağlantı** içerir.
 
-**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [M](#m) · [N](#n) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
+**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [M](#m) · [N](#n) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
 
 ---
 
 ## A
 
-**Acz** — Güçsüzlük, âcizlik.
-İnsanın kendi kudretsizliğini idrak etmesi. Nübüvvet nazarında terakkinin anahtarıdır: Aczini bilen,
-Kudret-i Mutlaka'ya dayanır. → [Nübüvvet ve Felsefe](../docs/nubuvvet-ve-felsefe.md)
+**Abd-i Azîz** — İzzet sahibi kul.  
+Kur'an talebesinin vasfı. Hiçbir kula, menfaate veya kuvvete boyun eğmez; yalnızca Allah'a abd olduğu için sonsuz bir izzet kazanır. (12. Söz, İkinci Esas) → [Nübüvvet ve Felsefe](../docs/nubuvvet-ve-felsefe.md)
 
-**Âyine (Ayna)** — Yansıtıcı.
-Ene'nin ve bütün mevcudatın, İlahî isimleri yansıtan birer ayna olması. Aynanın değeri kendi camında
-değil, yansıttığı nurdadır.
+**Acz** — Güçsüzlük, iktidarsızlık.  
+İnsanın ve zerrenin fıtratındaki en esaslı hakikat. Aczini anlayan insan, Kudret-i Mutlaka'ya istinad eder ve nihayetsiz bir kuvvet bulur. (30. Söz & 26. Söz Zeyli)
+
+**Âyât-ı Tekvîniye** — Kâinattaki yaratılış âyetleri.  
+Cenâb-ı Hakk'ın tekvin (yaratma) sıfatıyla kâinat kitabına yazdığı nizam, varlıklar ve hadiseler. Zerrelerin hareketi bu âyetlerin yazılışındaki titreşimdir. (30. Söz, İkinci Maksad) → [Tahavvülât-ı Zerrât](../docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md)
+
+**Âyine-i Samediyet** — Samed olan Allah'ın hiçbir şeye muhtaç olmadığını gösteren ayna.  
+Ene'nin fıtrî vazifesi; kendi acz ve fakrı ile Allah'ın zenginlik ve kemâline ayna olmaktır.
+
+---
 
 ## B
 
-**Bürhan** — Kesin delil.
-Aklî ve mantıkî ispat. Tahkikî imanın temelidir. → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
+**Bürhan** — Şüphe bırakmayan kesin aklî ve naklî delil.  
+Tahkikî imanın temeli. Taklit ile değil, bürhan ile inanmak esastır.
+
+---
 
 ## C–Ç
 
-**Cümûd** — Cansızlık, katılık, şuursuzluk.
-Zerrenin iki şahidinden biri: Şuursuz bir zerreden şuurlu işler sâdır olması, onun bir İlm-i Muhit
-adına hareket ettiğini gösterir. → [Zerrenin İki Şahidi](../docs/zerre-dinamikleri/02-zerrenin-iki-sahidi.md)
+**Cebbâr-ı Hodfürûş** — Kendini beğendirmeye çalışan, zorba ve kibirli.  
+Felsefe talebesinin ruhi portresi; kalbinde istinad noktası olmadığı için korkaklığını zorbalıkla örtmeye çalışır. (12. Söz)
+
+**Cümûd** — Cansızlık, donukluk, şuursuzluk.  
+Zerrenin iki şahidinden biri. Zerre câmid olduğu halde gayet şuurlu işler görür; demek ki kendi hesabına değil, Alîm ve Hakîm bir Zât'ın memuru olarak hareket eder. (30. Söz, İkinci Nokta) → [Zerrenin İki Şahidi](../docs/zerre-dinamikleri/02-zerrenin-iki-sahidi.md)
+
+---
+
+## D
+
+**Dâr-üs Selâm** — Selamet ve esenlik yurdu (Cennet).  
+Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaştırmaya çalıştığı ebedi sahil. (21. Lem'a)
+
+**Dua ile Ubudiyet** — Kulluğun özü olan dua.  
+İnsanın hadsiz ihtiyaçları ve düşmanları karşısında Kādıyü'l-Hâcât'a sığınması. (23. Söz, Dördüncü Nokta) → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
+
+---
 
 ## E
 
-**Emanet-i Kübra** — En büyük emanet.
-Ahzâb Sûresi 72. âyette göklerin, yerin ve dağların yüklenmekten çekindiği, insanın ise yüklendiği
-emanet. 30. Söz, ene'yi bu emanetin vecihlerinden biri olarak açıklar.
+**Emanet-i Kübra** — En büyük emanet.  
+Ahzâb Suresi 72. âyette göklerin ve yerin çekindiği, insanın yüklendiği ilahî emanet. 30. Söz'de bu emanetin müteaddid vecihlerinden birinin "Ene" olduğu izah edilir.
 
-**Ene** — Benlik, "ben".
-İnsana verilmiş farazî bir ölçü cihazı (vâhid-i kıyasî). Kendi başına bir vücudu yoktur; harfî manası
-ile Sâni'ini gösterir. → [Ene Ontolojisi](../docs/ene-ontolojisi/README.md)
+**Ene** — Benlik, ego, kişilik çekirdeği.  
+İnsana mutlak ilahî sıfatları bilmesi için verilmiş farazî bir ölçü birimi (vâhid-i kıyasî). Mahiyeti harfiyedir; kendi başına vücudu zıllîdir. (30. Söz, Birinci Maksad) → [Vâhid-i Kıyasî](../docs/ene-ontolojisi/01-vahid-i-kiyasi.md)
 
-**Esbabperestlik** — Sebeplere tapma.
-Sebeplere hakikî tesir verme hâli. Tabiatperestlik, tesadüfperestlik gibi "şirkin envâı taifeleri"nin kökü.
+**Esbabperestlik** — Sebepleri hakiki yaratıcı zannetmek.  
+Tabiat ve sebepler birer perdedir; onlara tesir-i hakiki vermek şirktir.
 
-**Ezhan** — Zihinler (zihin kelimesinin çoğulu).
-Yüksek bir gaye-i hayal olmadığında kendi enelerine dönen zihinler.
+**Ezhan** — Zihinler.  
+Yüce bir gaye-i hayal olmadığında enelerin etrafında dönüp hapsolan fikirler. (Hakikat Çekirdekleri, 41)
+
+---
 
 ## F
 
-**Fakr** — İhtiyaç, muhtaçlık.
-İnsanın her şeye muhtaç olduğunu idrak etmesi. Gınâ-yı Mutlak'ı tanımanın aynasıdır.
+**Fakr** — Muhtaçlık.  
+İnsanın hadsiz nimetlere ve ebede muhtaç olması. Rahmân ismine ulaştıran en kısa yoldur. (26. Söz Zeyli)
 
-**Farazî Hat** — Varsayımsal çizgi.
-Mühendislerin hesap için çizdikleri, gerçekte var olmayan çizgi. Ene'nin mahiyetine verilen misal.
+**Farazî Hat** — Gerçekte var olmayan, ölçüm ve kıyas için varsayılan çizgi.  
+Geometrideki varsayımsal ekvator veya meridyen çizgileri gibi; ene de mutlak sıfatları ölçmek için çizilmiş farazî bir hattır. (30. Söz)
 
-**Firavuniyet** — Firavunlaşma.
-Kalınlaşmış enenin son mertebesi: Kendini rab yerine koyma. → [Kalınlaşma ve Firavuniyet](../docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md)
+**Firavun-u Zelîl** — Dışarıdan firavun gibi kibirli, içeriden menfaat için her şeye tapan zelil insan.  
+Materyalist felsefenin yetiştirdiği nankör insan tipi. (12. Söz, İkinci Esas) → [Kalınlaşma ve Firavuniyet](../docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md)
+
+---
 
 ## G
 
-**Gaflet** — Dalgınlık, gaybubet.
-Nimetin içinde Mün'im'i görmeme hâli. Ene'nin ilk kalınlaştırıcısı.
+**Gaflet** — Nimetin içinde Mün'im'i (Nimet Veren'i) unutmak veya görmezden gelmek.  
+Ene'yi dondurup buza çeviren ilk hastalık.
 
-**Gaye-i Hayal** — Hayatın ideali, en yüksek hedef.
-Marifetullah ve rıza-yı İlahî. Yokluğunda zihinler küçük enelerin etrafında döner.
+**Gaye-i Hayâl** — Hayatın en yüce ideali ve ufku.  
+Marifetullah ve rıza-yı İlâhî. Bu gaye kaybolduğunda zihinler kendi enelerine döner.
+
+---
 
 ## H
 
-**Hakikat-i Zılliyye** — Gölge hakikat.
-İnsandaki sıfatların, mutlak sıfatların gölgesi olması. → [Vâhid-i Kıyasî](../docs/ene-ontolojisi/01-vahid-i-kiyasi.md)
+**Hakikat-i Zılliyye** — Gölge mahiyet.  
+İnsandaki ilim, irade ve kudretin, Allah'ın mutlak sıfatlarının birer gölgesi olması. Gölge güneşe mâlik olamaz. (30. Söz)
 
-**Harfî Mana (Mana-yı Harfî)** — Başkasını gösteren mana.
-Bir şeye, kendisi için değil, delalet ettiği Zât için bakmak. Bir harfin anlamını kelimeden alması gibi.
+**Hendesedeki Farazî Hatlar** — Geometrideki varsayımsal çizgiler.  
+Ene'nin hakiki bir varlığı olmadığını gösteren benzersiz Risale-i Nur analojisi.
+
+---
 
 ## İ
 
-**İhlas** — Saflık, samimiyet.
-Ameli yalnız rıza-yı İlahî için yapmak. Ene'yi "nahnu" havuzunda eritmenin anahtarı.
-→ [Ene'den Nahnu'ya](../docs/ene-ontolojisi/03-eneden-nahnuya.md)
+**İhlas (Sırr-ı İhlas)** — Amelleri sırf Allah rızası için yapmak.  
+Buz hükmündeki enaniyeti kevser havuzunda eritmenin yegâne formülü. (21. Lem'a) → [Ene'den Nahnu'ya](../docs/ene-ontolojisi/03-eneden-nahnuya.md)
 
-**İsmî Mana (Mana-yı İsmî)** — Kendini gösteren mana.
-Bir şeye, kendisi için ve müstakil olarak bakmak. Felsefî nazarın esası.
+---
 
 ## K
 
-**Kâbil** — Kabul eden, alıcı.
-İnsanın hayırda kâbil (alıcı), şerde fâil (yapan) olması prensibi.
+**Kādıyü'l-Hâcât** — Bütün ihtiyaçları gideren, duaları işitip icabet eden Allah. (23. Söz)
+
+**Küllî Şükür** — İnsanın bütün duygularıyla ve mevcudat namına sunduğu azîm hamd ve teşekkür. (11. Söz)
+
+---
 
 ## M
 
-**Malikiyet-i Vehmiye** — Vehmî sahiplik.
-"Bu benimdir" iddiası. Emaneti mülk zannetmek; ene'nin katılaşma çekirdeği.
+**Mâlikiyet-i Vehmiye** — İnsanın emanet olan sıfatları kendi mülkü zannetmesi.  
+Ene'nin kalınlaşmasını başlatan felsefî yanılgı.
 
-**Marifetullah** — Allah'ı tanımak.
-Taallümün ve insan hayatının nihai gayesi.
+**Mânâ-yı Harfî** — Bir şeye başkası (Yaratıcısı) hesabına ve O'na işaret eden bir mektup olarak bakmak.  
+Nübüvvetin ve Kur'an'ın bakış açısı.
 
-**Mikyas** — Ölçü aleti.
-Ene'nin mutlak sıfatları ölçmek için verilmiş bir mikyas olması.
+**Mânâ-yı İsmî** — Bir şeye kendi zâtı hesabına, sebepler ve tabiat namına bakmak.  
+Felsefenin ve şirkin bakış açısı.
 
-**Mizan** — Terazi.
-Duyguların, nimetleri tartan birer mizan olması. → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
+**Mebde-i Hareket** — Hareketin başlangıcı.  
+Zerrelerin işe başlarken lisan-ı hal ile "Bismillah" demesi. (30. Söz, İkinci Maksad)
+
+---
 
 ## N
 
-**Nahnu** — "Biz".
-Ferdî enenin, ihlas ile kolektif bir ruhta (şahs-ı manevî) eritilmesi.
+**Nahnu** — "Biz" şuuruna ermek.  
+Bireysel egoyu (ene) cemaatin şahs-ı manevî havuzunda eritmek. (21. Lem'a)
 
-**Nübüvvet** — Peygamberlik; vahiy yolu.
-Felsefenin karşısında, ene'yi harfî ve eşyayı Sâni'in mektubu olarak okuyan nazar.
+---
 
 ## S–Ş
 
-**Sahil-i Selamet** — Kurtuluş sahili.
-İman ve güven sahili; Risale-i Nur talebelerinin ümmeti çıkarmaya çalıştığı yer.
+**Sefine-i Rabbaniye** — İlâhî kurtuluş gemisi.  
+Kur'an hakikatleri gemisi; talebeleri ise bu gemide çalışan hademelerdir. (21. Lem'a)
 
-**Şahs-ı Manevî** — Manevî kişilik.
-İhlas ile birleşmiş bir cemaatin kolektif kişiliği. "1111" misali.
+**Şecere-i Tûbâ** — Nübüvvet ve ubudiyet silsilesinin neticesi olan saadet ve hidayet ağacı.
 
-**Şükür (Küllî Şükür)** — Nimeti Sahibine nispet etme.
-Duygular terazisiyle tartılan nimetlerin karşılığı.
+**Şecere-i Zakkum** — Enaniyet ve felsefe silsilesinin neticesi olan dalâlet ve zulümat ağacı. (30. Söz)
+
+---
 
 ## T
 
-**Taallüm** — Öğrenme.
-İnsanın fıtrî vazifesi; tekâmülün yolu.
+**Taallümle Tekemmül** — İlim ve öğrenme yoluyla olgunlaşmak.  
+İnsanın dünyaya gönderiliş gayesi. (23. Söz)
 
-**Tahavvülât-ı Zerrât** — Zerrelerin değişimi/hareketi.
-30. Söz'ün İkinci Maksadı. → [Tahavvülât-ı Zerrât](../docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md)
+**Tahavvülât-ı Zerrât** — Zerrelerin (atom ve moleküllerin) durmaksızın değişimi ve hareketi. (30. Söz, İkinci Maksad)
 
-**Tahkikî İman** — Araştırarak, delille ulaşılan iman.
-Taklidî imanın zıddı; bürhana dayalı tasdik.
+**Tasallüb** — Katılaşma, sertleşme.  
+Ene'nin ülfet ve maddiyata tevaggul sebebiyle buhar halinden katı hale geçmesi. (30. Söz)
 
-**Tasdik** — Doğrulama, kabul.
-Bürhanın zihindeki neticesi.
+**Teceddüd-ü Emsal** — Benzerlerin sürekli tazelenmesi.  
+İlahî isimlerin daimî tecellisi için zerrelerin durmaksızın dönmesi.
 
-**Teceddüd-ü Emsal** — Benzerlerin yenilenmesi.
-Mevcudatın her an benzerleriyle yenilenmesi; İlahî isimlerin daimî tecellisi.
+**Tecemmüd** — Donma, buzlaşma.  
+Ene'nin gaflet ve inkâr ile kaskatı bir buza dönüşmesi.
 
-**Tekâmül** — Olgunlaşma.
+**Tekeddür** — Bulanma, kararma, kirlenme.  
+Ene'nin isyan ile şeffafiyetini kaybedip marifet nurlarını geçirmez olması.
 
-**Teşebbüh-ü bi'l-Vâcib** — Vâcib'e (Allah'a) benzemeye çalışma.
-Felsefenin gaye-i hayali; insanı firavunlaştıran ideal.
+**Temeyyü'** — Akışkanlaşma, sıvılaşma.  
+Ene'nin felsefenin nazarıyla buhar halinden sıvılaşmaya başlaması.
 
-**Tılsım** — Şifre, sır.
-Kâinatın ve insanın muammasını açan gizli anahtar.
+**Teşebbüh-ü bi'l-Vâcib** — Vâcibü'l-Vücud'a benzemeye çalışmak iddiası.  
+Felsefenin insanı firavunlaştıran sahte tekâmül ideali.
 
-## U–Ü
-
-**Ubudiyet** — Kulluk.
-Aczini bilip Kudret'e yönelmek; özü duadır.
-
-**Üssü'l-Esas** — Temellerin temeli.
-Marifet binasının temeli olan iman-ı billah.
+---
 
 ## V
 
-**Vâhid-i Kıyasî** — Ölçü birimi.
-Ene'nin fıtrî vazifesi: Mutlak sıfatları ölçmek için verilmiş bir birim. → [Vâhid-i Kıyasî](../docs/ene-ontolojisi/01-vahid-i-kiyasi.md)
+**Vâhid-i Kıyasî** — Kıyas ve ölçü birimi.  
+Ene'nin fıtrî ve yegâne varlık gayesi. İlahî sıfatları idrak ettiren manevî cetvel. (30. Söz)
 
-**Vehmî Rubûbiyet** — Hayalî rablik.
-Ene'nin kendi küçük dünyasında kendini hâkim zannetmesi; ölçü için verilmiş farazî bir hâkimiyet.
+---
 
 ## Z
 
-**Zerre** — Atom, en küçük parça.
-Kâinatın yapıtaşı; acz ve cümûd ile Sâni'ine iki şahid. → [Zerre Dinamikleri](../docs/zerre-dinamikleri/README.md)
+**Zerre** — Maddenin en küçük yapıtaşı, atom.  
+Acz ve cümûduyla Sâni'in vücuduna; umumî nizama itaatiyle Sâni'in vahdetine şahid-i sadık. (30. Söz)
 
-**Zıllî Vücud** — Gölge varlık.
-Kendi başına değil, asıl bir varlığın yansıması olarak var olmak.
+**Zıllî Vücud** — Gölge varlık.  
+Kendi başına hakiki vücudu olmayan, Güneş'in tecellisiyle görünen varlık derecesi.

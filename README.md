@@ -2,135 +2,89 @@
 
 > *"Ben göklere, yere ve dağlara emaneti arz ettim; onlar onu yüklenmekten çekindiler, ondan korktular. Onu insan yüklendi..."* (Ahzâb, 72)
 
-**Tılsım-ı Kâinat**, Risale-i Nur Külliyatı (bilhassa *30. Söz - Ene ve Zerre Risalesi*, *23. Söz* ve *Mesnevî-i Nuriye*) ekseninde; insanın varoluşsal çekirdeği olan **Ene (Benlik)** kavramını, kâinatın yapıtaşı olan **Zerre (Madde/Atom)** ile olan ilişkisini ve felsefe-vahiy çatışmasını inceleyen derinlikli bir ontoloji ve tefekkür laboratuvarıdır.
+**Tılsım-ı Kâinat**, Risale-i Nur Külliyatı (bilhassa *30. Söz - Ene ve Zerre Risalesi*, *23. Söz*, *12. Söz*, *11. Söz*, *21. Lem'a - İhlas Risalesi* ve *Mesnevî-i Nuriye*) ekseninde; insanın varoluşsal çekirdeği olan **Ene (Benlik)** kavramını, kâinatın yapıtaşı olan **Zerre (Madde/Atom)** ile olan simetrik ilişkisini ve felsefe-vahiy çatışmasını inceleyen derinlikli bir ontoloji, tefekkür ve modelleme laboratuvarıdır.
 
-Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrelerini, hem klasik İslam teolojisi terminolojisiyle hem de analitik bir sistem mimarisi yaklaşımıyla dökümante eder.
-
----
-
-## 🗝️ Bölüm I: Ene'nin Ontolojisi ve Emanet-i Kübra
-
-Bütün kâinat kapalı bir hazinedir; Yaratıcı'nın gizli isimleri ve sıfatları bu hazinenin içindedir. Bu hazineyi açacak tek anahtar insana verilmiştir: **Ene (Benlik).**
-
-### 1. Zâtında Hava Gibi Şeffaf Olmak (Vâhid-i Kıyasî)
-Mutlak olanın (İlahî sıfatların) sınırı olmadığı için bilinemez. Sonsuz bir ışık, karanlık bir çizgi çekilmeden idrak edilemez. İşte **Ene**, o karanlık çizgidir. 
-*   **Mikyas ve Mizan:** Ene'nin kendi başına gerçek bir varlığı yoktur; o farazî bir çizgidir, bir *vâhid-i kıyasîdir* (ölçü birimidir).
-*   **Hakikat-i Zılliyye:** "Benim cüzi ilmim var, demek ki O'nun Küllî İlmi var. Benim cüzi kudretim var, demek ki O'nun Küllî Kudreti var" diyebilmek için verilmiş bir cihazdır.
-
-### 2. Kalınlaşma, Firavuniyet ve Yutulma Süreci
-Eğer insan, kendisine verilen bu "ölçüm cihazını" (Ene'yi) asıl sahibi adına kullanmazsa, vahim bir mutasyon başlar:
-*   **Hava'dan Toprağa:** Zâtında hava gibi şeffaf ve hafif olan Ene, *gaflet, inkâr ve isyan* ile felsefenin esbabperest (sebeplere tapan) nazarıyla bakıldığında yoğunlaşır.
-*   **Malikiyet-i Vehmiye:** İnsan, "Bu ilim benimdir, bu mülk benimdir" vehmine kapılır. Harfî (başkasını gösteren) olması gereken mahiyetini, İsmî (kendini gösteren) zanneder.
-*   **Sahibini Yutması:** Gittikçe kalınlaşan Ene, ışığı (marifeti) geçirmez bir duvara dönüşür. Büyür, firavunlaşır ve en nihayetinde sahibini (insanın hakiki mahiyetini ve fıtratını) yutar. Mâbudunu unutur, kendi nefsine tapar.
+Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrelerini, hem orijinal risale metinleri ve otantik ıstılahlarla şerh eder hem de analitik ve modern sistem teorisi yaklaşımıyla dökümante eder.
 
 ---
 
-## ⚔️ Bölüm II: Epistemolojik Savaş - Nübüvvet vs. Felsefe
+## 🧭 Tematik Okuma Haritası
 
-İnsanlığın düşünce tarihi, insanlık ağacının iki büyük dalı olan **Vahiy (Nübüvvet)** ve **Felsefe (Aklın kendi başına buyrukluğu)** arasındaki varoluşsal savaştır.
-
-| Kavramsal Çerçeve | Felsefe Nazarı (Dalalet Çizgisi) | Nübüvvet Nazarı (Hidayet Çizgisi) |
-| :--- | :--- | :--- |
-| **Temel İdeoloji** | *Teşebbüh-ül Vâcib* (İnsan tanrılaşarak/tanrıya benzeyerek terakki eder.) | *Acz ve Fakr* (İnsan kendi hiçliğini ve aczini bilerek sonsuz Kudret'e dayanıp terakki eder.) |
-| **Eşyaya Bakış** | Mâna-yı İsmî (Tabiat kendi kendini yaratır, sebepler etkilidir.) | Mâna-yı Harfî (Her şey bir harftir, Kâtib'ini gösterir.) |
-| **Sonuç** | Esbabperestlik, şirkin envâı taifeleri (tabiatperestlik vb.), narsisizm. | Tevhid, küllî şükür, kâinatla barış ve ubudiyet. |
-
-> **⚠️ Gaye-i Hayal Paradoksu:**
-> İnsanın fıtratında yüksek bir "gaye-i hayal" (Marifetullah ve rıza-yı İlahî) olmazsa; zihinler (*ezhan*) kendi enelerine döner, o küçük benliğin etrafında pervane gibi dönüp dururlar. İnsan, kendi dertlerinin ve egosunun mikro kozmosunda boğulur.
-
----
-
-## 🧬 Bölüm III: Yaratılış Gayesi - Taallüm, Tekâmül ve Ubudiyet
-
-*23. Söz* ekseninde insanın dünyaya geliş amacı, hayvanlardan taban tabana zıttır. Hayvan dünyaya yetkinleşmiş, yeteneklerini öğrenmiş olarak (sanki başka bir âlemde tekemmül etmiş gibi) gelir. İnsan ise her şeye muhtaç, cahil ve aciz olarak doğar.
-
-1. **Taallümle Tekâmül:** İnsanın yegâne fıtrî vazifesi öğrenmekle olgunlaşmaktır. Bu öğrenmenin nihai zirvesi, her şeyin mutlak amacı olan **Marifetullah**'tır (Allah'ı bilmek).
-2. **Üssü'l-Esas: İman-ı Billah:** Marifetullah binasının temeli, sarsılmaz bir imandır. Bu iman, kuru bir taklit değil; bürhanın (kesin akli ve mantıki delillerin) neticesi olan **tasdik (yakînî ilim)** dir.
-3. **Duygular Terazisi:** İnsana verilen binlerce his ve duygu, sonsuz nimetleri tartmak için verilmiş birer *hassas terazidir*. Bu teraziyle tartıp, o nimetlerin Sahibini tanıyıp **küllî bir şükür** sunmak esastır.
-4. **Dua ile Ubudiyet:** Nihayetsiz acizlik ile nihayetsiz kudreti fehmetmek... İnsan, gücünün yetmediği hadsiz arzuları ve düşmanları karşısında ancak "Dua" ile Mutlak Kudret'e bağlanarak ubudiyetini (kulluğunu) gerçekleştirir.
+| Sıra | Bölüm & Doküman | Eksen Risale | Temel Mesele |
+|:---:|:---|:---|:---|
+| **01** | [**Vâhid-i Kıyasî ve Sırr-ı Hilkat**](docs/ene-ontolojisi/01-vahid-i-kiyasi.md) | *30. Söz, 1. Maksad* | Ene nedir? Mutlak sıfatlar farazî bir hat ile nasıl bilinir? |
+| **02** | [**Kalınlaşma, Firavuniyet ve Yutulma**](docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md) | *30. Söz & 12. Söz* | Hava gibi enenin 5 fazda buzlaşıp sahibini yutması ve "firavun-u zelîl". |
+| **03** | [**Ene'den Nahnu'ya: İhlas ve Şahs-ı Manevî**](docs/ene-ontolojisi/03-eneden-nahnuya.md) | *21. Lem'a & 26. Söz Zeyli* | Buz parçasını kevser havuzunda eritmek, 1111 sırrı, Acz ve Fakr tariki. |
+| **04** | [**Tahavvülât-ı Zerrât ve Kudret Kalemi**](docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md) | *30. Söz, 2. Maksad* | Zerreler neden durmaksızın hareket eder? Tevfik'in gözbebeğindeki zerre. |
+| **05** | [**Zerrenin İki Şahidi: Acz ve Cümûd**](docs/zerre-dinamikleri/02-zerrenin-iki-sahidi.md) | *30. Söz, 2. Nokta* | Zerre kimin ise, gezdiği bütün kâinat da Onundur! Vahdet şehadeti. |
+| **06** | [**Nübüvvet ve Felsefe: İki Silsile**](docs/nubuvvet-ve-felsefe.md) | *30. Söz & 12. Söz* | Şecere-i Tûbâ vs. Şecere-i Zakkum; Gaye-i Hayal paradoksu; Medeniyet muvazenesi. |
+| **07** | [**Taallümle Tekâmül ve Dua Ubudiyeti**](docs/taallum-ve-tekamul.md) | *23. Söz & 11. Söz* | İnsan ile hayvanın farkı; Duygular terazileriyle küllî şükür; 4 nevi dua. |
+| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 50'yi aşkın ıstılahın metin alıntılarıyla şerhli lügati. |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | Hâl değişimleri, geri besleme döngüleri ve kâinat haritası. |
 
 ---
 
-## ⚓ Bölüm IV: Misyon ve Aksiyon - Sahil-i Selamet Hademeleri
-
-Tılsım-ı Kâinat'ı çözen bir insan, sadece kendi kurtuluşunu düşünen bir münzevi olamaz.
-
-*   **Gemi Hademeleri:** Risale-i Nur talebeleri, bu dehşetli asrın fırtınalı denizlerinde, Ümmet-i Muhammed'i (asm) boğulmaktan kurtarıp *sahil-i selamete* (iman ve güven sahiline) çıkaran devasa bir kurtuluş gemisinin gayretli hademeleridir.
-*   **En Büyük Gaye:** Hayatta en yüce ideal; Kur'an'ın elmas kılıcı olan tahkikî iman hakikatleriyle Müslümanların ve tüm insanlığın ebedi hayatlarının kurtuluşuna hizmet etmektir. Ene'sini "Biz" (Nahnu) havuzunda eritip, sırr-ı ihlas ile bu büyük davaya omuz vermektir.
-
----
-
-## 📂 Depo Mimarisi (Repository Structure)
-
-Bu repo, kavramsal bir analiz olmanın ötesinde, bu hakikatleri dijital çağın araçlarıyla modellemek için tasarlanmıştır:
-
-```text
-tilsim-i-kainat/
-├── README.md                              # Ana manifesto ve proje özeti
-├── CONTRIBUTING.md                        # Katkı rehberi
-├── docs/
-│   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
-│   │   ├── README.md                      #   Okuma haritası
-│   │   ├── 01-vahid-i-kiyasi.md           #   Ene'nin fıtrî vazifesi: farazî hat, mikyas
-│   │   ├── 02-kalinlasma-ve-firavuniyet.md#   Hâl değişimi, geri besleme döngüsü
-│   │   └── 03-eneden-nahnuya.md           #   İhlas, şahs-ı manevî, tedavi
-│   ├── zerre-dinamikleri/                 # 30. Söz – İkinci Maksad
-│   │   ├── README.md                      #   Ene ↔ Zerre simetrisi
-│   │   ├── 01-tahavvulat-i-zerrat.md      #   Hareketin hikmetleri, sühulet delili
-│   │   └── 02-zerrenin-iki-sahidi.md      #   Acz ve cümûd
-│   ├── nubuvvet-ve-felsefe.md             # İki nazar, iki medeniyet (12. & 30. Söz)
-│   └── taallum-ve-tekamul.md              # 23. Söz eksenli insan fıtratı ve dua mekanizması
-├── kavramlar-sozlugu/
-│   └── glossary.md                        # 50+ ıstılah, alfabetik ve çapraz bağlantılı
-├── assets/
-│   └── diagrams/                          # Mermaid şemaları (.mmd + önizleme)
-├── simulations/                           # (Deneysel)
-│   ├── README.md                          # Model denklemleri ve kullanım
-│   ├── ene-thickening-model.py            # Ene'nin kalınlaşma / şeffaflaşma dinamiği
-│   └── test_ene_model.py                  # Birim testleri
-└── .github/workflows/tests.yml            # Otomatik test (CI)
-```
-
----
-
-## 🧭 Okuma Rehberi
-
-| Sıra | Doküman | Konu |
-|:---:|---------|------|
-| 1 | [Vâhid-i Kıyasî](docs/ene-ontolojisi/01-vahid-i-kiyasi.md) | Ene ne için verilmiştir? |
-| 2 | [Kalınlaşma ve Firavuniyet](docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md) | Ene nasıl bozulur? |
-| 3 | [Ene'den Nahnu'ya](docs/ene-ontolojisi/03-eneden-nahnuya.md) | Ene nasıl tedavi edilir? |
-| 4 | [Tahavvülât-ı Zerrât](docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md) | Zerreler kimin emriyle hareket eder? |
-| 5 | [Zerrenin İki Şahidi](docs/zerre-dinamikleri/02-zerrenin-iki-sahidi.md) | Acz ve cümûdun şehadeti |
-| 6 | [Nübüvvet ve Felsefe](docs/nubuvvet-ve-felsefe.md) | İki nazarın mukayesesi |
-| 7 | [Taallüm ve Tekâmül](docs/taallum-ve-tekamul.md) | İnsanın fıtrî vazifesi |
-| 📖 | [Kavramlar Sözlüğü](kavramlar-sozlugu/glossary.md) | Istılahlar |
-| 🗺️ | [Diyagramlar](assets/diagrams/README.md) | Kavram haritaları |
+## 🏛️ Ana Hakikatlerin Özeti
 
 ```mermaid
 flowchart TD
-    T(("Tılsım-ı Kâinat"))
-    T --> ENE["Ene (iç tılsım)"]
-    T --> ZERRE["Zerre (dış tılsım)"]
-    ENE --> HARF["Mana-yı Harfî"]
-    ENE --> ISM["Mana-yı İsmî"]
-    ZERRE --> HARF
-    HARF --> NUB["Nübüvvet → Marifetullah"]
-    ISM --> FEL["Felsefe → Firavuniyet"]
-    NUB --> TAA["Taallüm, Dua, Hizmet"]
+    T(("TILSIM-I KÂİNAT"))
+    
+    subgraph IcTilsim["İÇ TILSIM: ENE (İnsan)"]
+        E["Ene / Benlik"] --> VK["Vâhid-i Kıyasî (Mikyas)"]
+        E --> K["Kalınlaşma (Firavuniyet)"]
+        E --> N["Nahnu (Sırr-ı İhlas)"]
+    end
+    
+    subgraph DisTilsim["DIŞ TILSIM: ZERRE (Kâinat)"]
+        Z["Zerre / Atom"] --> TZ["Tahavvülât (Kudret Kalemi)"]
+        Z --> SZ["İki Şahid (Acz ve Cümûd)"]
+    end
+    
+    T --> IcTilsim
+    T --> DisTilsim
+    
+    VK --> MH["MÂNÂ-YI HARFÎ"]
+    TZ --> MH
+    SZ --> MH
+    
+    K --> MI["MÂNÂ-YI İSMÎ"]
+    
+    MH --> NUB["NÜBÜVVET ➔ Şecere-i Tûbâ ➔ Marifetullah & Küllî Şükür"]
+    MI --> FEL["FELSEFE ➔ Şecere-i Zakkum ➔ Tabiatperestlik & Yutulma"]
 ```
+
+### 1. Ene: Âlemin Miftahı ve Vâhid-i Kıyasî
+Mutlak ve muhît olan sıfatlar (İlahî ilim, kudret, mâlikiyet) sınırsız olduğu için doğrudan idrak edilemez. Zulmetsiz daimî bir ziya bilinmediği gibi, mutlak nur da bir hat çekilmeden anlaşılamaz. İnsana verilen "Ene", hendesedeki farazî hatlar gibi bir **vâhid-i kıyasî (ölçü birimi)**dir. İnsan kendi cüz'î hanesindeki tasarrufuyla Kâinat Sâni'inin mutlak tasarrufunu anlar.
+
+### 2. Ene'nin Beş Fazda Kalınlaşması
+Zâtında hava ve buhar gibi şeffaf olan ene; felsefenin mâna-yı ismî nazarıyla baktığında **temeyyü'** eder (sıvılaşır), ülfet ve maddeye dalmakla **tasallüb** eder (katılaşır), gaflet ve inkâr ile **tecemmüd** eder (donar, buzlaşır), isyan ile **tekeddür** eder (şeffafiyetini kaybeder) ve nihayetinde kalınlaşıp sahibini yutar!
+
+### 3. Zerre: Kudret Kaleminin Tekvînî Âyetleri
+Zerrelerin tahavvülâtı, kör tesadüf oyuncağı değildir; Nakkaş-ı Ezelî'nin kâinat kitabına yazdığı tekvînî âyetlerin yazılışındaki titreşim ve cevelandır. Her zerre işe başlarken aczinden fazla yükleri omuzlayarak **"Bismillah"**, işi tamamlayıp harika bir sanat neticesi verirken **"Elhamdülillah"** der.
+
+### 4. Buz Parçasını Havuzda Eritmek
+Kalınlaşan enenin yegâne kurtuluşu, benlik buzunu güneşte zayi etmeyip **Kevser-i Kur'ânî havuzunda** eritmektir. Dört ferdin ihlas ile bir araya gelmesi $1+1+1+1=4$ değil, yan yana gelip sırr-ı adediyet ile **1111 ve 4444** kuvvetini doğurur.
 
 ---
 
-## 🧪 Simülasyon: Ene Kalınlaşma Modeli
+## 🧪 Simülasyon: Ene Kalınlaşma Dinamiği (Experimental Model)
 
-Ene'nin gaflet, inkâr, isyan ve temellük ile kalınlaşmasını; tefekkür, şükür, dua ve ihlas ile
-şeffaflaşmasını modelleyen **sembolik** bir dinamik sistem. Yalnızca Python standart kütüphanesi gerekir.
+Otuzuncu Söz'ün Birinci Maksadındaki dönüşüm, diferansiyel sistemle modellenmiştir:
+
+$$\frac{dK}{dt} = a \cdot \text{tekâsüf} \cdot (1 - H + e)(K + e)(1 - K) - b \cdot \text{tasfiye} \cdot H \cdot K$$
+
+$$\frac{dH}{dt} = c \cdot \text{tasfiye} \cdot (1 - H) - d \cdot \text{tekâsüf} \cdot K \cdot H$$
 
 ```bash
+# Tüm hazır senaryoları karşılaştır:
 python simulations/ene-thickening-model.py --karsilastir
-python simulations/ene-thickening-model.py --senaryo firavun
-python simulations/ene-thickening-model.py --senaryo tevbe --csv tevbe.csv
+
+# Tevbe senaryosunu incele:
+python simulations/ene-thickening-model.py --senaryo tevbe
+
+# Birim testlerini çalıştır:
+python -m unittest discover -s simulations -p "test_*.py" -v
 ```
 
 ```text
@@ -144,17 +98,39 @@ salik          0.06     0.90    0.000          —  Hava gibi şeffaf
 filozof        0.59     0.11    0.970      11.85  Yutulma
 ```
 
-Ayrıntılar: [simulations/README.md](simulations/README.md)
-
 > [!CAUTION]
-> Simülasyon bir **tefekkür aracıdır**; manevî hakikatlerin sayılarla ölçülebileceği iddiasını taşımaz.
+> Simülasyon bir **tefekkür aracıdır**; manevî hakikatlerin sayılarla ölçülebileceği iddiasını taşımaz, kavramsal tesirleri modellemek için bir metafordur.
 
 ---
 
-## 🤝 Katkı
+## 📂 Depo Mimarisi
 
-Yeni analizler, sözlük maddeleri, diyagramlar ve senaryolar memnuniyetle karşılanır.
-Bkz. [CONTRIBUTING.md](CONTRIBUTING.md).
+```text
+tilsim-i-kainat/
+├── README.md                              # Ana manifesto, okuma haritası ve özet
+├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
+├── docs/
+│   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
+│   │   ├── README.md                      #   Okuma haritası ve mukaddime
+│   │   ├── 01-vahid-i-kiyasi.md           #   Vâhid-i kıyasî, farazî hat, iki vecih
+│   │   ├── 02-kalinlasma-ve-firavuniyet.md#   Temeyyü', tasallüb, tecemmüd, tekeddür
+│   │   └── 03-eneden-nahnuya.md           #   İhlas, buz parçası, 1111 sırrı, 4 hatve
+│   ├── zerre-dinamikleri/                 # 30. Söz – İkinci Maksad
+│   │   ├── README.md                      #   Ene ↔ Zerre simetrisi
+│   │   ├── 01-tahavvulat-i-zerrat.md      #   Kudret kalemi, sühulet kanunu, Tevfik'in gözü
+│   │   └── 02-zerrenin-iki-sahidi.md      #   Acz, cümûd ve umumî nizama tevfik
+│   ├── nubuvvet-ve-felsefe.md             # İki silsile, Tûbâ vs. Zakkum (12. & 30. Söz)
+│   └── taallum-ve-tekamul.md              # 23. & 11. Söz: Duygular mizanı, 4 nevi dua
+├── kavramlar-sozlugu/
+│   └── glossary.md                        # 50+ ıstılahın şerhli ve alıntılı lügati
+├── assets/
+│   └── diagrams/                          # Mermaid kaynak dosyaları ve rehber
+├── simulations/                           # Dinamik sistem simülasyonu
+│   ├── README.md                          # Matematiksel denklemler ve kullanım
+│   ├── ene-thickening-model.py            # Çekirdek Python simülasyonu
+│   └── test_ene_model.py                  # 9 adet birim testi (Unit Tests)
+└── .github/workflows/tests.yml            # CI: Otomatik test koşumu
+```
 
 ---
 
