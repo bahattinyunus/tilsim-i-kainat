@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/banner-tilsim-i-kainat.jpg" alt="Tılsım-ı Kâinat Hero Banner" width="100%">
+</p>
+
 # 🌌 Tılsım-ı Kâinat: Ene, Zerre ve Varoluşun Şifreleri
 
 > **بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖيمِ**
@@ -65,6 +69,10 @@ flowchart TD
 
 ---
 
+<p align="center">
+  <img src="assets/images/banner-ene-ontolojisi.jpg" alt="Ene Ontolojisi ve Vâhid-i Kıyasî" width="100%">
+</p>
+
 ### 🗝️ I. Ene'nin Mahiyeti: Âlemin Miftahı ve Vâhid-i Kıyasî
 
 Bediüzzaman Said Nursî, 30. Söz'ün girişinde enenin kâinat sarayını açan muazzam anahtar olduğunu şöyle ilan eder:
@@ -91,6 +99,10 @@ Ene'nin fıtrî yapısı hava gibi hafif ve şeffaftır. Ancak felsefenin "mâna
 
 ---
 
+<p align="center">
+  <img src="assets/images/banner-ihlas-ve-kevser-havuzu.jpg" alt="İhlas ve Kevser Havuzu" width="100%">
+</p>
+
 ### 🌊 III. İhlas Sinerjisi ve Şahs-ı Manevî: 111'den 4444'e
 
 > *"Elbette dört ferdden bin yüz onbir kuvvet-i maneviyeyi temin eden sırr-ı ihlâsı kazanmak ile, tesanüd ve ittihad-ı hakikîye muhtacız ve mecburuz.*
@@ -98,6 +110,10 @@ Ene'nin fıtrî yapısı hava gibi hafif ve şeffaftır. Ancak felsefenin "mâna
 > *Dört kere dört ayrı ayrı olsa, on altı kıymeti var. Eğer sırr-ı uhuvvet ve ittihad-ı maksat ve ittifak-ı vazife ile tevafuk edip bir çizgi üstünde omuz omuza verseler, o vakit **dört bin dört yüz kırk dört (4444)** kuvvetinde ve kıymetinde olduğu gibi..."* (21. Lem'a)
 
 ---
+
+<p align="center">
+  <img src="assets/images/banner-zerre-dinamikleri.jpg" alt="Zerre Dinamikleri ve Kudret Kalemi" width="100%">
+</p>
 
 ### ⚛️ IV. Zerre Dinamikleri: Kudret Kaleminin Tekvînî Âyetleri
 
