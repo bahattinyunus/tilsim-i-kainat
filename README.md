@@ -16,6 +16,7 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 
 | Sıra | Bölüm & Doküman | Eksen Risale | Temel Mesele ve Muhteva |
 |:---:|:---|:---|:---|
+| 🌟 | [**Tılsım-ı Kâinat'ın Büyük Çözümü**](docs/tilsim-i-kainat-kullî-cozum.md) | *9 Cephenin İcmali* | **Varoluş Muamması'nın Küllî Çözümü:** 9 Araştırma Cephesinden Ene, Zerre ve Kâinat formülü. |
 | **01** | [**Vâhid-i Kıyasî ve Sırr-ı Hilkat**](docs/ene-ontolojisi/01-vahid-i-kiyasi.md) | *30. Söz, 1. Maksad* | Ene nedir? Mutlak sıfatlar farazî bir hat ile nasıl bilinir? Şemme Risalesi, ziya/zulmet misali. |
 | **02** | [**Kalınlaşma, Firavuniyet ve Yutulma**](docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md) | *30. Söz & 12. Söz* | Hava gibi enenin 5 fazda buzlaşıp sahibini yutması, 12. Söz'den "firavun-u zelîl" tahlili. |
 | **03** | [**Ene'den Nahnu'ya: İhlas ve Şahs-ı Manevî**](docs/ene-ontolojisi/03-eneden-nahnuya.md) | *21. Lem'a & 26. Söz Zeyli* | Buz parçasını kevser havuzunda eritmek, 1111/4444 sırrı, Sefine-i Rabbaniye hademeleri, Dört Hatve. |
@@ -146,6 +147,7 @@ tilsim-i-kainat/
 ├── README.md                              # Ana manifesto, okuma haritası ve külliyat şerhleri
 ├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
 ├── docs/
+│   ├── tilsim-i-kainat-kullî-cozum.md    # 9 Cepheden Varoluşun Büyük Çözüm Manifestosu
 │   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
 │   │   ├── README.md                      #   Okuma haritası ve mukaddime
 │   │   ├── 01-vahid-i-kiyasi.md           #   Vâhid-i kıyasî, farazî hat, iki vecih

@@ -3,7 +3,7 @@
 > Tılsım-ı Kâinat dokümanlarında geçen Kur'ânî ve Risale-i Nur kaynaklı ıstılahların şerhli lügati.
 > Her madde; **orijinal ıstılah**, **lügat ve ıstılah manası**, **orijinal risale metinlerinden alıntılar** ve ilgili dokümana **bağlantı** içerir.
 
-**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
+**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [R](#r) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
 
 ---
 
@@ -79,6 +79,9 @@ Ahzâb Suresi 72. âyette göklerin ve yerin çekindiği, insanın yüklendiği 
 **Esbabperestlik** — Sebepleri hakiki yaratıcı zannetmek.  
 Tabiat ve sebepler birer perdedir; onlara tesir-i hakiki vermek şirktir.
 
+**Esmâ-i Hüsnâ** — Allah'ın en güzel isimleri.  
+Kâinattaki bütün güzelliklerin, intizamın ve zerrelerin hareketinin mutlak membaı.
+
 **Evcedethü'l-Esbâb** — "Sebepler yaptı / icad etti" vehmi.  
 23. Lem'a'da çürütülen bâtıl felsefî hurafelerin birincisi. Maddî sebeplerin kör, câmid ve âciz oluşu sebebiyle hayatı ve intizamı icad edemeyeceği ispatlanır. → [Tabiat ve Esbap Eleştirisi](../docs/tabiat-ve-esbab-elestirisi.md)
 
@@ -88,6 +91,9 @@ Yüce bir gaye-i hayal olmadığında enelerin etrafında dönüp hapsolan fikir
 ---
 
 ## F
+
+**Fahr** — Kendini beğenme ve övünme marazı.  
+Hasenat ve iyilikleri nefsine verip iftihar etme hastalığı; Kader inancı ile tedavi edilir. (26. Söz)
 
 **Fakr** — Muhtaçlık.  
 İnsanın hadsiz nimetlere ve ebede muhtaç olması. Rahmân ismine ulaştıran en kısa yoldur. (26. Söz Zeyli)
@@ -124,6 +130,9 @@ Ene'nin hakiki bir varlığı olmadığını gösteren benzersiz Risale-i Nur an
 **Hitâm-ı Vazife** — Vazifenin son bulması.  
 Zerrenin vazifesini tamamladığında lisan-ı hal ile "Elhamdülillah" deyip cemâl-i sanatı ilan etmesi.
 
+**Hubb-u Câh** — Şöhret, makam ve mevki sevgisi.  
+İhlası kıran ve enaniyet buzunu kalınlaştıran en tehlikeli manevî hastalık. (21. Lem'a)
+
 ---
 
 ## İ
@@ -150,6 +159,9 @@ Nefsin iyiliklerle gururlanmasını önleyen ilâç: "Fahr etme, haddini bil; ya
 
 **Kanun-u Emrî** — Âlem-i emirden gelen kanun.  
 Tabiat kanunlarının haricî maddî bir vücudu olmayıp Cenâb-ı Hakk'ın irade ve emrinin birer tecellisi olması.
+
+**Kevser Havuzu** — Kur'an hakikatlerinden süzülen ihlas ve şahs-ı manevî havuzu.  
+Bireysel buzların içinde eriyip küllî bir hayat kazandığı ortak zemin.
 
 **Küllî Şükür** — İnsanın bütün duygularıyla ve mevcudat namına sunduğu azîm hamd ve teşekkür. (11. Söz)
 
@@ -198,16 +210,26 @@ Bireysel egoyu (ene) cemaatin şahs-ı manevî havuzunda eritmek. (21. Lem'a)
 
 ---
 
+## R
+
+**Ruh-u Küllî** — Kâinatın hayat ve intizam mayası.  
+Mevcudatın tek bir Vâhid-i Ehad'in emriyle birbirine yardım etmesi ve bir nefer gibi intizam bulması.
+
+---
+
 ## S–Ş
 
 **Sefine-i Rabbaniye** — İlâhî kurtuluş gemisi.  
 Kur'an hakikatleri gemisi; talebeleri ise bu gemide çalışan hademelerdir. (21. Lem'a)
 
 **Sırr-ı Adediyet** — Sayıların birleşme sırrı.  
-Ayrı duran üç 1'in değeri 3 iken; omuz omuza verip aynı hizaya girdiklerinde 111 olması sırrı.
+Ayrı duran üç 1'in değeri 3 iken; omuz omuza verip aynı hizaya girdiklerinde 111 olması; dört 4'ün 4444 kuvvetine yükselmesi sırrı.
 
 **Sühulet-i Mutlaka** — Mutlak kolaylık.  
 Tevhid dairesinde bir ağacı yaratmanın bir meyveyi yaratmak kadar kolay olması.
+
+**Şahs-ı Manevî** — Mü'minlerin ihlas ile teşkil ettiği manevî tüzel kişilik.  
+Bireylerin zaafını küllî bir kuvvete tebdil eden hakikat fabrikası.
 
 **Şecere-i Tûbâ** — Nübüvvet ve ubudiyet silsilesinin neticesi olan saadet ve hidayet ağacı.
 
