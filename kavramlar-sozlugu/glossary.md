@@ -51,6 +51,8 @@ Nefsin mesuliyetten ve tekliften kaçmaması, seyyiatı kadere atıp temerrüd e
 
 ## D
 
+**Dalga Fonksiyonu (Kuantum)** — Maddenin atom altı düzeyde sonsuz ihtimaller halinde dalgalanması. Kâinattaki imkân dairesinin modern fizik lisanıyla ifadesi. → [Modern Fizik ve Tılsım-ı Kâinat](../docs/modern-fizik-ve-tilsim-i-kainat.md)
+
 **Dâr-üs Selâm** — Selamet ve esenlik yurdu (Cennet).  
 Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaştırmaya çalıştığı ebedi sahil. (21. Lem'a)
 
@@ -64,6 +66,10 @@ Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaşt�
 
 ## E
 
+**El-Fenâü fi'l-Hâlık** — Yaratıcı'nın rızasında fani olmak. Mesnevî-i Nuriye'nin Dört Kelâmından üçüncüsü.
+
+**El-Mülkü Lillâh** — Mülkün bütünüyle Allah'a ait olduğunu idrak etmek; emanete hıyanet etmemek. Mesnevî-i Nuriye'nin Dört Kelâmından ikincisi.
+
 **Elif-i Ene** — Ene'nin harf-misal inceliği.  
 Ene müstakil bir kitap veya kelime değil, beşeriyet kitabındaki tek bir 'elif' harfidir; mânâsı kendinde değil, kâtibindedir. (30. Söz)
 
@@ -75,6 +81,8 @@ Ahzâb Suresi 72. âyette göklerin ve yerin çekindiği, insanın yüklendiği 
 
 **Enaniyet-i Nev'iye** — Bütün insanlık nev'inin kibri.  
 İnsanoğlunun medeniyet harikalarına ve fennî keşiflerine güvenip tabiata ve sebeplere rablık vermesi.
+
+**Entropi** — Termodinamikte düzensizlik ve kaos meyli. Canlılığın negentropi ile Kudret Kalemi namına yendiği fiziksel kanun. → [Modern Fizik ve Tılsım-ı Kâinat](../docs/modern-fizik-ve-tilsim-i-kainat.md)
 
 **Esbabperestlik** — Sebepleri hakiki yaratıcı zannetmek.  
 Tabiat ve sebepler birer perdedir; onlara tesir-i hakiki vermek şirktir.
@@ -145,8 +153,12 @@ Buz hükmündeki enaniyeti kevser havuzunda eritmenin yegâne formülü. (21. Le
 **İktezathü't-Tabiat** — "Tabiat iktiza etti / tabiat yaptı" vehmi.  
 Tabiatın bir sanat, kanun ve defter olduğunu; fâil, sâni' ve kâtip olamayacağını unutan bâtıl telakki. (23. Lem'a)
 
+**İnnî Lestü Mâlikî** — "Ben kendime mâlik değilim." İnsanın kendi vücuduna dahi hakiki mâlik olmadığını idrak edip rububiyet davasından vazgeçmesi. Mesnevî-i Nuriye'nin ilk kelâmı. → [Dört Kelime ve Dört Kelâm](../docs/dort-kelime-dort-kelam.md)
+
 **İştirak-i Emvâl-i Uhreviye** — Âhiret kazançlarında ortaklık sırrı.  
 İhlas ile birleşen şahs-ı manevî azalarının, her bir ferdin kazandığı sevaptan nurlanıp hissedar olması; 4 kişinin 4444 kuvvetine çıkması. (21. Lem'a)
+
+**It from Bit** — Modern fizikçi John Wheeler'ın formüle ettiği; maddenin temelinde maddî olmayan bilginin ve mânânın yattığı ilkesi. Mânâ-yı Harfî'nin fizik lisanındaki tercümesi. → [Modern Fizik ve Tılsım-ı Kâinat](../docs/modern-fizik-ve-tilsim-i-kainat.md)
 
 ---
 
@@ -168,6 +180,8 @@ Bireysel buzların içinde eriyip küllî bir hayat kazandığı ortak zemin.
 ---
 
 ## L
+
+**Lezzet-i Kudsiyye** — Cenâb-ı Hakk'ın noksanlıktan münezzeh, kendi cemâl ve kemâlini müşahede etmesinden ve mahlukatına ihsanından doğan mukaddes şuûnâtı. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 
 **Lisan-ı İstidad ile Dua** — Bütün tohum ve çekirdeklerin kabiliyet diliyle inkişaf ve sümbül talep etmesi.
 
@@ -202,6 +216,12 @@ Zerrelerin işe başlarken lisan-ı hal ile "Bismillah" demesi. (30. Söz, İkin
 **Nahnu** — "Biz" şuuruna ermek.  
 Bireysel egoyu (ene) cemaatin şahs-ı manevî havuzunda eritmek. (21. Lem'a)
 
+**Nazar** — Bakış açısı ve tefekkür prizması. Kâinatı ya meşher-i sanat-ı İlâhiye ya da vahşetli bir zindan gösteren manevî mercek. (Mesnevî-i Nuriye) → [Dört Kelime ve Dört Kelâm](../docs/dort-kelime-dort-kelam.md)
+
+**Negentropi** — Negatif entropi; düzensizlik yerine intizam ve hayat inşa etme meyli. Kudret Kalemi'nin canlılıktaki tecellisi.
+
+**Niyet** — İnsanın kalbî yönelişi; âdi ve fani amelleri ebedî ibadete çeviren manevî kimya ve iksir. (Mesnevî-i Nuriye)
+
 **Nokta-i İstinad** — Dayanak noktası.  
 İnsanın sonsuz düşmanları karşısında Kudret-i İlâhiyeye dayanması.
 
@@ -234,6 +254,8 @@ Bireylerin zaafını küllî bir kuvvete tebdil eden hakikat fabrikası.
 **Şecere-i Tûbâ** — Nübüvvet ve ubudiyet silsilesinin neticesi olan saadet ve hidayet ağacı.
 
 **Şecere-i Zakkum** — Enaniyet ve felsefe silsilesinin neticesi olan dalâlet ve zulümat ağacı. (30. Söz)
+
+**Şuûnât-ı İlâhiye** — Allah'ın zâtına lâyık kudsî hâlleri (memnûniyet, ferah, şefkat-i mukaddese); kâinattaki dâimî ve hummalı faaliyetin ezelî kaynağı. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 
 ---
 

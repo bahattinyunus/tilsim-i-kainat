@@ -10,7 +10,7 @@
 > 
 > *"Ben göklere, yere ve dağlara emaneti arz ettim; onlar onu yüklenmekten çekindiler, ondan korktular. Onu insan yüklendi. Muhakkak ki o çok zâlim, çok câhildir."* (Ahzâb Sûresi, 72)
 
-**Tılsım-ı Kâinat**, Risale-i Nur Külliyatı (bilhassa *30. Söz - Ene ve Zerre Risalesi*, *23. Söz*, *12. Söz*, *11. Söz*, *10. Söz - Haşir*, *21. Lem'a - İhlas Risalesi*, *23. Lem'a - Tabiat Risalesi*, *26. Söz - Kader* ve *Mesnevî-i Nuriye*) ekseninde; insanın varoluşsal çekirdeği olan **Ene (Benlik)** kavramını, kâinatın yapıtaşı olan **Zerre (Madde/Atom)** ile olan simetrik ilişkisini ve felsefe-vahiy çatışmasını inceleyen derinlikli bir ontoloji, tefekkür ve modelleme laboratuvarıdır.
+**Tılsım-ı Kâinat**, Risale-i Nur Külliyatı (bilhassa *30. Söz - Ene ve Zerre Risalesi*, *23. Söz*, *12. Söz*, *11. Söz*, *10. Söz - Haşir*, *21. Lem'a - İhlas Risalesi*, *23. Lem'a - Tabiat Risalesi*, *26. Söz - Kader*, *24. Mektup - Şuûnât*, *29. Söz - Ruh* ve *Mesnevî-i Nuriye*) ekseninde; insanın varoluşsal çekirdeği olan **Ene (Benlik)** kavramını, kâinatın yapıtaşı olan **Zerre (Madde/Atom)** ile olan simetrik ilişkisini, modern kuantum/enformasyon fiziği ile tevhid ontolojisini ve felsefe-vahiy çatışmasını inceleyen derinlikli bir ontoloji, tefekkür ve modelleme laboratuvarıdır.
 
 Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrelerini, hem orijinal risale metinleri ve otantik lisanıyla şerh eder hem de analitik ve modern sistem teorisi yaklaşımıyla dökümante eder.
 
@@ -18,9 +18,9 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 
 ## 🧭 Tematik Okuma Haritası
 
-| Sıra | Bölüm & Doküman | Eksen Risale | Temel Mesele ve Muhteva |
+| Sıra | Bölüm & Doküman | Eksen Risale & Kaynak | Temel Mesele ve Muhteva |
 |:---:|:---|:---|:---|
-| 🌟 | [**Tılsım-ı Kâinat'ın Büyük Çözümü**](docs/tilsim-i-kainat-kullî-cozum.md) | *9 Cephenin İcmali* | **Varoluş Muamması'nın Küllî Çözümü:** 9 Araştırma Cephesinden Ene, Zerre ve Kâinat formülü. |
+| 🌟 | [**Tılsım-ı Kâinat'ın Büyük Çözümü**](docs/tilsim-i-kainat-kullî-cozum.md) | *Küllî Sentez* | **Varoluş Muamması'nın Küllî Çözümü:** 9 Araştırma Cephesinden Ene, Zerre ve Kâinat formülü. |
 | **01** | [**Vâhid-i Kıyasî ve Sırr-ı Hilkat**](docs/ene-ontolojisi/01-vahid-i-kiyasi.md) | *30. Söz, 1. Maksad* | Ene nedir? Mutlak sıfatlar farazî bir hat ile nasıl bilinir? Şemme Risalesi, ziya/zulmet misali. |
 | **02** | [**Kalınlaşma, Firavuniyet ve Yutulma**](docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md) | *30. Söz & 12. Söz* | Hava gibi enenin 5 fazda buzlaşıp sahibini yutması, 12. Söz'den "firavun-u zelîl" tahlili. |
 | **03** | [**Ene'den Nahnu'ya: İhlas ve Şahs-ı Manevî**](docs/ene-ontolojisi/03-eneden-nahnuya.md) | *21. Lem'a & 26. Söz Zeyli* | Buz parçasını kevser havuzunda eritmek, 1111/4444 sırrı, Sefine-i Rabbaniye hademeleri, Dört Hatve. |
@@ -32,8 +32,12 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 | **09** | [**Tabiat ve Esbap Eleştirisi**](docs/tabiat-ve-esbab-elestirisi.md) | *23. Lem'a (Tabiat)* | Evcedethü'l-esbâb, Teşekkele binefsihî, İktezathü't-tabiat bâtıllarının 9 muhalle çürütülmesi. |
 | **10** | [**Kader ve İrade Tılsımı**](docs/kader-ve-irade-tilsimi.md) | *26. Söz (Kader)* | Ene'nin gurur ve yeis dengesi: Hasenat Allah'tan Kadere şükürle, seyyiat nefisten istiğfarla. |
 | **11** | [**Haşir ve Ebediyet Tılsımı**](docs/hasir-ve-ebediyet-tilsimi.md) | *10. Söz (Haşir)* | Kâinat tılsımının nihai mührü: Âhiret ve dâr-ı bekā olmadan kâinattaki hikmet ve adaletin izahı muhaldir. |
-| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 110+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 7 adet mimari akış şeması (Hâl değişimleri, 3 Sual, Tabiat Muhalleri, Zerre Seyahati, İhlas). |
+| **12** | [**Modern Fizik ve Tılsım-ı Kâinat**](docs/modern-fizik-ve-tilsim-i-kainat.md) | *Kuantum, Wheeler & 30. Söz* | "It from Bit", dalga fonksiyonu çöküşü, termodinamik entropiye karşı canlılığın negentropisi. |
+| **13** | [**Dört Kelime ve Dört Kelâm**](docs/dort-kelime-dort-kelam.md) | *Mesnevî-i Nuriye* | Mânâ-yı Harfî, Mânâ-yı İsmî, Niyet, Nazar ve "İnnî lestü mâlikî", "El-mülkü lillâh" tahlili. |
+| **14** | [**Şuûnât-ı İlâhiye ve Dâimî Faaliyet**](docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md) | *24. Mektup* | Cenâb-ı Hakk'ın hiçbir şeye ihtiyacı olmadığı halde kâinattaki bu hummalı faaliyetin 4 büyük sırrı. |
+| **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
+| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 120+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 10 adet mimari akış şeması (Kuantum, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
 
 ---
 
@@ -52,6 +56,7 @@ flowchart TD
     subgraph DisTilsim["DIŞ TILSIM: ZERRE (Âfâkî Âlem)"]
         Z["Zerre (Maddenin Noktası)"] --> TZ["Tahavvülât (Kudret Kalemi)"]
         Z --> SZ["İki Şahid (Acz ve Cümûd)"]
+        Z --> QF["Kuantum & Bilgi (It from Bit)"]
     end
     
     T --> IcTilsim
@@ -60,6 +65,7 @@ flowchart TD
     VK --> MH["MÂNÂ-YI HARFÎ (Ayna Olmak)"]
     TZ --> MH
     SZ --> MH
+    QF --> MH
     
     K --> MI["MÂNÂ-YI İSMÎ (Kendine Mâlik Saymak)"]
     
@@ -273,7 +279,7 @@ Onuncu Söz (Haşir Risalesi), kâinat tılsımının nihai mühür ve kilit ta�
 
 ---
 
-## 🧬 X. Taallümle Tekâmül ve Küllî Şükür (23. Söz)
+### 🧬 X. Taallümle Tekâmül ve Küllî Şükür (23. Söz)
 
 İnsan dünyaya bir hayvan gibi hazır gelmez; öğrenmek ve dua etmek için gönderilmiştir:
 
@@ -289,96 +295,100 @@ Onuncu Söz (Haşir Risalesi), kâinat tılsımının nihai mühür ve kilit ta�
 
 ---
 
-## 🧪 Simülasyon Laboratuvarı: Üç Matematiksel Model
+### ⚛️ XI. Modern Fizik, Kuantum ve "It from Bit" (Wheeler vs. Bediüzzaman)
 
-Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri ve algoritmik modellerle canlandıran **3 simülasyon motoru** ve **21 birim testi** geliştirilmiştir.
+Modern fizik, maddenin zannedildiği gibi katı ve ezelî olmadığını; dalgalardan, ihtimallerden ve en temelde "Bilgi"den (Information) ibaret olduğunu tescil etmiştir.
+
+* **John Archibald Wheeler'ın "It from Bit" İlkesi:** *"Bütün maddî varlıklar (It), temeldeki maddî olmayan bir bilgiden (Bit) kaynaklanır."* Bu hakikat, Risale-i Nur'daki **"Mânâ-yı Harfî"** ve **"Kitâb-ı Kâinat"** teziyle birebir örtüşür.
+* **Kuantum Süperpozisyonu ve İmkânat Dairesi:** Atom altı parçacıklar sonsuz ihtimalde yüzerken, bir canlı hücresinde hikmetle taayyün etmesi Kudret Kalemi'nin tercih ve emr-i tekvînîsini gösterir.
+* **Entropiye Karşı Hayatın Negentropisi:** Termodinamiğin ikinci kanunu gereği evren kaosa ve düzensizliğe ($\Delta S > 0$) sürüklenirken; zerreler canlılıkta birleşerek akıl almaz bir intizam (negentropi) inşa eder. Bu, haricî ve Alîm bir Sâni'in açık bir mührüdür.
+
+---
+
+### 🔑 XII. Dört Kelime ve Dört Kelâm: Varlık Simyası (Mesnevî-i Nuriye)
+
+Bediüzzaman'ın kırk senelik tahsilinin hülâsası:
+* **Dört Kelime:**
+  1. **Mânâ-yı Harfî:** Eşyaya Allah hesabına ve O'na işaret eden bir ayna olarak bakmak.
+  2. **Mânâ-yı İsmî:** Eşyaya kendi zâtı ve sebepleri hesabına bakıp firavunlaşmak.
+  3. **Niyet:** Âdi ve dünyevî işleri ebedî ibadete çeviren manevî simya.
+  4. **Nazar:** Kâinatı ya meşher-i sanat ya vahşetli bir kabir yapan zihinsel prizma.
+* **Dört Kelâm:**
+  1. **اِنّٖى لَسْتُ مَالِكِى** *(Ben kendime mâlik değilim)*
+  2. **اَلْمُلْكُ لِلّٰهِ** *(Mülk bütünüyle Allah'ındır)*
+  3. **اَلْفَنَاءُ فِى الْخَالِقِ** *(Yaratıcı'nın rızasında fani olmak)*
+  4. **لاَ اِلٰهَ اِلاَّ اللّٰهُ** *(O'ndan başka hakiki fâil yoktur)*
+
+---
+
+### 🌊 XIII. Şuûnât-ı İlâhiye ve Dâimî Faaliyetin Sırrı (24. Mektup)
+
+> *"Cenâb-ı Hak kādir-i mutlaktır, ganiyy-i ale'l-ıtlaktır; hiçbir şeye ihtiyacı yoktur. Öyle ise şu kâinattaki durmaksızın devam eden hummalı faaliyetin hikmeti nedir?"*
+
+1. **Muhabbet-i Zâtiye:** Her cemâl ve kemâl sahibi kendi cemâlini bizzat kendi kudsî nazarında temaşa etmek ister.
+2. **Teşhir ve İlân:** Zîşuur melek, cin ve insanların hayret ve takdir nazarlarıyla o sanat hazinelerini alkışlatmak.
+3. **Teceddüd-ü Emsal:** Sınırlı dünya tuvalinde sonsuz esmâyı sergilemek için kâinatı akıcı bir nehir gibi tazelemek.
+4. **Şuûnât-ı Kudsiyye:** Mahlukatın itaatinden ve feyzinden doğan beşerî kusurlardan münezzeh **memnûniyet-i kudsiyye**, **şefkat-i mukaddese** ve **lezzet-i kudsiyye**.
+
+---
+
+### 🕊️ XIV. Hayat ve Ruh Tılsımı: Vücut Giymiş Kanun (29. Söz & 30. Lem'a)
+
+* **Hayat:** Kâinatın en büyük gayesi, en parlak nurudur. Hayat bir tek ferdi (zerreyi) koca kâinata muhatap ve mâlik kılar.
+* **Ruh:** Âlem-i emirden gelen, zîhayat, zîşuur ve haricî bir vücut libası giydirilmiş Rabbânî bir kanundur:
+  > *"Eğer Cenâb-ı Hak yerçekimi kanununa haricî bir vücut giydirip şuur verseydi o bir ruh olurdu. Ruh dahi beden libasını çıkarsa sâir tabiat kanunları gibi çıplak bir kanun-u emrî kalırdı."* (29. Söz)
+* Beden çürür, zerreler dağılır; fakat ruh basittir, bölünmez ve ebediyete namzettir.
+
+---
+
+## 🧪 Simülasyon Laboratuvarı: Dört Matematiksel Model
+
+Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri, diferansiyel denklemler ve bilgi teorisiyle canlandıran **4 simülasyon motoru** ve **26 birim testi** yer alır.
 
 ```bash
-# Tüm simülasyonları tek merkezden icra et:
+# Dört modeli tek merkezden çalıştır:
 python simulations/run_all.py
 
-# Birim testlerini çalıştır (21 test %100 Başarı):
+# Birim testlerini çalıştır (26 test %100 Başarı):
 python -m unittest discover -s simulations -p "test_*.py" -v
 ```
 
 ### 1. Ene Kalınlaşma Modeli (`ene-thickening-model.py`)
-30. Söz'ün Birinci Maksadındaki 5 fazlı kalınlaşma ve incelme diferansiyel sistemi:
-
 $$\frac{dK}{dt} = a \cdot \text{tekâsüf} \cdot (1 - H + e)(K + e)(1 - K) - b \cdot \text{tasfiye} \cdot H \cdot K$$
-
 $$\frac{dH}{dt} = c \cdot \text{tasfiye} \cdot (1 - H) - d \cdot \text{tekâsüf} \cdot K \cdot H$$
 
 ```bash
 python simulations/ene-thickening-model.py --karsilastir
 ```
 
-```text
-Senaryo     Tekâsüf  Tasfiye  Nihai K  Yutulma t  Mertebe
-------------------------------------------------------------------------
-fitrat         0.38     0.37    0.000          —  Hava gibi şeffaf
-firavun        0.91     0.01    1.000       5.10  Yutulma
-gafil          0.54     0.16    0.925      20.60  Yutulma
-tevbe          0.15     0.80    0.000          —  Hava gibi şeffaf
-salik          0.06     0.90    0.000          —  Hava gibi şeffaf
-filozof        0.59     0.11    0.970      11.85  Yutulma
-```
-
 ### 2. Tahavvülât-ı Zerrât Simülasyonu (`zerre-simulation.py`)
-30. Söz'ün İkinci Maksadındaki zerre seyahati, Bismillah mebdesi ve Elhamdülillah hitâmı:
-
+Zerratın mebdeden (Bismillah) hitâma (Elhamdülillah) seyahati, intizam oranı ve Vücud/Vahdet şehadet skorları.
 ```bash
 python simulations/zerre-simulation.py --senaryo tevfikin_gozu
 ```
 
-```text
-========================================================================
-  ⚛️ TAHAVVÜLÂT-I ZERRÂT RAPORU: TEVFIKIN_GOZU
-========================================================================
-  İstinad (Bismillâh) Gücü : 0.98
-  Nizam-ı Umumî İntibakı   : 0.95
-  Tesadüf Sapması          : 0.02
-------------------------------------------------------------------------
-  Mertebe                 Yük (Kat)   İntizam   Vücud Ş.  Vahdet Ş.  Zikir
-------------------------------------------------------------------------
-  Hava & Toprak                 1.5      0.19       1.00       0.75  BİSMİLLÂH (Mebde-i Hareket)
-  Bitki & Rızık                38.6      0.37       1.00       0.79  SÜBHÂNALLÂH (Bitki & Rızık intizamı)
-  Dolaşım & Hücre             185.4      0.56       1.00       0.83  SÜBHÂNALLÂH (Dolaşım & Hücre intizamı)
-  Dimağ & Âsâb                772.4      0.74       1.00       0.86  SÜBHÂNALLÂH (Dimağ & Âsâb intizamı)
-  Tevfik'in Gözbebeği        1853.9      0.93       1.00       0.90  ELHAMDÜLİLLÂH (Hitâm-ı Vazife)
-------------------------------------------------------------------------
-  ⭐ Ortalama İntizam    : 0.559
-  🔍 Vücud Şehadeti      : 1.000 (Acz ve Cümûd ile Kādir-i Zülcelâl'e)
-  🌐 Vahdet Şehadeti     : 0.828 (Nizam-ı Umumiye tevfik ile Vâhid-i Ehad'e)
-  🏆 Nihai Hikmet Skoru  : 0.796 / 1.000
-  ✅ KUDRET KALEMİ: Zerre 'Zerre kimin ise kâinat da Onundur' hakikatini ispat etti.
-========================================================================
-```
-
 ### 3. İhlas ve Şahs-ı Manevî Sinerji Modeli (`ihlas-synergy-model.py`)
-21. Lem'a ekseninde buzun kevser havuzunda erimesi ve 4 ferdin 4444 kuvvetine yükselişi:
-
 $$\frac{dB}{dt} = - k_{\text{erime}} \cdot I \cdot T \cdot B + k_{\text{donma}} \cdot R \cdot (1 - B)$$
-
 $$K_{\text{manevi}} = N + (K_{\text{tavan}} - N) \cdot \big[ I \cdot T \cdot (1 - B) \cdot (1 - R) \big]$$
-
+Enaniyet buzunun kevser havuzunda erimesi ve 4 ferdin 4444 manevî kuvvetine yükselişi.
 ```bash
 python simulations/ihlas-synergy-model.py --senaryo dort_elif
 ```
 
+### 4. Kozmik Entropi ve Kudret İntizamı Modeli (`entropy-information-model.py`)
+Wheeler'ın "It from Bit" ve termodinamiğin entropi kanununa karşı canlılığın negentropik intizamı:
+$$\frac{d(\text{İntizam})}{dt} = 1.5 \cdot \text{Kudret} \cdot \text{Hayat} \cdot (1 - \text{İntizam}) - 1.2 \cdot \text{Kaos} \cdot \text{İntizam}$$
+```bash
+python simulations/entropy-information-model.py --karsilastir
+```
+
 ```text
-========================================================================
-  🌊 İHLAS VE ŞAHS-I MANEVÎ RAPORU: DORT_ELIF
-========================================================================
-  Fert (Kardeş) Sayısı  : 4 fert
-  İhlas Derecesi        : 0.95 (Sırf rıza-yı Bârî)
-  Tesanüd & Uhuvvet     : 0.95 (Birbirinin meziyetiyle iftihar)
-  Sırr-ı Adediyet Tavanı: 4,444 kat manevî kuvvet
-------------------------------------------------------------------------
-  Başlangıç Buzu (B0)   : 0.30  -->  Nihai Buz (B): 0.008
-  Nihai Manevî Kuvvet   : 3,937.7 (984.4x kat sinerji!)
-  ✨ Buz parçası t = 4.3 anında kevser havuzunda tamamen eridi.
-  🏆 'Dört fedakâr kardeş 4444 kuvvetindedir' sırrı tahakkuk etti!
-========================================================================
+Senaryo                    İntizam   Entropi   Bilgi (Bit)  Netice
+--------------------------------------------------------------------
+canlilik_ve_dna              0.921     0.099        103.1  Kudret İntizamı
+tevfikin_gozbebegi           0.960     0.050        122.5  Kudret İntizamı
+tohumun_inbisi               0.824     0.216         69.1  Kudret İntizamı
+materyalist_isi_olumu        0.004     1.000         25.0  Kaos/Dağılma
 ```
 
 ---
@@ -391,6 +401,10 @@ tilsim-i-kainat/
 ├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
 ├── docs/
 │   ├── tilsim-i-kainat-kullî-cozum.md     # 9 Cepheden Varoluşun Büyük Çözüm Manifestosu
+│   ├── modern-fizik-ve-tilsim-i-kainat.md # Kuantum, Wheeler "It from Bit" ve Negentropi
+│   ├── dort-kelime-dort-kelam.md          # Mesnevî-i Nuriye: Harfî, Niyet, Nazar, İnnî Lestü Mâlikî
+│   ├── suunat-i-ilahiye-ve-faaliyet-i-daime.md # 24. Mektup: Kâinattaki Kozmik Faaliyetin Sırrı
+│   ├── hayat-ve-ruh-tilsimi.md            # 29. Söz & 30. Lem'a: Hayatın Sırrı ve Ruh
 │   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
 │   │   ├── README.md                      #   Okuma haritası ve mukaddime
 │   │   ├── 01-vahid-i-kiyasi.md           #   Vâhid-i kıyasî, farazî hat, iki vecih
@@ -407,14 +421,14 @@ tilsim-i-kainat/
 │   ├── kader-ve-irade-tilsimi.md          # 26. Söz: Ene'nin gurur ve yeis muvazenesi
 │   └── hasir-ve-ebediyet-tilsimi.md       # 10. Söz: Âhiret ve kâinat tılsımının son mührü
 ├── kavramlar-sozlugu/
-│   └── glossary.md                        # 110+ ıstılahın şerhli ve alıntılı lügati
+│   └── glossary.md                        # 120+ ıstılahın şerhli ve alıntılı lügati
 ├── assets/
 │   ├── images/                            # 4 adet 16:9 geniş banner görseli
 │   │   ├── banner-tilsim-i-kainat.jpg     #   Kozmik miftah hero bannerı
 │   │   ├── banner-ene-ontolojisi.jpg      #   Ene ve şeffaf ayna bannerı
 │   │   ├── banner-ihlas-ve-kevser-havuzu.jpg # Kevser havuzu ve nur sütunu bannerı
 │   │   └── banner-zerre-dinamikleri.jpg   #   Tahavvülât ve kudret kalemi bannerı
-│   └── diagrams/                          # 7 adet Mermaid mimari şeması ve kılavuz
+│   └── diagrams/                          # 10 adet Mermaid mimari şeması ve kılavuz
 │       ├── README.md                      #   Diyagramlar rehberi
 │       ├── tilsim-haritasi.mmd            #   Ana kavramlar haritası
 │       ├── ene-hal-degisimi.mmd           #   5 faz hâl değişimi
@@ -422,17 +436,22 @@ tilsim-i-kainat/
 │       ├── kainat-sarayi-uc-sual.mmd      #   Üç dehşetli sual akışı
 │       ├── tabiat-risalesi-muhaller.mmd   #   Tabiat muhalleri
 │       ├── zerre-seyahati-mertebeler.mmd  #   Kemâlât basamakları
-│       └── ihlas-sinerjisi.mmd            #   4444 manevî kuvvet şeması
+│       ├── ihlas-sinerjisi.mmd            #   4444 manevî kuvvet şeması
+│       ├── kuantum-ve-zerre.mmd           #   Kuantum ve Kudret Kalemi
+│       ├── dort-kelime-dort-kelam.mmd     #   Mesnevî 4 kelime ve kelâm
+│       └── suunat-ve-faaliyet.mmd         #   Şuûnât ve kozmik faaliyet
 ├── simulations/                           # Dinamik sistem simülasyonları
 │   ├── README.md                          # Matematiksel denklemler ve kullanım kılavuzu
-│   ├── run_all.py                         # Üç modeli tek seferde icra eden çalıştırıcı
+│   ├── run_all.py                         # Dört modeli tek seferde icra eden çalıştırıcı
 │   ├── ene-thickening-model.py            # Ene faz değişimi simülasyonu
 │   ├── zerre-simulation.py                # Zerre tahavvülâtı ve kudret kalemi simülasyonu
 │   ├── ihlas-synergy-model.py             # İhlas ve şahs-ı manevî sinerji modeli
+│   ├── entropy-information-model.py       # Kozmik entropi ve kudret intizamı modeli
 │   ├── test_ene_model.py                  # 9 birim testi
 │   ├── test_zerre_model.py                # 6 birim testi
-│   └── test_ihlas_model.py                # 6 birim testi
-└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 21 testin otomatik koşumu
+│   ├── test_ihlas_model.py                # 6 birim testi
+│   └── test_entropy_model.py              # 5 birim testi
+└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 26 testin otomatik koşumu
 ```
 
 ---

@@ -1,0 +1,21 @@
+flowchart LR
+    subgraph DÖRT_KELİME["MESNEVÎ-İ NURİYE: DÖRT KELİME"]
+        direction TB
+        K1["1. Mânâ-yı Harfî<br/>(Ayna olmak, kâtibi göstermek)"]
+        K2["2. Mânâ-yı İsmî<br/>(Kendine hasretmek, firavunlaşmak)"]
+        K3["3. Niyet<br/>(Âdi ameli ibadete çeviren iksir)"]
+        K4["4. Nazar<br/>(Kâinatı meşhere çeviren nuranî bakış)"]
+    end
+    
+    subgraph DÖRT_KELÂM["MESNEVÎ-İ NURİYE: DÖRT KELÂM"]
+        direction TB
+        L1["1. İnnî Lestü Mâlikî<br/>(Ben kendime mâlik değilim)"]
+        L2["2. El-Mülkü Lillâh<br/>(Mülk bütünüyle Allah'ındır)"]
+        L3["3. El-Fenâü fi'l-Hâlık<br/>(Yaratıcı'nın rızasında fani olmak)"]
+        L4["4. Lâ İlâhe İllallâh<br/>(O'ndan başka ilâh ve fâil yoktur)"]
+    end
+    
+    K1 ==> L1
+    K3 ==> L2
+    K4 ==> L3
+    L1 & L2 & L3 ==> L4

@@ -4,12 +4,13 @@
 Tılsım-ı Kâinat — Bütünleşik Simülasyon Çalıştırıcısı (Unified Runner)
 =====================================================================
 
-Bu araç, Tılsım-ı Kâinat laboratuvarındaki üç temel simülasyonu
+Bu araç, Tılsım-ı Kâinat laboratuvarındaki dört temel simülasyonu
 tek bir merkezden çalıştırmanızı ve karşılaştırmanızı sağlar:
 
 1. Ene Kalınlaşma Modeli (ene-thickening-model.py)
 2. Tahavvülât-ı Zerrât Simülasyonu (zerre-simulation.py)
 3. İhlas ve Şahs-ı Manevî Sinerji Modeli (ihlas-synergy-model.py)
+4. Kozmik Entropi ve Kudret İntizamı Modeli (entropy-information-model.py)
 """
 
 import subprocess
@@ -31,7 +32,7 @@ def calistir(dosya: str, argumanlar: list[str]) -> int:
     return res.returncode
 
 def main() -> int:
-    baslik_yaz("TILSIM-I KÂİNAT: TÜM SİMÜLASYONLARIN İCMALİ")
+    baslik_yaz("TILSIM-I KÂİNAT: DÖRT MODELİN KÜLLÎ İCMALİ")
     
     print("1️⃣  ENE KALINLAŞMA MODELİ (30. SÖZ, BİRİNCİ MAKSAD):", flush=True)
     calistir("ene-thickening-model.py", ["--karsilastir"])
@@ -44,8 +45,12 @@ def main() -> int:
     print("3️⃣  İHLAS VE ŞAHS-I MANEVÎ SİNERJİ MODELİ (21. LEM'A):", flush=True)
     calistir("ihlas-synergy-model.py", ["--karsilastir"])
     
+    print("\n" + "-" * 76 + "\n", flush=True)
+    print("4️⃣  KOZMİK ENTROPİ VE KUDRET İNTİZAMI (WHEELER: IT FROM BIT & 30. SÖZ):", flush=True)
+    calistir("entropy-information-model.py", ["--karsilastir"])
+    
     print("\n" + "=" * 76, flush=True)
-    print("  ✅ Bütün simülasyonlar başarıyla icra edildi.", flush=True)
+    print("  ✅ Bütün simülasyonlar (4 model, 26 test) başarıyla icra edildi.", flush=True)
     print("=" * 76 + "\n", flush=True)
     return 0
 

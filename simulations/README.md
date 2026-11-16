@@ -5,11 +5,12 @@
 > parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
 > döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-Laboratuvar bünyesinde üç tamamlayıcı simülasyon motoru yer almaktadır:
+Laboratuvar bünyesinde dört tamamlayıcı simülasyon motoru yer almaktadır:
 
 1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
 2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
 3. **`ihlas-synergy-model.py`** — İhlas ve Şahs-ı Manevî Sinerji Modeli (21. Lem'a)
+4. **`entropy-information-model.py`** — Kozmik Entropi vs. Negentropik Kudret İntizamı (30. Söz & Wheeler: "It from Bit")
 
 Tüm modelleri tek bir komutla icra etmek için:
 ```bash
@@ -88,6 +89,21 @@ python simulations/ihlas-synergy-model.py --karsilastir
 
 ---
 
+## 4. `entropy-information-model.py` — Kozmik Entropi vs. Negentropik Kudret İntizamı
+
+Termodinamiğin 2. kanunu (Entropi artışı / $\Delta S \ge 0$) ile canlılığın negentropik intizamı (Wheeler: "It from Bit") arasındaki metafizik ve fiziksel ilişkiyi modeller:
+
+$$\frac{d(\text{İntizam})}{dt} = 1.5 \cdot \text{Kudret} \cdot \text{Hayat} \cdot (1 - \text{İntizam}) - 1.2 \cdot \text{Kaos} \cdot \text{İntizam}$$
+
+Shannon bilgi yoğunluğu ile genetik kod ve göz gibi organlardaki tekvînî kelimelerin bit derinliği simüle edilir.
+
+```bash
+python simulations/entropy-information-model.py --senaryo canlilik_ve_dna
+python simulations/entropy-information-model.py --karsilastir
+```
+
+---
+
 ## 🧪 Birim Testleri (Unit Tests)
 
 Laboratuvardaki tüm modeller otomatik unit testlerle denetlenir:
@@ -100,4 +116,5 @@ Mevcut test paketi:
 * `test_ene_model.py` (9 test)
 * `test_zerre_model.py` (6 test)
 * `test_ihlas_model.py` (6 test)
-* **Toplam: 21 test (Tam Başarı)**
+* `test_entropy_model.py` (5 test)
+* **Toplam: 26 test (Tam Başarı)**
