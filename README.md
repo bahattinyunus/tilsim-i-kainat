@@ -21,6 +21,7 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 | Sıra | Bölüm & Doküman | Eksen Risale & Kaynak | Temel Mesele ve Muhteva |
 |:---:|:---|:---|:---|
 | 🌟 | [**Tılsım-ı Kâinat'ın Büyük Çözümü**](docs/tilsim-i-kainat-kullî-cozum.md) | *Küllî Sentez* | **Varoluş Muamması'nın Küllî Çözümü:** 9 Araştırma Cephesinden Ene, Zerre ve Kâinat formülü. |
+| 🚀 | [**Geleceğin Teknolojileri ve Tılsım-ı Kâinat**](docs/gelecegin-teknolojileri-ve-tilsim-i-kainat.md) | *20. Söz (Mucizât-ı Enbiya)* | **Tayy-ı Mekân ve Kuantum Işınlanma:** Zerre, nuraniyet ve "It from Bit" ilkelerinden ilham alan gelecek teknolojileri vizyonu. |
 | **01** | [**Vâhid-i Kıyasî ve Sırr-ı Hilkat**](docs/ene-ontolojisi/01-vahid-i-kiyasi.md) | *30. Söz, 1. Maksad* | Ene nedir? Mutlak sıfatlar farazî bir hat ile nasıl bilinir? Şemme Risalesi, ziya/zulmet misali. |
 | **02** | [**Kalınlaşma, Firavuniyet ve Yutulma**](docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md) | *30. Söz & 12. Söz* | Hava gibi enenin 5 fazda buzlaşıp sahibini yutması, 12. Söz'den "firavun-u zelîl" tahlili. |
 | **03** | [**Ene'den Nahnu'ya: İhlas ve Şahs-ı Manevî**](docs/ene-ontolojisi/03-eneden-nahnuya.md) | *21. Lem'a & 26. Söz Zeyli* | Buz parçasını kevser havuzunda eritmek, 1111/4444 sırrı, Sefine-i Rabbaniye hademeleri, Dört Hatve. |
@@ -37,7 +38,15 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 | **14** | [**Şuûnât-ı İlâhiye ve Dâimî Faaliyet**](docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md) | *24. Mektup* | Cenâb-ı Hakk'ın hiçbir şeye ihtiyacı olmadığı halde kâinattaki bu hummalı faaliyetin 4 büyük sırrı. |
 | **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
 | 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 120+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 10 adet mimari akış şeması (Kuantum, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 11 adet mimari akış şeması (Kuantum, Işınlanma, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
+
+---
+
+### 🚀 Tılsım'dan Geleceğin Teknolojilerine: Işınlanma ve Tayy-ı Mekân Ufku
+
+> Kâinatın ontolojik tılsımını (Ene, Zerre, Kudret Kalemi ve Mânâ-yı Harfî) çözdükten sonra; bu hakikatlerin modern fizik ve geleceğin teknolojilerine ilham veren muazzam bir boyutu açılmaktadır. 20. Söz'ün (Mucizât-ı Enbiya) ortaya koyduğu bilim felsefesine göre peygamber mucizeleri fennî terakkiyatın nihai sınırlarıdır. Hz. Süleyman'ın veziri Âsaf bin Berhiyâ'nın Belkıs'ın tahtını saliseler içinde 2.500 km'den Yemen'den Kudüs'e getirmesi (Neml Sûresi, 40) **Maddenin Kuantum Işınlanması ve Tayy-ı Mekân** teknolojisinin açık bir müjdesidir. Zerrelerin katı bir cevher değil, Kudret Kalemi'nin birer harfi ("It from Bit") ve dalga fonksiyonu olduğunu idrak eden bir bilim; maddeyi enformasyona, enformasyonu maddeye dönüştürebilir; kesafetten letafete geçen "Nuraniyet Sürüşü" ile ışık hızının ötesinde seyahat edebilir ve 4444 sırrıyla kuantum paralel hesaplama devrimini gerçekleştirebilir.
+> 
+> 👉 **Ayrıntılı vizyon ve teknolojik yol haritası için:** [**Geleceğin Teknolojileri ve Tılsım-ı Kâinat**](docs/gelecegin-teknolojileri-ve-tilsim-i-kainat.md)
 
 ---
 
@@ -401,6 +410,7 @@ tilsim-i-kainat/
 ├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
 ├── docs/
 │   ├── tilsim-i-kainat-kullî-cozum.md     # 9 Cepheden Varoluşun Büyük Çözüm Manifestosu
+│   ├── gelecegin-teknolojileri-ve-tilsim-i-kainat.md # Işınlanma, Kuantum ve Tayy-ı Mekân Ufku
 │   ├── modern-fizik-ve-tilsim-i-kainat.md # Kuantum, Wheeler "It from Bit" ve Negentropi
 │   ├── dort-kelime-dort-kelam.md          # Mesnevî-i Nuriye: Harfî, Niyet, Nazar, İnnî Lestü Mâlikî
 │   ├── suunat-i-ilahiye-ve-faaliyet-i-daime.md # 24. Mektup: Kâinattaki Kozmik Faaliyetin Sırrı
@@ -428,7 +438,7 @@ tilsim-i-kainat/
 │   │   ├── banner-ene-ontolojisi.jpg      #   Ene ve şeffaf ayna bannerı
 │   │   ├── banner-ihlas-ve-kevser-havuzu.jpg # Kevser havuzu ve nur sütunu bannerı
 │   │   └── banner-zerre-dinamikleri.jpg   #   Tahavvülât ve kudret kalemi bannerı
-│   └── diagrams/                          # 10 adet Mermaid mimari şeması ve kılavuz
+│   └── diagrams/                          # 11 adet Mermaid mimari şeması ve kılavuz
 │       ├── README.md                      #   Diyagramlar rehberi
 │       ├── tilsim-haritasi.mmd            #   Ana kavramlar haritası
 │       ├── ene-hal-degisimi.mmd           #   5 faz hâl değişimi
@@ -439,7 +449,8 @@ tilsim-i-kainat/
 │       ├── ihlas-sinerjisi.mmd            #   4444 manevî kuvvet şeması
 │       ├── kuantum-ve-zerre.mmd           #   Kuantum ve Kudret Kalemi
 │       ├── dort-kelime-dort-kelam.mmd     #   Mesnevî 4 kelime ve kelâm
-│       └── suunat-ve-faaliyet.mmd         #   Şuûnât ve kozmik faaliyet
+│       ├── suunat-ve-faaliyet.mmd         #   Şuûnât ve kozmik faaliyet
+│       └── gelecegin-teknolojileri.mmd    #   20. Söz: Işınlanma ve Kuantum Teknolojileri
 ├── simulations/                           # Dinamik sistem simülasyonları
 │   ├── README.md                          # Matematiksel denklemler ve kullanım kılavuzu
 │   ├── run_all.py                         # Dört modeli tek seferde icra eden çalıştırıcı
