@@ -1,34 +1,36 @@
-# 🧪 Simülasyonlar (Deneysel)
+# 🧪 Tılsım-ı Kâinat Simülasyon Laboratuvarı
 
 > [!CAUTION]
-> Bu simülasyonlar **sembolik tefekkür araçlarıdır**. Manevî hakikatler sayılarla ölçülemez;
-> parametreler, kavramlar arasındaki ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
-> döngüleri) görünür kılmak için kullanılan metaforlardır.
+> Bu simülasyonlar **sembolik tefekkür araçlarıdır**. Manevî hakikatler maddî sayılarla ölçülemez;
+> parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
+> döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-## `ene-thickening-model.py` — Ene Kalınlaşma Modeli
+Laboratuvar bünyesinde üç tamamlayıcı simülasyon motoru yer almaktadır:
+
+1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
+2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
+3. **`ihlas-synergy-model.py`** — İhlas ve Şahs-ı Manevî Sinerji Modeli (21. Lem'a)
+
+Tüm modelleri tek bir komutla icra etmek için:
+```bash
+python simulations/run_all.py
+```
+
+---
+
+## 1. `ene-thickening-model.py` — Ene Kalınlaşma Modeli
 
 30. Söz'deki *"Ene zâtında hava gibi şeffaftır; gaflet, inkâr ve isyanla kalınlaşır, sahibini yutar"*
-sürecini iki değişkenli bir dinamik sistem olarak modeller.
+sürecini diferansiyel sistemle modeller.
 
-### Değişkenler
+### Durum Değişkenleri
+| Sembol | Anlamı | Değer Aralığı |
+|:---:|:---|:---:|
+| **K** | **Kalınlık (Kesafet):** 0 = hava gibi şeffaf, 1 = taş gibi katı | [0, 1] |
+| **S** | **Şeffafiyet (1 - K):** Marifet nurunun geçirgenliği | [0, 1] |
+| **H** | **Harfî Nazar Oranı:** Eşyaya Sâni' hesabına bakma meyli | [0, 1] |
 
-| Sembol | Anlam | Aralık |
-|--------|-------|--------|
-| `K` | **Kalınlık** (kesafet): 0 = hava gibi şeffaf, 1 = taş gibi katı | [0, 1] |
-| `S = 1 − K` | **Şeffafiyet**: marifet nurunun geçirgenliği | [0, 1] |
-| `H` | **Harfî nazar** oranı: eşyaya mana-yı harfî ile bakma meyli | [0, 1] |
-
-### Parametreler
-
-| Tekâsüf (kalınlaştırıcı) | Tasfiye (inceltici) |
-|---|---|
-| `--gaflet` | `--tefekkur` (esbabperest nazarla zayıflar) |
-| `--inkar` (esbabperestlik) | `--sukur` |
-| `--isyan` | `--dua` |
-| `--malikiyet` (temellük vehmi) | `--ihlas` |
-
-### Denklemler
-
+### Diferansiyel Denklemler
 $$
 \begin{aligned}
 \text{tekâsüf} &= \tfrac{1}{4}(\text{gaflet} + \text{inkâr} + \text{isyan} + \text{malikiyet}) \\
@@ -38,50 +40,64 @@ $$
 \end{aligned}
 $$
 
-- **Pozitif geri besleme:** `K` arttıkça `H` düşer, `H` düştükçe `K`'nin artışı hızlanır → *"sahibini yutma"*.
-- **Esbabperest tefekkür:** `tefekkur × (1 − inkar)` — akıl keskin olsa da harfî nazar olmadan inceltmez.
-- **`e` (vehmî çizgi):** En şeffaf enede bile farazî hat tamamen kaybolmaz.
+* **Pozitif Geri Besleme:** `K` arttıkça `H` düşer, `H` düştükçe `K`'nin artışı hızlanır (Sahibini yutma).
+* **Esbabperest Tefekkür:** `tefekkur * (1 - inkar)`: Felsefenin akıl yürütmesi eşyaya sebepler hesabına baktıkça tasfiye sağlamaz.
+* **`e` (Vehmî Çizgi):** En şeffaf halinde dahi ene farazî bir hat olarak kıyas için baki kalır.
+
+---
+
+## 2. `zerre-simulation.py` — Tahavvülât-ı Zerrât Simülasyonu
+
+30. Söz'ün İkinci Maksadında anlatılan, zerrelerin mebdeden hitâma seyahatindeki iki sadık şahidini modeller:
+
+* **1. Vücud Şehadeti (Acz ve Cümûd):** Zerre sonsuz derecede câmid (şuursuz) ve âciz olduğu halde, Bismillah sırrıyla boyundan binlerce kat büyük vazifeleri sırtlar.
+* **2. Vahdet Şehadeti (Nizam-ı Umumiye Tevfik):** Zerre topraktan bitkiye, kandan dimağa ve Tevfik'in gözbebeğine kadar her girdiği yerde oranın nizamına tam mutabık yerleşir. *"Zerre kimin ise, gezdiği bütün kâinat da Onundur."*
 
 ### Hazır Senaryolar
-
-| Senaryo | Açıklama | Beklenen Netice |
-|---------|----------|-----------------|
-| `fitrat` | Dengeli hâl | Şeffaf |
-| `firavun` | Gaflet, inkâr, isyan, temellük zirvede | Hızlı yutulma |
-| `gafil` | Derin gaflet, düşük tasfiye | Yavaş yutulma |
-| `tevbe` | Kalınlaşmış ene + güçlü tasfiye | Şeffaflaşma |
-| `salik` | Yüksek tefekkür, şükür, dua, ihlas | Şeffaf kalır |
-| `filozof` | Yüksek tefekkür ama esbabperest nazar | Yutulma |
-
-### Kullanım
+| Senaryo | Tahlil Edilen Hadise | Netice |
+|:---|:---|:---|
+| `tevfikin_gozu` | Gözbebeğindeki zerrenin damar ve sinirlerle mükemmel intizamı | Kudret İntizamı & Elhamdülillah |
+| `nebat_ruku` | Çekirdekteki zerrenin koca çam ağacını omuzlaması | Yüksek Yük & Vücud Şehadeti |
+| `dimag_tefekkur` | İnsan beyninde marifet ve şuur aynası olan zerrenin vazifesi | Azamî Hikmet Skoru |
+| `camid_madde` | Toprakta henüz canlanmamış zerre | Gizli İstidad |
+| `tesaduf_cikmazi` | Materyalist varsayım (Kör sebepler ve tesadüf) | Kaos, Çöküş & Nizam Kaybı |
 
 ```bash
-python simulations/ene-thickening-model.py --listele
-python simulations/ene-thickening-model.py --senaryo firavun
-python simulations/ene-thickening-model.py --karsilastir
-python simulations/ene-thickening-model.py --senaryo gafil --dua 0.9 --sukur 0.9
-python simulations/ene-thickening-model.py --senaryo tevbe --csv tevbe.csv
-python simulations/ene-thickening-model.py --karsilastir --kaydet karsilastirma.png   # matplotlib gerekir
+python simulations/zerre-simulation.py --senaryo tevfikin_gozu
+python simulations/zerre-simulation.py --karsilastir
 ```
 
-Yalnızca Python ≥ 3.8 standart kütüphanesi gerekir. `--grafik` / `--kaydet` için opsiyonel olarak
-`pip install matplotlib`.
+---
 
-### Örnek Çıktı
+## 3. `ihlas-synergy-model.py` — İhlas ve Şahs-ı Manevî Modeli
 
-```text
-Senaryo     Tekâsüf  Tasfiye  Nihai K  Yutulma t  Mertebe
-------------------------------------------------------------------------
-fitrat         0.38     0.37    0.000          —  Hava gibi şeffaf
-firavun        0.91     0.01    1.000       5.10  Yutulma
-gafil          0.54     0.16    0.925      20.60  Yutulma
-tevbe          0.15     0.80    0.000          —  Hava gibi şeffaf
-salik          0.06     0.90    0.000          —  Hava gibi şeffaf
-filozof        0.59     0.11    0.970      11.85  Yutulma
+21. Lem'a (İhlas Risalesi) ekseninde, bireysel enaniyet buzlarının kevser havuzunda erimesi ve 4 ferdin 4444 kuvvetine ulaşması dinamiğidir:
+
+$$\frac{dB}{dt} = - k_{\text{erime}} \cdot I \cdot T \cdot B + k_{\text{donma}} \cdot R \cdot (1 - B)$$
+
+$$K_{\text{manevi}} = N + (K_{\text{tavan}} - N) \cdot \big[ I \cdot T \cdot (1 - B) \cdot (1 - R) \big]$$
+
+* **$N=3$ Fert:** Sırr-ı adediyet ile yan yana gelince $111$ kıymeti alır.
+* **$N=4$ Fert:** Sırr-ı uhuvvet ve ittihad-ı maksat ile $4444$ kuvvetine baliğ olur.
+* **Rekabet ve Haset ($R$):** Devreye girdiğinde enaniyet buzlaşır; kuvvet sıradan adî toplamın dahi altına düşer.
+
+```bash
+python simulations/ihlas-synergy-model.py --senaryo dort_elif
+python simulations/ihlas-synergy-model.py --karsilastir
 ```
 
-### Testler
+---
+
+## 🧪 Birim Testleri (Unit Tests)
+
+Laboratuvardaki tüm modeller otomatik unit testlerle denetlenir:
 
 ```bash
 python -m unittest discover -s simulations -p "test_*.py" -v
 ```
+
+Mevcut test paketi:
+* `test_ene_model.py` (9 test)
+* `test_zerre_model.py` (6 test)
+* `test_ihlas_model.py` (6 test)
+* **Toplam: 21 test (Tam Başarı)**

@@ -3,7 +3,7 @@
 > Tılsım-ı Kâinat dokümanlarında geçen Kur'ânî ve Risale-i Nur kaynaklı ıstılahların şerhli lügati.
 > Her madde; **orijinal ıstılah**, **lügat ve ıstılah manası**, **orijinal risale metinlerinden alıntılar** ve ilgili dokümana **bağlantı** içerir.
 
-**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [M](#m) · [N](#n) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
+**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
 
 ---
 
@@ -14,6 +14,12 @@ Kur'an talebesinin vasfı. Hiçbir kula, menfaate veya kuvvete boyun eğmez; yal
 
 **Acz** — Güçsüzlük, iktidarsızlık.  
 İnsanın ve zerrenin fıtratındaki en esaslı hakikat. Aczini anlayan insan, Kudret-i Mutlaka'ya istinad eder ve nihayetsiz bir kuvvet bulur. (30. Söz & 26. Söz Zeyli)
+
+**Âlem-i Asgar** — Küçük âlem (İnsan).  
+İnsan, kâinatın küçültülmüş bir fihristesi ve câmi' bir hulasasıdır. Âlemdeki bütün hakikatlerin numuneleri insanda dercedilmiştir.
+
+**Âlem-i Ekber** — Büyük âlem (Kâinat).  
+Büyük bir insan hükmünde olan kâinat sarayı; esmâ-i İlâhiyenin azamî tecelligâhıdır.
 
 **Âyât-ı Tekvîniye** — Kâinattaki yaratılış âyetleri.  
 Cenâb-ı Hakk'ın tekvin (yaratma) sıfatıyla kâinat kitabına yazdığı nizam, varlıklar ve hadiseler. Zerrelerin hareketi bu âyetlerin yazılışındaki titreşimdir. (30. Söz, İkinci Maksad) → [Tahavvülât-ı Zerrât](../docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md)
@@ -38,12 +44,18 @@ Felsefe talebesinin ruhi portresi; kalbinde istinad noktası olmadığı için k
 **Cümûd** — Cansızlık, donukluk, şuursuzluk.  
 Zerrenin iki şahidinden biri. Zerre câmid olduğu halde gayet şuurlu işler görür; demek ki kendi hesabına değil, Alîm ve Hakîm bir Zât'ın memuru olarak hareket eder. (30. Söz, İkinci Nokta) → [Zerrenin İki Şahidi](../docs/zerre-dinamikleri/02-zerrenin-iki-sahidi.md)
 
+**Cüz'-i İhtiyarî** — İnsana verilen cüz'î irade ve meyil serbestisi.  
+Nefsin mesuliyetten ve tekliften kaçmaması, seyyiatı kadere atıp temerrüd etmemesi için konulan vicdanî kalkan. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
+
 ---
 
 ## D
 
 **Dâr-üs Selâm** — Selamet ve esenlik yurdu (Cennet).  
 Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaştırmaya çalıştığı ebedi sahil. (21. Lem'a)
+
+**Dört Hatve** — Kur'an'dan çıkarılan dört manevî adım.  
+1. Nefsini tezkiye etmemek (Acz). 2. Kendini unutmamak (Menfaatte nefsini unutmak). 3. Kusuru nefsinden, kemâli Allah'tan bilmek. 4. Mânâ-yı harfî ile bekāya ermek. (26. Söz Zeyli) → [Ene'den Nahnu'ya](../docs/ene-ontolojisi/03-eneden-nahnuya.md)
 
 **Dua ile Ubudiyet** — Kulluğun özü olan dua.  
 İnsanın hadsiz ihtiyaçları ve düşmanları karşısında Kādıyü'l-Hâcât'a sığınması. (23. Söz, Dördüncü Nokta) → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
@@ -52,14 +64,23 @@ Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaşt�
 
 ## E
 
+**Elif-i Ene** — Ene'nin harf-misal inceliği.  
+Ene müstakil bir kitap veya kelime değil, beşeriyet kitabındaki tek bir 'elif' harfidir; mânâsı kendinde değil, kâtibindedir. (30. Söz)
+
 **Emanet-i Kübra** — En büyük emanet.  
 Ahzâb Suresi 72. âyette göklerin ve yerin çekindiği, insanın yüklendiği ilahî emanet. 30. Söz'de bu emanetin müteaddid vecihlerinden birinin "Ene" olduğu izah edilir.
 
 **Ene** — Benlik, ego, kişilik çekirdeği.  
 İnsana mutlak ilahî sıfatları bilmesi için verilmiş farazî bir ölçü birimi (vâhid-i kıyasî). Mahiyeti harfiyedir; kendi başına vücudu zıllîdir. (30. Söz, Birinci Maksad) → [Vâhid-i Kıyasî](../docs/ene-ontolojisi/01-vahid-i-kiyasi.md)
 
+**Enaniyet-i Nev'iye** — Bütün insanlık nev'inin kibri.  
+İnsanoğlunun medeniyet harikalarına ve fennî keşiflerine güvenip tabiata ve sebeplere rablık vermesi.
+
 **Esbabperestlik** — Sebepleri hakiki yaratıcı zannetmek.  
 Tabiat ve sebepler birer perdedir; onlara tesir-i hakiki vermek şirktir.
+
+**Evcedethü'l-Esbâb** — "Sebepler yaptı / icad etti" vehmi.  
+23. Lem'a'da çürütülen bâtıl felsefî hurafelerin birincisi. Maddî sebeplerin kör, câmid ve âciz oluşu sebebiyle hayatı ve intizamı icad edemeyeceği ispatlanır. → [Tabiat ve Esbap Eleştirisi](../docs/tabiat-ve-esbab-elestirisi.md)
 
 **Ezhan** — Zihinler.  
 Yüce bir gaye-i hayal olmadığında enelerin etrafında dönüp hapsolan fikirler. (Hakikat Çekirdekleri, 41)
@@ -94,8 +115,14 @@ Marifetullah ve rıza-yı İlâhî. Bu gaye kaybolduğunda zihinler kendi eneler
 **Hakikat-i Zılliyye** — Gölge mahiyet.  
 İnsandaki ilim, irade ve kudretin, Allah'ın mutlak sıfatlarının birer gölgesi olması. Gölge güneşe mâlik olamaz. (30. Söz)
 
+**Haşr-i Ecsad** — Cesetlerin ve zerrelerin kıyametten sonra yeniden diriltilmesi.  
+Kâinat sarayının ve insanın ebedî manasını tamamlayan kilit hakikat. (10. Söz) → [Haşir ve Ebediyet Tılsımı](../docs/hasir-ve-ebediyet-tilsimi.md)
+
 **Hendesedeki Farazî Hatlar** — Geometrideki varsayımsal çizgiler.  
 Ene'nin hakiki bir varlığı olmadığını gösteren benzersiz Risale-i Nur analojisi.
+
+**Hitâm-ı Vazife** — Vazifenin son bulması.  
+Zerrenin vazifesini tamamladığında lisan-ı hal ile "Elhamdülillah" deyip cemâl-i sanatı ilan etmesi.
 
 ---
 
@@ -104,13 +131,37 @@ Ene'nin hakiki bir varlığı olmadığını gösteren benzersiz Risale-i Nur an
 **İhlas (Sırr-ı İhlas)** — Amelleri sırf Allah rızası için yapmak.  
 Buz hükmündeki enaniyeti kevser havuzunda eritmenin yegâne formülü. (21. Lem'a) → [Ene'den Nahnu'ya](../docs/ene-ontolojisi/03-eneden-nahnuya.md)
 
+**İhtiyac-ı Fıtrî ile Dua** — Bütün zîhayatın lisan-ı fıtratla hayat ve rızık talep etmesi. (23. Söz)
+
+**İktezathü't-Tabiat** — "Tabiat iktiza etti / tabiat yaptı" vehmi.  
+Tabiatın bir sanat, kanun ve defter olduğunu; fâil, sâni' ve kâtip olamayacağını unutan bâtıl telakki. (23. Lem'a)
+
+**İştirak-i Emvâl-i Uhreviye** — Âhiret kazançlarında ortaklık sırrı.  
+İhlas ile birleşen şahs-ı manevî azalarının, her bir ferdin kazandığı sevaptan nurlanıp hissedar olması; 4 kişinin 4444 kuvvetine çıkması. (21. Lem'a)
+
 ---
 
 ## K
 
+**Kader** — Cenâb-ı Hakk'ın her şeyi ezelî ilmiyle ölçüp biçmesi ve tayin etmesi.  
+Nefsin iyiliklerle gururlanmasını önleyen ilâç: "Fahr etme, haddini bil; yapan sen değilsin." (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
+
 **Kādıyü'l-Hâcât** — Bütün ihtiyaçları gideren, duaları işitip icabet eden Allah. (23. Söz)
 
+**Kanun-u Emrî** — Âlem-i emirden gelen kanun.  
+Tabiat kanunlarının haricî maddî bir vücudu olmayıp Cenâb-ı Hakk'ın irade ve emrinin birer tecellisi olması.
+
 **Küllî Şükür** — İnsanın bütün duygularıyla ve mevcudat namına sunduğu azîm hamd ve teşekkür. (11. Söz)
+
+---
+
+## L
+
+**Lisan-ı İstidad ile Dua** — Bütün tohum ve çekirdeklerin kabiliyet diliyle inkişaf ve sümbül talep etmesi.
+
+**Lisan-ı Izdırar ile Dua** — Darda kalan, çaresiz kalan her zîhayatın mecburen Hâlık'ına ilticası.
+
+**Lisan-ı Kāl ile Dua** — İnsanın sözlü olarak aczini dergâh-ı İlâhiyeye arz etmesi.
 
 ---
 
@@ -128,6 +179,10 @@ Felsefenin ve şirkin bakış açısı.
 **Mebde-i Hareket** — Hareketin başlangıcı.  
 Zerrelerin işe başlarken lisan-ı hal ile "Bismillah" demesi. (30. Söz, İkinci Maksad)
 
+**Meşher-i Sanat-ı İlâhiye** — İlâhî sanatların sergilendiği teşhirgâh (Kâinat).
+
+**Muammâ-yı Hilkat** — Yaratılışın gizli ve derin sırrı.
+
 ---
 
 ## N
@@ -135,12 +190,24 @@ Zerrelerin işe başlarken lisan-ı hal ile "Bismillah" demesi. (30. Söz, İkin
 **Nahnu** — "Biz" şuuruna ermek.  
 Bireysel egoyu (ene) cemaatin şahs-ı manevî havuzunda eritmek. (21. Lem'a)
 
+**Nokta-i İstinad** — Dayanak noktası.  
+İnsanın sonsuz düşmanları karşısında Kudret-i İlâhiyeye dayanması.
+
+**Nokta-i İstimdad** — Yardım dileme noktası.  
+İnsanın hadsiz arzuları karşısında Rahmet-i İlâhiyeden medet umması.
+
 ---
 
 ## S–Ş
 
 **Sefine-i Rabbaniye** — İlâhî kurtuluş gemisi.  
 Kur'an hakikatleri gemisi; talebeleri ise bu gemide çalışan hademelerdir. (21. Lem'a)
+
+**Sırr-ı Adediyet** — Sayıların birleşme sırrı.  
+Ayrı duran üç 1'in değeri 3 iken; omuz omuza verip aynı hizaya girdiklerinde 111 olması sırrı.
+
+**Sühulet-i Mutlaka** — Mutlak kolaylık.  
+Tevhid dairesinde bir ağacı yaratmanın bir meyveyi yaratmak kadar kolay olması.
 
 **Şecere-i Tûbâ** — Nübüvvet ve ubudiyet silsilesinin neticesi olan saadet ve hidayet ağacı.
 
@@ -172,6 +239,15 @@ Ene'nin felsefenin nazarıyla buhar halinden sıvılaşmaya başlaması.
 
 **Teşebbüh-ü bi'l-Vâcib** — Vâcibü'l-Vücud'a benzemeye çalışmak iddiası.  
 Felsefenin insanı firavunlaştıran sahte tekâmül ideali.
+
+**Teşekkele Binefsihî** — "Kendi kendine teşekkül etti / oldu" safsatası.  
+Mevcudattaki mükemmel intizamı kör zerrelerin ittifakına ve tesadüfe veren bâtıl fikir. (23. Lem'a)
+
+**Tevfik'in Gözü** — Tevfik adındaki bir insanın gözbebeğindeki zerre tahlili.  
+Bir zerrenin bütün cisimle münasebettar olması sebebiyle ancak kâinatın Hâlık'ı tarafından yerleştirilebileceği delili. (30. Söz)
+
+**Tılsım-ı Kâinat** — Kâinatın yaratılış sırrı ve varoluş şifresi.  
+Ene ve zerre muammalarının mânâ-yı harfî ve vahiy ışığında çözülmesiyle açılan kapı.
 
 ---
 

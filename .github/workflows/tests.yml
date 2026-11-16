@@ -10,13 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9", "3.12"]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Birim testleri
+      - name: Birim testleri (21 Test)
         run: python -m unittest discover -s simulations -p "test_*.py" -v
-      - name: Senaryo karşılaştırması
+      - name: Ene Kalınlaşma Senaryoları
         run: python simulations/ene-thickening-model.py --karsilastir
+      - name: Tahavvülât-ı Zerrât Senaryoları
+        run: python simulations/zerre-simulation.py --karsilastir
+      - name: İhlas ve Şahs-ı Manevî Senaryoları
+        run: python simulations/ihlas-synergy-model.py --karsilastir
+      - name: Bütünleşik Simülasyon İcmali
+        run: python simulations/run_all.py
