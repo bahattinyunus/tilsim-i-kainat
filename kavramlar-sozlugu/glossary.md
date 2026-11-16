@@ -66,6 +66,9 @@ Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaşt�
 
 ## E
 
+**Esir (Aether)** — Maddenin en lâtif, en seyyal ve en ince mertebesi.  
+Kâinatın hammaddesi; gök cisimlerinin içinde yüzdüğü ve İlâhî emir ile nurların nakledildiği kozmik kuantum vakum alanı. (İşârâtü'l-İ'câz)
+
 **El-Fenâü fi'l-Hâlık** — Yaratıcı'nın rızasında fani olmak. Mesnevî-i Nuriye'nin Dört Kelâmından üçüncüsü.
 
 **El-Mülkü Lillâh** — Mülkün bütünüyle Allah'a ait olduğunu idrak etmek; emanete hıyanet etmemek. Mesnevî-i Nuriye'nin Dört Kelâmından ikincisi.
@@ -164,6 +167,9 @@ Tabiatın bir sanat, kanun ve defter olduğunu; fâil, sâni' ve kâtip olamayac
 
 ## K
 
+**Kıtt-ı Munsab** — Akıtılmış erimiş maden / bakır pınarı.  
+Hz. Süleyman'a (A.S.) lütfedilen, yerin derinliklerinden madenlerin eritilerek çıkarılması ve oda sıcaklığında süperiletkenlik/metalürji teknolojisine işaret eden Kur'ânî mucize. (Sebe: 12, 20. Söz)
+
 **Kader** — Cenâb-ı Hakk'ın her şeyi ezelî ilmiyle ölçüp biçmesi ve tayin etmesi.  
 Nefsin iyiliklerle gururlanmasını önleyen ilâç: "Fahr etme, haddini bil; yapan sen değilsin." (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
 
@@ -180,6 +186,9 @@ Bireysel buzların içinde eriyip küllî bir hayat kazandığı ortak zemin.
 ---
 
 ## L
+
+**Letâfet & Kesafet** — İncelik/ışık geçirgenliği ile katılık/yoğunluk zıtlığı.  
+Maddenin katıdan sıvıya, gaza, plazmaya, nura ve ruha doğru incelmesi. Letâfet arttıkça eylemsizlik direnci azalır, sür'at ve nüfuz kabiliyeti sonsuza yaklaşır. (31. Söz, Mirac)
 
 **Lezzet-i Kudsiyye** — Cenâb-ı Hakk'ın noksanlıktan münezzeh, kendi cemâl ve kemâlini müşahede etmesinden ve mahlukatına ihsanından doğan mukaddes şuûnâtı. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 
@@ -277,6 +286,15 @@ Ene'nin gaflet ve inkâr ile kaskatı bir buza dönüşmesi.
 
 **Tekeddür** — Bulanma, kararma, kirlenme.  
 Ene'nin isyan ile şeffafiyetini kaybedip marifet nurlarını geçirmez olması.
+
+**Tarfetü'l-Ayn** — Göz açıp kapama süresi, bir anlık zaman.  
+Âsaf bin Berhiyâ'nın Belkıs'ın tahtını getirme süresi olarak Kur'ân'ın zikrettiği, kütlesel eylemsizliğin ve mesafenin sıfırlandığı nihai sür'at mertebesi. (Neml: 40, 20. Söz)
+
+**Tayy-ı Mekân** — Mekânın dürülmesi, katlanması; mesafelerin aradan kaldırılarak uzak bir yere anında intikal edilmesi.  
+Belkıs'ın tahtının Yemen'den Kudüs'e göz açıp kapamadan nakli hadisesiyle beşer fennine nihai gaye gösterilen kuantum teleportasyon ve uzay bükülmesi ufku. (20. Söz)
+
+**Tayy-ı Zaman & Bast-ı Zaman** — Zamanın katlanması veya genişletilmesi.  
+Rüya ve Mirac hakikatlerinde olduğu gibi, birkaç saniyelik fizyolojik sürede senelerce süren bir idrak ve tefekkürün yaşanabilmesi sırrı; zamanın izafiyeti. (31. Söz)
 
 **Temeyyü'** — Akışkanlaşma, sıvılaşma.  
 Ene'nin felsefenin nazarıyla buhar halinden sıvılaşmaya başlaması.

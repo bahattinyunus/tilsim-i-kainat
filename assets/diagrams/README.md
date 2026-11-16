@@ -17,3 +17,4 @@ veya `mmdc` (mermaid-cli) ile SVG/PNG'ye dönüştürülebilir.
 | [`dort-kelime-dort-kelam.mmd`](dort-kelime-dort-kelam.mmd) | Dört Kelime ve Dört Kelâm | Mesnevî-i Nuriye'nin 4 epistemolojik simyası ve kelâmı |
 | [`suunat-ve-faaliyet.mmd`](suunat-ve-faaliyet.mmd) | Şuûnât ve Dâimî Faaliyet | 24. Mektup: Kâinattaki kozmik faaliyetin 4 ilâhî sırrı |
 | [`gelecegin-teknolojileri.mmd`](gelecegin-teknolojileri.mmd) | Geleceğin Teknolojileri | 20. Söz Mucizât-ı Enbiya: Işınlanma, Kuantum, Warp Drive ve Nanoteknoloji |
+| [`isinlanma-ve-tayy-i-mekan-fizigi.mmd`](isinlanma-ve-tayy-i-mekan-fizigi.mmd) | Işınlanma ve Tayy-ı Mekân Fiziği | Belkıs'ın tahtının naklinde 3 fiziksel mod ve sequence diyagramı |

@@ -5,12 +5,13 @@
 > parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
 > döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-Laboratuvar bünyesinde dört tamamlayıcı simülasyon motoru yer almaktadır:
+Laboratuvar bünyesinde beş tamamlayıcı simülasyon motoru yer almaktadır:
 
 1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
 2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
 3. **`ihlas-synergy-model.py`** — İhlas ve Şahs-ı Manevî Sinerji Modeli (21. Lem'a)
 4. **`entropy-information-model.py`** — Kozmik Entropi vs. Negentropik Kudret İntizamı (30. Söz & Wheeler: "It from Bit")
+5. **`teleportation-information-model.py`** — Tayy-ı Mekân ve Kuantum Işınlanma Modeli (20. Söz, Belkıs'ın Tahtı)
 
 Tüm modelleri tek bir komutla icra etmek için:
 ```bash
@@ -104,6 +105,23 @@ python simulations/entropy-information-model.py --karsilastir
 
 ---
 
+## 5. `teleportation-information-model.py` — Tayy-ı Mekân ve Kuantum Işınlanma Modeli
+
+20. Söz'ün (Mucizât-ı Enbiya — Neml 40 / Belkıs'ın Tahtı), Wheeler'ın *"It from Bit"* teorisinin, Bekenstein sınırının ve Alcubierre uzay-zaman metrik bükülmesinin analitik modelidir:
+
+* **Bekenstein Bilgi Sınırı:** $I \le \frac{2\pi R E}{\hbar c \ln 2}$
+* **Landauer Enerji Maliyeti:** $E_{\text{silme}} = k_B T \ln(2) \cdot I_{\text{bit}}$
+* **Üç Nakil Paradigması Mukayesesi:**
+  1. *Klasik Kütlesel Nakil:* Mekanik balistik intikal (saatler sürer, kesif sürtünme).
+  2. *Kuantum Rekonstrüksiyon (It from Bit):* Maddenin dalga/enformasyon koduna ayrışıp ışık hızında nakli ve hedefte tekvînî inşası.
+  3. *Tayy-ı Mekân & Nuraniyet Sürüşü:* Letafet fazında kütlesel eylemsizliğin sıfırlanması ve uzay-zaman katlanması ile *tarfetü'l-ayn* (< 0.1 saniye) mertebesinde nakil.
+
+```bash
+python simulations/teleportation-information-model.py --mesafe 2500 --kutle 500
+```
+
+---
+
 ## 🧪 Birim Testleri (Unit Tests)
 
 Laboratuvardaki tüm modeller otomatik unit testlerle denetlenir:
@@ -117,4 +135,5 @@ Mevcut test paketi:
 * `test_zerre_model.py` (6 test)
 * `test_ihlas_model.py` (6 test)
 * `test_entropy_model.py` (5 test)
-* **Toplam: 26 test (Tam Başarı)**
+* `test_teleportation_model.py` (7 test)
+* **Toplam: 33 test (Tam Başarı)**

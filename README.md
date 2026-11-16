@@ -38,15 +38,35 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 | **14** | [**Şuûnât-ı İlâhiye ve Dâimî Faaliyet**](docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md) | *24. Mektup* | Cenâb-ı Hakk'ın hiçbir şeye ihtiyacı olmadığı halde kâinattaki bu hummalı faaliyetin 4 büyük sırrı. |
 | **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
 | 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 120+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 11 adet mimari akış şeması (Kuantum, Işınlanma, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 12 adet mimari akış şeması (Kuantum, Işınlanma, Tayy-ı Mekân Fiziği, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
 
 ---
 
-### 🚀 Tılsım'dan Geleceğin Teknolojilerine: Işınlanma ve Tayy-ı Mekân Ufku
+### 🚀 Tılsım'dan Geleceğin Teknolojilerine: Işınlanma, Tayy-ı Mekân ve Kuantum Mühendisliği
 
-> Kâinatın ontolojik tılsımını (Ene, Zerre, Kudret Kalemi ve Mânâ-yı Harfî) çözdükten sonra; bu hakikatlerin modern fizik ve geleceğin teknolojilerine ilham veren muazzam bir boyutu açılmaktadır. 20. Söz'ün (Mucizât-ı Enbiya) ortaya koyduğu bilim felsefesine göre peygamber mucizeleri fennî terakkiyatın nihai sınırlarıdır. Hz. Süleyman'ın veziri Âsaf bin Berhiyâ'nın Belkıs'ın tahtını saliseler içinde 2.500 km'den Yemen'den Kudüs'e getirmesi (Neml Sûresi, 40) **Maddenin Kuantum Işınlanması ve Tayy-ı Mekân** teknolojisinin açık bir müjdesidir. Zerrelerin katı bir cevher değil, Kudret Kalemi'nin birer harfi ("It from Bit") ve dalga fonksiyonu olduğunu idrak eden bir bilim; maddeyi enformasyona, enformasyonu maddeye dönüştürebilir; kesafetten letafete geçen "Nuraniyet Sürüşü" ile ışık hızının ötesinde seyahat edebilir ve 4444 sırrıyla kuantum paralel hesaplama devrimini gerçekleştirebilir.
-> 
-> 👉 **Ayrıntılı vizyon ve teknolojik yol haritası için:** [**Geleceğin Teknolojileri ve Tılsım-ı Kâinat**](docs/gelecegin-teknolojileri-ve-tilsim-i-kainat.md)
+> **"Cenâb-ı Hak şu âyetin lisanıyla mânen der: 'Ey insanoğlu! Uzak mesafelerden bir cismi hazır etmek mümkündür. Öyle ise siz dahi bu kanun-u fıtrattan istifade ediniz; gayret ediniz, eşyayı böyle celb ediniz!' Nasıl ki telsiz telgraf, telefon ve radyo ile ses ve görüntüler naklediliyor; pekala maddenin dahi bu tarzda nakli ilmen ve fennen mümkündür."**  
+> — **20. Söz, İkinci Makam (Mucizât-ı Enbiya - Belkıs'ın Tahtı Şerhi)**
+
+Kâinatın ontolojik tılsımı (Ene, Zerre, Kudret Kalemi ve Mânâ-yı Harfî) çözüldüğünde; modern fizik ve geleceğin devrimci teknolojileri için eşsiz bir teorik yol haritası ortaya çıkmaktadır:
+
+1. **Kuantum Teleportasyon ve "It from Bit" (Belkıs'ın Tahtı):**  
+   Zerre katı bir taş parçası değil; Kudret Kalemi'nin bir enformasyon harfidir. Cismin $10^{32}$ qubitlik kuantum durum matrisi ($\psi$) taranıp dolanık eter/foton kanalıyla nakledildiğinde, hedefteki ham zerreler üzerinde milisaniyeler içinde aynen inşa edilebilir.
+2. **Kütlesizlik ve Nuraniyet Sürüşü (Mirac Fiziği & Warp Metric):**  
+   Madde nura ve ruha yaklaştıkça letâfet kesbeder; Higgs alanı ile olan sürtünmesi (eylemsizlik direnci) sıfırlanır ($m_{\text{eff}} \rightarrow 0$). Uzay-zaman eğriliği balonuyla (Alcubierre metriği) cisim ivme hissetmeksizin ışık hızının ötesine intikal eder.
+3. **Programlanabilir Akıllı Madde (Claytronics - Hz. Davud & Hz. Musa):**  
+   Demirin yüksek ısı olmadan moleküler manyeto-rezonansla mum gibi yumuşatılması; akıllı nano-zerrelerin ortam sinyallerine göre anında aletlere ve biyolojik dokulara dönüşmesi.
+4. **4444 Sırrı ve Kolektif Kuantum Ağları (21. Lem'a):**  
+   Enaniyetin eriyerek şahs-ı manevî havuzunda birleşmesi, $2^N$ üstel süperpozisyon ve kuantum dolanıklığı ile hatasız dağıtık zekâ (noosfer) altyapısını kurar.
+
+| Nakil / İntikal Modu | Fiziksel İlke | Süre (2.500 km) | G-Kuvveti / Direnç | Ontolojik Mertebe |
+|:---|:---|:---:|:---:|:---|
+| **1. Klasik Kütlesel Nakil** | Balistik Kinetik Hareket ($v \ll c$) | ~2.8 saat | $1.0\text{ G}$ (Sürtünme & Eylemsizlik) | Kesafet / Ene Perdesi |
+| **2. Kuantum Rekonstrüksiyon** | Wheeler "It from Bit" & Dolanıklık | ~0.68 sn | $0.0\text{ G}$ (Madde ötelenmez) | Zerre / Kudret Kalemi |
+| **3. Tayy-ı Mekân & Nuraniyet** | Letafet Fazı & Uzay-Zaman Katlanması | **< 0.05 sn** | **$0.0\text{ G}$** (*Tarfetü'l-ayn*) | Ruh / İsm-i Âzam Sırrı |
+
+👉 **Genişletilmiş araştırma manifestosu için:** [**Geleceğin Teknolojileri ve Tılsım-ı Kâinat**](docs/gelecegin-teknolojileri-ve-tilsim-i-kainat.md)  
+👉 **Mühendislik Simülasyonu:** [`simulations/teleportation-information-model.py`](simulations/teleportation-information-model.py)  
+👉 **Diyagramlar:** [`gelecegin-teknolojileri.mmd`](assets/diagrams/gelecegin-teknolojileri.mmd) & [`isinlanma-ve-tayy-i-mekan-fizigi.mmd`](assets/diagrams/isinlanma-ve-tayy-i-mekan-fizigi.mmd)
 
 ---
 
@@ -438,7 +458,7 @@ tilsim-i-kainat/
 │   │   ├── banner-ene-ontolojisi.jpg      #   Ene ve şeffaf ayna bannerı
 │   │   ├── banner-ihlas-ve-kevser-havuzu.jpg # Kevser havuzu ve nur sütunu bannerı
 │   │   └── banner-zerre-dinamikleri.jpg   #   Tahavvülât ve kudret kalemi bannerı
-│   └── diagrams/                          # 11 adet Mermaid mimari şeması ve kılavuz
+│   └── diagrams/                          # 12 adet Mermaid mimari şeması ve kılavuz
 │       ├── README.md                      #   Diyagramlar rehberi
 │       ├── tilsim-haritasi.mmd            #   Ana kavramlar haritası
 │       ├── ene-hal-degisimi.mmd           #   5 faz hâl değişimi
@@ -450,19 +470,22 @@ tilsim-i-kainat/
 │       ├── kuantum-ve-zerre.mmd           #   Kuantum ve Kudret Kalemi
 │       ├── dort-kelime-dort-kelam.mmd     #   Mesnevî 4 kelime ve kelâm
 │       ├── suunat-ve-faaliyet.mmd         #   Şuûnât ve kozmik faaliyet
-│       └── gelecegin-teknolojileri.mmd    #   20. Söz: Işınlanma ve Kuantum Teknolojileri
+│       ├── gelecegin-teknolojileri.mmd    #   20. Söz: Işınlanma ve Gelecek Teknolojileri
+│       └── isinlanma-ve-tayy-i-mekan-fizigi.mmd # Belkıs'ın tahtı ve 3 nakil modu şeması
 ├── simulations/                           # Dinamik sistem simülasyonları
 │   ├── README.md                          # Matematiksel denklemler ve kullanım kılavuzu
-│   ├── run_all.py                         # Dört modeli tek seferde icra eden çalıştırıcı
+│   ├── run_all.py                         # Beş modeli tek seferde icra eden çalıştırıcı
 │   ├── ene-thickening-model.py            # Ene faz değişimi simülasyonu
 │   ├── zerre-simulation.py                # Zerre tahavvülâtı ve kudret kalemi simülasyonu
 │   ├── ihlas-synergy-model.py             # İhlas ve şahs-ı manevî sinerji modeli
 │   ├── entropy-information-model.py       # Kozmik entropi ve kudret intizamı modeli
+│   ├── teleportation-information-model.py # Tayy-ı mekân ve kuantum ışınlanma modeli
 │   ├── test_ene_model.py                  # 9 birim testi
 │   ├── test_zerre_model.py                # 6 birim testi
 │   ├── test_ihlas_model.py                # 6 birim testi
-│   └── test_entropy_model.py              # 5 birim testi
-└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 26 testin otomatik koşumu
+│   ├── test_entropy_model.py              # 5 birim testi
+│   └── test_teleportation_model.py        # 7 birim testi
+└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 33 testin otomatik koşumu
 ```
 
 ---
