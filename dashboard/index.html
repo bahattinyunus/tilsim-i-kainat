@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌌 Tılsım-ı Kâinat — İnteraktif Simülasyon Laboratuvarı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg-primary: #090D16;
+      --bg-secondary: #111827;
+      --bg-card: rgba(17, 24, 39, 0.75);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(99, 102, 241, 0.4);
+      --text-main: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --accent-cyan: #06B6D4;
+      --accent-emerald: #10B981;
+      --accent-gold: #F59E0B;
+      --accent-indigo: #6366F1;
+      --accent-rose: #F43F5E;
+      --glow-cyan: 0 0 20px rgba(6, 182, 212, 0.3);
+      --glow-gold: 0 0 20px rgba(245, 158, 11, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 75%, rgba(6, 182, 212, 0.08) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    /* Üst Başlık & Header */
+    header {
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.9) 0%, rgba(9, 13, 22, 0.9) 100%);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .arabic-bismillah {
+      font-family: 'Amiri', serif;
+      font-size: 1.8rem;
+      color: var(--accent-gold);
+      text-shadow: var(--glow-gold);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #A5B4FC 50%, #06B6D4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Navigasyon / Sekmeler */
+    .tabs-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+      padding: 0.6rem 1.2rem;
+      border-radius: 9999px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.25s ease;
+    }
+
+    .tab-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-main);
+      border-color: var(--accent-cyan);
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.3) 0%, rgba(6, 182, 212, 0.3) 100%);
+      color: #FFF;
+      border-color: var(--accent-cyan);
+      box-shadow: var(--glow-cyan);
+    }
+
+    /* Ana Konteyner */
+    main {
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.4s ease forwards;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Grid Kart Düzeni */
+    .model-grid {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    @media (max-width: 1024px) {
+      .model-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.75rem;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+
+    .card:hover {
+      border-color: var(--border-hover);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-main);
+    }
+
+    /* Risale İktibas Kutusu */
+    .quote-box {
+      background: rgba(245, 158, 11, 0.05);
+      border-left: 3px solid var(--accent-gold);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 1.5rem;
+      font-size: 0.92rem;
+      color: #FCD34D;
+      font-style: italic;
+    }
+
+    .quote-box .author {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-style: normal;
+      color: var(--text-muted);
+    }
+
+    /* Form ve Kontroller */
+    .control-group {
+      margin-bottom: 1.25rem;
+    }
+
+    .control-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .control-label span.val {
+      color: var(--accent-cyan);
+      font-weight: 600;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: #1F2937;
+      outline: none;
+      -webkit-appearance: none;
+      transition: background 0.2s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--accent-cyan);
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(6, 182, 212, 0.5);
+      transition: transform 0.1s;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+
+    .btn-preset-group {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .btn-preset {
+      background: #1F2937;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 0.5rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-preset:hover {
+      background: #374151;
+      color: #FFF;
+      border-color: var(--accent-cyan);
+    }
+
+    /* Metrik ve Göstergeler */
+    .metrics-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .metric-badge {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .metric-value {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    .metric-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 380px;
+      width: 100%;
+    }
+
+    .verdict-box {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      border-radius: 10px;
+      background: rgba(99, 102, 241, 0.08);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      font-size: 0.95rem;
+      color: #E0E7FF;
+    }
+
+    .verdict-box strong {
+      color: #FFF;
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2.5rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border-color);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="arabic-bismillah">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖيمِ</div>
+    <h1>TILSIM-I KÂİNAT</h1>
+    <p class="subtitle">
+      Risale-i Nur ve Modern Bilim, Felsefe, Kuantum ve Enformasyon Kesişimi — İnteraktif Simülasyon Laboratuvarı
+    </p>
+
+    <div class="tabs-nav">
+      <button class="tab-btn active" onclick="switchTab('tab-ene')">1. Ene Kalınlaşması</button>
+      <button class="tab-btn" onclick="switchTab('tab-zerre')">2. Tahavvülât-ı Zerrât</button>
+      <button class="tab-btn" onclick="switchTab('tab-ihlas')">3. İhlas ve Sinerji (4444)</button>
+      <button class="tab-btn" onclick="switchTab('tab-entropi')">4. Kozmik Entropi & Bilgi</button>
+      <button class="tab-btn" onclick="switchTab('tab-teleport')">5. Tayy-ı Mekân & Işınlanma</button>
+      <button class="tab-btn" onclick="switchTab('tab-kader')">6. Kader ve İrade Matrisi</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- TAB 1: ENE KALINLAŞMASI -->
+    <div id="tab-ene" class="tab-content active">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🔬 Ene Parametreleri</h2>
+          <div class="quote-box">
+            "Şu ene, zamanla gaflet ve şirk ile öyle kalınlaşır ki, sahibini yutar; sair insanları da belki esbabı da o enesine kıyas eder..."
+            <span class="author">— 30. Söz (Ene Risalesi)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Tekâsüf (Kalınlaşma / Gaflet)</span>
+              <span class="val" id="ene-tekasuf-val">0.38</span>
+            </div>
+            <input type="range" id="ene-tekasuf" min="0" max="1" step="0.01" value="0.38" oninput="simuleEtEne()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Tasfiye (İncelme / İbadet & Şükür)</span>
+              <span class="val" id="ene-tasfiye-val">0.37</span>
+            </div>
+            <input type="range" id="ene-tasfiye" min="0" max="1" step="0.01" value="0.37" oninput="simuleEtEne()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setEnePreset(0.38, 0.37)">🌱 Fıtrat</button>
+            <button class="btn-preset" onclick="setEnePreset(0.91, 0.01)">👑 Firavun</button>
+            <button class="btn-preset" onclick="setEnePreset(0.54, 0.16)">😴 Gafil</button>
+            <button class="btn-preset" onclick="setEnePreset(0.06, 0.90)">🕊️ Salik</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Ene Faz Geçişi ve Kalınlaşma Eğrisi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="ene-k-son">0.000</div>
+              <div class="metric-label">Nihai Kalınlık (K)</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="ene-seffaf-son">1.000</div>
+              <div class="metric-label">Şeffafiyet Derecesi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="ene-faz-son">Hava Gibi</div>
+              <div class="metric-label">Ontolojik Faz</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartEne"></canvas>
+          </div>
+          <div class="verdict-box" id="ene-verdict">
+            <strong>Felsefî Hüküm:</strong> Ene şeffaf kalmış, esmâ-i İlâhiyenin cemâlini gösteren bir vâhid-i kıyasî olarak vazifesini yapmaktadır.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: TAHAVVÜLÂT-I ZERRÂT -->
+    <div id="tab-zerre" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">⚛️ Zerre Seyahati Parametreleri</h2>
+          <div class="quote-box">
+            "Zerre, câmid ve şuursuz olduğu halde öyle intizamlı ve şuurlu bir seyahat eder ki; bütün kâinatın Hâlık'ının memuru olduğunu ispat eder..."
+            <span class="author">— 30. Söz (Zerre Risalesi)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Vücud Şahitliği (Sanat & İntizam)</span>
+              <span class="val" id="zerre-vucud-val">1.00</span>
+            </div>
+            <input type="range" id="zerre-vucud" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtZerre()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Vahdet Şahitliği (Küllî İrtibat)</span>
+              <span class="val" id="zerre-vahdet-val">0.83</span>
+            </div>
+            <input type="range" id="zerre-vahdet" min="0" max="1" step="0.05" value="0.83" oninput="simuleEtZerre()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setZerrePreset(1.0, 0.83)">👁️ Tevfik'in Gözü</button>
+            <button class="btn-preset" onclick="setZerrePreset(1.0, 0.76)">🌿 Nebat Rükûu</button>
+            <button class="btn-preset" onclick="setZerrePreset(0.01, 0.05)">🎲 Tesadüf Çıkmazı</button>
+            <button class="btn-preset" onclick="setZerrePreset(1.0, 0.87)">🧠 Dimağ Tefekkürü</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Şahitlik ve Hikmet Matrisi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="zerre-intizam-son">0.80</div>
+              <div class="metric-label">Kudret İntizamı</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="zerre-hikmet-son">0.82</div>
+              <div class="metric-label">Hikmet Skoru</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="zerre-hal-son">Kudret Kalemi</div>
+              <div class="metric-label">Hüküm</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartZerre"></canvas>
+          </div>
+          <div class="verdict-box" id="zerre-verdict">
+            <strong>Ontolojik Netice:</strong> Zerre, Bismillah ile intizam bulup Kudret-i İlâhiyenin azametini ilan etmektedir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: İHLAS VE SİNERJİ -->
+    <div id="tab-ihlas" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🤝 Şahs-ı Manevî Parametreleri</h2>
+          <div class="quote-box">
+            "Dört kere dört ayrı ayrı kalsa on altı kıymeti var. Eğer omuz omuza verse dört bin dört yüz kırk dört kıymet alır..."
+            <span class="author">— 21. Lem'a (İhlas Risalesi)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Fert Sayısı (n)</span>
+              <span class="val" id="ihlas-fert-val">4</span>
+            </div>
+            <input type="range" id="ihlas-fert" min="1" max="6" step="1" value="4" oninput="simuleEtIhlas()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Bireysel Enaniyet Buzu [0: Tamamen Eridi, 1: Kaskatı Buz]</span>
+              <span class="val" id="ihlas-buz-val">0.05</span>
+            </div>
+            <input type="range" id="ihlas-buz" min="0" max="1" step="0.01" value="0.05" oninput="simuleEtIhlas()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setIhlasPreset(4, 0.01)">💎 Dört Elif (4444)</button>
+            <button class="btn-preset" onclick="setIhlasPreset(4, 0.05)">🌊 Kevser Havuzu</button>
+            <button class="btn-preset" onclick="setIhlasPreset(4, 0.95)">🧊 Benlik Rekabeti</button>
+            <button class="btn-preset" onclick="setIhlasPreset(3, 0.02)">✨ Üç Elif (111)</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Şahs-ı Manevî Kuvvet Sinerjisi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="ihlas-kuvvet-son">3,938</div>
+              <div class="metric-label">Toplam Kuvvet</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="ihlas-carpan-son">984x</div>
+              <div class="metric-label">Sinerji Çarpanı</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="ihlas-durum-son">4444 Sırrı</div>
+              <div class="metric-label">Netice</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartIhlas"></canvas>
+          </div>
+          <div class="verdict-box" id="ihlas-verdict">
+            <strong>Hakikat Sırrı:</strong> Buzlar havuzda eridi; 4 fert tek bir el, tek bir göz gibi 4444 kuvvetinde hareket ediyor.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: KOZMİK ENTROPİ -->
+    <div id="tab-entropi" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🌀 Kozmik Entropi & Negentropi</h2>
+          <div class="quote-box">
+            "Kâinattaki mevcudat, ademden vücuda sevk edilirken kör tesadüfün ve dağınık entropinin değil, nihayetsiz bir ilim ve intizamın emrindedir..."
+            <span class="author">— Wheeler: It from Bit & 30. Söz</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Kudret Kalemi Tesiri (Negentropi)</span>
+              <span class="val" id="entropi-kudret-val">0.90</span>
+            </div>
+            <input type="range" id="entropi-kudret" min="0" max="1" step="0.05" value="0.90" oninput="simuleEtEntropi()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Termodinamik Dağılma Meyli</span>
+              <span class="val" id="entropi-term-val">0.15</span>
+            </div>
+            <input type="range" id="entropi-term" min="0" max="1" step="0.05" value="0.15" oninput="simuleEtEntropi()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setEntropiPreset(0.95, 0.05)">🧬 Canlılık & DNA</button>
+            <button class="btn-preset" onclick="setEntropiPreset(0.98, 0.03)">👁️ Gözbebeği İntizamı</button>
+            <button class="btn-preset" onclick="setEntropiPreset(0.85, 0.20)">🌱 Tohumun İnbiâtı</button>
+            <button class="btn-preset" onclick="setEntropiPreset(0.00, 0.90)">💀 Isı Ölümü (Kaos)</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Zaman İçinde Entropi vs. Negentropi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="entropi-int-son">0.92</div>
+              <div class="metric-label">Nihai İntizam</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="entropi-ent-son">0.08</div>
+              <div class="metric-label">Termal Entropi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="entropi-bit-son">103.1</div>
+              <div class="metric-label">Enformasyon (Bit)</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartEntropi"></canvas>
+          </div>
+          <div class="verdict-box" id="entropi-verdict">
+            <strong>Analitik Hüküm:</strong> Kudret Kalemi termodinamik kaosu alt etmiş, kâinatta kusursuz bir bilgi ve hayat kristalleşmiştir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: TAYY-I MEKÂN -->
+    <div id="tab-teleport" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">⚡ Tayy-ı Mekân & Işınlanma</h2>
+          <div class="quote-box">
+            "Kitaptan bir ilme sahip olan zat ise: 'Gözünü açıp kapamadan ben onu sana getiririm' dedi." (Neml: 40) Pekala maddenin dahi bu tarzda nakli ilmen mümkündür..."
+            <span class="author">— 20. Söz (Mucizât-ı Enbiya)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Cisim Kütlesi (kg)</span>
+              <span class="val" id="tel-kutle-val">500 kg</span>
+            </div>
+            <input type="range" id="tel-kutle" min="10" max="2000" step="10" value="500" oninput="simuleEtTeleport()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Mesafe (km) [Örn: Yemen ➔ Kudüs]</span>
+              <span class="val" id="tel-mesafe-val">2500 km</span>
+            </div>
+            <input type="range" id="tel-mesafe" min="100" max="10000" step="100" value="2500" oninput="simuleEtTeleport()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Nuraniyet Derecesi [0: Kesif Madde, 1: Saf Nur]</span>
+              <span class="val" id="tel-nur-val">0.70</span>
+            </div>
+            <input type="range" id="tel-nur" min="0" max="1" step="0.05" value="0.70" oninput="simuleEtTeleport()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setTeleportPreset(500, 2500, 0.0)">📦 Kesif Madde</button>
+            <button class="btn-preset" onclick="setTeleportPreset(500, 2500, 0.7)">✨ Kuantum Qubit</button>
+            <button class="btn-preset" onclick="setTeleportPreset(500, 2500, 1.0)">⚡ Tayy-ı Mekân</button>
+            <button class="btn-preset" onclick="setTeleportPreset(100, 1200, 0.9)">🕊️ Asaf'ın İlmi</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 3 Nakil Modunun Süre Karşılaştırması (Logaritmik ms)</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="tel-klasik-son">2.78 sa</div>
+              <div class="metric-label">1. Klasik Balistik</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="tel-kuantum-son">681 ms</div>
+              <div class="metric-label">2. Kuantum Işınlanma</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="tel-tayy-son">5.0 ms</div>
+              <div class="metric-label">3. Tayy-ı Mekân</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartTeleport"></canvas>
+          </div>
+          <div class="verdict-box" id="teleport-verdict">
+            <strong>Tekvînî Hakikat:</strong> Kuantum bilgi rekonstrüksiyonu ve uzay-zaman metrik bükülmesi ile Âsaf bin Berhiyâ'nın "tarfetü'l-ayn" (göz kırpma) mucizesi gerçekleşmektedir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: KADER VE İRADE MATRİSİ -->
+    <div id="tab-kader" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">⚖️ Kader ve Karar Parametreleri</h2>
+          <div class="quote-box">
+            "Hasenat ile fahreylememek için kader karşısına çıkar; der: 'Fahr etme, haddini bil; yapan sen değilsin.' Seyyiat ile mesuliyetten kaçmamak için cüz-i ihtiyarî çıkar; der: 'Mes'ulsün ve mükellefsin!'"
+            <span class="author">— 26. Söz (Kader Risalesi)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Cüz-i Meyil (İrade / Tercih Anahtarı)</span>
+              <span class="val" id="kader-meyil-val">+0.85</span>
+            </div>
+            <input type="range" id="kader-meyil" min="-1" max="1" step="0.05" value="0.85" oninput="simuleEtKader()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Hasenat Kadere İsnad (Şükür Derecesi)</span>
+              <span class="val" id="kader-hasenat-val">0.98</span>
+            </div>
+            <input type="range" id="kader-hasenat" min="0" max="1" step="0.02" value="0.98" oninput="simuleEtKader()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Seyyiat Nefse İsnad (Tevbe Derecesi)</span>
+              <span class="val" id="kader-seyyiat-val">0.95</span>
+            </div>
+            <input type="range" id="kader-seyyiat" min="0" max="1" step="0.02" value="0.95" oninput="simuleEtKader()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Dua ve Sadaka Kalkanı (Muallak Kaza)</span>
+              <span class="val" id="kader-dua-val">0.80</span>
+            </div>
+            <input type="range" id="kader-dua" min="0" max="1" step="0.05" value="0.80" oninput="simuleEtKader()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setKaderPreset(0.85, 0.98, 0.95, 0.80)">🌟 İstikamet Ehli</button>
+            <button class="btn-preset" onclick="setKaderPreset(0.40, 0.05, 0.50, 0.05)">👑 Firavun Kibri</button>
+            <button class="btn-preset" onclick="setKaderPreset(-0.20, 0.60, 0.05, 0.10)">⛓️ Cebriye Yeisi</button>
+            <button class="btn-preset" onclick="setKaderPreset(0.65, 0.90, 0.85, 0.95)">🤲 Dua Kalkanı</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Hakikat Terazisi (İstikamet vs. Kibir & Yeis)</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="kader-ist-son">1.000</div>
+              <div class="metric-label">İstikamet İndisi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="kader-kib-son">0.016</div>
+              <div class="metric-label">Kibir Potansiyeli</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="kader-yei-son">0.003</div>
+              <div class="metric-label">Yeis Potansiyeli</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartKader"></canvas>
+          </div>
+          <div class="verdict-box" id="kader-verdict">
+            <strong>Hakikat Mizânı:</strong> Ene haddini bilmiş; hasenatı Kadere verip şükreder, kusuru nefsine alıp istiğfar eder. Ne kibir uçurumuna düşer ne yeise kapılır.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>🌌 Tılsım-ı Kâinat: Varlık, Bilgi ve Anlamın Küllî Haritası &copy; 2026. Bütün hakikatler Hâlık-ı Zülcelâl'in sanatıdır.</p>
+  </footer>
+
+  <script>
+    // Tab Değiştirme
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+      const activeBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b => b.getAttribute('onclick').includes(tabId));
+      if (activeBtn) activeBtn.classList.add('active');
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+    }
+
+    // Chart.js Global Ayarlar
+    Chart.defaults.color = '#9CA3AF';
+    Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.08)';
+
+    // ==========================================
+    // 1. ENE KALINLAŞMA MODELİ
+    // ==========================================
+    let chartEneInstance = null;
+    function simuleEtEne() {
+      const tekasuf = parseFloat(document.getElementById('ene-tekasuf').value);
+      const tasfiye = parseFloat(document.getElementById('ene-tasfiye').value);
+      document.getElementById('ene-tekasuf-val').innerText = tekasuf.toFixed(2);
+      document.getElementById('ene-tasfiye-val').innerText = tasfiye.toFixed(2);
+
+      const adimlar = 50;
+      const labels = [];
+      const kData = [];
+      const seffafData = [];
+
+      let K = 0.10;
+      for (let i = 0; i <= adimlar; i++) {
+        const t = (i * 0.5).toFixed(1);
+        labels.push('t=' + t);
+        const dK = (tekasuf * (1.0 - K) - tasfiye * K) * 0.1;
+        K = Math.max(0.0, Math.min(1.0, K + dK));
+        kData.push(K);
+        seffafData.push(1.0 - K);
+      }
+
+      const sonK = kData[kData.length - 1];
+      const sonSeffaf = 1.0 - sonK;
+
+      document.getElementById('ene-k-son').innerText = sonK.toFixed(3);
+      document.getElementById('ene-seffaf-son').innerText = sonSeffaf.toFixed(3);
+
+      let faz = "Hava Gibi";
+      let verdict = "Ene şeffaf kalmış, esmâ-i İlâhiyenin cemâlini gösteren bir vâhid-i kıyasî olarak vazifesini yapmaktadır.";
+      if (sonK > 0.90) {
+        faz = "Yutulma ☠️";
+        verdict = "Ene sahibini yutmuş; insan kendi hevasına taparak firavunane bir rububiyet davasına kalkışmıştır.";
+      } else if (sonK > 0.75) {
+        faz = "Buz 🧊";
+        verdict = "Ene donmuş ve kaskatı bir buza dönüşmüştür; marifet nurlarını geçirmez.";
+      } else if (sonK > 0.40) {
+        faz = "Sıvı 💧";
+        verdict = "Ene maddiyata dalmış, benlik sınırları belirginleşerek şeffafiyetini yitirmeye başlamıştır.";
+      } else if (sonK > 0.15) {
+        faz = "Buhar 💨";
+        verdict = "Hafif ülfet ve gaflet vardır; ancak tevbe ve tefekkürle kolayca arınabilir.";
+      }
+
+      document.getElementById('ene-faz-son').innerText = faz;
+      document.getElementById('ene-verdict').innerHTML = "<strong>Felsefî Hüküm:</strong> " + verdict;
+
+      if (chartEneInstance) chartEneInstance.destroy();
+      const ctx = document.getElementById('chartEne').getContext('2d');
+      chartEneInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: 'Kalınlık (K)',
+              data: kData,
+              borderColor: '#F43F5E',
+              backgroundColor: 'rgba(244, 63, 94, 0.15)',
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Şeffafiyet (1 - K)',
+              data: seffafData,
+              borderColor: '#06B6D4',
+              backgroundColor: 'rgba(6, 182, 212, 0.15)',
+              fill: true,
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { min: 0, max: 1 }
+          }
+        }
+      });
+    }
+
+    function setEnePreset(tek, tas) {
+      document.getElementById('ene-tekasuf').value = tek;
+      document.getElementById('ene-tasfiye').value = tas;
+      simuleEtEne();
+    }
+
+    // ==========================================
+    // 2. TAHAVVÜLÂT-I ZERRÂT
+    // ==========================================
+    let chartZerreInstance = null;
+    function simuleEtZerre() {
+      const vucud = parseFloat(document.getElementById('zerre-vucud').value);
+      const vahdet = parseFloat(document.getElementById('zerre-vahdet').value);
+      document.getElementById('zerre-vucud-val').innerText = vucud.toFixed(2);
+      document.getElementById('zerre-vahdet-val').innerText = vahdet.toFixed(2);
+
+      const intizam = Math.sqrt(vucud * vahdet);
+      const hikmet = 0.5 * vucud + 0.5 * vahdet;
+
+      document.getElementById('zerre-intizam-son').innerText = intizam.toFixed(2);
+      document.getElementById('zerre-hikmet-son').innerText = hikmet.toFixed(2);
+
+      let hal = intizam > 0.5 ? "Kudret Kalemi" : "Kaos / Tesadüf";
+      let verdict = intizam > 0.5 
+        ? "Zerre câmid olduğu halde Vâhid-i Ehad'in memuru olarak kusursuz intizamla seyahat etmektedir." 
+        : "Zerre başıboş tesadüfe terk edildiğinde trilyonlarca imkansızlık ve mutlak anarşi ortaya çıkar.";
+
+      document.getElementById('zerre-hal-son').innerText = hal;
+      document.getElementById('zerre-verdict').innerHTML = "<strong>Ontolojik Netice:</strong> " + verdict;
+
+      if (chartZerreInstance) chartZerreInstance.destroy();
+      const ctx = document.getElementById('chartZerre').getContext('2d');
+      chartZerreInstance = new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Vücud Şahitliği', 'Vahdet Şahitliği', 'Hikmet İntizamı', 'Vazife Şuuru', 'Tevhid Büyüsü'],
+          datasets: [{
+            label: 'Zerre Şahitlik Derecesi',
+            data: [vucud, vahdet, hikmet, intizam, Math.min(1.0, intizam * 1.1)],
+            borderColor: '#10B981',
+            backgroundColor: 'rgba(16, 185, 129, 0.25)',
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            r: { min: 0, max: 1, ticks: { display: false } }
+          }
+        }
+      });
+    }
+
+    function setZerrePreset(vuc, vah) {
+      document.getElementById('zerre-vucud').value = vuc;
+      document.getElementById('zerre-vahdet').value = vah;
+      simuleEtZerre();
+    }
+
+    // ==========================================
+    // 3. İHLAS VE ŞAHS-I MANEVÎ
+    // ==========================================
+    let chartIhlasInstance = null;
+    function simuleEtIhlas() {
+      const fert = parseInt(document.getElementById('ihlas-fert').value);
+      const buz = parseFloat(document.getElementById('ihlas-buz').value);
+      document.getElementById('ihlas-fert-val').innerText = fert;
+      document.getElementById('ihlas-buz-val').innerText = buz.toFixed(2);
+
+      // İhlas katsayısı = 1 - buz
+      const ihlas = 1.0 - buz;
+      // Dört Elif Sırrı: 111...1 kuvveti
+      let idealKuvvet = 0;
+      for (let i = 0; i < fert; i++) {
+        idealKuvvet += Math.pow(10, i);
+      }
+      if (fert === 4) idealKuvvet = 4444; // 21. Lem'a 4 Elif = 4444
+
+      const gercekKuvvet = fert + (idealKuvvet - fert) * Math.pow(ihlas, 3);
+      const carpan = gercekKuvvet / fert;
+
+      document.getElementById('ihlas-kuvvet-son').innerText = Math.round(gercekKuvvet).toLocaleString();
+      document.getElementById('ihlas-carpan-son').innerText = carpan.toFixed(1) + 'x';
+      document.getElementById('ihlas-durum-son').innerText = buz < 0.2 ? "4444 Sırrı" : (buz > 0.8 ? "Zayi Olma" : "Bölünmüş");
+
+      if (chartIhlasInstance) chartIhlasInstance.destroy();
+      const ctx = document.getElementById('chartIhlas').getContext('2d');
+      chartIhlasInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Klasik Toplam (1+1+...)', 'Kevser Havuzundaki Kuvvet'],
+          datasets: [{
+            label: 'Manevî Kuvvet',
+            data: [fert, gercekKuvvet],
+            backgroundColor: ['#4B5563', '#6366F1'],
+            borderColor: ['#9CA3AF', '#818CF8'],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { type: 'logarithmic' }
+          }
+        }
+      });
+    }
+
+    function setIhlasPreset(f, b) {
+      document.getElementById('ihlas-fert').value = f;
+      document.getElementById('ihlas-buz').value = b;
+      simuleEtIhlas();
+    }
+
+    // ==========================================
+    // 4. KOZMİK ENTROPİ
+    // ==========================================
+    let chartEntropiInstance = null;
+    function simuleEtEntropi() {
+      const kudret = parseFloat(document.getElementById('entropi-kudret').value);
+      const termal = parseFloat(document.getElementById('entropi-term').value);
+      document.getElementById('entropi-kudret-val').innerText = kudret.toFixed(2);
+      document.getElementById('entropi-term-val').innerText = termal.toFixed(2);
+
+      const labels = [];
+      const intizamData = [];
+      const entropiData = [];
+
+      let I = 0.5;
+      for (let i = 0; i <= 30; i++) {
+        labels.push(i + ' sn');
+        I = I + (kudret * (1.0 - I) - termal * I) * 0.15;
+        I = Math.max(0.001, Math.min(0.999, I));
+        intizamData.push(I);
+        entropiData.push(1.0 - I);
+      }
+
+      const sonI = intizamData[intizamData.length - 1];
+      const sonE = 1.0 - sonI;
+      const bit = sonI * 125.0;
+
+      document.getElementById('entropi-int-son').innerText = sonI.toFixed(2);
+      document.getElementById('entropi-ent-son').innerText = sonE.toFixed(2);
+      document.getElementById('entropi-bit-son').innerText = bit.toFixed(1);
+
+      if (chartEntropiInstance) chartEntropiInstance.destroy();
+      const ctx = document.getElementById('chartEntropi').getContext('2d');
+      chartEntropiInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: 'Kudret İntizamı (Negentropi)',
+              data: intizamData,
+              borderColor: '#10B981',
+              backgroundColor: 'rgba(16, 185, 129, 0.1)',
+              fill: true
+            },
+            {
+              label: 'Termal Kaos (Entropi)',
+              data: entropiData,
+              borderColor: '#F59E0B',
+              backgroundColor: 'rgba(245, 158, 11, 0.1)',
+              fill: true
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { min: 0, max: 1 } }
+        }
+      });
+    }
+
+    function setEntropiPreset(k, t) {
+      document.getElementById('entropi-kudret').value = k;
+      document.getElementById('entropi-term').value = t;
+      simuleEtEntropi();
+    }
+
+    // ==========================================
+    // 5. TAYY-I MEKÂN VE IŞINLANMA
+    // ==========================================
+    let chartTeleportInstance = null;
+    function simuleEtTeleport() {
+      const kutle = parseFloat(document.getElementById('tel-kutle').value);
+      const mesafe = parseFloat(document.getElementById('tel-mesafe').value);
+      const nur = parseFloat(document.getElementById('tel-nur').value);
+      document.getElementById('tel-kutle-val').innerText = kutle + ' kg';
+      document.getElementById('tel-mesafe-val').innerText = mesafe + ' km';
+      document.getElementById('tel-nur-val').innerText = nur.toFixed(2);
+
+      // 1. Klasik Hız (Balistik 900 km/s)
+      const klasikSureSaat = (mesafe / 900.0);
+      document.getElementById('tel-klasik-son').innerText = klasikSureSaat.toFixed(2) + ' sa';
+
+      // 2. Kuantum Işınlanma (Işık hızı ve enformasyon rekonstrüksiyonu)
+      const isikSureMs = (mesafe * 1000.0 / 299792458.0) * 1000.0;
+      const kuantumSureMs = isikSureMs + (kutle * 0.3) * (1.0 - nur * 0.9);
+      document.getElementById('tel-kuantum-son').innerText = kuantumSureMs.toFixed(1) + ' ms';
+
+      // 3. Tayy-ı Mekân (Tarfetü'l-Ayn / Nuraniyet metrik bükülmesi)
+      const tayySureMs = Math.max(1.0, 5.0 * (1.0 - nur * 0.8));
+      document.getElementById('tel-tayy-son').innerText = tayySureMs.toFixed(1) + ' ms';
+
+      if (chartTeleportInstance) chartTeleportInstance.destroy();
+      const ctx = document.getElementById('chartTeleport').getContext('2d');
+      chartTeleportInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Klasik Balistik Nakil', 'Kuantum Işınlanma', 'Tayy-ı Mekân (Nuraniyet)'],
+          datasets: [{
+            label: 'Süre (Milisaniye Cinsinden)',
+            data: [klasikSureSaat * 3600 * 1000, kuantumSureMs, tayySureMs],
+            backgroundColor: ['#EF4444', '#06B6D4', '#10B981'],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { type: 'logarithmic' }
+          }
+        }
+      });
+    }
+
+    function setTeleportPreset(m, d, n) {
+      document.getElementById('tel-kutle').value = m;
+      document.getElementById('tel-mesafe').value = d;
+      document.getElementById('tel-nur').value = n;
+      simuleEtTeleport();
+    }
+
+    // ==========================================
+    // 6. KADER VE İRADE MATRİSİ
+    // ==========================================
+    let chartKaderInstance = null;
+    function simuleEtKader() {
+      const meyil = parseFloat(document.getElementById('kader-meyil').value);
+      const hasenatKader = parseFloat(document.getElementById('kader-hasenat').value);
+      const seyyiatNefis = parseFloat(document.getElementById('kader-seyyiat').value);
+      const dua = parseFloat(document.getElementById('kader-dua').value);
+
+      document.getElementById('kader-meyil-val').innerText = (meyil >= 0 ? '+' : '') + meyil.toFixed(2);
+      document.getElementById('kader-hasenat-val').innerText = hasenatKader.toFixed(2);
+      document.getElementById('kader-seyyiat-val').innerText = seyyiatNefis.toFixed(2);
+      document.getElementById('kader-dua-val').innerText = dua.toFixed(2);
+
+      // Kibir: Hasenatı Allah'a değil kendine mal etmek
+      const kibir = (1.0 - hasenatKader) * (meyil > 0 ? meyil : 0.2);
+      // Yeis: Seyyiatı nefsine almayıp kadere iftira etmek
+      const yeis = (1.0 - seyyiatNefis) * (meyil < 0 ? Math.abs(meyil) : 0.2);
+
+      // İstikamet indisi
+      let istikamet = Math.max(0.0, 1.0 - kibir - yeis);
+      if (hasenatKader > 0.8 && seyyiatNefis > 0.8) {
+        istikamet = Math.min(1.0, istikamet + 0.1);
+      }
+
+      document.getElementById('kader-ist-son').innerText = istikamet.toFixed(3);
+      document.getElementById('kader-kib-son').innerText = kibir.toFixed(3);
+      document.getElementById('kader-yei-son').innerText = yeis.toFixed(3);
+
+      let verdict = "";
+      if (istikamet >= 0.85) {
+        verdict = "Ene haddini bilmiş; hasenatı Kadere verip şükreder, kusuru nefsine alıp istiğfar eder. Ne kibir uçurumuna düşer ne yeise kapılır.";
+      } else if (kibir > yeis && kibir > 0.35) {
+        verdict = "Ene muvaffakiyetleri kendi dehasına mal ederek firavunlaşmıştır (Kibir Uçurumu).";
+      } else if (yeis > 0.35) {
+        verdict = "Ene günahlarını 'kaderim böyleymiş' diyerek kadere yüklemiş, mesuliyetten kaçarak yeise düşmüştür (Cebriye Sapkınlığı).";
+      } else {
+        verdict = "Nefis iki tehlikeli uçurum arasında çalkalanmaktadır; istikamet mizânına muhtaçtır.";
+      }
+      document.getElementById('kader-verdict').innerHTML = "<strong>Hakikat Mizânı:</strong> " + verdict;
+
+      if (chartKaderInstance) chartKaderInstance.destroy();
+      const ctx = document.getElementById('chartKader').getContext('2d');
+      chartKaderInstance = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['İstikamet ve Rıza', 'Kibir Uçurumu', 'Yeis Uçurumu'],
+          datasets: [{
+            data: [Math.max(0.05, istikamet), Math.max(0.02, kibir), Math.max(0.02, yeis)],
+            backgroundColor: ['#10B981', '#F43F5E', '#F59E0B'],
+            borderWidth: 2,
+            borderColor: '#111827'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' }
+          }
+        }
+      });
+    }
+
+    function setKaderPreset(m, hk, sn, d) {
+      document.getElementById('kader-meyil').value = m;
+      document.getElementById('kader-hasenat').value = hk;
+      document.getElementById('kader-seyyiat').value = sn;
+      document.getElementById('kader-dua').value = d;
+      simuleEtKader();
+    }
+
+    // Sayfa Yüklendiğinde Bütün Simülasyonları Başlat
+    window.addEventListener('DOMContentLoaded', () => {
+      simuleEtEne();
+      simuleEtZerre();
+      simuleEtIhlas();
+      simuleEtEntropi();
+      simuleEtTeleport();
+      simuleEtKader();
+    });
+  </script>
+</body>
+</html>

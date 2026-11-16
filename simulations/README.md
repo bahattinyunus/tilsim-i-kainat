@@ -5,13 +5,15 @@
 > parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
 > döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-Laboratuvar bünyesinde beş tamamlayıcı simülasyon motoru yer almaktadır:
+Laboratuvar bünyesinde altı tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
 
 1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
 2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
 3. **`ihlas-synergy-model.py`** — İhlas ve Şahs-ı Manevî Sinerji Modeli (21. Lem'a)
 4. **`entropy-information-model.py`** — Kozmik Entropi vs. Negentropik Kudret İntizamı (30. Söz & Wheeler: "It from Bit")
 5. **`teleportation-information-model.py`** — Tayy-ı Mekân ve Kuantum Işınlanma Modeli (20. Söz, Belkıs'ın Tahtı)
+6. **`kader-irade-matrix-model.py`** — Kader, İrade ve Levh-i Mahfuz Karar Matrisi (26. Söz & Nisa 79)
+7. **`dashboard/index.html`** — 6 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
 
 Tüm modelleri tek bir komutla icra etmek için:
 ```bash
@@ -122,6 +124,38 @@ python simulations/teleportation-information-model.py --mesafe 2500 --kutle 500
 
 ---
 
+## 6. `kader-irade-matrix-model.py` — Kader, İrade ve Levh-i Mahfuz Karar Matrisi
+
+26. Söz'ün (Kader Risalesi), Nisa Sûresi 79. Âyetin ve modern karar teorisinin analitik sentezidir:
+
+* **1-Bitlik İrade (Kesb):** $E \approx 0$ enerjili yönlendirici anahtar.
+* **Kudret Halkı:** Kesbin kanalıyla yaratılan sonsuz ilâhî fiil enerjisi ($E = f(Kudret, I)$).
+* **Levh-i Mahv ve İspat Kalkanı:** Dua ve sadakanın şartlı kazadaki koruyucu tebdil katsayısı.
+* **Hakikat Terazisi (İstikamet İndisi):** Hasenatı kadere verip şükretme ($\alpha$), seyyiatı nefse isnad edip tövbe etme ($\beta$) dengesi. Kibir ve Yeis uçurumlarından korunma metriği.
+
+```bash
+python simulations/kader-irade-matrix-model.py --senaryo istikamet_ehli
+python simulations/kader-irade-matrix-model.py --karsilastir
+```
+
+---
+
+## 🌐 İnteraktif Web Laboratuvarı (`dashboard/index.html`)
+
+Kurulum gerektirmeyen, tarayıcıda doğrudan (`file:///` veya yerel sunucu) çalışan modern, Chart.js tabanlı, minimalist karanlık tema (dark mode) SPA arayüzü:
+
+* **6 Simülasyonun Dinamik Kontrolleri:** Slider'lar üzerinden parametreleri canlı değiştirme.
+* **Anlık Reaktif Grafikler:** Ene faz geçiş çizgisi, Zerre şahitlik radarı, Şahs-ı manevî kuvvet çubukları, Entropi/Negentropi eğrileri, Nakil süreleri logaritmik barı ve İstikamet mizanı çemberi.
+* **Hazır Senaryo Butonları:** Tek tıkla Fıtrat, Firavun, 4444 Sırrı, Tayy-ı Mekân, İstikamet Ehli senaryolarını yükleme.
+
+Tarayıcıda açmak için:
+```bash
+# Doğrudan çift tıklayarak veya PowerShell ile:
+Start-Process dashboard/index.html
+```
+
+---
+
 ## 🧪 Birim Testleri (Unit Tests)
 
 Laboratuvardaki tüm modeller otomatik unit testlerle denetlenir:
@@ -136,4 +170,5 @@ Mevcut test paketi:
 * `test_ihlas_model.py` (6 test)
 * `test_entropy_model.py` (5 test)
 * `test_teleportation_model.py` (7 test)
-* **Toplam: 33 test (Tam Başarı)**
+* `test_kader_model.py` (7 test)
+* **Toplam: 40 test (Tam Başarı)**

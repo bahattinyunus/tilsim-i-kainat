@@ -18,3 +18,4 @@ veya `mmdc` (mermaid-cli) ile SVG/PNG'ye dönüştürülebilir.
 | [`suunat-ve-faaliyet.mmd`](suunat-ve-faaliyet.mmd) | Şuûnât ve Dâimî Faaliyet | 24. Mektup: Kâinattaki kozmik faaliyetin 4 ilâhî sırrı |
 | [`gelecegin-teknolojileri.mmd`](gelecegin-teknolojileri.mmd) | Geleceğin Teknolojileri | 20. Söz Mucizât-ı Enbiya: Işınlanma, Kuantum, Warp Drive ve Nanoteknoloji |
 | [`isinlanma-ve-tayy-i-mekan-fizigi.mmd`](isinlanma-ve-tayy-i-mekan-fizigi.mmd) | Işınlanma ve Tayy-ı Mekân Fiziği | Belkıs'ın tahtının naklinde 3 fiziksel mod ve sequence diyagramı |
+| [`kader-irade-matrisi.mmd`](kader-irade-matrisi.mmd) | Kader, İrade ve Levh-i Mahfuz Matrisi | 26. Söz: Ezelî İlim, Levh-i Mahv ve İspat, Cüz-i Kesb ve Kibir-Yeis Terazisi |

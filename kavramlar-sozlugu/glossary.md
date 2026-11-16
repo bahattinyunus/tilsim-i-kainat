@@ -31,6 +31,8 @@ Ene'nin fıtrî vazifesi; kendi acz ve fakrı ile Allah'ın zenginlik ve kemâli
 
 ## B
 
+**Bekenstein Sınırı (Bekenstein Bound)** — Sonlu bir uzay-zaman hacmi ve enerjisi içerisine sığdırılabilecek azami enformasyon (bit) miktarı üst limiti ($I \le \frac{2\pi R E}{\hbar c \ln 2}$). 20. Söz'deki Belkıs'ın tahtının enformasyonel rekonstrüksiyon tahlilinde alt sınır parametresidir. → [Geleceğin Teknolojileri](../docs/gelecegin-teknolojileri-ve-tilsim-i-kainat.md)
+
 **Bürhan** — Şüphe bırakmayan kesin aklî ve naklî delil.  
 Tahkikî imanın temeli. Taklit ile değil, bürhan ile inanmak esastır.
 
@@ -151,6 +153,8 @@ Zerrenin vazifesini tamamladığında lisan-ı hal ile "Elhamdülillah" deyip ce
 **İhlas (Sırr-ı İhlas)** — Amelleri sırf Allah rızası için yapmak.  
 Buz hükmündeki enaniyeti kevser havuzunda eritmenin yegâne formülü. (21. Lem'a) → [Ene'den Nahnu'ya](../docs/ene-ontolojisi/03-eneden-nahnuya.md)
 
+**İlim Malûma Tâbidir** — Ezelî ilmin bir zorlama ve cebir sebebi olmadığını, bilakis kulun cüz-i iradesiyle yapacağı tercihe göre taalluk ettiğini ifade eden ehl-i sünnet kelâm kaidesi. $P(\text{İlim}\mid\text{Tercih})=1$ iken $P(\text{Cebir})=0$'dır. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
+
 **İhtiyac-ı Fıtrî ile Dua** — Bütün zîhayatın lisan-ı fıtratla hayat ve rızık talep etmesi. (23. Söz)
 
 **İktezathü't-Tabiat** — "Tabiat iktiza etti / tabiat yaptı" vehmi.  
@@ -173,6 +177,9 @@ Hz. Süleyman'a (A.S.) lütfedilen, yerin derinliklerinden madenlerin eritilerek
 **Kader** — Cenâb-ı Hakk'ın her şeyi ezelî ilmiyle ölçüp biçmesi ve tayin etmesi.  
 Nefsin iyiliklerle gururlanmasını önleyen ilâç: "Fahr etme, haddini bil; yapan sen değilsin." (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
 
+**Kaza-i Mübrem ve Kaza-i Muallak** — Kesin ve şartlı hüküm.  
+Kaza-i mübrem ezelî ilimdeki değişmez ana hükümdür. Kaza-i muallak ise Levh-i Mahv ve İspat'ta kulun duasına, sadakasına, tövbesine veya günahına göre değişebilen dinamik kader sahifesidir. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
+
 **Kādıyü'l-Hâcât** — Bütün ihtiyaçları gideren, duaları işitip icabet eden Allah. (23. Söz)
 
 **Kanun-u Emrî** — Âlem-i emirden gelen kanun.  
@@ -189,6 +196,10 @@ Bireysel buzların içinde eriyip küllî bir hayat kazandığı ortak zemin.
 
 **Letâfet & Kesafet** — İncelik/ışık geçirgenliği ile katılık/yoğunluk zıtlığı.  
 Maddenin katıdan sıvıya, gaza, plazmaya, nura ve ruha doğru incelmesi. Letâfet arttıkça eylemsizlik direnci azalır, sür'at ve nüfuz kabiliyeti sonsuza yaklaşır. (31. Söz, Mirac)
+
+**Levh-i Mahfuz** — Ezelî İlim ana kütüğü; kâinatta olmuş ve olacak her şeyin zamandan münezzeh bir surette kaydedildiği, her türlü tahriften korunmuş ilâhî kütük. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
+
+**Levh-i Mahv ve İspat** — Zamanın seylânında, kaderin değişken ve dinamik sayfası; kaza-i muallakın dua, sadaka ve amellerle tebdil edildiği tecelligâh defteri. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
 
 **Lezzet-i Kudsiyye** — Cenâb-ı Hakk'ın noksanlıktan münezzeh, kendi cemâl ve kemâlini müşahede etmesinden ve mahlukatına ihsanından doğan mukaddes şuûnâtı. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 

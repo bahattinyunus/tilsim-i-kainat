@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Birim testleri (33 Test)
+      - name: Birim testleri (40 Test)
         run: python -m unittest discover -s simulations -p "test_*.py" -v
       - name: Ene Kalınlaşma Senaryoları
         run: python simulations/ene-thickening-model.py --karsilastir
@@ -28,5 +28,7 @@ jobs:
         run: python simulations/entropy-information-model.py --karsilastir
       - name: Tayy-ı Mekân ve Kuantum Işınlanma Senaryosu
         run: python simulations/teleportation-information-model.py --mesafe 2500 --kutle 500
+      - name: Kader ve İrade Matrisi Senaryoları
+        run: python simulations/kader-irade-matrix-model.py --karsilastir
       - name: Bütünleşik Simülasyon İcmali
         run: python simulations/run_all.py

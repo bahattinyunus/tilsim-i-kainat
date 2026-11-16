@@ -1,0 +1,53 @@
+flowchart TD
+    %% Tılsım-ı Kâinat: Kader, İrade ve Levh-i Mahfuz Karar Matrisi
+    
+    subgraph Ezel["🌌 EZELÎ İLİM VE LEVH-İ MAHFUZ (ZAMANDAN MÜNEZZEH BİLGİ)"]
+        LM["📜 Levh-i Mahfuz<br/>(Ana Kütük / Zamansız Kuşatıcı İlim)"]
+        ILIM["İlim Malûma Tâbidir<br/>(P(İlim)=1, P(Cebir)=0)"]
+        LM --- ILIM
+    end
+
+    subgraph Dinamik["⚡ LEVH-İ MAHV VE İSPAT (ZAMANIN SEYLÂNINDAKİ DEFTER)"]
+        LMI["📝 Levh-i Mahv ve İspat<br/>(Şartlı Kader Sahifesi)"]
+        DUA["🤲 Dua ve İltica<br/>(Kaza-i Muallakı Tebdil Eder)"]
+        SADAKA["🎁 Sadaka ve İhsan<br/>(Belayı Def Eder)"]
+        DUA -->|Kalkan Gücü| LMI
+        SADAKA -->|Kalkan Gücü| LMI
+    end
+
+    subgraph Insan["👤 İNSAN VE CÜZ-İ İHTİYARÎ (KESB MERKEZİ)"]
+        CI["🔑 Cüz-i İhtiyarî<br/>(1-Bitlik Tercih / Cüz-i Meyil / E ≈ 0)"]
+        
+        CI -->|Pozitif Meyil (+1)| HAYIR["🕊️ Hayır ve İbadet Talebi"]
+        CI -->|Negatif Meyil (-1)| SER["🔥 Şer ve İsyan Meyli / İhmal"]
+    end
+
+    subgraph Halk["⚡ KUDRET-İ MUTLAKA (HALK VE YARATILIŞ)"]
+        KUDRET["Sonsuz İlâhî Kudret<br/>(Hâlık-ı Külli Şey)"]
+        HAYIR -->|Talep & Kesb| KUDRET
+        SER -->|Terk & Kesb| KUDRET
+        KUDRET -->|Vücudî Fiili Halk Eder| FIIL_HAYIR["✨ Hasenat Vücuda Gelir"]
+        KUDRET -->|Ademî Tahribi Serbest Bırakır| FIIL_SER["💥 Seyyiat ve Hasar Hasıl Olur"]
+    end
+
+    subgraph Terazi["⚖️ HAKİKAT TERAZİSİ VE İKİ TEHLİKELİ UÇURUM"]
+        subgraph Ucurum1["⚠️ UÇURUM 1: KİBİR & FİRAVUNİYET"]
+            KIBIR["Hasenatı Kendine Mal Etmek<br/>'Ben yaptım, benim deham!'<br/>➔ Şirk ve Gurur"]
+        end
+
+        subgraph Istikamet["🌟 İSTİKAMET VE RIZA (26. SÖZ)"]
+            MIZAN["Nisa 79 Düsturu:<br/>Hasenat ➔ Kadere & Şükre Verilir<br/>Seyyiat ➔ Nefse & İstiğfara Verilir"]
+        end
+
+        subgraph Ucurum2["⚠️ UÇURUM 2: YEİS & CEBRİYECİLİK"]
+            YEIS["Seyyiatı Kadere İsnad Etmek<br/>'Kaderim böyleymiş, suçsuzum!'<br/>➔ Atalet ve Yeis"]
+        end
+
+        FIIL_HAYIR -.->|Gurur Sapması| KIBIR
+        FIIL_HAYIR ==>|Tevhidî Şuur| MIZAN
+        FIIL_SER ==>|Tevbe & İtiraf| MIZAN
+        FIIL_SER -.->|Mesuliyetten Kaçış| YEIS
+    end
+
+    Ezel ==> Dinamik
+    Dinamik ==> Insan
