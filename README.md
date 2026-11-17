@@ -38,8 +38,8 @@ Bu depo, kâinatın kilitli kapılarını açan o gizemli "Tılsım"ın şifrele
 | **14** | [**Şuûnât-ı İlâhiye ve Dâimî Faaliyet**](docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md) | *24. Mektup* | Cenâb-ı Hakk'ın hiçbir şeye ihtiyacı olmadığı halde kâinattaki bu hummalı faaliyetin 4 büyük sırrı. |
 | **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
 | 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 125+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 13 adet mimari akış şeması (Kader-İrade Matrisi, Kuantum, Işınlanma, Tayy-ı Mekân Fiziği, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
-| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 6 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 14 adet mimari akış şeması (Haşir-Ebediyet, Kader-İrade Matrisi, Kuantum, Işınlanma, Tayy-ı Mekân Fiziği, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
+| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 7 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
 
 ---
 
@@ -371,15 +371,15 @@ Bediüzzaman'ın kırk senelik tahsilinin hülâsası:
 
 ---
 
-## 🧪 Simülasyon Laboratuvarı: Altı Matematiksel Model ve Web Dashboard
+## 🧪 Simülasyon Laboratuvarı: Yedi Matematiksel Model ve Web Dashboard
 
-Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri, diferansiyel denklemler, kuantum enformasyon teorisi ve karar matrisleriyle canlandıran **6 simülasyon motoru**, **40 birim testi** ve modern bir **İnteraktif Web Laboratuvarı** yer alır.
+Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri, diferansiyel denklemler, kuantum enformasyon teorisi ve karar matrisleriyle canlandıran **7 simülasyon motoru**, **46 birim testi** ve modern bir **İnteraktif Web Laboratuvarı** yer alır.
 
 ```bash
-# Altı modeli tek merkezden çalıştır:
+# Yedi modeli tek merkezden çalıştır:
 python simulations/run_all.py
 
-# Birim testlerini çalıştır (40 test %100 Başarı):
+# Birim testlerini çalıştır (46 test %100 Başarı):
 python -m unittest discover -s simulations -p "test_*.py" -v
 ```
 
@@ -434,13 +434,19 @@ dua_ile_kaza_tehiri            1.000    0.067    0.014      2.01      0.11  İst
 materyalist_determinizm        0.803    0.205    0.180      0.26      0.25  Tereddüt ve Zaaf Dairesi
 ```
 
+### 7. Haşir, Bahar İhyası ve Bilgi Korunumu (`hasir-ebediyet-model.py`)
+10. Söz'ün (Haşir Risalesi) İbdâ vs. İade kolaylığı, Kuantum Bilgi Korunumu (Unitarity) ve Haşirsiz/Haşirli kâinatın Adalet & Hikmet tutarlılık analizi:
+```bash
+python simulations/hasir-ebediyet-model.py --karsilastir
+```
+
 ---
 
 ## 🌐 İnteraktif Web Laboratuvarı (`dashboard/index.html`)
 
 Doğrudan tarayıcıda (`file:///` protokolüyle veya basit bir yerel sunucuyla) çalışan, **Chart.js** motorlu, koyu lacivert/siber estetiğe sahip dinamik kontrol paneli:
 
-* **Tüm 6 Simülasyon Canlı:** Slider'lar üzerinden parametreleri (Tekâsüf, Acz, Buz, Kudret, Nuraniyet, İrade Meyli) değiştirirken grafikler anında güncellenir.
+* **Tüm 7 Simülasyon Canlı:** Slider'lar üzerinden parametreleri (Tekâsüf, Acz, Buz, Kudret, Nuraniyet, İrade Meyli, Haşir & Bilgi Korunumu) değiştirirken grafikler anında güncellenir.
 * **Akıllı Senaryo Önayarları:** Tek tıkla Fıtrat, Firavun, Dört Elif, Tohumun İnbiâtı, Tayy-ı Mekân ve İstikamet Ehli modlarına geçiş.
 * **Tamamen Bağımsız ve Taşınabilir:** Hiçbir Node.js veya derleme aracı gerektirmez.
 
@@ -453,7 +459,7 @@ tilsim-i-kainat/
 ├── README.md                              # Ana manifesto, okuma haritası ve külliyat şerhleri
 ├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
 ├── dashboard/                             # İnteraktif Web Laboratuvarı
-│   └── index.html                         # 6 Modelin Chart.js SPA gösterge paneli
+│   └── index.html                         # 7 Modelin Chart.js SPA gösterge paneli
 ├── docs/
 │   ├── tilsim-i-kainat-kullî-cozum.md     # 9 Cepheden Varoluşun Büyük Çözüm Manifestosu
 │   ├── gelecegin-teknolojileri-ve-tilsim-i-kainat.md # Işınlanma, Kuantum ve Tayy-ı Mekân Ufku
@@ -484,7 +490,7 @@ tilsim-i-kainat/
 │   │   ├── banner-ene-ontolojisi.jpg      #   Ene ve şeffaf ayna bannerı
 │   │   ├── banner-ihlas-ve-kevser-havuzu.jpg # Kevser havuzu ve nur sütunu bannerı
 │   │   └── banner-zerre-dinamikleri.jpg   #   Tahavvülât ve kudret kalemi bannerı
-│   └── diagrams/                          # 13 adet Mermaid mimari şeması ve kılavuz
+│   └── diagrams/                          # 14 adet Mermaid mimari şeması ve kılavuz
 │       ├── README.md                      #   Diyagramlar rehberi
 │       ├── tilsim-haritasi.mmd            #   Ana kavramlar haritası
 │       ├── ene-hal-degisimi.mmd           #   5 faz hâl değişimi
@@ -498,23 +504,26 @@ tilsim-i-kainat/
 │       ├── suunat-ve-faaliyet.mmd         #   Şuûnât ve kozmik faaliyet
 │       ├── gelecegin-teknolojileri.mmd    #   20. Söz: Işınlanma ve Gelecek Teknolojileri
 │       ├── isinlanma-ve-tayy-i-mekan-fizigi.mmd # Belkıs'ın tahtı ve 3 nakil modu şeması
-│       └── kader-irade-matrisi.mmd        #   26. Söz: Levh-i Mahfuz, Kesb ve Hakikat Terazisi
+│       ├── kader-irade-matrisi.mmd        #   26. Söz: Levh-i Mahfuz, Kesb ve Hakikat Terazisi
+│       └── hasir-ve-ebediyet.mmd          #   10. Söz: İbdâ vs İade ve Bilgi Korunumu
 ├── simulations/                           # Dinamik sistem simülasyonları
 │   ├── README.md                          # Matematiksel denklemler ve kullanım kılavuzu
-│   ├── run_all.py                         # Altı modeli tek seferde icra eden çalıştırıcı
+│   ├── run_all.py                         # Yedi modeli tek seferde icra eden çalıştırıcı
 │   ├── ene-thickening-model.py            # Ene faz değişimi simülasyonu
 │   ├── zerre-simulation.py                # Zerre tahavvülâtı ve kudret kalemi simülasyonu
 │   ├── ihlas-synergy-model.py             # İhlas ve şahs-ı manevî sinerji modeli
 │   ├── entropy-information-model.py       # Kozmik entropi ve kudret intizamı modeli
 │   ├── teleportation-information-model.py # Tayy-ı mekân ve kuantum ışınlanma modeli
 │   ├── kader-irade-matrix-model.py        # Kader, irade ve Levh-i Mahfuz karar matrisi
+│   ├── hasir-ebediyet-model.py            # Haşir, bahar ihyası ve bilgi korunumu modeli
 │   ├── test_ene_model.py                  # 9 birim testi
 │   ├── test_zerre_model.py                # 6 birim testi
 │   ├── test_ihlas_model.py                # 6 birim testi
 │   ├── test_entropy_model.py              # 5 birim testi
 │   ├── test_teleportation_model.py        # 7 birim testi
-│   └── test_kader_model.py                # 7 birim testi
-└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 40 testin otomatik koşumu
+│   ├── test_kader_model.py                # 7 birim testi
+│   └── test_hasir_model.py                # 6 birim testi
+└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 46 testin otomatik koşumu
 ```
 
 ---

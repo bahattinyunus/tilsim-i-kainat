@@ -19,3 +19,4 @@ veya `mmdc` (mermaid-cli) ile SVG/PNG'ye dönüştürülebilir.
 | [`gelecegin-teknolojileri.mmd`](gelecegin-teknolojileri.mmd) | Geleceğin Teknolojileri | 20. Söz Mucizât-ı Enbiya: Işınlanma, Kuantum, Warp Drive ve Nanoteknoloji |
 | [`isinlanma-ve-tayy-i-mekan-fizigi.mmd`](isinlanma-ve-tayy-i-mekan-fizigi.mmd) | Işınlanma ve Tayy-ı Mekân Fiziği | Belkıs'ın tahtının naklinde 3 fiziksel mod ve sequence diyagramı |
 | [`kader-irade-matrisi.mmd`](kader-irade-matrisi.mmd) | Kader, İrade ve Levh-i Mahfuz Matrisi | 26. Söz: Ezelî İlim, Levh-i Mahv ve İspat, Cüz-i Kesb ve Kibir-Yeis Terazisi |
+| [`hasir-ve-ebediyet.mmd`](hasir-ve-ebediyet.mmd) | Haşir, Bahar İhyası ve Bilgi Korunumu | 10. Söz: İbdâ vs İade, Levh-i Mahfuz (Unitarity), Adalet ve Hikmet Terazisi |

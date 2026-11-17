@@ -5,7 +5,7 @@
 > parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
 > döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-Laboratuvar bünyesinde altı tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
+Laboratuvar bünyesinde yedi tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
 
 1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
 2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
@@ -13,7 +13,8 @@ Laboratuvar bünyesinde altı tamamlayıcı simülasyon motoru ve bir interaktif
 4. **`entropy-information-model.py`** — Kozmik Entropi vs. Negentropik Kudret İntizamı (30. Söz & Wheeler: "It from Bit")
 5. **`teleportation-information-model.py`** — Tayy-ı Mekân ve Kuantum Işınlanma Modeli (20. Söz, Belkıs'ın Tahtı)
 6. **`kader-irade-matrix-model.py`** — Kader, İrade ve Levh-i Mahfuz Karar Matrisi (26. Söz & Nisa 79)
-7. **`dashboard/index.html`** — 6 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
+7. **`hasir-ebediyet-model.py`** — Haşir, Bahar İhyası ve Bilgi Korunumu Modeli (10. Söz & Unitarity)
+8. **`dashboard/index.html`** — 7 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
 
 Tüm modelleri tek bir komutla icra etmek için:
 ```bash
@@ -140,11 +141,26 @@ python simulations/kader-irade-matrix-model.py --karsilastir
 
 ---
 
+## 7. `hasir-ebediyet-model.py` — Haşir, Bahar İhyası ve Bilgi Korunumu
+
+10. Söz (Haşir Risalesi) ve modern kuantum bilgi korunumu (*Unitarity*) ilkelerinin sentezidir:
+
+* **İbdâ vs. İade:** Yoktan var etmeye göre dağılmış zerreleri tek bir "Kün / Sur" emriyle toplamanın 100x+ kolaylığı.
+* **Levh-i Mahfuz Enformasyon Korunumu:** Madde dağılsa da ruh ve amel bilgisi kaybolmaz.
+* **Adalet ve Hikmet İndisi:** Haşirsiz bir kâinatın abesiyet ve zulme dönüşmesinin matematiksel gösterimi.
+
+```bash
+python simulations/hasir-ebediyet-model.py --senaryo hasir_i_ecsad
+python simulations/hasir-ebediyet-model.py --karsilastir
+```
+
+---
+
 ## 🌐 İnteraktif Web Laboratuvarı (`dashboard/index.html`)
 
 Kurulum gerektirmeyen, tarayıcıda doğrudan (`file:///` veya yerel sunucu) çalışan modern, Chart.js tabanlı, minimalist karanlık tema (dark mode) SPA arayüzü:
 
-* **6 Simülasyonun Dinamik Kontrolleri:** Slider'lar üzerinden parametreleri canlı değiştirme.
+* **7 Simülasyonun Dinamik Kontrolleri:** Slider'lar üzerinden parametreleri canlı değiştirme.
 * **Anlık Reaktif Grafikler:** Ene faz geçiş çizgisi, Zerre şahitlik radarı, Şahs-ı manevî kuvvet çubukları, Entropi/Negentropi eğrileri, Nakil süreleri logaritmik barı ve İstikamet mizanı çemberi.
 * **Hazır Senaryo Butonları:** Tek tıkla Fıtrat, Firavun, 4444 Sırrı, Tayy-ı Mekân, İstikamet Ehli senaryolarını yükleme.
 
@@ -171,4 +187,5 @@ Mevcut test paketi:
 * `test_entropy_model.py` (5 test)
 * `test_teleportation_model.py` (7 test)
 * `test_kader_model.py` (7 test)
-* **Toplam: 40 test (Tam Başarı)**
+* `test_hasir_model.py` (6 test)
+* **Toplam: 46 test (Tam Başarı)**

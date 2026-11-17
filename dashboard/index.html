@@ -341,6 +341,7 @@
       <button class="tab-btn" onclick="switchTab('tab-entropi')">4. Kozmik Entropi & Bilgi</button>
       <button class="tab-btn" onclick="switchTab('tab-teleport')">5. Tayy-ı Mekân & Işınlanma</button>
       <button class="tab-btn" onclick="switchTab('tab-kader')">6. Kader ve İrade Matrisi</button>
+      <button class="tab-btn" onclick="switchTab('tab-hasir')">7. Haşir ve Bilgi Korunumu</button>
     </div>
   </header>
 
@@ -724,6 +725,74 @@
           </div>
           <div class="verdict-box" id="kader-verdict">
             <strong>Hakikat Mizânı:</strong> Ene haddini bilmiş; hasenatı Kadere verip şükreder, kusuru nefsine alıp istiğfar eder. Ne kibir uçurumuna düşer ne yeise kapılır.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 7: HAŞİR VE BİLGİ KORUNUMU -->
+    <div id="tab-hasir" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">⏳ Haşir & Bilgi Korunumu Parametreleri</h2>
+          <div class="quote-box">
+            "Bir taburu teşkil eden neferat bir boru sesiyle nasıl kışlaya toplanırsa; kudret-i mutlaka dahi tek bir emirle dağılmış zerratı yeniden bir araya getirip cesetleri iade edecektir."
+            <span class="author">— 10. Söz (Haşir Risalesi)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Âhiret İnancı / Sur Emri [0: Maddeci İnkar, 1: Tam Haşir]</span>
+              <span class="val" id="hasir-inanc-val">1.00</span>
+            </div>
+            <input type="range" id="hasir-inanc" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtHasir()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Levh-i Mahfuz Bilgi Korunumu (Unitarity)</span>
+              <span class="val" id="hasir-bilgi-val">1.00</span>
+            </div>
+            <input type="range" id="hasir-bilgi" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtHasir()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Dünyadaki Zâlim/Mazlum Adaletsizlik Yoğunluğu</span>
+              <span class="val" id="hasir-zulm-val">0.85</span>
+            </div>
+            <input type="range" id="hasir-zulm" min="0" max="1" step="0.05" value="0.85" oninput="simuleEtHasir()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setHasirPreset(1.0, 1.0, 0.85)">✨ Haşr-i Ecsâd</button>
+            <button class="btn-preset" onclick="setHasirPreset(1.0, 1.0, 0.70)">🌸 Bahar İhyası</button>
+            <button class="btn-preset" onclick="setHasirPreset(0.0, 0.0, 0.90)">💀 Haşirsiz Faraziye</button>
+            <button class="btn-preset" onclick="setHasirPreset(0.45, 0.60, 0.85)">🌫️ Şüphe ve Tereddüt</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Kış/Ölüm Sonrası İhya ve Adalet Eğrisi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="hasir-ihya-son">%98.2</div>
+              <div class="metric-label">Nihai İhya Oranı</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="hasir-adalet-son">0.985</div>
+              <div class="metric-label">Adalet İndisi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="hasir-kolaylik-son">101.0x</div>
+              <div class="metric-label">İade / İbdâ Kolaylığı</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartHasir"></canvas>
+          </div>
+          <div class="verdict-box" id="hasir-verdict">
+            <strong>Kâinat Mührü:</strong> Zerreler dağılsa da bilgi (Levh-i Mahfuz ve ruh) korunmuş; tek bir Sur emriyle adalet, hikmet ve merhamet kemale ermiştir.
           </div>
         </div>
       </div>
@@ -1147,6 +1216,115 @@
       simuleEtKader();
     }
 
+    // ==========================================
+    // 7. HAŞİR VE BİLGİ KORUNUMU
+    // ==========================================
+    let chartHasirInstance = null;
+    function simuleEtHasir() {
+      const inanc = parseFloat(document.getElementById('hasir-inanc').value);
+      const bilgiKor = parseFloat(document.getElementById('hasir-bilgi').value);
+      const zulm = parseFloat(document.getElementById('hasir-zulm').value);
+
+      document.getElementById('hasir-inanc-val').innerText = inanc.toFixed(2);
+      document.getElementById('hasir-bilgi-val').innerText = bilgiKor.toFixed(2);
+      document.getElementById('hasir-zulm-val').innerText = zulm.toFixed(2);
+
+      const adim = 40;
+      const yari = 20;
+      const labels = [];
+      const ihyaData = [];
+      const adaletData = [];
+      const bilgiData = [];
+
+      for (let i = 0; i < adim; i++) {
+        labels.push(i < yari ? 'Kış ' + (i+1) : 'Bahar ' + (i-yari+1));
+        let ihya = 0;
+        let bilgi = 1.0;
+        let adalet = 1.0 - zulm * 0.6;
+
+        if (i < yari) {
+          const ilerleme = (i + 1) / yari;
+          bilgi = 1.0 - (1.0 - bilgiKor) * ilerleme;
+        } else {
+          const ilerleme = (i - yari + 1) / yari;
+          if (inanc > 0.1) {
+            ihya = Math.min(1.0, inanc * inanc * (1.0 - Math.exp(-4.0 * ilerleme)));
+            bilgi = bilgiKor;
+          } else {
+            ihya = 0.0;
+            bilgi = 0.0;
+          }
+          adalet = (1.0 - zulm) + zulm * ihya;
+        }
+
+        ihyaData.push(ihya);
+        adaletData.push(Math.max(0, Math.min(1, adalet)));
+        bilgiData.push(bilgi);
+      }
+
+      const sonIhya = ihyaData[ihyaData.length - 1];
+      const sonAdalet = adaletData[adaletData.length - 1];
+      const kolaylik = 100.0 * inanc * bilgiKor + 1.0;
+
+      document.getElementById('hasir-ihya-son').innerText = '%' + (sonIhya * 100).toFixed(1);
+      document.getElementById('hasir-adalet-son').innerText = sonAdalet.toFixed(3);
+      document.getElementById('hasir-kolaylik-son').innerText = kolaylik.toFixed(1) + 'x';
+
+      let verdict = "";
+      if (sonIhya >= 0.85 && sonAdalet >= 0.85) {
+        verdict = "Zerreler dağılsa da bilgi (Levh-i Mahfuz ve ruh) korunmuş; tek bir Sur emriyle adalet, hikmet ve merhamet kemale ermiştir.";
+      } else if (inanc < 0.2) {
+        verdict = "Haşir yok farz edildiğinde zâlim izzetle, mazlum zilletle gitmiş; kâinat sarayı abesiyet ve zulüm çıkmazına düşmüştür.";
+      } else {
+        verdict = "Ebediyet ufku tam yakalanamadığı için adalet ve hikmet dengesi eksiktir.";
+      }
+      document.getElementById('hasir-verdict').innerHTML = "<strong>Kâinat Mührü:</strong> " + verdict;
+
+      if (chartHasirInstance) chartHasirInstance.destroy();
+      const ctx = document.getElementById('chartHasir').getContext('2d');
+      chartHasirInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: 'Bahar / Haşir İhyası',
+              data: ihyaData,
+              borderColor: '#10B981',
+              backgroundColor: 'rgba(16, 185, 129, 0.15)',
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Kâinat Adalet İndisi',
+              data: adaletData,
+              borderColor: '#F59E0B',
+              tension: 0.3
+            },
+            {
+              label: 'Bilgi Korunumu (Unitarity)',
+              data: bilgiData,
+              borderColor: '#06B6D4',
+              borderDash: [5, 5],
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { min: 0, max: 1 } }
+        }
+      });
+    }
+
+    function setHasirPreset(i, b, z) {
+      document.getElementById('hasir-inanc').value = i;
+      document.getElementById('hasir-bilgi').value = b;
+      document.getElementById('hasir-zulm').value = z;
+      simuleEtHasir();
+    }
+
     // Sayfa Yüklendiğinde Bütün Simülasyonları Başlat
     window.addEventListener('DOMContentLoaded', () => {
       simuleEtEne();
@@ -1155,6 +1333,7 @@
       simuleEtEntropi();
       simuleEtTeleport();
       simuleEtKader();
+      simuleEtHasir();
     });
   </script>
 </body>

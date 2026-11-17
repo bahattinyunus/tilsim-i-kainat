@@ -4,7 +4,7 @@
 Tılsım-ı Kâinat — Bütünleşik Simülasyon Çalıştırıcısı (Unified Runner)
 =====================================================================
 
-Bu araç, Tılsım-ı Kâinat laboratuvarındaki altı temel simülasyonu
+Bu araç, Tılsım-ı Kâinat laboratuvarındaki yedi temel simülasyonu
 tek bir merkezden çalıştırmanızı ve karşılaştırmanızı sağlar:
 
 1. Ene Kalınlaşma Modeli (ene-thickening-model.py)
@@ -13,6 +13,7 @@ tek bir merkezden çalıştırmanızı ve karşılaştırmanızı sağlar:
 4. Kozmik Entropi ve Kudret İntizamı Modeli (entropy-information-model.py)
 5. Tayy-ı Mekân ve Kuantum Işınlanma Modeli (teleportation-information-model.py)
 6. Kader, İrade ve Levh-i Mahfuz Karar Matrisi Modeli (kader-irade-matrix-model.py)
+7. Haşir, Bahar İhyası ve Bilgi Korunumu Modeli (hasir-ebediyet-model.py)
 """
 
 import subprocess
@@ -34,7 +35,7 @@ def calistir(dosya: str, argumanlar: list[str]) -> int:
     return res.returncode
 
 def main() -> int:
-    baslik_yaz("TILSIM-I KÂİNAT: ALTI MODELİN KÜLLÎ İCMALİ")
+    baslik_yaz("TILSIM-I KÂİNAT: YEDİ MODELİN KÜLLÎ İCMALİ")
     
     print("1️⃣  ENE KALINLAŞMA MODELİ (30. SÖZ, BİRİNCİ MAKSAD):", flush=True)
     calistir("ene-thickening-model.py", ["--karsilastir"])
@@ -59,8 +60,12 @@ def main() -> int:
     print("6️⃣  KADER, İRADE VE LEVH-İ MAHFUZ KARAR MATRİSİ (26. SÖZ, KADER RİSALESİ):", flush=True)
     calistir("kader-irade-matrix-model.py", ["--karsilastir"])
 
+    print("\n" + "-" * 76 + "\n", flush=True)
+    print("7️⃣  HAŞİR, BAHAR İHYASI VE BİLGİ KORUNUMU (10. SÖZ, HAŞİR RİSALESİ):", flush=True)
+    calistir("hasir-ebediyet-model.py", ["--karsilastir"])
+
     print("\n" + "=" * 76, flush=True)
-    print("  ✅ Bütün simülasyonlar (6 model, 40 test) başarıyla icra edildi.", flush=True)
+    print("  ✅ Bütün simülasyonlar (7 model, 46 test) başarıyla icra edildi.", flush=True)
     print("=" * 76 + "\n", flush=True)
     return 0
 
