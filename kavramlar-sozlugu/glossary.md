@@ -3,7 +3,7 @@
 > Tılsım-ı Kâinat dokümanlarında geçen Kur'ânî ve Risale-i Nur kaynaklı ıstılahların şerhli lügati.
 > Her madde; **orijinal ıstılah**, **lügat ve ıstılah manası**, **orijinal risale metinlerinden alıntılar** ve ilgili dokümana **bağlantı** içerir.
 
-**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [R](#r) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z)
+**Hızlı erişim:** [A](#a) · [B](#b) · [C–Ç](#cç) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [İ](#i̇) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O–Ö](#oö) · [R](#r) · [S–Ş](#sş) · [T](#t) · [U–Ü](#uü) · [V](#v) · [Z](#z) · [Semboller](#semboller--metrikler)
 
 ---
 
@@ -20,6 +20,12 @@ Kur'an talebesinin vasfı. Hiçbir kula, menfaate veya kuvvete boyun eğmez; yal
 
 **Âlem-i Ekber** — Büyük âlem (Kâinat).  
 Büyük bir insan hükmünde olan kâinat sarayı; esmâ-i İlâhiyenin azamî tecelligâhıdır.
+
+**Âlem-i Emir** — Tabiat kanunlarının, emirlerin ve ruhların kaynağı olan maddesiz melekût âlemi. Kudret âlem-i halkta, irade ve emir ise âlem-i emrde tecelli eder. (29. Söz) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
+
+**Amplituhedron** — Kuantum yerçekimi ve parçacık saçılma genliklerinde uzay-zaman ve olasılık aksiyomlarına dayanmadan doğrudan geometrik hacimle sonuç veren devrimci nesne; uzay-zamanın temel olmadığını gösteren fizik bulgusu (Nima Arkani-Hamed).
+
+**Arayüz Algı Kuramı (ITP - Interface Theory of Perception)** — Donald Hoffman'ın evrimsel oyun teorisiyle ispatladığı; uzay, zaman ve fiziksel nesnelerin nesnel gerçekliğin kendisi değil, bilincin kullandığı masaüstü simgeleri (arayüz) olduğunu ortaya koyan bilişsel kuram. → [README](../README.md#şehadet-perdesi--nazar)
 
 **Âyât-ı Tekvîniye** — Kâinattaki yaratılış âyetleri.  
 Cenâb-ı Hakk'ın tekvin (yaratma) sıfatıyla kâinat kitabına yazdığı nizam, varlıklar ve hadiseler. Zerrelerin hareketi bu âyetlerin yazılışındaki titreşimdir. (30. Söz, İkinci Maksad) → [Tahavvülât-ı Zerrât](../docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md)
@@ -39,6 +45,9 @@ Tahkikî imanın temeli. Taklit ile değil, bürhan ile inanmak esastır.
 ---
 
 ## C–Ç
+
+**Câzibe-i Umumiye** — Genel kütleçekim kanunu.  
+Kâinattaki bütün cisimleri birbirine bağlayan âlem-i emr kanunu; haricî bir vücut giydirilip başına şuur konsaydı bir ruh olurdu. (29. Söz, İkinci Esas) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
 
 **Cebbâr-ı Hodfürûş** — Kendini beğendirmeye çalışan, zorba ve kibirli.  
 Felsefe talebesinin ruhi portresi; kalbinde istinad noktası olmadığı için korkaklığını zorbalıkla örtmeye çalışır. (12. Söz)
@@ -114,6 +123,8 @@ Hasenat ve iyilikleri nefsine verip iftihar etme hastalığı; Kader inancı ile
 **Farazî Hat** — Gerçekte var olmayan, ölçüm ve kıyas için varsayılan çizgi.  
 Geometrideki varsayımsal ekvator veya meridyen çizgileri gibi; ene de mutlak sıfatları ölçmek için çizilmiş farazî bir hattır. (30. Söz)
 
+**Ferah-ı Mukaddes** — Cenâb-ı Hakk'ın mahlûkatını ihsanıyla sevindirmesinden ve varlık vermesinden hâsıl olan, noksanlıktan ve beşerî hislerden münezzeh zâtî ve kudsî lezzeti. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
+
 **Firavun-u Zelîl** — Dışarıdan firavun gibi kibirli, içeriden menfaat için her şeye tapan zelil insan.  
 Materyalist felsefenin yetiştirdiği nankör insan tipi. (12. Söz, İkinci Esas) → [Kalınlaşma ve Firavuniyet](../docs/ene-ontolojisi/02-kalinlasma-ve-firavuniyet.md)
 
@@ -143,6 +154,8 @@ Ene'nin hakiki bir varlığı olmadığını gösteren benzersiz Risale-i Nur an
 **Hitâm-ı Vazife** — Vazifenin son bulması.  
 Zerrenin vazifesini tamamladığında lisan-ı hal ile "Elhamdülillah" deyip cemâl-i sanatı ilan etmesi.
 
+**Holografik İlke (AdS/CFT & ER=EPR)** — Leonard Susskind ve Juan Maldacena'nın teorileştirdiği; 3 boyutlu kütleçekimli bir uzay-zaman hacmindeki (bulk) tüm fiziksel bilgilerin, 2 boyutlu sınırdaki (boundary) kuantum dolanıklığından türediğini ortaya koyan çağdaş kuram; Levh-i Mahfuz ve Âlem-i Emr'in şehadet âlemine yansımasının fiziksel modelidir. → [README](../README.md#holografik-ilke-adscft--erepr)
+
 **Hubb-u Câh** — Şöhret, makam ve mevki sevgisi.  
 İhlası kıran ve enaniyet buzunu kalınlaştıran en tehlikeli manevî hastalık. (21. Lem'a)
 
@@ -150,10 +163,16 @@ Zerrenin vazifesini tamamladığında lisan-ı hal ile "Elhamdülillah" deyip ce
 
 ## İ
 
+**İftihâr-ı Kudsî** — Cenâb-ı Hakk'ın kendi sanatındaki mutlak kemâlâtı ve mevcudatın intizamını bizzat Kendi kudsî nazarında ve meleklerin gözünde müşahede etmesinden tecelli eden mukaddes şe'ni. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
+
 **İhlas (Sırr-ı İhlas)** — Amelleri sırf Allah rızası için yapmak.  
 Buz hükmündeki enaniyeti kevser havuzunda eritmenin yegâne formülü. (21. Lem'a) → [Ene'den Nahnu'ya](../docs/ene-ontolojisi/03-eneden-nahnuya.md)
 
 **İlim Malûma Tâbidir** — Ezelî ilmin bir zorlama ve cebir sebebi olmadığını, bilakis kulun cüz-i iradesiyle yapacağı tercihe göre taalluk ettiğini ifade eden ehl-i sünnet kelâm kaidesi. $P(\text{İlim}\mid\text{Tercih})=1$ iken $P(\text{Cebir})=0$'dır. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
+
+**İsm-i Hayy** — Ezelî ve ebedî diri olan, bütün kâinata hayat bahşeden Allah'ın ismi. Hayat, esmâ-i hüsnânın en parlak aynası ve kâinatın sırr-ı câmiidir. (30. Lem'a, Beşinci Nükte) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
+
+**İsm-i Kayyûm** — Bütün mevcudatı zâtıyla kaim kılan, durmaksızın devam ve intizam veren Allah'ın ismi. Zerreler ancak Kayyûmiyet sırrıyla dağılmaktan korunur. (30. Lem'a)
 
 **İhtiyac-ı Fıtrî ile Dua** — Bütün zîhayatın lisan-ı fıtratla hayat ve rızık talep etmesi. (23. Söz)
 
@@ -188,6 +207,8 @@ Tabiat kanunlarının haricî maddî bir vücudu olmayıp Cenâb-ı Hakk'ın ira
 **Kevser Havuzu** — Kur'an hakikatlerinden süzülen ihlas ve şahs-ı manevî havuzu.  
 Bireysel buzların içinde eriyip küllî bir hayat kazandığı ortak zemin.
 
+**Kuvve-i İnbâtiye** — Çekirdek ve tohumlardaki büyüme, filizlenme ve intizamla dallanıp budaklanma kanunu; haricî bir vücut giydirilip şuur konsaydı bir nebat ruhu olurdu. (29. Söz, İkinci Esas) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
+
 **Küllî Şükür** — İnsanın bütün duygularıyla ve mevcudat namına sunduğu azîm hamd ve teşekkür. (11. Söz)
 
 ---
@@ -202,6 +223,8 @@ Maddenin katıdan sıvıya, gaza, plazmaya, nura ve ruha doğru incelmesi. Letâ
 **Levh-i Mahv ve İspat** — Zamanın seylânında, kaderin değişken ve dinamik sayfası; kaza-i muallakın dua, sadaka ve amellerle tebdil edildiği tecelligâh defteri. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
 
 **Lezzet-i Kudsiyye** — Cenâb-ı Hakk'ın noksanlıktan münezzeh, kendi cemâl ve kemâlini müşahede etmesinden ve mahlukatına ihsanından doğan mukaddes şuûnâtı. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
+
+**Lezzet-i Ruhaniye** — Muhabbetullah içindeki en safi, kederden arınmış kalp süruru ve sevinci; hilkatin en ulvî ruhî semeresi. (20. Mektup, Mukaddime) → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
 
 **Lisan-ı İstidad ile Dua** — Bütün tohum ve çekirdeklerin kabiliyet diliyle inkişaf ve sümbül talep etmesi.
 
@@ -222,12 +245,22 @@ Nübüvvetin ve Kur'an'ın bakış açısı.
 **Mânâ-yı İsmî** — Bir şeye kendi zâtı hesabına, sebepler ve tabiat namına bakmak.  
 Felsefenin ve şirkin bakış açısı.
 
+**Marifetullah** — Allah'ı isim ve sıfatlarıyla, kâinattaki san'at eserleriyle tanımak. İnsaniyetin en âlî mertebesi ve beşeriyetin en büyük makamıdır. (20. Mektup) → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
+
+**Matbaa & Tâbi'** — Tabiatın bir matbaa olabileceği, fakat kitabı yazan ve basan müellif ve sanatkâr (Tâbi') olamayacağı hakikati. Şuursuz demir parçası kendi kendine kitap dizemez. (23. Lem'a) → [Tabiat ve Esbap Eleştirisi](../docs/tabiat-ve-esbab-elestirisi.md)
+
 **Mebde-i Hareket** — Hareketin başlangıcı.  
 Zerrelerin işe başlarken lisan-ı hal ile "Bismillah" demesi. (30. Söz, İkinci Maksad)
 
+**Memnûniyet-i Kudsiyye** — Mahlukatın kemâl-i itaatle vazifelerini yapmasından, nizamı korumasından Cenâb-ı Hakk'ın duyduğu kudsî ve noksansız rızası. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
+
 **Meşher-i Sanat-ı İlâhiye** — İlâhî sanatların sergilendiği teşhirgâh (Kâinat).
 
+**Mistâr & Masdar** — Tabiatın sadece bir cetvel (mistar) ve nizam kalıbı olduğu; hakiki kaynak, fâil ve mimar (masdar) olamayacağı tevhîdî kaidesi. (23. Lem'a) → [Tabiat ve Esbap Eleştirisi](../docs/tabiat-ve-esbab-elestirisi.md)
+
 **Muammâ-yı Hilkat** — Yaratılışın gizli ve derin sırrı.
+
+**Muhabbetullah** — Allah sevgisi; marifetullah dairesinde inkişaf eden, cinn ü insin en tatlı nimeti ve en parlak saadeti. (20. Mektup) → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
 
 ---
 
@@ -250,7 +283,17 @@ Bireysel egoyu (ene) cemaatin şahs-ı manevî havuzunda eritmek. (21. Lem'a)
 
 ---
 
+## O–Ö
+
+**Orch-OR (Orchestrated Objective Reduction)** — Roger Penrose ve Stuart Hameroff'un geliştirdiği; bilincin nöron hücre iskeletindeki mikrotübüllerde gerçekleşen kuantum yerçekimi çöküşlerinden doğduğunu savunan kuantum bilinç teorisi; âlem-i emr kanunlarının zerrat seviyesindeki tecellisini modeller. → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
+
+---
+
 ## R
+
+**RQM (Relational Quantum Mechanics - İlişkisel Kuantum Mekaniği)** — Carlo Rovelli'nin; nesnelerin tek başlarına mutlak durumları olmadığını, ancak birbirleriyle etkileşime geçip bilgi alışverişi yaptıklarında varlık kazandıklarını ispatlayan çağdaş fizik yorumu; Mânâ-yı Harfî'nin kuantum dilindeki karşılığıdır. → [README](../README.md#ilişkisel-kuantum-mekaniği-rqm)
+
+**Ruh** — Âlem-i emirden gelen, zîhayat, zîşuur, nûrânî, vücud-u haricî giydirilmiş, basit (bölünmez) ve ebediyete namzet Rabbânî bir kanun-u emrî. (29. Söz) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
 
 **Ruh-u Küllî** — Kâinatın hayat ve intizam mayası.  
 Mevcudatın tek bir Vâhid-i Ehad'in emriyle birbirine yardım etmesi ve bir nefer gibi intizam bulması.
@@ -265,8 +308,10 @@ Kur'an hakikatleri gemisi; talebeleri ise bu gemide çalışan hademelerdir. (21
 **Sırr-ı Adediyet** — Sayıların birleşme sırrı.  
 Ayrı duran üç 1'in değeri 3 iken; omuz omuza verip aynı hizaya girdiklerinde 111 olması; dört 4'ün 4444 kuvvetine yükselmesi sırrı.
 
+**Sırr-ı Câmi'** — Hayatın bir cüz'ü külle mâlik kılan, bir tek zîhayatı bütün kâinata muhatap ve sultan eyleyen kuşatıcı esmâ sırrı. (30. Lem'a, Beşinci Nükte) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
+
 **Sühulet-i Mutlaka** — Mutlak kolaylık.  
-Tevhid dairesinde bir ağacı yaratmanın bir meyveyi yaratmak kadar kolay olması.
+Tevhid dairesinde bir ağacı yaratmanın bir meyveyi yaratmak kadar, koca kâinatı yaratmanın bir ağacı yaratmak kadar kolay olması. (23. Lem'a)
 
 **Şahs-ı Manevî** — Mü'minlerin ihlas ile teşkil ettiği manevî tüzel kişilik.  
 Bireylerin zaafını küllî bir kuvvete tebdil eden hakikat fabrikası.
@@ -274,6 +319,8 @@ Bireylerin zaafını küllî bir kuvvete tebdil eden hakikat fabrikası.
 **Şecere-i Tûbâ** — Nübüvvet ve ubudiyet silsilesinin neticesi olan saadet ve hidayet ağacı.
 
 **Şecere-i Zakkum** — Enaniyet ve felsefe silsilesinin neticesi olan dalâlet ve zulümat ağacı. (30. Söz)
+
+**Şefkat-i Mukaddese** — Bütün annelerin ve mahlûkatın kalbindeki şefkatlerin ezelî menbaı olan, kusur ve kederden münezzeh zâtî ilâhî merhamet cilvesi. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 
 **Şuûnât-ı İlâhiye** — Allah'ın zâtına lâyık kudsî hâlleri (memnûniyet, ferah, şefkat-i mukaddese); kâinattaki dâimî ve hummalı faaliyetin ezelî kaynağı. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 
@@ -283,6 +330,8 @@ Bireylerin zaafını küllî bir kuvvete tebdil eden hakikat fabrikası.
 
 **Taallümle Tekemmül** — İlim ve öğrenme yoluyla olgunlaşmak.  
 İnsanın dünyaya gönderiliş gayesi. (23. Söz)
+
+**Tâbi'** — Matbaayı kuran, kâğıtları ve mürekkepleri tanzim eden, kitabı telif ve tab' eden hakiki sanatkâr ve yazar. Tabiat matbaa olabilir fakat asla Tâbi' olamaz. (23. Lem'a) → [Tabiat ve Esbap Eleştirisi](../docs/tabiat-ve-esbab-elestirisi.md)
 
 **Tahavvülât-ı Zerrât** — Zerrelerin (atom ve moleküllerin) durmaksızın değişimi ve hareketi. (30. Söz, İkinci Maksad)
 
@@ -324,12 +373,24 @@ Ene ve zerre muammalarının mânâ-yı harfî ve vahiy ışığında çözülme
 
 ---
 
+## U–Ü
+
+**Unitarity (Kuantum Bilgi Korunumu)** — Kuantum mekaniğinin ve kuantum bilgi teorisinin temel aksiyomu; kapalı bir kuantum sisteminde toplam olasılığın daima 1'e eşit olması ve kuantum bilgisinin zamanda geriye veya ileriye doğru asla yok edilemeyeceği ilkesi; 10. Söz'deki Levh-i Mahfuz ve Haşir ihyası ile tam mutabıktır. → [Haşir ve Ebediyet](../docs/hasir-ve-ebediyet-tilsimi.md)
+
+---
+
 ## V
 
 **Vâhid-i Kıyasî** — Kıyas ve ölçü birimi.  
 Ene'nin fıtrî ve yegâne varlık gayesi. İlahî sıfatları idrak ettiren manevî cetvel. (30. Söz)
 
+**Vücud-u Haricî** — Hariçte, maddî veya nuranî bir hüviyetle haricî gerçeklik kazanmış varlık; ruh, kanun-u emrîye haricî bir vücud giydirilmiş halidir. (29. Söz) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
+
 ---
+
+## Semboller & Metrikler
+
+**$\Phi$ (Phi - Entegre Bilgi)** — Giulio Tononi'nin Entegre Bilgi Teorisi'nde (IIT), bir sistemin bağımsız parçalarının toplamına indirgenemeyen bütünleşik bilinç miktarını ölçen matematiksel metrik. Hayatın ve ruhun kâinattaki "sırr-ı câmi'" ve vahdet tecellisinin nöro-fiziksel ifadesidir. → [README](../README.md#hayatın-sırr-ı-câmii--ruh)
 
 ## Z
 

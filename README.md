@@ -331,7 +331,7 @@ flowchart TD
     Y4 ==> TRU["✅ SÜHULET-İ MUTLAKA<br/>Kâinatı yaratmak bir ağacı yaratmak kadar kolaydır"]
 ```
 
-> *"Tabiat, bir **san'at-ı İlâhiyedir**, sâni' olamaz. Bir **nakş-ı Rahmânîdir**, nâkkāş olamaz. Bir **kanundur**, kādir olamaz. Bir **mistardır** (cetvel), mimar olamaz. Bir **kābildir**, fâil olamaz. Bir **nizamdır**, nâzım olamaz. Bir **kanun-u emrîdir**, haricî bir vücudu yoktur."* (23. Lem'a)
+> *"Tabiat, bir **san'at-ı İlâhiyedir**, sâni' olamaz. Bir **nakş-ı Rahmânîdir**, nâkkāş olamaz. Bir **kanundur**, kādir olamaz. Bir **mistardır** (cetvel), mimar ve masdar olamaz. Bir **kābildir**, fâil olamaz. Bir **nizamdır**, nâzım olamaz. Bir **matbaadır**, tâbi' (yazan ve basan) olamaz. Bir **kanun-u emrîdir**, haricî bir vücudu yoktur."* (23. Lem'a)
 
 ---
 
@@ -340,6 +340,8 @@ flowchart TD
 Ene iki dehşetli manevî uçurumun kenarındadır:
 * **Uçurum 1: İyiliklerde Gururlanmak (Fahr):** Bir hayra muvaffak olunca *"Ben yaptım"* der. Bu firavunluğu kıran ilâç **Kader**dir: *"Fahr etme, haddini bil; yapan sen değilsin, Kadere şükret!"*
 * **Uçurum 2: Kötülüklerde Mesuliyetten Kaçmak:** Bir günah işleyince *"Ne yapayım kaderim böyleymiş"* diyerek temerrüd eder. Bu kaçışı durduran mühür **Cüz'-i İhtiyarî**dir: *"Mes'ulsün, meyli sen sarf ettin, kasıt sendedir!"*
+
+> *"Kader ilim nev'indendir; ilim ise malûma tâbidir. Yani nasıl olacaksa öyle bilinir; yoksa ilim öyle bildiği için insan zorla o işe sevk edilmez. İlim sıfatı zorlayıcı bir cebir sebebi değildir."* (26. Söz)
 
 $$\text{مَاۤ اَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللّٰهِ وَمَاۤ اَصَابَكَ مِنْ سَيِّئَةٍ فَمِنْ نَفْسِكَ}$$
 > *"Sana isabet eden her iyilik Allah'tandır; sana isabet eden her kötülük ise nefsindendir."* (Nisâ Sûresi, 79)
@@ -361,13 +363,18 @@ Onuncu Söz (Haşir Risalesi), kâinat tılsımının nihai mühür ve kilit ta�
 
 ---
 
-### 🧬 X. Taallümle Tekâmül ve Küllî Şükür (23. Söz)
+### 🧬 X. Taallümle Tekâmül, İman Kuvveti ve Küllî Şükür (23. Söz & 20. Mektup)
 
 İnsan dünyaya bir hayvan gibi hazır gelmez; öğrenmek ve dua etmek için gönderilmiştir:
 
 > *"Çünkü: Hayvan, dünyaya geldiği vakit, âdeta **başka bir âlemde tekemmül etmiş** gibi istîdâdına göre mükemmel olarak gelir; yani gönderilir... İnsanın yirmi senede kazandığı iktidâr-ı hayatiyeyi ve meleke-i ameliyeyi, **yirmi günde serçe ve arı gibi bir hayvan tahsil eder;** yani ona ilham olunur.*
 > 
-> *Demek ki, **insanın vazife-i fıtriyesi taallümle tekemmüldür, dua ile ubudiyettir.** Yani: 'Kimin merhametiyle böyle hakîmane idare olunuyorum? Kimin keremiyle böyle müşfikane terbiye olunuyorum?' deyip... **Kādıyü'l-Hâcât'a lisan-ı acz ve fakr ile yalvarmaktır ve istemektir ve dua etmektir; yani aczin ve fakrın cenahlarıyla makam-ı a'lâ-yı ubudiyete uçmaktır.**"* (23. Söz, Dördüncü Nokta)
+> *Demek ki, **insanın vazife-i fıtriyesi taallümle tekemmüldür, dua ile ubudiyettir.**"* (23. Söz, Dördüncü Nokta)
+
+#### Hilkatin En Yüksek Gayesi ve İman Kuvveti (20. Mektup & 23. Söz)
+> *"Hilkatin en yüksek gayesi ve fıtratın en yüce neticesi **îmân-ı billâhtır**. İnsaniyetin en âlî mertebesi îmân-ı billâh içindeki **ma'rifetullâhtır**. Cinn ü insin en parlak saadeti o ma'rifetullah içindeki **muhabbetullâhtır**; ve kalb-i insan için en safi sevinç o muhabbetullah içindeki **lezzet-i ruhaniyedir**."* (20. Mektup)
+> 
+> *"**İman hem nurdur, hem kuvvettir.** Evet, hakikî imanı elde eden adam, kâinata meydan okuyabilir ve imanın kuvvetine göre, hadisatın tazyikatından kurtulabilir. 'Tevekkeltü alallâh' der, sefine-i hayatta kemâl-i emniyetle hâdisâtın dağlarvari dalgaları içinde seyrân eder."* (23. Söz, Üçüncü Nokta)
 
 #### Kâinattan Yükselen Dört Nevi Dua (23. Söz, Beşinci Nokta)
 1. **Lisan-ı İstidad ile Dua:** Tohumların sümbüllenmek istemesi.
