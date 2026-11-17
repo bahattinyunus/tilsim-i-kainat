@@ -61,6 +61,10 @@ Risale-i Nur'daki köklü kavramların modern fizik, bilişim teorisi, termodina
 | **Belkıs'ın Tahtı / Tayy-ı Mekân** | *20. Söz (Neml: 40)* | **Kuantum Teleportasyon & Alcubierre Metriği** | Cisim $10^{32}$ qubitlik bilgiye tercüme edilirse veya letâfetle uzay metriği büzülürse *tarfetü'l-ayn* hızında nakledilir. |
 | **Cüz-i İhtiyarî (Kesb)** | *26. Söz & Nisa: 79* | **1-Bitlik Kontrol Anahtarı & Determinizm Aşımı** | Ezelî ilim zamandan münezzeh olduğundan zorlamaz ($P(\text{Cebir})=0$); 1-bitlik kesb sonsuz kudreti yönlendirir. |
 | **Haşir ve İade** | *10. Söz* | **Kuantum Bilgi Korunumu (Unitarity)** | Evrende fiziksel enformasyon yok olmaz; dağılmış zerreler Levh-i Mahfuz kaydıyla tek bir Sur emriyle iade edilir. |
+| **Mânâ-yı Harfî (Nisbet)** | *Mesnevî & 30. Söz* | **İlişkisel Kuantum Mekaniği (RQM - C. Rovelli)** | Hiçbir nesnenin kendi başına (*mânâ-yı ismî*) mutlak özelliği yoktur; özellikler yalnızca ilişkilerde ve ayinedarlıkta doğar. |
+| **Âlem-i Misâl & Şahs-ı Manevî** | *21. Lem'a & 28. Mektup* | **Holografik İlke (AdS/CFT) & ER=EPR (Susskind)** | 3B maddî hacim (*bulk*), düşük boyutlu sınır (*boundary*) bilgisinin projeksiyonudur; uzay-zaman dolanıklıktan örülür. |
+| **Hayatın Sırr-ı Câmii & Ruh** | *29. Söz & 30. Lem'a* | **Entegre Bilgi Teorisi (IIT $\Phi$ - G. Tononi)** | Parçalara indirgenemeyen bütünleşik bilgi ($\Phi \gg 0$), cansız zerratı tek bir kâinata muhatap zîşuur bir öze çevirir. |
+| **Şehadet Perdesi & Nazar** | *Mesnevî & 11. Söz* | **Arayüz Algı Kuramı (ITP - D. Hoffman)** | Uzay-zaman ve madde mutlak hakikat değil, şuurun muhatap olduğu bir "arayüz"dür; hakikat perde arkasındaki esmâdır. |
 
 ---
 
@@ -419,6 +423,62 @@ Bediüzzaman'ın kırk senelik tahsilinin hülâsası:
 
 ---
 
+### 🔭 XV. İlişkisel Kuantum Mekaniği (RQM) ve Holografik Kâinat: Mânâ-yı Harfînin Zaferi
+
+21. yüzyıl teorik fiziğindeki iki devrimci paradigma, Risale-i Nur'un asırlık **"Mânâ-yı Harfî"** ve **"Âlem-i Misâl / Levh-i Mahfuz"** ontolojisiyle şaşırtıcı bir uyum içindedir:
+
+#### 1. Carlo Rovelli'nin İlişkisel Kuantum Mekaniği (RQM) vs. Mânâ-yı Harfî
+Klasik materyalizm, her maddenin tek başına ve bağımsız ("mânâ-yı ismî") mutlak özelliklere sahip olduğunu varsayardı. İtalyan fizikçi **Carlo Rovelli**'nin 1994'te ortaya attığı ve bugün kuantum temellerinde başat konuma yükselen **RQM (Relational Quantum Mechanics)** tezi bu mutlakiyeti kökten reddeder:
+* **Tek Başına Mutlak Durum Yoktur (*No Absolute States*):** Bir elektronun konumu, spini veya durumu izole halde kendi başına mevcut değildir. Nesneler izole tözler değil, yalnızca **"ilişkiler demeti" (*bundles of relations*)** olarak vardır.
+* **Etkileşim Anında Doğan Hakikat:** Fiziksel değerler yalnızca sistemler birbirine temas edip bilgi alışverişi yaptığında (etkileşim/ayinedarlık anında) göreceli gerçeklik (*relative facts*) olarak belirir.
+* **Risale-i Nur Sentezi:** Bediüzzaman'ın 30. Söz'de *"Ene mânâsı kendinde olmayan ve başkasının mânâsını gösteren bir teldir"* ve Mesnevî'de *"Eşyanın kendine ait müstakil bir vücudu ve mülkiyeti yoktur; yalnızca Sâni'in isimlerine nisbetle ve ayinedarlıkla hakikat kazanırlar"* düsturu, kuantum fiziğinin **"özellikler sahip olunan şeyler değil, ilişkilerde tezahür eden olaylardır"** ilkesinin tam ontolojik temelidir.
+
+#### 2. Holografik İlke (AdS/CFT & ER=EPR) vs. Levh-i Mahfuz Projeksiyonu
+* **Bekenstein-Hawking & Leonard Susskind (Holografik İlke):** Bir uzay bölgesindeki (örneğin bir kara delik veya evrenin 3B hacmindeki — *bulk*) maksimum bilgi/entropi, o hacme değil, onu çevreleyen 2 boyutlu sınır yüzey alanına ($S = \frac{A}{4G}$) kodlanmıştır.
+* **Maldacena'nın AdS/CFT İkiliği ve ER=EPR:** Kütleçekimli 3B iç uzayımız, aslında kütleçekimsiz daha düşük boyutlu bir sınırda (*boundary*) yazılı kuantum enformasyonunun **holografik bir projeksiyonudur**. Susskind ve Maldacena'nın **ER=EPR** teoremine göre uzay-zaman dokusu dahi sınır yüzeydeki parçacıkların kuantum dolanıklığından (*entanglement*) örülür.
+* **Risale-i Nur Sentezi:** Kesif madde ve 3B şehadet âlemi (*bulk*), Âlem-i Emr ve **Levh-i Mahfuz**'daki (*boundary*) yüksek boyutlu ilâhî kodların ve Esmâ tecellilerinin bir projeksiyonudur. Zerrelerin uzak mesafelerden birbirine haberdarane yardım etmesi ve 21. Lem'adaki **Şahs-ı Manevî / İhlas** bağı, fiziksel mesafeyi aşan bir mânevî dolanıklık (*ER=EPR*) mimarisidir.
+
+---
+
+### 🧠 XVI. Bilinç Fiziği: Entegre Bilgi Teorisi ($\Phi$) ve Arayüz Kuramı (*Spacetime is Doomed*)
+
+Materyalist sinirbilimin "bilinç ölü atomların tesadüfî yan ürünüdür" iddiası, bugün iki büyük bilimsel kuramla sarsılmaktadır:
+
+#### 1. Entegre Bilgi Teorisi (IIT — Giulio Tononi) ve Hayatın Sırr-ı Câmii
+Sinirbilimci **Giulio Tononi**'nin geliştirdiği **IIT (Integrated Information Theory)**, bilinci dışsal davranıştan değil, doğrudan öznel deneyimin inkâr edilemez aksiyomlarından (Varlık, Bileşim, Bilgi, Bütünleşme, Dışlama) yola çıkarak modeller:
+* **$\Phi$ (Phi) Metriği ve İndirgenemezlik:** Bir sistemin bilinci ($\Phi$), parçalarının ayrı ayrı toplamından *indirgenemez* derecede ürettiği **bütünleşik bilgi** miktarıdır. Birbirinden kopuk parçaların (veya klasik ardışık bir bilgisayarın) bütünleşik bilgisi $\Phi \approx 0$'dır.
+* **Risale-i Nur Sentezi (29. Söz & 30. Lem'a):** *"Hayat, şu kâinatın en büyük gayesi ve sırr-ı câmiidir."* Ölü ve dağınık zerreler ($\Phi = 0$), **Hayat ve Ruh** kanunuyla bir araya geldiğinde, parçaların aritmetik toplamına asla indirgenemeyen küllî bir şuur ($\Phi \gg 0$) doğar; öyle ki bir tek zîhayat koca kâinata muhatap ve mâlik olur.
+
+#### 2. Donald Hoffman'ın Arayüz Algı Kuramı (ITP) ve "Uzay-Zaman Ölmüştür"
+Bilişsel bilimci **Donald Hoffman** (evrimsel oyun teorisi ispatlarıyla) ve teorik fizikçi **Nima Arkani-Hamed**, klasik gerçeklik algısını tersyüz eden bir sonuca ulaşmıştır:
+* **Masaüstü Metaforu (*Interface Theory of Perception*):** Bilgisayar ekranındaki mavi bir dosya ikonu, bilgisayarın içindeki voltaj ve transistör gerçeğinin kendisi değildir; sadece kullanıcının işlem yapabilmesi için tasarlanmış bir **arayüzdür**. Aynı şekilde 3 boyutlu uzay, zaman ve fiziksel nesneler de evrenin mutlak mobilyaları değil, şuurun muhatap olduğu bir **algı arayüzüdür**.
+* **"Uzay-Zaman Ölmüştür" (*Spacetime is Doomed*):** Planck ölçeğinde ve kuantum saçılma genliklerinde (*Amplituhedron*) uzay-zaman temel özelliğini yitirmektedir. Bilinci uzay-zaman içindeki nöronlarla açıklamaya çalışmak, yazılım programcısını Word ekranındaki ikonlarla açıklamaya çalışmak gibidir. Gerçek olan maddî ikonlar değil, perde arkasındaki **"Şuurlu Failler" (*Conscious Agents*)** ağıdır.
+* **Risale-i Nur Sentezi:** Mesnevî-i Nuriye ve 11. Söz'de belirtildiği üzere; **Âlem-i Şehadet** (kesif madde, zaman ve mekân) bir **perde ve teşhirgâh arayüzüdür**. Gözümüzle gördüğümüz madde ikonları kendi başlarına fâil değildir; gerçek olan o arayüzün arkasında isimleriyle tecelli eden **Hallâk-ı Zülcelâl** ve onunla muhatap olan **Ruh / Ene** hakikatidir.
+
+```mermaid
+flowchart LR
+    subgraph ModernBilim["🔬 21. YÜZYIL ÖNCÜ BİLİMİ"]
+        RQM["Carlo Rovelli (RQM)<br/>Mutlak Nesne Yok, İlişkiler Ağı Var"]
+        HOLO["Susskind & Maldacena<br/>Holografik İlke (Boundary -> Bulk)"]
+        IIT["Giulio Tononi (IIT Φ)<br/>İndirgenemez Bütünleşik Bilgi"]
+        ITP["Donald Hoffman (ITP)<br/>Uzay-Zaman Bir Algı Arayüzüdür"]
+    end
+
+    subgraph Risale["📜 TILSIM-I KÂİNAT ONTOLOJİSİ"]
+        MH["Mânâ-yı Harfî & Ayinedarlık<br/>(Eşya Nisbetle Hakikat Kazanır)"]
+        LM["Levh-i Mahfuz & Âlem-i Emr<br/>(Şehadet Âlemi Bir Projeksiyondur)"]
+        RUH["Hayatın Sırr-ı Câmii & Ruh<br/>(Parçalara İndirgenemeyen Birlik)"]
+        NAZAR["Şehadet Perdesi & Nazar<br/>(Madde İkondur, Hakikat Esmâdır)"]
+    end
+
+    RQM <==> MH
+    HOLO <==> LM
+    IIT <==> RUH
+    ITP <==> NAZAR
+```
+
+---
+
 ## 🧪 Simülasyon Laboratuvarı: Yedi Matematiksel Model ve Web Dashboard
 
 Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri, diferansiyel denklemler, kuantum enformasyon teorisi ve karar matrisleriyle canlandıran **7 simülasyon motoru**, **46 birim testi** ve modern bir **İnteraktif Web Laboratuvarı** yer alır.
@@ -673,7 +733,7 @@ Katkı ilkelerimiz ve standartlarımız için <a href="CONTRIBUTING.md">CONTRIBU
 * **Bediüzzaman Said Nursî — Sözler:** *10. Söz (Haşir), 11. Söz (Kâinat Sarayı), 12. Söz (Kur'an ve Felsefe Mukayesesi), 20. Söz (Mucizât-ı Enbiya), 23. Söz (İman ve İnsan), 26. Söz (Kader), 29. Söz (Ruh ve Bekā), 30. Söz (Ene ve Zerre), 31. Söz (Mirac).*
 * **Bediüzzaman Said Nursî — Lem'alar:** *21. Lem'a (İhlas), 23. Lem'a (Tabiat), 30. Lem'a (Hayy ve Kayyûm İsimleri).*
 * **Bediüzzaman Said Nursî — Mektubat & Mesnevî-i Nuriye:** *24. Mektup (Şuûnât-ı İlâhiye), Mesnevî-i Nuriye (Dört Kelime Dört Kelâm, Lâsiyyemalar).*
-* **Modern Bilim ve Fizik Referansları:** John Archibald Wheeler (*"It from Bit"*), Jacob Bekenstein (*Bekenstein Bound*), Rolf Landauer (*Landauer's Principle*), Erwin Schrödinger (*What is Life? / Negentropy*), Miguel Alcubierre (*Warp Drive Metric*), Kurt Gödel (*Incompleteness Theorems*).
+* **Modern Bilim ve Fizik Referansları:** John Archibald Wheeler (*"It from Bit"*), Carlo Rovelli (*Relational Quantum Mechanics - RQM*), Leonard Susskind & Gerard 't Hooft (*Holographic Principle & ER=EPR*), Juan Maldacena (*AdS/CFT Correspondence*), Giulio Tononi (*Integrated Information Theory - IIT $\Phi$*), Donald Hoffman (*Interface Theory of Perception & Conscious Realism*), Nima Arkani-Hamed (*"Spacetime is Doomed" / Amplituhedron*), Jacob Bekenstein (*Bekenstein Bound*), Rolf Landauer (*Landauer's Principle*), Erwin Schrödinger (*What is Life? / Negentropy*), Miguel Alcubierre (*Warp Drive Metric*), Kurt Gödel (*Incompleteness Theorems*).
 
 ---
 
