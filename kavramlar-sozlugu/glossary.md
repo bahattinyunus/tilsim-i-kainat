@@ -23,6 +23,8 @@ Büyük bir insan hükmünde olan kâinat sarayı; esmâ-i İlâhiyenin azamî t
 
 **Âlem-i Emir** — Tabiat kanunlarının, emirlerin ve ruhların kaynağı olan maddesiz melekût âlemi. Kudret âlem-i halkta, irade ve emir ise âlem-i emrde tecelli eder. (29. Söz) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
 
+**Ân-ı Dâim** — Ezel ve ebedi aynı anda kuşatan, zamanın geçmiş, şimdi ve gelecek olarak bölünmediği ilâhî hazır zaman boyutu. Mirac'ta Peygamber Efendimiz'in (A.S.M.) zamanın dışına çıkıp mazi ve müstakbeli tek bir şuhûd anında seyretmesi. (31. Söz & 24. Mektup) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
+
 **Amplituhedron** — Kuantum yerçekimi ve parçacık saçılma genliklerinde uzay-zaman ve olasılık aksiyomlarına dayanmadan doğrudan geometrik hacimle sonuç veren devrimci nesne; uzay-zamanın temel olmadığını gösteren fizik bulgusu (Nima Arkani-Hamed).
 
 **Arayüz Algı Kuramı (ITP - Interface Theory of Perception)** — Donald Hoffman'ın evrimsel oyun teorisiyle ispatladığı; uzay, zaman ve fiziksel nesnelerin nesnel gerçekliğin kendisi değil, bilincin kullandığı masaüstü simgeleri (arayüz) olduğunu ortaya koyan bilişsel kuram. → [README](../README.md#şehadet-perdesi--nazar)
@@ -38,6 +40,10 @@ Ene'nin fıtrî vazifesi; kendi acz ve fakrı ile Allah'ın zenginlik ve kemâli
 ## B
 
 **Bekenstein Sınırı (Bekenstein Bound)** — Sonlu bir uzay-zaman hacmi ve enerjisi içerisine sığdırılabilecek azami enformasyon (bit) miktarı üst limiti ($I \le \frac{2\pi R E}{\hbar c \ln 2}$). 20. Söz'deki Belkıs'ın tahtının enformasyonel rekonstrüksiyon tahlilinde alt sınır parametresidir. → [Geleceğin Teknolojileri](../docs/gelecegin-teknolojileri-ve-tilsim-i-kainat.md)
+
+**Beş Hediye (Mirac Semereleri)** — Mirac-ı Nebevî'den bütün insanlığa ve kâinata getirilen beş azîm müjde: İman hakikatlerinin gözle görülmesi, Beş vakit namaz (mü'minin miracı), Ebedî Cennet saadeti, Rü'yet-i Cemâlullah vaadi ve Kâinatın sultanının ilanı. (31. Söz, Dördüncü Esas) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
+
+**Burak & Refref** — Mirac seyrinde kesafet alemini aşıp semavat ve Sidre ötesine uruc ederken kullanılan nuranî ve ruhanî binekler; cesedin nuraniyet kesbederek ışık hızının ötesine intikaline delalet eden hakikat vasıtaları. (31. Söz) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
 
 **Bürhan** — Şüphe bırakmayan kesin aklî ve naklî delil.  
 Tahkikî imanın temeli. Taklit ile değil, bürhan ile inanmak esastır.
@@ -95,6 +101,8 @@ Ahzâb Suresi 72. âyette göklerin ve yerin çekindiği, insanın yüklendiği 
 
 **Enaniyet-i Nev'iye** — Bütün insanlık nev'inin kibri.  
 İnsanoğlunun medeniyet harikalarına ve fennî keşiflerine güvenip tabiata ve sebeplere rablık vermesi.
+
+**Entegre Bilgi Teorisi (IIT & $\Phi$)** — Giulio Tononi'nin geliştirdiği; bilincin bağımsız parçalara indirgenemez bütünleşik bilgi kapasitesiyle ($\Phi$) ölçüldüğünü savunan nöro-fiziksel kuram. 30. Lem'a'daki "Hayat kesrette vahdet rabıtasıdır" sırrının ve ruhun basitliğinin modern bilimdeki matematiksel modeli. → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
 
 **Entropi** — Termodinamikte düzensizlik ve kaos meyli. Canlılığın negentropi ile Kudret Kalemi namına yendiği fiziksel kanun. → [Modern Fizik ve Tılsım-ı Kâinat](../docs/modern-fizik-ve-tilsim-i-kainat.md)
 
@@ -170,6 +178,8 @@ Buz hükmündeki enaniyeti kevser havuzunda eritmenin yegâne formülü. (21. Le
 
 **İlim Malûma Tâbidir** — Ezelî ilmin bir zorlama ve cebir sebebi olmadığını, bilakis kulun cüz-i iradesiyle yapacağı tercihe göre taalluk ettiğini ifade eden ehl-i sünnet kelâm kaidesi. $P(\text{İlim}\mid\text{Tercih})=1$ iken $P(\text{Cebir})=0$'dır. (26. Söz) → [Kader ve İrade Tılsımı](../docs/kader-ve-irade-tilsimi.md)
 
+**İmkân-ı Vücub Berzahı** — Mahlukatın dairesi olan "İmkân" ile Hâlık'ın dairesi olan "Vücub" arasındaki nihai sınır hattı. Mirac'ta Peygamber Efendimiz'in (A.S.M.) ulaştığı, mekândan ve zamandan münezzeh kudsî berzah (Kab-ı Kavseyn). (31. Söz, Üçüncü Esas) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
+
 **İsm-i Hayy** — Ezelî ve ebedî diri olan, bütün kâinata hayat bahşeden Allah'ın ismi. Hayat, esmâ-i hüsnânın en parlak aynası ve kâinatın sırr-ı câmiidir. (30. Lem'a, Beşinci Nükte) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
 
 **İsm-i Kayyûm** — Bütün mevcudatı zâtıyla kaim kılan, durmaksızın devam ve intizam veren Allah'ın ismi. Zerreler ancak Kayyûmiyet sırrıyla dağılmaktan korunur. (30. Lem'a)
@@ -189,6 +199,9 @@ Tabiatın bir sanat, kanun ve defter olduğunu; fâil, sâni' ve kâtip olamayac
 ---
 
 ## K
+
+**Kab-ı Kavseyn** — "İki yay aralığı kadar veya daha yakın" (Necm Sûresi, 9).  
+Mirac gecesinde Resûl-i Ekrem Efendimiz'in (A.S.M.) ulaştığı en yüksek kurbiyet (yakınlık) makamı; yaratılmışlığın bittiği ve Rü'yet-i Cemâlullah'ın tahakkuk ettiği imkân-vücub berzahı. (31. Söz, Üçüncü Esas) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
 
 **Kıtt-ı Munsab** — Akıtılmış erimiş maden / bakır pınarı.  
 Hz. Süleyman'a (A.S.) lütfedilen, yerin derinliklerinden madenlerin eritilerek çıkarılması ve oda sıcaklığında süperiletkenlik/metalürji teknolojisine işaret eden Kur'ânî mucize. (Sebe: 12, 20. Söz)
@@ -258,6 +271,8 @@ Zerrelerin işe başlarken lisan-ı hal ile "Bismillah" demesi. (30. Söz, İkin
 
 **Mistâr & Masdar** — Tabiatın sadece bir cetvel (mistar) ve nizam kalıbı olduğu; hakiki kaynak, fâil ve mimar (masdar) olamayacağı tevhîdî kaidesi. (23. Lem'a) → [Tabiat ve Esbap Eleştirisi](../docs/tabiat-ve-esbab-elestirisi.md)
 
+**Mirac-ı Nebevî** — Resûl-i Ekrem Efendimiz'in (A.S.M.) kâinat sarayının ve hilkat ağacının bütün semavat tabakalarını, sidre ve melekût alemlerini aşarak Sultan-ı Ezelî'nin huzuruna çıkması; "Tılsım-ı kâinatın ve muammâ-yı hilkatin küllî fethi ve keşşafı". (31. Söz) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
+
 **Muammâ-yı Hilkat** — Yaratılışın gizli ve derin sırrı.
 
 **Muhabbetullah** — Allah sevgisi; marifetullah dairesinde inkişaf eden, cinn ü insin en tatlı nimeti ve en parlak saadeti. (20. Mektup) → [Taallüm ve Tekâmül](../docs/taallum-ve-tekamul.md)
@@ -304,6 +319,8 @@ Mevcudatın tek bir Vâhid-i Ehad'in emriyle birbirine yardım etmesi ve bir nef
 
 **Sefine-i Rabbaniye** — İlâhî kurtuluş gemisi.  
 Kur'an hakikatleri gemisi; talebeleri ise bu gemide çalışan hademelerdir. (21. Lem'a)
+
+**Sidretü'l-Münteha** — Yaratılmış mahlukatın, melekût ilminin ve esbap zincirinin nihayet bulduğu kozmik sınır ağacı. Hz. Cebrail'in (A.S.) dahi geride kaldığı, maddî uzay-zamanın son hududu. (Necm Sûresi, 14 & 31. Söz) → [Mirac ve Tayy-ı Zaman](../docs/mirac-ve-tayy-i-zaman.md)
 
 **Sırr-ı Adediyet** — Sayıların birleşme sırrı.  
 Ayrı duran üç 1'in değeri 3 iken; omuz omuza verip aynı hizaya girdiklerinde 111 olması; dört 4'ün 4444 kuvvetine yükselmesi sırrı.

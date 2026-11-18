@@ -342,6 +342,8 @@
       <button class="tab-btn" onclick="switchTab('tab-teleport')">5. Tayy-ı Mekân & Işınlanma</button>
       <button class="tab-btn" onclick="switchTab('tab-kader')">6. Kader ve İrade Matrisi</button>
       <button class="tab-btn" onclick="switchTab('tab-hasir')">7. Haşir ve Bilgi Korunumu</button>
+      <button class="tab-btn" onclick="switchTab('tab-hayat')">8. Hayat ve Şuur (IIT Φ)</button>
+      <button class="tab-btn" onclick="switchTab('tab-mirac')">9. Mirac ve Görelilik</button>
     </div>
   </header>
 
@@ -793,6 +795,176 @@
           </div>
           <div class="verdict-box" id="hasir-verdict">
             <strong>Kâinat Mührü:</strong> Zerreler dağılsa da bilgi (Levh-i Mahfuz ve ruh) korunmuş; tek bir Sur emriyle adalet, hikmet ve merhamet kemale ermiştir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 8: HAYAT, ŞUUR VE BÜTÜNLEŞİK BİLGİ (IIT Φ) -->
+    <div id="tab-hayat" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🕊️ Hayat & Şuur Parametreleri</h2>
+          <div class="quote-box">
+            "Hayat, koca kâinatı bir ferdin hanesi hükmüne getirir; kesrette bir vahdet rabıtasıdır... Ruh ise zîhayat, zîşuur, nuranî, vücud-u haricî giydirilmiş bir kanun-u emrîdir."
+            <span class="author">— 30. Lem'a (İsm-i Hayy) & 29. Söz (Ruh Risalesi)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Vahdet Râbıtası (Kesrette Vahdet / Bütünleşme)</span>
+              <span class="val" id="hayat-vahdet-val">0.98</span>
+            </div>
+            <input type="range" id="hayat-vahdet" min="0" max="1" step="0.02" value="0.98" oninput="simuleEtHayat()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Âlem-i Emir İrtibatı / Vücud-u Haricî Giyme</span>
+              <span class="val" id="hayat-emir-val">1.00</span>
+            </div>
+            <input type="range" id="hayat-emir" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtHayat()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Şuur & İdrak Derecesi [0: Câmid, 0.5: Hayvan, 1: İnsan]</span>
+              <span class="val" id="hayat-suur-val">1.00</span>
+            </div>
+            <input type="range" id="hayat-suur" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtHayat()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Ene Miftahı / Vâhid-i Kıyasî Aynadarlığı</span>
+              <span class="val" id="hayat-ene-val">1.00</span>
+            </div>
+            <input type="range" id="hayat-ene" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtHayat()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Negentropi Pompası (Kaosa Karşı Canlılık)</span>
+              <span class="val" id="hayat-negentropi-input-val">0.95</span>
+            </div>
+            <input type="range" id="hayat-negentropi-input" min="0" max="1" step="0.05" value="0.95" oninput="simuleEtHayat()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setHayatPreset(0.98, 1.0, 1.0, 1.0, 0.95)">🌟 İnsanî Ruh</button>
+            <button class="btn-preset" onclick="setHayatPreset(0.88, 0.90, 0.55, 0.0, 0.85)">🐾 Hayvanî Ruh</button>
+            <button class="btn-preset" onclick="setHayatPreset(0.75, 0.40, 0.05, 0.0, 0.80)">🌿 Nebâtî Hayat</button>
+            <button class="btn-preset" onclick="setHayatPreset(0.15, 0.0, 0.0, 0.0, 0.10)">🤖 Felsefî Zombi / YZ</button>
+            <button class="btn-preset" onclick="setHayatPreset(1.0, 1.0, 1.0, 0.95, 1.0)">🕊️ Berzah & Tecerrüd</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Bütünleşik Bilgi (IIT Φ) ve Ontolojik Radar</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="hayat-phi-son">98.4</div>
+              <div class="metric-label">Φ (Entegre Bilgi)</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="hayat-negentropi-son">0.939</div>
+              <div class="metric-label">Negentropi İndisi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="hayat-ebediyet-son">1.000</div>
+              <div class="metric-label">Ebediyet Kabiliyeti</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="hayat-kulliyet-son">0.980</div>
+              <div class="metric-label">Külliyet İndisi</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartHayat"></canvas>
+          </div>
+          <div class="verdict-box" id="hayat-verdict">
+            <strong>Ruhî Mühür:</strong> Vücud-u haricî giymiş câmi' kanun-u emrî; kâinatı ihata eden küllî şuur ve ebediyet mazhariyeti.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 9: MİRAC, GÖRELİLİK VE TAYY-I ZAMAN -->
+    <div id="tab-mirac" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🚀 Mirac & Görelilik Parametreleri</h2>
+          <div class="quote-box">
+            "Tılsım-ı kâinatın ve muammâ-yı hilkatin keşşafı ve fatihi olan zât-ı Ahmediye Aleyhissalâtü Vesselâmın mi'racı... Zaman bir şerit gibi cereyan ediyor; nur ve ruh sür'atinde olan seyyahlar için zaman dürülür."
+            <span class="author">— 31. Söz (Mirac Risalesi) & 24. Mektup</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Hız Oranı (v/c / β)</span>
+              <span class="val" id="mirac-beta-val">0.9999</span>
+            </div>
+            <input type="range" id="mirac-beta" min="0" max="0.999999" step="0.00005" value="0.9999" oninput="simuleEtMirac()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Letâfet Derecesi (Cesedin Nura İnkılabı)</span>
+              <span class="val" id="mirac-letafet-val">1.00</span>
+            </div>
+            <input type="range" id="mirac-letafet" min="0" max="1" step="0.05" value="1.00" oninput="simuleEtMirac()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Seyir Mertebesi [1: Arz/Ay, 2: Samanyolu, 3: Sidre, 4: Kab-ı Kavseyn]</span>
+              <span class="val" id="mirac-mertebe-val">4</span>
+            </div>
+            <input type="range" id="mirac-mertebe" min="1" max="4" step="1" value="4" oninput="simuleEtMirac()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Dünya Gözlemcisi Süresi (sn)</span>
+              <span class="val" id="mirac-dunya-val">5.0</span>
+            </div>
+            <input type="range" id="mirac-dunya" min="1" max="100" step="1" value="5" oninput="simuleEtMirac()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setMiracPreset(0.999999, 1.0, 4, 5)">✨ Mirac-ı Ahmedi</button>
+            <button class="btn-preset" onclick="setMiracPreset(0.9999, 0.90, 2, 60)">🕊️ Ruhanî Seyr-i Sülûk</button>
+            <button class="btn-preset" onclick="setMiracPreset(0.999999, 0.0, 3, 50)">💡 Foton Referansı</button>
+            <button class="btn-preset" onclick="setMiracPreset(0.0001, 0.0, 1, 100)">🛰️ Klasik Kesafet</button>
+            <button class="btn-preset" onclick="setMiracPreset(0.995, 0.0, 3, 80)">🕳️ Olay Ufku</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">⏱️ Zaman Genişlemesi ve Ân-ı Dâim Eğrisi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="mirac-lorentz-son">70.7</div>
+              <div class="metric-label">Lorentz Faktörü (γ)</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="mirac-oz-zaman-son">7.07e-15 s</div>
+              <div class="metric-label">Yolcu Öz-Zamanı</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="mirac-g-son">0.0 G</div>
+              <div class="metric-label">Hissedilen G-Kuvveti</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="mirac-tilsim-son">%100</div>
+              <div class="metric-label">Tılsım Fethi</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartMirac"></canvas>
+          </div>
+          <div class="verdict-box" id="mirac-verdict">
+            <strong>Mirac Mührü:</strong> Kâinat tılsımı tamamen fethedildi; zaman dürülmüş, cisim letafetle nura inkılap ederek ezel-ebed berzahına vasıl olmuştur.
           </div>
         </div>
       </div>
@@ -1325,6 +1497,209 @@
       simuleEtHasir();
     }
 
+    // ==========================================
+    // 8. HAYAT VE ŞUUR (IIT Φ) MODELİ
+    // ==========================================
+    let chartHayatInstance = null;
+    function simuleEtHayat() {
+      const vahdet = parseFloat(document.getElementById('hayat-vahdet').value);
+      const emir = parseFloat(document.getElementById('hayat-emir').value);
+      const suur = parseFloat(document.getElementById('hayat-suur').value);
+      const ene = parseFloat(document.getElementById('hayat-ene').value);
+      const negentropiIn = parseFloat(document.getElementById('hayat-negentropi-input').value);
+
+      document.getElementById('hayat-vahdet-val').innerText = vahdet.toFixed(2);
+      document.getElementById('hayat-emir-val').innerText = emir.toFixed(2);
+      document.getElementById('hayat-suur-val').innerText = suur.toFixed(2);
+      document.getElementById('hayat-ene-val').innerText = ene.toFixed(2);
+      document.getElementById('hayat-negentropi-input-val').innerText = negentropiIn.toFixed(2);
+
+      let phi = 0.0;
+      if (vahdet >= 0.08 && (emir >= 0.05 || suur >= 0.05)) {
+        const logN = 8.0; // 10^8 zerre
+        const vahdetFaktoru = Math.pow(vahdet, 1.8);
+        const suurAgirligi = 0.2 * suur + 0.8 * (suur * suur);
+        const eneKatkisi = 0.5 * ene;
+        phi = Math.max(0, logN * 8.5 * vahdetFaktoru * Math.pow(emir, 1.2) * (suurAgirligi + eneKatkisi));
+      }
+
+      const negentropi = Math.min(1.0, Math.max(0.0, negentropiIn * (0.6 * vahdet + 0.4 * emir)));
+      let ebediyet = 0.0;
+      if (emir >= 0.70 && suur >= 0.40) {
+        ebediyet = Math.min(1.0, emir * (0.7 + 0.3 * suur));
+      } else if (emir > 0.20) {
+        ebediyet = 0.30 * emir;
+      }
+      const kulliyet = Math.min(1.0, Math.max(0.0, suur * ene * vahdet));
+
+      document.getElementById('hayat-phi-son').innerText = phi.toFixed(1);
+      document.getElementById('hayat-negentropi-son').innerText = negentropi.toFixed(3);
+      document.getElementById('hayat-ebediyet-son').innerText = ebediyet.toFixed(3);
+      document.getElementById('hayat-kulliyet-son').innerText = kulliyet.toFixed(3);
+
+      let verdict = "";
+      if (phi >= 40.0 && ebediyet >= 0.90) {
+        verdict = "Vücud-u haricî giymiş câmi' kanun-u emrî; kâinatı ihata eden küllî şuur, ene aynadarlığı ve mutlak ebediyet mazhariyeti (Ahsen-i Takvîm).";
+      } else if (phi >= 10.0 && ebediyet >= 0.60) {
+        verdict = "Müstakil can taşıyan, his ve irade sahibi hayvanî ruh; ene miftahı olmadığı için esmâ tefekkürü cüz'îdir.";
+      } else if (negentropi >= 0.40 && suur <= 0.10) {
+        verdict = "Nebâtî Hayat (Kuvve-i İnbâtiye): Şuursuz fakat tekvînî sevk ile intizam gösteren çekirdek programı.";
+      } else if (emir === 0.0 && suur === 0.0) {
+        verdict = "Felsefî Zombi / YZ: Milyarlarca mantık kapısı çalışsa da emrî ruhtan mahrum; sübjektif şuur ve vahdet rabıtası sıfırdır (Φ ≈ 0).";
+      } else {
+        verdict = "Hayat iksirinden mahrum, termodinamik dağılmaya açık dağınık zerreler.";
+      }
+      document.getElementById('hayat-verdict').innerHTML = "<strong>Ruhî Mühür:</strong> " + verdict;
+
+      if (chartHayatInstance) chartHayatInstance.destroy();
+      const ctx = document.getElementById('chartHayat').getContext('2d');
+      chartHayatInstance = new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Bütünleşik Bilgi (Φ / 100)', 'Negentropi İndisi', 'Ebediyet Kabiliyeti', 'Külliyet İntisabı', 'Âlem-i Emir İrtibatı'],
+          datasets: [{
+            label: 'Ontolojik Hayat Matrisi',
+            data: [
+              Math.min(1.0, phi / 100.0),
+              negentropi,
+              ebediyet,
+              kulliyet,
+              emir
+            ],
+            borderColor: '#10B981',
+            backgroundColor: 'rgba(16, 185, 129, 0.25)',
+            pointBackgroundColor: '#06B6D4',
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: '#10B981'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            r: {
+              min: 0,
+              max: 1,
+              ticks: { display: false },
+              grid: { color: 'rgba(255, 255, 255, 0.08)' },
+              angleLines: { color: 'rgba(255, 255, 255, 0.08)' },
+              pointLabels: { color: '#F3F4F6', font: { size: 11 } }
+            }
+          }
+        }
+      });
+    }
+
+    function setHayatPreset(v, em, s, en, n) {
+      document.getElementById('hayat-vahdet').value = v;
+      document.getElementById('hayat-emir').value = em;
+      document.getElementById('hayat-suur').value = s;
+      document.getElementById('hayat-ene').value = en;
+      document.getElementById('hayat-negentropi-input').value = n;
+      simuleEtHayat();
+    }
+
+    // ==========================================
+    // 9. MİRAC VE GÖRELİLİK MODELİ
+    // ==========================================
+    let chartMiracInstance = null;
+    function simuleEtMirac() {
+      const beta = parseFloat(document.getElementById('mirac-beta').value);
+      const letafet = parseFloat(document.getElementById('mirac-letafet').value);
+      const mertebe = parseInt(document.getElementById('mirac-mertebe').value);
+      const dunya = parseFloat(document.getElementById('mirac-dunya').value);
+
+      document.getElementById('mirac-beta-val').innerText = beta.toFixed(4);
+      document.getElementById('mirac-letafet-val').innerText = letafet.toFixed(2);
+      document.getElementById('mirac-mertebe-val').innerText = mertebe;
+      document.getElementById('mirac-dunya-val').innerText = dunya.toFixed(1);
+
+      const birEksiBetaKare = Math.max(1e-12, 1.0 - beta * beta);
+      const gama = 1.0 / Math.sqrt(birEksiBetaKare);
+      const letafetCarpani = Math.max(1e-9, 1.0 - letafet * 0.999999999);
+      const ozZaman = (dunya / gama) * letafetCarpani;
+
+      let hissedilenG = 0.0;
+      if (letafet >= 0.99) {
+        hissedilenG = 0.0;
+      } else {
+        hissedilenG = Math.min(999999, (gama - 1.0) * (1.0 - letafet) * 9.81);
+      }
+
+      const mertebeCarpani = {1: 25.0, 2: 55.0, 3: 85.0, 4: 100.0}[mertebe] || 50.0;
+      const tilsim = Math.min(100.0, mertebeCarpani * (0.5 * Math.sqrt(beta) + 0.5 * letafet));
+
+      document.getElementById('mirac-lorentz-son').innerText = gama >= 1000 ? gama.toExponential(1) : gama.toFixed(1);
+      document.getElementById('mirac-oz-zaman-son').innerText = ozZaman < 0.01 ? ozZaman.toExponential(2) + ' s' : ozZaman.toFixed(3) + ' s';
+      document.getElementById('mirac-g-son').innerText = hissedilenG >= 1000 ? hissedilenG.toExponential(1) + ' G' : hissedilenG.toFixed(1) + ' G';
+      document.getElementById('mirac-tilsim-son').innerText = '%' + tilsim.toFixed(1);
+
+      let verdict = "";
+      if (mertebe === 4 && letafet >= 0.95) {
+        verdict = "Kab-ı Kavseyn & Rü'yet-i Cemâlullah: Kâinat tılsımı tamamen fethedildi; zaman dürülmüş (Ân-ı Dâim), cisim letafetle nura inkılap ederek ezel-ebed berzahına vasıl olmuştur.";
+      } else if (mertebe === 3) {
+        verdict = "Sidretü'l-Münteha: Maddî uzay-zamanın nihayeti; esbap perdeleri geride kalmış, melekût nizamı müşahede edilmiştir.";
+      } else if (letafet >= 0.80) {
+        verdict = "Tabakat-ı Melekût: Ruhun cesede galip gelmesiyle tayy-ı zaman ve mekân tecellisi; kesafet perdesi incelmiştir.";
+      } else if (letafet === 0.0 && beta >= 0.90) {
+        verdict = "Foton Referansı: Işık fotonu için zaman akmaz; fakat şuur ve irade taşımayan kör fiziksel kanundur.";
+      } else {
+        verdict = "Maddî Kesafet: Higgs direnci ve sürtünme hakimdir; zamanın akışına mahkûmdur.";
+      }
+      document.getElementById('mirac-verdict').innerHTML = "<strong>Mirac Mührü:</strong> " + verdict;
+
+      // Grafik verileri: Hız oranlarına göre zaman genişlemesi simülasyonu
+      const hızNoktaları = [0.0, 0.5, 0.8, 0.9, 0.95, 0.99, 0.999, 0.9999];
+      const gamaSerisi = [];
+      const ozZamanSerisi = [];
+      hızNoktaları.forEach(v => {
+        const g = 1.0 / Math.sqrt(Math.max(1e-9, 1.0 - v * v));
+        gamaSerisi.push(Math.min(100, g));
+        ozZamanSerisi.push((dunya / g) * letafetCarpani);
+      });
+
+      if (chartMiracInstance) chartMiracInstance.destroy();
+      const ctx = document.getElementById('chartMirac').getContext('2d');
+      chartMiracInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ['v=0', 'v=0.5c', 'v=0.8c', 'v=0.9c', 'v=0.95c', 'v=0.99c', 'v=0.999c', 'v=0.9999c'],
+          datasets: [
+            {
+              label: 'Yolcu Öz-Zamanı (Δτ sn)',
+              data: ozZamanSerisi,
+              borderColor: '#06B6D4',
+              backgroundColor: 'rgba(6, 182, 212, 0.15)',
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Lorentz Faktörü (γ)',
+              data: gamaSerisi,
+              borderColor: '#F59E0B',
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { min: 0 }
+          }
+        }
+      });
+    }
+
+    function setMiracPreset(b, l, m, d) {
+      document.getElementById('mirac-beta').value = b;
+      document.getElementById('mirac-letafet').value = l;
+      document.getElementById('mirac-mertebe').value = m;
+      document.getElementById('mirac-dunya').value = d;
+      simuleEtMirac();
+    }
+
     // Sayfa Yüklendiğinde Bütün Simülasyonları Başlat
     window.addEventListener('DOMContentLoaded', () => {
       simuleEtEne();
@@ -1334,6 +1709,8 @@
       simuleEtTeleport();
       simuleEtKader();
       simuleEtHasir();
+      simuleEtHayat();
+      simuleEtMirac();
     });
   </script>
 </body>

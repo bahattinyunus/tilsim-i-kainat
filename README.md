@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/bahattinyunus/tilsim-i-kainat/actions/workflows/tests.yml"><img src="https://img.shields.io/badge/CI%20Tests-46%2F46%20Passing-10B981?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Tests"></a>
+  <a href="https://github.com/bahattinyunus/tilsim-i-kainat/actions/workflows/tests.yml"><img src="https://img.shields.io/badge/CI%20Tests-59%2F59%20Passing-10B981?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Tests"></a>
   <img src="https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Versions">
-  <img src="https://img.shields.io/badge/Sim%C3%BClasyon-7%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="7 Models">
-  <img src="https://img.shields.io/badge/Diyagram-14%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="14 Diagrams">
+  <img src="https://img.shields.io/badge/Sim%C3%BClasyon-9%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="9 Models">
+  <img src="https://img.shields.io/badge/Diyagram-16%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="16 Diagrams">
   <a href="dashboard/index.html"><img src="https://img.shields.io/badge/Web%20Dashboard-Chart.js%20SPA-F59E0B?style=for-the-badge" alt="Web Dashboard"></a>
 </p>
 
@@ -33,10 +33,10 @@ Projeyi yerel bilgisayarınıza klonlayıp **30 saniye** içinde hem Python sim�
 git clone https://github.com/bahattinyunus/tilsim-i-kainat.git
 cd tilsim-i-kainat
 
-# 2. Yedi simülasyon modelini tek seferde çalıştırın
+# 2. Dokuz simülasyon modelini tek seferde çalıştırın
 python simulations/run_all.py
 
-# 3. 46 birim testinin tamamını doğrulayın
+# 3. 59 birim testinin tamamını doğrulayın
 python -m unittest discover -s simulations -p "test_*.py" -v
 ```
 
@@ -64,6 +64,7 @@ Risale-i Nur'daki köklü kavramların modern fizik, bilişim teorisi, termodina
 | **Mânâ-yı Harfî (Nisbet)** | *Mesnevî & 30. Söz* | **İlişkisel Kuantum Mekaniği (RQM - C. Rovelli)** | Hiçbir nesnenin kendi başına (*mânâ-yı ismî*) mutlak özelliği yoktur; özellikler yalnızca ilişkilerde ve ayinedarlıkta doğar. |
 | **Âlem-i Misâl & Şahs-ı Manevî** | *21. Lem'a & 28. Mektup* | **Holografik İlke (AdS/CFT) & ER=EPR (Susskind)** | 3B maddî hacim (*bulk*), düşük boyutlu sınır (*boundary*) bilgisinin projeksiyonudur; uzay-zaman dolanıklıktan örülür. |
 | **Hayatın Sırr-ı Câmii & Ruh** | *29. Söz & 30. Lem'a* | **Entegre Bilgi Teorisi (IIT $\Phi$ - G. Tononi)** | Parçalara indirgenemeyen bütünleşik bilgi ($\Phi \gg 0$), cansız zerratı tek bir kâinata muhatap zîşuur bir öze çevirir. |
+| **Mirac-ı Nebevî & Ân-ı Dâim** | *31. Söz & 24. Mektup* | **Özel Görelilik (Einstein) & Lorentz Dilation** | Cismin nuraniyet kesbetmesiyle Higgs eylemsizliği sıfırlanır ($0.0\text{ G}$); zaman dürülerek *tarfetü'l-ayn*da ezel-ebed seyrine erilir. |
 | **Şehadet Perdesi & Nazar** | *Mesnevî & 11. Söz* | **Arayüz Algı Kuramı (ITP - D. Hoffman)** | Uzay-zaman ve madde mutlak hakikat değil, şuurun muhatap olduğu bir "arayüz"dür; hakikat perde arkasındaki esmâdır. |
 
 ---
@@ -89,9 +90,10 @@ Risale-i Nur'daki köklü kavramların modern fizik, bilişim teorisi, termodina
 | **13** | [**Dört Kelime ve Dört Kelâm**](docs/dort-kelime-dort-kelam.md) | *Mesnevî-i Nuriye* | Mânâ-yı Harfî, Mânâ-yı İsmî, Niyet, Nazar ve "İnnî lestü mâlikî", "El-mülkü lillâh" tahlili. |
 | **14** | [**Şuûnât-ı İlâhiye ve Dâimî Faaliyet**](docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md) | *24. Mektup* | Cenâb-ı Hakk'ın hiçbir şeye ihtiyacı olmadığı halde kâinattaki bu hummalı faaliyetin 4 büyük sırrı. |
 | **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
-| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 125+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 14 adet mimari akış şeması (Haşir-Ebediyet, Kader-İrade Matrisi, Kuantum, Işınlanma, Tayy-ı Mekân Fiziği, Entropi, Hâl değişimleri, 3 Sual, Tabiat, İhlas). |
-| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 7 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
+| **16** | [**Mirac, Görelilik ve Tayy-ı Zaman**](docs/mirac-ve-tayy-i-zaman.md) | *31. Söz (Mirac)* | **Kâinat Tılsımının Küllî Fethi:** Sidretü'l-Münteha, Kab-ı Kavseyn, Zamanın İzafiyeti ve Beş Kudsî Hediye. |
+| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 135+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 16 adet mimari akış şeması (Mirac, Hayat-Ruh IIT, Haşir-Ebediyet, Kader-İrade, Kuantum, Işınlanma, Entropi, İhlas). |
+| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 9 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
 
 ---
 
@@ -486,16 +488,34 @@ flowchart LR
 
 ---
 
-## 🧪 Simülasyon Laboratuvarı: Yedi Matematiksel Model ve Web Dashboard
+### 🌌 XVII. Mirac-ı Nebevî, Görelilik ve Tayy-ı Zaman (31. Söz & Özel Görelilik)
 
-Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri, diferansiyel denklemler, kuantum enformasyon teorisi ve karar matrisleriyle canlandıran **7 simülasyon motoru**, **46 birim testi** ve modern bir **İnteraktif Web Laboratuvarı** yer alır.
+> *"Tılsım-ı kâinatın ve muammâ-yı hilkatin keşşafı ve fatihi olan zât-ı Ahmediye Aleyhissalâtü Vesselâmın mi'racı..."* (31. Söz)
+
+Mirac hadisesi, Ene'nin enfüste, Zerre'nin âfâkta açtığı sırların kâinat çapında **küllî fethi ve nihai teftişidir**:
+1. **Cesedin Nura İnkılabı ve Letafet (Higgs Direncinin Sıfırlanması):**  
+   Maddî beden nuraniyet ve ruhaniyet kesbettikçe eylemsizlik direnci ($m_{\text{eff}} \to 0$) sıfırlanır; cisim ezilmeden ve ivme hissetmeden ($0.0\text{ G}$) ışık hızının ötesine uruc eder.
+2. **Zamanın İzafiyeti ve Ân-ı Dâim (Special Relativity):**  
+   Lorentz faktörü ($\gamma = 1/\sqrt{1 - v^2/c^2}$) sonsuza ıraksarken yolcunun kolundaki saat ($\Delta \tau = \Delta t / \gamma$) durur. Dünyada birkaç saniyelik fizyolojik zaman zarfında (*tarfetü'l-ayn*) bütün semavat tabakaları, Sidretü'l-Münteha ve Kab-ı Kavseyn teftiş edilir.
+3. **Beş Büyük Hediye:**  
+   İman hakikatlerinin şuhûdu, beş vakit namaz (mü'minin miracı), Cennet ve Cemâlullah müjdesi, kâinatın sahipsiz olmadığının ilanı.
+
+👉 **Genişletilmiş Doküman:** [**Mirac, Görelilik ve Tayy-ı Zaman**](docs/mirac-ve-tayy-i-zaman.md)  
+👉 **Simülasyon Motoru:** [`simulations/mirac-relativity-model.py`](simulations/mirac-relativity-model.py)
+
+---
+
+## 🧪 Simülasyon Laboratuvarı: Dokuz Matematiksel Model ve Web Dashboard
+
+Proje bünyesinde Risale-i Nur'un ontolojik prensiplerini sistemik geri besleme döngüleri, diferansiyel denklemler, kuantum enformasyon teorisi, görelilik ve karar matrisleriyle canlandıran **9 simülasyon motoru**, **59 birim testi** ve modern bir **İnteraktif Web Laboratuvarı** yer alır.
 
 ```bash
-# Yedi modeli tek merkezden çalıştır:
+# Dokuz modeli tek merkezden çalıştır:
 python simulations/run_all.py
 
-# Birim testlerini çalıştır (46 test %100 Başarı):
+# Birim testlerini çalıştır (59 test %100 Başarı):
 python -m unittest discover -s simulations -p "test_*.py" -v
+```
 ```
 
 ### 1. Ene Kalınlaşma Modeli (`ene-thickening-model.py`)
@@ -595,9 +615,42 @@ hasirsiz_faraziye         0.000    0.100    0.000       1.0x  Abesiyet ve Zulüm
 suphe_ve_tereddut         0.221    0.338    0.335      31.0x  Tereddüt ve Eksik Huzur
 ```
 
+### 8. Hayat, Şuur ve Bütünleşik Bilgi Modeli (`hayat-suur-model.py`)
+29. Söz (Ruh Risalesi) ve 30. Lem'a (İsm-i Hayy); Giulio Tononi'nin Entegre Bilgi Teorisi (IIT $\Phi$) ve Erwin Schrödinger'in Negentropi modeli:
+```bash
+python simulations/hayat-suur-model.py --tablo
+```
+
+```text
+Senaryo                Φ (IIT)  Negentropi   Ebediyet  Külliyet  Durum
+----------------------------------------------------------------------------------------
+insani_ruh               98.36       0.939      1.000     0.980  İnsanî Ruh & Ene Aynadarlığı (Ahsen-i Takvîm)
+hayvani_ruh              16.13       0.755      0.778     0.000  Hayvanî Ruh (Hissiyat ve Sevk-i Fıtrî)
+nebatat_inbatiye          0.14       0.488      0.120     0.000  Nebâtî Hayat (Kuvve-i İnbâtiye)
+camid_madde               0.00       0.000      0.000     0.000  Câmid Madde & Entropik Dağılma
+yapay_zeka_zombi          0.00       0.009      0.000     0.000  Yapay Zekâ / Felsefî Zombi (Şuursuz Hesaplama)
+vefat_ve_tecerrud        12.54       1.000      1.000     0.950  Tecerrüd ve Beka (Berzah Âlemi)
+```
+
+### 9. Mirac, Görelilik ve Tayy-ı Zaman Modeli (`mirac-relativity-model.py`)
+31. Söz (Mirac Risalesi) ve Einstein'ın Özel Görelilik Kuramı; Lorentz zaman genişlemesi ($\gamma$), letâfet ile kütleçekim direncinin sıfırlanması ve *tarfetü'l-ayn* sübjektif öz-zaman ($\Delta \tau$):
+```bash
+python simulations/mirac-relativity-model.py --tablo
+```
+
+```text
+Senaryo                     Lorentz γ   Öz-Zaman (s)   G-Kuvveti  Tılsım %  Ontolojik Mertebe
+------------------------------------------------------------------------------------------------
+mirac_i_ahmedi               707114.6       7.07e-15         0.0     100.0  Kab-ı Kavseyn & Rü'yet-i Cemâlullah (Ân-ı Dâim)
+ruhani_seyr_evliya               70.7          0.085        68.4      52.2  Tabakat-ı Melekût (Ruhanî Seyr-i Sülûk)
+foton_referans_cercevesi      22360.7          0.161    219348.5      42.5  Sidretü'l-Münteha (Kozmik Yaratılışın Sınırı)
+klasik_roket_astronot             1.0     259200.000         0.0       0.1  Maddî Kesafet & Eylemsizlik Hapsi
+kara_delik_olay_ufku             10.0       8629.193        88.4      42.4  Sidretü'l-Münteha (Kozmik Yaratılışın Sınırı)
+```
+
 ---
 
-## 🗺️ Görsel Mimari: 14 Mermaid Diyagramı Kataloğu
+## 🗺️ Görsel Mimari: 16 Mermaid Diyagramı Kataloğu
 
 Depodaki tüm felsefî ve bilimsel tezler `assets/diagrams/` altında Mermaid şemaları olarak modellenmiştir:
 
@@ -617,6 +670,8 @@ Depodaki tüm felsefî ve bilimsel tezler `assets/diagrams/` altında Mermaid ş
 | 12 | [`isinlanma-ve-tayy-i-mekan-fizigi.mmd`](assets/diagrams/isinlanma-ve-tayy-i-mekan-fizigi.mmd) | Belkıs'ın tahtının naklinde 3 fiziksel mod ve zaman diyagramı |
 | 13 | [`kader-irade-matrisi.mmd`](assets/diagrams/kader-irade-matrisi.mmd) | 26. Söz: Levh-i Mahfuz, Kesb ve Kibir-Yeis Terazisi |
 | 14 | [`hasir-ve-ebediyet.mmd`](assets/diagrams/hasir-ve-ebediyet.mmd) | 10. Söz: İbdâ vs. İade, Unitarity ve Adalet-Hikmet Mizanı |
+| 15 | [`hayat-ve-ruh-tilsimi.mmd`](assets/diagrams/hayat-ve-ruh-tilsimi.mmd) | 29. Söz & 30. Lem'a: Kesrette Vahdet, Âlem-i Emir ve Bütünleşik Bilgi (IIT Φ) |
+| 16 | [`mirac-ve-zamanin-izafiyeti.mmd`](assets/diagrams/mirac-ve-zamanin-izafiyeti.mmd) | 31. Söz: Mirac Seyri, Görelilik, Zaman Dürülmesi ve 5 Kudsî Hediye |
 
 ---
 
@@ -624,8 +679,8 @@ Depodaki tüm felsefî ve bilimsel tezler `assets/diagrams/` altında Mermaid ş
 
 Doğrudan tarayıcıda (`file:///` protokolüyle veya basit bir yerel sunucuyla) çalışan, **Chart.js** motorlu, koyu lacivert/siber estetiğe sahip dinamik kontrol paneli:
 
-* **Tüm 7 Simülasyon Canlı:** Slider'lar üzerinden parametreleri (Tekâsüf, Acz, Buz, Kudret, Nuraniyet, İrade Meyli, Haşir & Bilgi Korunumu) değiştirirken grafikler anında güncellenir.
-* **Akıllı Senaryo Önayarları:** Tek tıkla Fıtrat, Firavun, Dört Elif, Tohumun İnbiâtı, Tayy-ı Mekân ve İstikamet Ehli modlarına geçiş.
+* **Tüm 9 Simülasyon Canlı:** Slider'lar üzerinden parametreleri (Tekâsüf, Acz, Buz, Kudret, Nuraniyet, İrade Meyli, Haşir & Bilgi Korunumu, IIT Φ Entegrasyonu, Relativistik Hız ve Letafet) değiştirirken grafikler anında güncellenir.
+* **Akıllı Senaryo Önayarları:** Tek tıkla Fıtrat, Firavun, Dört Elif, Tohumun İnbiâtı, Tayy-ı Mekân, İstikamet Ehli, İnsanî Ruh ve Mirac-ı Ahmedi modlarına geçiş.
 * **Tamamen Bağımsız ve Taşınabilir:** Hiçbir Node.js veya derleme aracı gerektirmez.
 
 ---
@@ -637,10 +692,46 @@ tilsim-i-kainat/
 ├── README.md                              # Ana manifesto, okuma haritası ve külliyat şerhleri
 ├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
 ├── dashboard/                             # İnteraktif Web Laboratuvarı
-│   └── index.html                         # 7 Modelin Chart.js SPA gösterge paneli
+│   └── index.html                         # 9 Modelin Chart.js SPA gösterge paneli
 ├── docs/
 │   ├── tilsim-i-kainat-kullî-cozum.md     # 9 Cepheden Varoluşun Büyük Çözüm Manifestosu
 │   ├── gelecegin-teknolojileri-ve-tilsim-i-kainat.md # Işınlanma, Kuantum ve Tayy-ı Mekân Ufku
+│   ├── modern-fizik-ve-tilsim-i-kainat.md # Kuantum, Wheeler "It from Bit" ve Negentropi
+│   ├── dort-kelime-dort-kelam.md          # Mesnevî-i Nuriye: Harfî, Niyet, Nazar, İnnî Lestü Mâlikî
+│   ├── suunat-i-ilahiye-ve-faaliyet-i-daime.md # 24. Mektup: Kâinattaki Kozmik Faaliyetin Sırrı
+│   ├── hayat-ve-ruh-tilsimi.md            # 29. Söz & 30. Lem'a: Hayatın Sırrı ve Ruh
+│   ├── mirac-ve-tayy-i-zaman.md           # 31. Söz: Mirac-ı Nebevî, Görelilik ve Ân-ı Dâim
+│   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
+│   │   ├── README.md                      #   Okuma haritası ve mukaddime
+│   │   ├── 01-vahid-i-kiyasi.md           #   Vâhid-i kıyasî, farazî hat, iki vecih
+│   │   ├── 02-kalinlasma-ve-firavuniyet.md #   5 faz, firavun-u zelîl
+│   │   └── 03-eneden-nahnuya.md           #   Buzun erimesi, 1111/4444 sırrı
+│   ├── zerre-dinamikleri/                 # 30. Söz – İkinci Maksad
+│   │   ├── README.md                      #   Okuma haritası ve mukaddime
+│   │   ├── 01-tahavvulat-i-zerrat.md      #   Kudret kalemi, Bismillah-Elhamdülillah
+│   │   └── 02-zerrenin-iki-sahidi.md      #   Acz ve cümûd şahitleri
+│   ├── nubuvvet-ve-felsefe.md             # Tûbâ vs Zakkum, gaye-i hayal
+│   ├── taallum-ve-tekamul.md              # 23. Söz: İlimle tekemmül, küllî şükür
+│   ├── kainat-sarayi-ve-uc-sual.md        # 11. Söz: Saray teşrifatı, 3 büyük sual
+│   ├── tabiat-ve-esbab-elestirisi.md      # 23. Lem'a: Tabiat Risalesi şerhi
+│   ├── kader-ve-irade-tilsimi.md          # 26. Söz: Kader, cüz-i ihtiyarî ve kibir-yeis
+│   └── hasir-ve-ebediyet-tilsimi.md       # 10. Söz: Haşir, bahar ihyası ve adalet
+├── simulations/
+│   ├── ene-thickening-model.py            # Model 1: Ene kalınlaşması
+│   ├── zerre-simulation.py                # Model 2: Tahavvülât-ı zerrât
+│   ├── ihlas-synergy-model.py             # Model 3: İhlas ve şahs-ı manevî
+│   ├── entropy-information-model.py       # Model 4: Kozmik entropi ve Wheeler
+│   ├── teleportation-information-model.py # Model 5: Tayy-ı mekân ve teleportasyon
+│   ├── kader-irade-matrix-model.py        # Model 6: Kader ve irade matrisi
+│   ├── hasir-ebediyet-model.py            # Model 7: Haşir ve bilgi korunumu
+│   ├── hayat-suur-model.py                # Model 8: Hayat, şuur ve bütünleşik bilgi (IIT Φ)
+│   ├── mirac-relativity-model.py          # Model 9: Mirac, görelilik ve tayy-ı zaman
+│   ├── run_all.py                         # Bütünleşik çalıştırıcı (9 model)
+│   └── test_*.py                          # 59 birim testi
+├── kavramlar-sozlugu/
+│   └── glossary.md                        # 135+ Kur'ânî ve Risale ıstılahı
+└── assets/
+    └── diagrams/                          # 16 adet Mermaid mimari akış şeması
 │   ├── modern-fizik-ve-tilsim-i-kainat.md # Kuantum, Wheeler "It from Bit" ve Negentropi
 │   ├── dort-kelime-dort-kelam.md          # Mesnevî-i Nuriye: Harfî, Niyet, Nazar, İnnî Lestü Mâlikî
 │   ├── suunat-i-ilahiye-ve-faaliyet-i-daime.md # 24. Mektup: Kâinattaki Kozmik Faaliyetin Sırrı

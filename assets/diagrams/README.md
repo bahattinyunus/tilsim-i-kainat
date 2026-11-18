@@ -20,3 +20,5 @@ veya `mmdc` (mermaid-cli) ile SVG/PNG'ye dönüştürülebilir.
 | [`isinlanma-ve-tayy-i-mekan-fizigi.mmd`](isinlanma-ve-tayy-i-mekan-fizigi.mmd) | Işınlanma ve Tayy-ı Mekân Fiziği | Belkıs'ın tahtının naklinde 3 fiziksel mod ve sequence diyagramı |
 | [`kader-irade-matrisi.mmd`](kader-irade-matrisi.mmd) | Kader, İrade ve Levh-i Mahfuz Matrisi | 26. Söz: Ezelî İlim, Levh-i Mahv ve İspat, Cüz-i Kesb ve Kibir-Yeis Terazisi |
 | [`hasir-ve-ebediyet.mmd`](hasir-ve-ebediyet.mmd) | Haşir, Bahar İhyası ve Bilgi Korunumu | 10. Söz: İbdâ vs İade, Levh-i Mahfuz (Unitarity), Adalet ve Hikmet Terazisi |
+| [`hayat-ve-ruh-tilsimi.mmd`](hayat-ve-ruh-tilsimi.mmd) | Hayat, Şuur ve Ruh Tılsımı | 29. Söz & 30. Lem'a: Kesrette Vahdet, Âlem-i Emir ve Bütünleşik Bilgi (IIT Φ) |
+| [`mirac-ve-zamanin-izafiyeti.mmd`](mirac-ve-zamanin-izafiyeti.mmd) | Mirac-ı Nebevî ve Zamanın İzafiyeti | 31. Söz & 24. Mektup: Görelilik, Zaman Dürülmesi (Ân-ı Dâim), Sidre, Kab-ı Kavseyn ve 5 Hediye |

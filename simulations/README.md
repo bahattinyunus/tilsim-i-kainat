@@ -5,7 +5,7 @@
 > parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
 > döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-Laboratuvar bünyesinde yedi tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
+Laboratuvar bünyesinde dokuz tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
 
 1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
 2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
@@ -14,7 +14,9 @@ Laboratuvar bünyesinde yedi tamamlayıcı simülasyon motoru ve bir interaktif 
 5. **`teleportation-information-model.py`** — Tayy-ı Mekân ve Kuantum Işınlanma Modeli (20. Söz, Belkıs'ın Tahtı)
 6. **`kader-irade-matrix-model.py`** — Kader, İrade ve Levh-i Mahfuz Karar Matrisi (26. Söz & Nisa 79)
 7. **`hasir-ebediyet-model.py`** — Haşir, Bahar İhyası ve Bilgi Korunumu Modeli (10. Söz & Unitarity)
-8. **`dashboard/index.html`** — 7 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
+8. **`hayat-suur-model.py`** — Hayat, Şuur ve Bütünleşik Bilgi Modeli (29. Söz, 30. Lem'a & Tononi IIT $\Phi$)
+9. **`mirac-relativity-model.py`** — Mirac, Görelilik ve Tayy-ı Zaman Modeli (31. Söz & Özel Görelilik)
+10. **`dashboard/index.html`** — 9 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
 
 Tüm modelleri tek bir komutla icra etmek için:
 ```bash
@@ -188,4 +190,6 @@ Mevcut test paketi:
 * `test_teleportation_model.py` (7 test)
 * `test_kader_model.py` (7 test)
 * `test_hasir_model.py` (6 test)
-* **Toplam: 46 test (Tam Başarı)**
+* `test_hayat_model.py` (7 test)
+* `test_mirac_model.py` (6 test)
+* **Toplam: 59 test (Tam Başarı)**
