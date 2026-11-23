@@ -5,12 +5,16 @@ Kozmik Entropi ve Bilgi Modeli Birim Testleri
 """
 
 import os
+import sys
 import tempfile
 import unittest
-from importlib.machinery import SourceFileLoader
+import importlib.util
 
 dosya_yolu = os.path.join(os.path.dirname(__file__), "entropy-information-model.py")
-entropi_modulu = SourceFileLoader("entropy_information_model", dosya_yolu).load_module()
+spec = importlib.util.spec_from_file_location("entropy_information_model", dosya_yolu)
+entropi_modulu = importlib.util.module_from_spec(spec)
+sys.modules[spec.name] = entropi_modulu
+spec.loader.exec_module(entropi_modulu)
 
 EntropiParametreleri = entropi_modulu.EntropiParametreleri
 entropi_simule_et = entropi_modulu.entropi_simule_et

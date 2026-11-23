@@ -5,14 +5,18 @@ Tahavvülât-ı Zerrât Simülasyonu Birim Testleri
 """
 
 import os
+import sys
 import tempfile
 import unittest
 
-from importlib.machinery import SourceFileLoader
+import importlib.util
 
 # Tireli dosya adını yükleme
 dosya_yolu = os.path.join(os.path.dirname(__file__), "zerre-simulation.py")
-zerre_modulu = SourceFileLoader("zerre_simulation", dosya_yolu).load_module()
+spec = importlib.util.spec_from_file_location("zerre_simulation", dosya_yolu)
+zerre_modulu = importlib.util.module_from_spec(spec)
+sys.modules[spec.name] = zerre_modulu
+spec.loader.exec_module(zerre_modulu)
 
 ZerreParametreleri = zerre_modulu.ZerreParametreleri
 zerre_simule_et = zerre_modulu.zerre_simule_et

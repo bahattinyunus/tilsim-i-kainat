@@ -344,6 +344,8 @@
       <button class="tab-btn" onclick="switchTab('tab-hasir')">7. Haşir ve Bilgi Korunumu</button>
       <button class="tab-btn" onclick="switchTab('tab-hayat')">8. Hayat ve Şuur (IIT Φ)</button>
       <button class="tab-btn" onclick="switchTab('tab-mirac')">9. Mirac ve Görelilik</button>
+      <button class="tab-btn" onclick="switchTab('tab-nazar')">10. Mânâ-yı Harfî & RQM</button>
+      <button class="tab-btn" onclick="switchTab('tab-holografi')">11. Holografik Âlem & Ehadiyet</button>
     </div>
   </header>
 
@@ -965,6 +967,166 @@
           </div>
           <div class="verdict-box" id="mirac-verdict">
             <strong>Mirac Mührü:</strong> Kâinat tılsımı tamamen fethedildi; zaman dürülmüş, cisim letafetle nura inkılap ederek ezel-ebed berzahına vasıl olmuştur.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 10: MÂNÂ-YI HARFÎ & RQM / ITP -->
+    <div id="tab-nazar" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">👁️ Mânâ-yı Harfî, Niyet & RQM Parametreleri</h2>
+          <div class="quote-box">
+            "Niyet bir ruh-u âherdir. Âdâtı ibadâta, gafleti huzura kalbeder. Eşyaya mânâ-yı harfî ile bakmak hakikat, mânâ-yı ismî ile bakmak hatadır."
+            <span class="author">— Mesnevî-i Nuriye (Dört Kelime) & C. Rovelli (RQM) / D. Hoffman (ITP)</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Mânâ-yı Harfî Nazar Oranı (Sâni' Hesabına Bakış)</span>
+              <span class="val" id="nazar-harfi-val">0.95</span>
+            </div>
+            <input type="range" id="nazar-harfi" min="0" max="1" step="0.01" value="0.95" oninput="simuleEtNazar()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Niyet Halisiyeti (Âdâtı İbadete Çeviren İksir)</span>
+              <span class="val" id="nazar-niyet-val">0.92</span>
+            </div>
+            <input type="range" id="nazar-niyet" min="0" max="1" step="0.01" value="0.92" oninput="simuleEtNazar()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Arayüz Farkındalığı (Hoffman ITP — Şehadet Perdesini Okuma)</span>
+              <span class="val" id="nazar-arayuz-val">0.90</span>
+            </div>
+            <input type="range" id="nazar-arayuz" min="0" max="1" step="0.01" value="0.90" oninput="simuleEtNazar()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>İlişkisel Bağ Derinliği (Rovelli RQM / Esmâ Nisbeti)</span>
+              <span class="val" id="nazar-rqm-val">0.94</span>
+            </div>
+            <input type="range" id="nazar-rqm" min="0" max="1" step="0.01" value="0.94" oninput="simuleEtNazar()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setNazarPreset(0.98, 0.96, 0.95, 0.97)">🌟 Harfî Velayet</button>
+            <button class="btn-preset" onclick="setNazarPreset(0.82, 0.85, 0.75, 0.80)">🧠 Tefekkür & Niyet</button>
+            <button class="btn-preset" onclick="setNazarPreset(0.45, 0.40, 0.55, 0.65)">🔬 Nötr Gözlem</button>
+            <button class="btn-preset" onclick="setNazarPreset(0.02, 0.05, 0.02, 0.05)">🖥️ Arayüz Yanılsaması</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Epistemik Berraklık, Niyet Simyası ve Arayüz Yanılsaması</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="nazar-berraklik-son">%91.4</div>
+              <div class="metric-label">Epistemik Berraklık</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="nazar-ibadet-son">55.6x</div>
+              <div class="metric-label">İbadet Simyası</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="nazar-bit-son">6.8 bit</div>
+              <div class="metric-label">RQM Anlam Biti</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="nazar-yanilsama-son">%3.2</div>
+              <div class="metric-label">Arayüz Yanılsaması</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartNazar"></canvas>
+          </div>
+          <div class="verdict-box" id="nazar-verdict">
+            <strong>Epistemolojik Hüküm:</strong> Kâinat kitabının harfleri Sâni' hesabına okunuyor; niyet iksiriyle âdât ibadete inkılap etmiştir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 11: HOLOGRAFİK ÂLEM-İ MİSÂL & EHADİYET (16. SÖZ) -->
+    <div id="tab-holografi" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🪞 16. Söz Aynalar & Holografik İlke (AdS/CFT)</h2>
+          <div class="quote-box">
+            "Nasıl ki güneş, nuraniyeti cihetiyle bir iken, her bir katre suda ve her bir cam parçasında bütün sıfatlarıyla tecezzi etmeden bulunur..."
+            <span class="author">— 16. Söz (İkinci Şua) & AdS/CFT Holografik İlke / ER=EPR</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Ayna Şeffafiyeti (Kalb-i Selîm Safiyeti)</span>
+              <span class="val" id="holo-seffaf-val">0.99</span>
+            </div>
+            <input type="range" id="holo-seffaf" min="0" max="1" step="0.01" value="0.99" oninput="simuleEtHolografi()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Ayna Sayısı (10^N Katre / Zerre)</span>
+              <span class="val" id="holo-sayi-val">10^24</span>
+            </div>
+            <input type="range" id="holo-sayi" min="0" max="30" step="1" value="24" oninput="simuleEtHolografi()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Holografik Sınır Sadakati (Âlem-i Misâl / CFT)</span>
+              <span class="val" id="holo-coz-val">0.98</span>
+            </div>
+            <input type="range" id="holo-coz" min="0" max="1" step="0.01" value="0.98" oninput="simuleEtHolografi()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Zâhirî Mesafe (10^M km — Kurb/Bu'd Testi)</span>
+              <span class="val" id="holo-mesafe-val">10^15 km</span>
+            </div>
+            <input type="range" id="holo-mesafe" min="0" max="20" step="1" value="15" oninput="simuleEtHolografi()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setHolografiPreset(0.99, 24, 0.98, 15)">💎 Kalb-i Selîm</button>
+            <button class="btn-preset" onclick="setHolografiPreset(0.95, 12, 0.92, 8)">💧 Katre Aynası</button>
+            <button class="btn-preset" onclick="setHolografiPreset(0.88, 0, 0.90, 8)">🌊 Okyanus (Tek Ayna)</button>
+            <button class="btn-preset" onclick="setHolografiPreset(0.04, 3, 0.10, 12)">🌑 Kırık Maddeci Ayna</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Ehadiyet Değişmezliği, Tecezzi ve Kurb Analizi</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="holo-ehadiyet-son">%98.4</div>
+              <div class="metric-label">Ehadiyet Tecellisi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="holo-tecezzi-son">%0.0</div>
+              <div class="metric-label">Kaynak Bölünmesi</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="holo-kurb-son">%99.5</div>
+              <div class="metric-label">Kurb (ER=EPR)</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="holo-sadakat-son">%98.5</div>
+              <div class="metric-label">Holografik Sadakat</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartHolografi"></canvas>
+          </div>
+          <div class="verdict-box" id="holo-verdict">
+            <strong>16. Söz Mührü:</strong> Kaynak bölünmeden (tecezzi=%0.0) ve mesafe engel olmadan her bir katrede bütün sıfatlarıyla tecelli etmektedir.
           </div>
         </div>
       </div>
@@ -1700,6 +1862,164 @@
       simuleEtMirac();
     }
 
+    // ==========================================
+    // 10. MÂNÂ-YI HARFÎ, NİYET-NAZAR & RQM/ITP MODELİ
+    // ==========================================
+    let chartNazarInstance = null;
+    function simuleEtNazar() {
+      const harfi = parseFloat(document.getElementById('nazar-harfi').value);
+      const niyet = parseFloat(document.getElementById('nazar-niyet').value);
+      const arayuz = parseFloat(document.getElementById('nazar-arayuz').value);
+      const rqm = parseFloat(document.getElementById('nazar-rqm').value);
+
+      document.getElementById('nazar-harfi-val').innerText = harfi.toFixed(2);
+      document.getElementById('nazar-niyet-val').innerText = niyet.toFixed(2);
+      document.getElementById('nazar-arayuz-val').innerText = arayuz.toFixed(2);
+      document.getElementById('nazar-rqm-val').innerText = rqm.toFixed(2);
+
+      const berraklikHam = 0.40 * harfi + 0.25 * arayuz + 0.20 * rqm + 0.15 * niyet;
+      const berraklik = Math.min(100.0, 100.0 * berraklikHam * (0.25 + 0.75 * harfi));
+      const sinerji = niyet * harfi;
+      const ibadet = ((Math.pow(10.0, 2.0 * sinerji) - 1.0) / 99.0) * 100.0;
+      const etkinOran = Math.min(0.999, harfi * (0.5 + 0.5 * arayuz));
+      const rqmBit = -Math.log2(1.0 - etkinOran) * (0.5 + 1.5 * rqm);
+      const yanilsama = 100.0 * (1.0 - harfi) * (0.6 + 0.4 * (1.0 - arayuz));
+
+      document.getElementById('nazar-berraklik-son').innerText = '%' + berraklik.toFixed(1);
+      document.getElementById('nazar-ibadet-son').innerText = ibadet.toFixed(1) + 'x';
+      document.getElementById('nazar-bit-son').innerText = rqmBit.toFixed(2) + ' bit';
+      document.getElementById('nazar-yanilsama-son').innerText = '%' + yanilsama.toFixed(1);
+
+      let verdict = "";
+      if (berraklik >= 85.0 && ibadet >= 70.0) {
+        verdict = "Mânâ-yı Harfî & Huzur-u Dâimî: Kâinat kitabının harfleri Sâni' hesabına okunuyor; niyet iksiriyle âdât ibadete dönüşmüş, şehadet arayüzünün arkasındaki Esmâ müşahede edilmiştir.";
+      } else if (berraklik >= 55.0) {
+        verdict = "Tefekkür-ü İmânî & İlişkisel İdrak: Eşyadaki nisbet (RQM) ve ayinedarlık okunmaya başlanmıştır; niyet derinleştikçe arayüz perdesi tamamen şeffaflaşacaktır.";
+      } else if (berraklik >= 25.0) {
+        verdict = "Nötr Bilimsel Gözlem: İlişkisel yasalar kısmen görülse de mânâ-yı ismî eğilimi tam kırılmamıştır.";
+      } else {
+        verdict = "Mânâ-yı İsmî & Arayüz Yanılsaması (Hoffman ITP): Şehadet perdesi mutlak töz sanılmakta, eşya kendi hesabına değerlendirilerek anlam yitirilmektedir.";
+      }
+      document.getElementById('nazar-verdict').innerHTML = "<strong>Epistemolojik Hüküm:</strong> " + verdict;
+
+      if (chartNazarInstance) chartNazarInstance.destroy();
+      const ctx = document.getElementById('chartNazar').getContext('2d');
+      chartNazarInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Epistemik Berraklık (%)', 'İbadet Simyası (x)', 'RQM Anlam (bit × 10)', 'Arayüz Yanılsaması (%)'],
+          datasets: [{
+            label: 'Nazar & RQM Metrikleri',
+            data: [berraklik, ibadet, Math.min(100, rqmBit * 10), yanilsama],
+            backgroundColor: [
+              'rgba(16, 185, 129, 0.75)',
+              'rgba(245, 158, 11, 0.75)',
+              'rgba(6, 182, 212, 0.75)',
+              'rgba(244, 63, 94, 0.75)'
+            ],
+            borderColor: ['#10B981', '#F59E0B', '#06B6D4', '#F43F5E'],
+            borderWidth: 1.5,
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { min: 0, max: 100 } }
+        }
+      });
+    }
+
+    function setNazarPreset(h, n, a, r) {
+      document.getElementById('nazar-harfi').value = h;
+      document.getElementById('nazar-niyet').value = n;
+      document.getElementById('nazar-arayuz').value = a;
+      document.getElementById('nazar-rqm').value = r;
+      simuleEtNazar();
+    }
+
+    // ==========================================
+    // 11. HOLOGRAFİK ÂLEM-İ MİSÂL & EHADİYET (16. SÖZ)
+    // ==========================================
+    let chartHolografiInstance = null;
+    function simuleEtHolografi() {
+      const seffaf = parseFloat(document.getElementById('holo-seffaf').value);
+      const sayiLog = parseFloat(document.getElementById('holo-sayi').value);
+      const coz = parseFloat(document.getElementById('holo-coz').value);
+      const mesafeLog = parseFloat(document.getElementById('holo-mesafe').value);
+
+      document.getElementById('holo-seffaf-val').innerText = seffaf.toFixed(2);
+      document.getElementById('holo-sayi-val').innerText = '10^' + sayiLog.toFixed(0);
+      document.getElementById('holo-coz-val').innerText = coz.toFixed(2);
+      document.getElementById('holo-mesafe-val').innerText = '10^' + mesafeLog.toFixed(0) + ' km';
+
+      const ehadiyet = 100.0 * (0.70 * seffaf + 0.30 * seffaf * coz);
+      const kesafetPerdesi = (1.0 - seffaf) * (0.15 + 0.02 * mesafeLog);
+      const kurb = Math.max(0.0, Math.min(100.0, 100.0 * (1.0 - Math.min(1.0, kesafetPerdesi))));
+      const sadakat = 100.0 * Math.sqrt(coz * Math.max(0.0001, seffaf));
+
+      document.getElementById('holo-ehadiyet-son').innerText = '%' + ehadiyet.toFixed(1);
+      document.getElementById('holo-tecezzi-son').innerText = '%0.0';
+      document.getElementById('holo-kurb-son').innerText = '%' + kurb.toFixed(1);
+      document.getElementById('holo-sadakat-son').innerText = '%' + sadakat.toFixed(1);
+
+      let verdict = "";
+      if (ehadiyet >= 90.0) {
+        verdict = "Cilve-i Ehadiyet & Şeffaf Hologram: Ayna sayısı 10^" + sayiLog.toFixed(0) + " ve mesafe 10^" + mesafeLog.toFixed(0) + " km olsa dahi kaynak bölünmeden (tecezzi=%0.0) her bir katrede tam tecelli etmektedir.";
+      } else if (ehadiyet >= 75.0) {
+        verdict = "Vâhidiyet İhatası & Parlak Temessül: Okyanus ile katre kaynak karşısında müsavidir; Âlem-i Misâl projeksiyonu yüksek sadakatle işlemektedir.";
+      } else if (ehadiyet >= 20.0) {
+        verdict = "Puslu Ayna & Kısmi Perdelenme: Kurb hakikatte değişmemiştir; hissedilen uzaklık (bu'd) aynanın kendi kesafetinden kaynaklanmaktadır.";
+      } else {
+        verdict = "Kesif / Kırık Ayna: Maddeci kesafet aynayı kararttığı için güneşin aksi ve holografik bütünlük perdelenmiştir.";
+      }
+      document.getElementById('holo-verdict').innerHTML = "<strong>16. Söz Mührü:</strong> " + verdict;
+
+      // Ayna sayısı 10^0 -> 10^30 arasında Ehadiyet'in sabit kalışını vs Klasik Madde bölünmesini göster
+      const olcekler = ['1', '10^3', '10^6', '10^12', '10^18', '10^24', '10^30'];
+      const ehadiyetSerisi = olcekler.map(() => ehadiyet);
+      const klasikMaddeSerisi = [100, 10, 1, 0.01, 0.001, 0, 0];
+
+      if (chartHolografiInstance) chartHolografiInstance.destroy();
+      const ctx = document.getElementById('chartHolografi').getContext('2d');
+      chartHolografiInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: olcekler,
+          datasets: [
+            {
+              label: 'Nuraniyet / Ehadiyet Tecellisi (%) — Bölünmez',
+              data: ehadiyetSerisi,
+              borderColor: '#F59E0B',
+              backgroundColor: 'rgba(245, 158, 11, 0.15)',
+              fill: true,
+              tension: 0.2
+            },
+            {
+              label: 'Kesif Madde Payı (%) — Sayıyla Bölünür',
+              data: klasikMaddeSerisi,
+              borderColor: '#F43F5E',
+              borderDash: [5, 5],
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { min: 0, max: 105 } }
+        }
+      });
+    }
+
+    function setHolografiPreset(s, n, c, m) {
+      document.getElementById('holo-seffaf').value = s;
+      document.getElementById('holo-sayi').value = n;
+      document.getElementById('holo-coz').value = c;
+      document.getElementById('holo-mesafe').value = m;
+      simuleEtHolografi();
+    }
+
     // Sayfa Yüklendiğinde Bütün Simülasyonları Başlat
     window.addEventListener('DOMContentLoaded', () => {
       simuleEtEne();
@@ -1711,6 +2031,8 @@
       simuleEtHasir();
       simuleEtHayat();
       simuleEtMirac();
+      simuleEtNazar();
+      simuleEtHolografi();
     });
   </script>
 </body>

@@ -5,12 +5,16 @@ Tayy-ı Mekân ve Kuantum Işınlanma Modeli Birim Testleri
 """
 
 import os
+import sys
 import tempfile
 import unittest
-from importlib.machinery import SourceFileLoader
+import importlib.util
 
 dosya_yolu = os.path.join(os.path.dirname(__file__), "teleportation-information-model.py")
-teleport_modulu = SourceFileLoader("teleportation_information_model", dosya_yolu).load_module()
+spec = importlib.util.spec_from_file_location("teleportation_information_model", dosya_yolu)
+teleport_modulu = importlib.util.module_from_spec(spec)
+sys.modules[spec.name] = teleport_modulu
+spec.loader.exec_module(teleport_modulu)
 
 CisimOzellikleri = teleport_modulu.CisimOzellikleri
 TeleportasyonSimulasyonu = teleport_modulu.TeleportasyonSimulasyonu

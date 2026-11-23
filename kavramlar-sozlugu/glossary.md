@@ -83,6 +83,8 @@ Risale-i Nur talebelerinin, sefine-i Rabbaniye hademeleri olarak ümmeti ulaşt�
 
 ## E
 
+**Ehadiyet** — Cenâb-ı Hakk'ın bütün isim ve sıfatlarıyla, bölünmeden (tecezzi etmeden), her bir cüz'î varlıkta ve her bir katrede eksiksiz tecelli etmesi sırrı; holografik bütünlüğün tevhîdî karşılığı. (16. Söz) → [Holografik Âlem-i Misâl ve Ehadiyet](../docs/holografik-alem-ve-ehadiyet.md)
+
 **Esir (Aether)** — Maddenin en lâtif, en seyyal ve en ince mertebesi.  
 Kâinatın hammaddesi; gök cisimlerinin içinde yüzdüğü ve İlâhî emir ile nurların nakledildiği kozmik kuantum vakum alanı. (İşârâtü'l-İ'câz)
 
@@ -214,11 +216,15 @@ Kaza-i mübrem ezelî ilimdeki değişmez ana hükümdür. Kaza-i muallak ise Le
 
 **Kādıyü'l-Hâcât** — Bütün ihtiyaçları gideren, duaları işitip icabet eden Allah. (23. Söz)
 
+**Kalb-i Selîm** — Gaflet, şirk ve kesafetten arınarak şeffaflaşmış, Şems-i Ezelî'nin ehadiyet cilvesini tam bir berraklıkla yansıtan kalp aynası. (16. Söz) → [Holografik Âlem-i Misâl ve Ehadiyet](../docs/holografik-alem-ve-ehadiyet.md)
+
 **Kanun-u Emrî** — Âlem-i emirden gelen kanun.  
 Tabiat kanunlarının haricî maddî bir vücudu olmayıp Cenâb-ı Hakk'ın irade ve emrinin birer tecellisi olması.
 
 **Kevser Havuzu** — Kur'an hakikatlerinden süzülen ihlas ve şahs-ı manevî havuzu.  
 Bireysel buzların içinde eriyip küllî bir hayat kazandığı ortak zemin.
+
+**Kurb ve Bu'd** — Yakınlık ve uzaklık sırrı. Cenâb-ı Hak nuraniyet ve ihata cihetiyle bize nihayetsiz yakın (*kurb*), biz ise maddî kesafetimiz cihetiyle O'na nihayetsiz uzağız (*bu'd*); mesafe perdesi aynanın kendi bulanıklığındandır. (16. Söz, Birinci Şua) → [Holografik Âlem-i Misâl ve Ehadiyet](../docs/holografik-alem-ve-ehadiyet.md)
 
 **Kuvve-i İnbâtiye** — Çekirdek ve tohumlardaki büyüme, filizlenme ve intizamla dallanıp budaklanma kanunu; haricî bir vücut giydirilip şuur konsaydı bir nebat ruhu olurdu. (29. Söz, İkinci Esas) → [Hayat ve Ruh Tılsımı](../docs/hayat-ve-ruh-tilsimi.md)
 
@@ -358,6 +364,8 @@ Ene'nin ülfet ve maddiyata tevaggul sebebiyle buhar halinden katı hale geçmes
 **Teceddüd-ü Emsal** — Benzerlerin sürekli tazelenmesi.  
 İlahî isimlerin daimî tecellisi için zerrelerin durmaksızın dönmesi.
 
+**Tecezzi** — Parçalara ayrılma, bölünme. Maddî ve kesif cisimler bölünerek eksilirken, nurânî hakikatler ve İlâhî esmâ milyarlarca aynada tecezzi etmeden (sıfır kayıpla) tecelli eder. (16. Söz) → [Holografik Âlem-i Misâl ve Ehadiyet](../docs/holografik-alem-ve-ehadiyet.md)
+
 **Tecemmüd** — Donma, buzlaşma.  
 Ene'nin gaflet ve inkâr ile kaskatı bir buza dönüşmesi.
 
@@ -372,6 +380,8 @@ Belkıs'ın tahtının Yemen'den Kudüs'e göz açıp kapamadan nakli hadisesiyl
 
 **Tayy-ı Zaman & Bast-ı Zaman** — Zamanın katlanması veya genişletilmesi.  
 Rüya ve Mirac hakikatlerinde olduğu gibi, birkaç saniyelik fizyolojik sürede senelerce süren bir idrak ve tefekkürün yaşanabilmesi sırrı; zamanın izafiyeti. (31. Söz)
+
+**Temessül** — Bir nurânî hakikatin (Güneş'in) şeffaf aynalarda bütün sıfatlarıyla (ziya, hararet, yedi renk) bölünmeksizin suret ve akis bulması kanunu. (16. Söz, İkinci Şua) → [Holografik Âlem-i Misâl ve Ehadiyet](../docs/holografik-alem-ve-ehadiyet.md)
 
 **Temeyyü'** — Akışkanlaşma, sıvılaşma.  
 Ene'nin felsefenin nazarıyla buhar halinden sıvılaşmaya başlaması.
@@ -397,6 +407,8 @@ Ene ve zerre muammalarının mânâ-yı harfî ve vahiy ışığında çözülme
 ---
 
 ## V
+
+**Vâhidiyet** — Cenâb-ı Hakk'ın bütün kâinatı tek bir bütün halinde kuşatan küllî birliği ve umumî ihatası; Güneş'in bütün yeryüzünü ve okyanusları tek seferde aydınlatması gibi. (16. Söz) → [Holografik Âlem-i Misâl ve Ehadiyet](../docs/holografik-alem-ve-ehadiyet.md)
 
 **Vâhid-i Kıyasî** — Kıyas ve ölçü birimi.  
 Ene'nin fıtrî ve yegâne varlık gayesi. İlahî sıfatları idrak ettiren manevî cetvel. (30. Söz)

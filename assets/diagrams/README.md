@@ -22,3 +22,5 @@ veya `mmdc` (mermaid-cli) ile SVG/PNG'ye dönüştürülebilir.
 | [`hasir-ve-ebediyet.mmd`](hasir-ve-ebediyet.mmd) | Haşir, Bahar İhyası ve Bilgi Korunumu | 10. Söz: İbdâ vs İade, Levh-i Mahfuz (Unitarity), Adalet ve Hikmet Terazisi |
 | [`hayat-ve-ruh-tilsimi.mmd`](hayat-ve-ruh-tilsimi.mmd) | Hayat, Şuur ve Ruh Tılsımı | 29. Söz & 30. Lem'a: Kesrette Vahdet, Âlem-i Emir ve Bütünleşik Bilgi (IIT Φ) |
 | [`mirac-ve-zamanin-izafiyeti.mmd`](mirac-ve-zamanin-izafiyeti.mmd) | Mirac-ı Nebevî ve Zamanın İzafiyeti | 31. Söz & 24. Mektup: Görelilik, Zaman Dürülmesi (Ân-ı Dâim), Sidre, Kab-ı Kavseyn ve 5 Hediye |
+| [`nazar-ve-iliskisel-kuantum.mmd`](nazar-ve-iliskisel-kuantum.mmd) | Mânâ-yı Harfî, Niyet-Nazar ve RQM/ITP | Mesnevî-i Nuriye (Dört Kelime): Rovelli İlişkisel Kuantum Mekaniği ve Hoffman Arayüz Kuramı |
+| [`holografik-alem-ve-ehadiyet.mmd`](holografik-alem-ve-ehadiyet.mmd) | Holografik Âlem-i Misâl ve Ehadiyet | 16. Söz & 28. Mektup: Güneş-Ayna Temessülü, Vâhidiyet-Ehadiyet, AdS/CFT ve ER=EPR |

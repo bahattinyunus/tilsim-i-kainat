@@ -5,7 +5,7 @@
 > parametreler, kavramlar arasındaki dinamik ilişkileri (artırıcı/azaltıcı etkiler, eşikler, geri besleme
 > döngüleri, sinerji kanunları) zihne yaklaştırmak için kullanılan modelleme metaforlarıdır.
 
-Laboratuvar bünyesinde dokuz tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
+Laboratuvar bünyesinde on bir tamamlayıcı simülasyon motoru ve bir interaktif web arayüzü yer almaktadır:
 
 1. **`ene-thickening-model.py`** — Ene Kalınlaşma ve Faz Değişimi Modeli (30. Söz, 1. Maksad)
 2. **`zerre-simulation.py`** — Tahavvülât-ı Zerrât ve Kudret Kalemi Dinamikleri (30. Söz, 2. Maksad)
@@ -16,7 +16,9 @@ Laboratuvar bünyesinde dokuz tamamlayıcı simülasyon motoru ve bir interaktif
 7. **`hasir-ebediyet-model.py`** — Haşir, Bahar İhyası ve Bilgi Korunumu Modeli (10. Söz & Unitarity)
 8. **`hayat-suur-model.py`** — Hayat, Şuur ve Bütünleşik Bilgi Modeli (29. Söz, 30. Lem'a & Tononi IIT $\Phi$)
 9. **`mirac-relativity-model.py`** — Mirac, Görelilik ve Tayy-ı Zaman Modeli (31. Söz & Özel Görelilik)
-10. **`dashboard/index.html`** — 9 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
+10. **`nazar-rqm-model.py`** — Mânâ-yı Harfî, Niyet-Nazar ve İlişkisel Kuantum Modeli (Mesnevî, Rovelli RQM & Hoffman ITP)
+11. **`holographic-ayine-model.py`** — Holografik Âlem-i Misâl, Ehadiyet ve Aynalar Modeli (16. Söz, AdS/CFT & ER=EPR)
+12. **`dashboard/index.html`** — 11 Modelin tamamını görselleştiren İnteraktif Web Laboratuvarı (Chart.js SPA)
 
 Tüm modelleri tek bir komutla icra etmek için:
 ```bash
@@ -158,13 +160,66 @@ python simulations/hasir-ebediyet-model.py --karsilastir
 
 ---
 
+## 8. `hayat-suur-model.py` — Hayat, Şuur ve Bütünleşik Bilgi (IIT $\Phi$)
+
+29. Söz (Ruh ve Beka) ve 30. Lem'a (İsm-i Hayy) ile Giulio Tononi'nin Bütünleşik Bilgi Kuramı (*Integrated Information Theory — IIT $\Phi$*) sentezidir:
+
+* **Ruhun Basitliği ve Bekası:** Âlem-i emirden gelen kanun-u zîşuur, ceset dağılsa dahi parçalanmaz.
+* **Yapay Zekâ vs. Şuur:** İleri beslemeli algoritmalarda bütünleşik özne ($\Phi \approx 0$) oluşmazken, insanî ruhta $\Phi \gg 0$ tezahür eder.
+
+```bash
+python simulations/hayat-suur-model.py --tablo
+```
+
+---
+
+## 9. `mirac-relativity-model.py` — Mirac, Görelilik ve Tayy-ı Zaman
+
+31. Söz (Mirac Risalesi) ve 24. Mektup ile Einstein'ın Özel Görelilik ($\gamma = 1/\sqrt{1 - v^2/c^2}$) ve Higgs eylemsizlik mekanizmasının analitik modelidir:
+
+* **Ân-ı Dâim & Tarfetü'l-Ayn:** Nuraniyet ve letâfet arttıkça Higgs sürtünmesi sıfırlanır ($0.0\text{ G}$) ve öz-zaman ($\Delta\tau$) dürülür.
+
+```bash
+python simulations/mirac-relativity-model.py --tablo
+```
+
+---
+
+## 10. `nazar-rqm-model.py` — Mânâ-yı Harfî, Niyet-Nazar ve İlişkisel Kuantum (RQM & ITP)
+
+Mesnevî-i Nuriye'deki Dört Kelime (*Mânâ-yı Harfî, Mânâ-yı İsmî, Niyet, Nazar*) ile Carlo Rovelli'nin **İlişkisel Kuantum Mekaniği (RQM)** ve Donald Hoffman'ın **Arayüz Algı Kuramı (ITP)** sentezidir:
+
+* **Niyet İksiri:** Niyet ve harfî nazar birleştiğinde sıradan âdetler üstel olarak ibadete dönüşür.
+* **Arayüz Yanılsaması:** Mânâ-yı ismî arttıkça şehadet perdesi mutlak hakikat sanılarak epistemik berraklık çöker.
+
+```bash
+python simulations/nazar-rqm-model.py --tablo
+python simulations/nazar-rqm-model.py --senaryo mana_yi_harfi_velayet
+```
+
+---
+
+## 11. `holographic-ayine-model.py` — Holografik Âlem-i Misâl, Ehadiyet ve Aynalar (16. Söz)
+
+16. Söz (Güneş'in Aynalardaki Temessülü, Vâhidiyet & Ehadiyet, Kurb-Bu'd) ile **Holografik İlke (AdS/CFT)** ve **ER = EPR** dolanıklık geometrisinin analitik modelidir:
+
+* **Tecezzisiz Ehadiyet:** Ayna sayısı $1$'den $10^{24}$'e çıksa ve mesafe kozmik ölçeğe ulaşsa dahi kaynak bölünme kaybı daima $\%0.0$'dır.
+* **Kurb ve Bu'd:** Uzaklık mesafeden değil, aynanın kesafet ve bulanıklığından kaynaklanır.
+
+```bash
+python simulations/holographic-ayine-model.py --tablo
+python simulations/holographic-ayine-model.py --senaryo kalb_i_selim_ehadiyet
+```
+
+---
+
 ## 🌐 İnteraktif Web Laboratuvarı (`dashboard/index.html`)
 
 Kurulum gerektirmeyen, tarayıcıda doğrudan (`file:///` veya yerel sunucu) çalışan modern, Chart.js tabanlı, minimalist karanlık tema (dark mode) SPA arayüzü:
 
-* **7 Simülasyonun Dinamik Kontrolleri:** Slider'lar üzerinden parametreleri canlı değiştirme.
-* **Anlık Reaktif Grafikler:** Ene faz geçiş çizgisi, Zerre şahitlik radarı, Şahs-ı manevî kuvvet çubukları, Entropi/Negentropi eğrileri, Nakil süreleri logaritmik barı ve İstikamet mizanı çemberi.
-* **Hazır Senaryo Butonları:** Tek tıkla Fıtrat, Firavun, 4444 Sırrı, Tayy-ı Mekân, İstikamet Ehli senaryolarını yükleme.
+* **11 Simülasyonun Dinamik Kontrolleri:** Slider'lar üzerinden parametreleri canlı değiştirme.
+* **Anlık Reaktif Grafikler:** Ene faz geçiş çizgisi, Zerre şahitlik radarı, Şahs-ı manevî kuvvet çubukları, Entropi/Negentropi eğrileri, Nakil süreleri logaritmik barı, İstikamet mizanı, Haşir, Hayat IIT $\Phi$, Mirac Lorentz eğrisi, Mânâ-yı Harfî RQM/ITP analizi ve Holografik Ehadiyet grafiği.
+* **Hazır Senaryo Butonları:** Tek tıkla Fıtrat, Firavun, 4444 Sırrı, Tayy-ı Mekân, İstikamet Ehli, Mirac, Mânâ-yı Harfî ve Kalb-i Selîm senaryolarını yükleme.
 
 Tarayıcıda açmak için:
 ```bash
@@ -192,4 +247,6 @@ Mevcut test paketi:
 * `test_hasir_model.py` (6 test)
 * `test_hayat_model.py` (7 test)
 * `test_mirac_model.py` (6 test)
-* **Toplam: 59 test (Tam Başarı)**
+* `test_nazar_model.py` (7 test)
+* `test_holographic_model.py` (7 test)
+* **Toplam: 73 test (Tam Başarı, 0 Uyarı)**

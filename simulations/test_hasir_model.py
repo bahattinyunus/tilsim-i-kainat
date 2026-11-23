@@ -5,12 +5,16 @@ Haşir, Bahar İhyası ve Bilgi Korunumu Modeli Birim Testleri
 """
 
 import os
+import sys
 import tempfile
 import unittest
-from importlib.machinery import SourceFileLoader
+import importlib.util
 
 dosya_yolu = os.path.join(os.path.dirname(__file__), "hasir-ebediyet-model.py")
-hasir_modulu = SourceFileLoader("hasir_ebediyet_model", dosya_yolu).load_module()
+spec = importlib.util.spec_from_file_location("hasir_ebediyet_model", dosya_yolu)
+hasir_modulu = importlib.util.module_from_spec(spec)
+sys.modules[spec.name] = hasir_modulu
+spec.loader.exec_module(hasir_modulu)
 
 HasirParametreleri = hasir_modulu.HasirParametreleri
 hasir_simule_et = hasir_modulu.hasir_simule_et

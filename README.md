@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/bahattinyunus/tilsim-i-kainat/actions/workflows/tests.yml"><img src="https://img.shields.io/badge/CI%20Tests-59%2F59%20Passing-10B981?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Tests"></a>
+  <a href="https://github.com/bahattinyunus/tilsim-i-kainat/actions/workflows/tests.yml"><img src="https://img.shields.io/badge/CI%20Tests-73%2F73%20Passing-10B981?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Tests"></a>
   <img src="https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Versions">
-  <img src="https://img.shields.io/badge/Sim%C3%BClasyon-9%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="9 Models">
-  <img src="https://img.shields.io/badge/Diyagram-16%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="16 Diagrams">
+  <img src="https://img.shields.io/badge/Sim%C3%BClasyon-11%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="11 Models">
+  <img src="https://img.shields.io/badge/Diyagram-18%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="18 Diagrams">
   <a href="dashboard/index.html"><img src="https://img.shields.io/badge/Web%20Dashboard-Chart.js%20SPA-F59E0B?style=for-the-badge" alt="Web Dashboard"></a>
 </p>
 
@@ -33,10 +33,10 @@ Projeyi yerel bilgisayarınıza klonlayıp **30 saniye** içinde hem Python sim�
 git clone https://github.com/bahattinyunus/tilsim-i-kainat.git
 cd tilsim-i-kainat
 
-# 2. Dokuz simülasyon modelini tek seferde çalıştırın
+# 2. On bir simülasyon modelini tek seferde çalıştırın
 python simulations/run_all.py
 
-# 3. 59 birim testinin tamamını doğrulayın
+# 3. 73 birim testinin tamamını doğrulayın
 python -m unittest discover -s simulations -p "test_*.py" -v
 ```
 
@@ -91,9 +91,10 @@ Risale-i Nur'daki köklü kavramların modern fizik, bilişim teorisi, termodina
 | **14** | [**Şuûnât-ı İlâhiye ve Dâimî Faaliyet**](docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md) | *24. Mektup* | Cenâb-ı Hakk'ın hiçbir şeye ihtiyacı olmadığı halde kâinattaki bu hummalı faaliyetin 4 büyük sırrı. |
 | **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
 | **16** | [**Mirac, Görelilik ve Tayy-ı Zaman**](docs/mirac-ve-tayy-i-zaman.md) | *31. Söz (Mirac)* | **Kâinat Tılsımının Küllî Fethi:** Sidretü'l-Münteha, Kab-ı Kavseyn, Zamanın İzafiyeti ve Beş Kudsî Hediye. |
-| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 135+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 16 adet mimari akış şeması (Mirac, Hayat-Ruh IIT, Haşir-Ebediyet, Kader-İrade, Kuantum, Işınlanma, Entropi, İhlas). |
-| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 9 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
+| **17** | [**Holografik Âlem-i Misâl ve Ehadiyet**](docs/holografik-alem-ve-ehadiyet.md) | *16. Söz & 28. Mektup* | **Güneş-Ayna Temessülü & AdS/CFT:** Vâhidiyet vs. Ehadiyet, Tecezzisiz Tecelli, Kurb-Bu'd Sırrı ve ER=EPR. |
+| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 140+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 18 adet mimari akış şeması (Holografik Ehadiyet, Nazar-RQM, Mirac, Hayat-Ruh IIT, Haşir-Ebediyet, Kader-İrade, Kuantum, Işınlanma, Entropi, İhlas). |
+| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 11 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
 
 ---
 
@@ -692,7 +693,7 @@ tilsim-i-kainat/
 ├── README.md                              # Ana manifesto, okuma haritası ve külliyat şerhleri
 ├── CONTRIBUTING.md                        # Katkı ilkeleri ve rehber
 ├── dashboard/                             # İnteraktif Web Laboratuvarı
-│   └── index.html                         # 9 Modelin Chart.js SPA gösterge paneli
+│   └── index.html                         # 11 Modelin Chart.js SPA gösterge paneli
 ├── docs/
 │   ├── tilsim-i-kainat-kullî-cozum.md     # 9 Cepheden Varoluşun Büyük Çözüm Manifestosu
 │   ├── gelecegin-teknolojileri-ve-tilsim-i-kainat.md # Işınlanma, Kuantum ve Tayy-ı Mekân Ufku
@@ -701,13 +702,14 @@ tilsim-i-kainat/
 │   ├── suunat-i-ilahiye-ve-faaliyet-i-daime.md # 24. Mektup: Kâinattaki Kozmik Faaliyetin Sırrı
 │   ├── hayat-ve-ruh-tilsimi.md            # 29. Söz & 30. Lem'a: Hayatın Sırrı ve Ruh
 │   ├── mirac-ve-tayy-i-zaman.md           # 31. Söz: Mirac-ı Nebevî, Görelilik ve Ân-ı Dâim
+│   ├── holografik-alem-ve-ehadiyet.md     # 16. Söz & 28. Mektup: Ehadiyet, Aynalar, AdS/CFT & ER=EPR
 │   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
 │   │   ├── README.md                      #   Okuma haritası ve mukaddime
 │   │   ├── 01-vahid-i-kiyasi.md           #   Vâhid-i kıyasî, farazî hat, iki vecih
-│   │   ├── 02-kalinlasma-ve-firavuniyet.md #   5 faz, firavun-u zelîl
+│   │   ├── 02-kalinlasma-ve-firavuniyet.md#   5 faz, firavun-u zelîl
 │   │   └── 03-eneden-nahnuya.md           #   Buzun erimesi, 1111/4444 sırrı
 │   ├── zerre-dinamikleri/                 # 30. Söz – İkinci Maksad
-│   │   ├── README.md                      #   Okuma haritası ve mukaddime
+│   │   ├── README.md                      #   Ene ↔ Zerre simetrisi
 │   │   ├── 01-tahavvulat-i-zerrat.md      #   Kudret kalemi, Bismillah-Elhamdülillah
 │   │   └── 02-zerrenin-iki-sahidi.md      #   Acz ve cümûd şahitleri
 │   ├── nubuvvet-ve-felsefe.md             # Tûbâ vs Zakkum, gaye-i hayal
@@ -716,7 +718,9 @@ tilsim-i-kainat/
 │   ├── tabiat-ve-esbab-elestirisi.md      # 23. Lem'a: Tabiat Risalesi şerhi
 │   ├── kader-ve-irade-tilsimi.md          # 26. Söz: Kader, cüz-i ihtiyarî ve kibir-yeis
 │   └── hasir-ve-ebediyet-tilsimi.md       # 10. Söz: Haşir, bahar ihyası ve adalet
-├── simulations/
+├── simulations/                           # Dinamik sistem simülasyonları (11 Model)
+│   ├── README.md                          # Matematiksel denklemler ve kullanım kılavuzu
+│   ├── run_all.py                         # On bir modeli tek seferde icra eden çalıştırıcı
 │   ├── ene-thickening-model.py            # Model 1: Ene kalınlaşması
 │   ├── zerre-simulation.py                # Model 2: Tahavvülât-ı zerrât
 │   ├── ihlas-synergy-model.py             # Model 3: İhlas ve şahs-ı manevî
@@ -726,73 +730,15 @@ tilsim-i-kainat/
 │   ├── hasir-ebediyet-model.py            # Model 7: Haşir ve bilgi korunumu
 │   ├── hayat-suur-model.py                # Model 8: Hayat, şuur ve bütünleşik bilgi (IIT Φ)
 │   ├── mirac-relativity-model.py          # Model 9: Mirac, görelilik ve tayy-ı zaman
-│   ├── run_all.py                         # Bütünleşik çalıştırıcı (9 model)
-│   └── test_*.py                          # 59 birim testi
+│   ├── nazar-rqm-model.py                 # Model 10: Mânâ-yı Harfî, Niyet-Nazar & RQM/ITP
+│   ├── holographic-ayine-model.py         # Model 11: Holografik Âlem-i Misâl, Ehadiyet & AdS/CFT
+│   └── test_*.py                          # 73 birim testi (0 uyarı, tam başarı)
 ├── kavramlar-sozlugu/
-│   └── glossary.md                        # 135+ Kur'ânî ve Risale ıstılahı
-└── assets/
-    └── diagrams/                          # 16 adet Mermaid mimari akış şeması
-│   ├── modern-fizik-ve-tilsim-i-kainat.md # Kuantum, Wheeler "It from Bit" ve Negentropi
-│   ├── dort-kelime-dort-kelam.md          # Mesnevî-i Nuriye: Harfî, Niyet, Nazar, İnnî Lestü Mâlikî
-│   ├── suunat-i-ilahiye-ve-faaliyet-i-daime.md # 24. Mektup: Kâinattaki Kozmik Faaliyetin Sırrı
-│   ├── hayat-ve-ruh-tilsimi.md            # 29. Söz & 30. Lem'a: Hayatın Sırrı ve Ruh
-│   ├── ene-ontolojisi/                    # 30. Söz – Birinci Maksad
-│   │   ├── README.md                      #   Okuma haritası ve mukaddime
-│   │   ├── 01-vahid-i-kiyasi.md           #   Vâhid-i kıyasî, farazî hat, iki vecih
-│   │   ├── 02-kalinlasma-ve-firavuniyet.md#   Temeyyü', tasallüb, tecemmüd, tekeddür
-│   │   └── 03-eneden-nahnuya.md           #   İhlas, buz parçası, 1111 sırrı, 4 hatve
-│   ├── zerre-dinamikleri/                 # 30. Söz – İkinci Maksad
-│   │   ├── README.md                      #   Ene ↔ Zerre simetrisi
-│   │   ├── 01-tahavvulat-i-zerrat.md      #   Kudret kalemi, sühulet kanunu, Tevfik'in gözü
-│   │   └── 02-zerrenin-iki-sahidi.md      #   Acz, cümûd ve umumî nizama tevfik
-│   ├── nubuvvet-ve-felsefe.md             # İki silsile, Tûbâ vs. Zakkum (12. & 30. Söz)
-│   ├── taallum-ve-tekamul.md              # 23. & 11. Söz: Duygular mizanı, 4 nevi dua
-│   ├── kainat-sarayi-ve-uc-sual.md        # 11. Söz: Necisin? Nereden? Nereye? (9 vazife)
-│   ├── tabiat-ve-esbab-elestirisi.md      # 23. Lem'a: 4 ihtimal, 9 muhal ve Tevhid
-│   ├── kader-ve-irade-tilsimi.md          # 26. Söz: Ene'nin gurur ve yeis muvazenesi
-│   └── hasir-ve-ebediyet-tilsimi.md       # 10. Söz: Âhiret ve kâinat tılsımının son mührü
-├── kavramlar-sozlugu/
-│   └── glossary.md                        # 125+ ıstılahın şerhli ve alıntılı lügati
+│   └── glossary.md                        # 140+ Kur'ânî ve Risale ıstılahı
 ├── assets/
 │   ├── images/                            # 4 adet 16:9 geniş banner görseli
-│   │   ├── banner-tilsim-i-kainat.jpg     #   Kozmik miftah hero bannerı
-│   │   ├── banner-ene-ontolojisi.jpg      #   Ene ve şeffaf ayna bannerı
-│   │   ├── banner-ihlas-ve-kevser-havuzu.jpg # Kevser havuzu ve nur sütunu bannerı
-│   │   └── banner-zerre-dinamikleri.jpg   #   Tahavvülât ve kudret kalemi bannerı
-│   └── diagrams/                          # 14 adet Mermaid mimari şeması ve kılavuz
-│       ├── README.md                      #   Diyagramlar rehberi
-│       ├── tilsim-haritasi.mmd            #   Ana kavramlar haritası
-│       ├── ene-hal-degisimi.mmd           #   5 faz hâl değişimi
-│       ├── geri-besleme-dongusu.mmd       #   Kalınlaşma döngüsü
-│       ├── kainat-sarayi-uc-sual.mmd      #   Üç dehşetli sual akışı
-│       ├── tabiat-risalesi-muhaller.mmd   #   Tabiat muhalleri
-│       ├── zerre-seyahati-mertebeler.mmd  #   Kemâlât basamakları
-│       ├── ihlas-sinerjisi.mmd            #   4444 manevî kuvvet şeması
-│       ├── kuantum-ve-zerre.mmd           #   Kuantum ve Kudret Kalemi
-│       ├── dort-kelime-dort-kelam.mmd     #   Mesnevî 4 kelime ve kelâm
-│       ├── suunat-ve-faaliyet.mmd         #   Şuûnât ve kozmik faaliyet
-│       ├── gelecegin-teknolojileri.mmd    #   20. Söz: Işınlanma ve Gelecek Teknolojileri
-│       ├── isinlanma-ve-tayy-i-mekan-fizigi.mmd # Belkıs'ın tahtı ve 3 nakil modu şeması
-│       ├── kader-irade-matrisi.mmd        #   26. Söz: Levh-i Mahfuz, Kesb ve Hakikat Terazisi
-│       └── hasir-ve-ebediyet.mmd          #   10. Söz: İbdâ vs İade ve Bilgi Korunumu
-├── simulations/                           # Dinamik sistem simülasyonları
-│   ├── README.md                          # Matematiksel denklemler ve kullanım kılavuzu
-│   ├── run_all.py                         # Yedi modeli tek seferde icra eden çalıştırıcı
-│   ├── ene-thickening-model.py            # Ene faz değişimi simülasyonu
-│   ├── zerre-simulation.py                # Zerre tahavvülâtı ve kudret kalemi simülasyonu
-│   ├── ihlas-synergy-model.py             # İhlas ve şahs-ı manevî sinerji modeli
-│   ├── entropy-information-model.py       # Kozmik entropi ve kudret intizamı modeli
-│   ├── teleportation-information-model.py # Tayy-ı mekân ve kuantum ışınlanma modeli
-│   ├── kader-irade-matrix-model.py        # Kader, irade ve Levh-i Mahfuz karar matrisi
-│   ├── hasir-ebediyet-model.py            # Haşir, bahar ihyası ve bilgi korunumu modeli
-│   ├── test_ene_model.py                  # 9 birim testi
-│   ├── test_zerre_model.py                # 6 birim testi
-│   ├── test_ihlas_model.py                # 6 birim testi
-│   ├── test_entropy_model.py              # 5 birim testi
-│   ├── test_teleportation_model.py        # 7 birim testi
-│   ├── test_kader_model.py                # 7 birim testi
-│   └── test_hasir_model.py                # 6 birim testi
-└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 46 testin otomatik koşumu
+│   └── diagrams/                          # 18 adet Mermaid mimari akış şeması ve rehber
+└── .github/workflows/tests.yml            # CI: 4 Python sürümünde 73 testin otomatik koşumu
 ```
 
 ---
@@ -808,7 +754,7 @@ Simülasyonlar manevî hakikatleri maddî sayılara indirgemek için değil, kav
 <details>
 <summary><strong>2. Python simülasyonlarını veya Web Dashboard'u çalıştırmak için harici paket kurmak gerekir mi?</strong></summary>
 <br>
-Hayır. Tüm Python simülasyon modelleri (<code>simulations/*.py</code>) ve 46 birim testi yalnızca Python 3.9+ standart kütüphanesi (<code>math</code>, <code>dataclasses</code>, <code>unittest</code>, <code>csv</code>, <code>argparse</code>) kullanılarak yazılmıştır. Web Dashboard (<code>dashboard/index.html</code>) ise herhangi bir modern tarayıcıda doğrudan açılabilir.
+Hayır. Tüm Python simülasyon modelleri (<code>simulations/*.py</code>) ve 73 birim testi yalnızca Python 3.9+ standart kütüphanesi (<code>math</code>, <code>dataclasses</code>, <code>unittest</code>, <code>csv</code>, <code>argparse</code>) kullanılarak yazılmıştır. Web Dashboard (<code>dashboard/index.html</code>) ise herhangi bir modern tarayıcıda doğrudan açılabilir.
 </details>
 
 <details>

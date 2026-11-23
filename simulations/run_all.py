@@ -4,7 +4,7 @@
 Tılsım-ı Kâinat — Bütünleşik Simülasyon Çalıştırıcısı (Unified Runner)
 =====================================================================
 
-Bu araç, Tılsım-ı Kâinat laboratuvarındaki dokuz temel simülasyonu
+Bu araç, Tılsım-ı Kâinat laboratuvarındaki on bir temel simülasyonu
 tek bir merkezden çalıştırmanızı ve karşılaştırmanızı sağlar:
 
 1. Ene Kalınlaşma Modeli (ene-thickening-model.py)
@@ -16,6 +16,8 @@ tek bir merkezden çalıştırmanızı ve karşılaştırmanızı sağlar:
 7. Haşir, Bahar İhyası ve Bilgi Korunumu Modeli (hasir-ebediyet-model.py)
 8. Hayat, Şuur ve Bütünleşik Bilgi Modeli (hayat-suur-model.py)
 9. Mirac, Görelilik ve Tayy-ı Zaman Modeli (mirac-relativity-model.py)
+10. Mânâ-yı Harfî, Niyet-Nazar ve İlişkisel Kuantum Modeli (nazar-rqm-model.py)
+11. Holografik Âlem-i Misâl, Ehadiyet ve Aynalar Modeli (holographic-ayine-model.py)
 """
 
 import subprocess
@@ -37,7 +39,7 @@ def calistir(dosya: str, argumanlar: list[str]) -> int:
     return res.returncode
 
 def main() -> int:
-    baslik_yaz("TILSIM-I KÂİNAT: DOKUZ MODELİN KÜLLÎ İCMALİ")
+    baslik_yaz("TILSIM-I KÂİNAT: ON BİR MODELİN KÜLLÎ İCMALİ")
     
     print("1️⃣  ENE KALINLAŞMA MODELİ (30. SÖZ, BİRİNCİ MAKSAD):", flush=True)
     calistir("ene-thickening-model.py", ["--karsilastir"])
@@ -74,8 +76,16 @@ def main() -> int:
     print("9️⃣  MİRAC, GÖRELİLİK VE TAYY-I ZAMAN (31. SÖZ, MİRAC RİSALESİ & ÖZEL GÖRELİLİK):", flush=True)
     calistir("mirac-relativity-model.py", ["--tablo"])
 
+    print("\n" + "-" * 76 + "\n", flush=True)
+    print("🔟  MÂNÂ-YI HARFÎ, NİYET-NAZAR VE İLİŞKİSEL KUANTUM (MESNEVÎ, RQM & ITP):", flush=True)
+    calistir("nazar-rqm-model.py", ["--tablo"])
+
+    print("\n" + "-" * 76 + "\n", flush=True)
+    print("1️⃣1️⃣ HOLOGRAFİK ÂLEM-İ MİSÂL, EHADİYET VE AYNALAR (16. SÖZ, AdS/CFT & ER=EPR):", flush=True)
+    calistir("holographic-ayine-model.py", ["--tablo"])
+
     print("\n" + "=" * 76, flush=True)
-    print("  ✅ Bütün simülasyonlar (9 model, 59 birim testi) başarıyla icra edildi.", flush=True)
+    print("  ✅ Bütün simülasyonlar (11 model, 73 birim testi) başarıyla icra edildi.", flush=True)
     print("=" * 76 + "\n", flush=True)
     return 0
 

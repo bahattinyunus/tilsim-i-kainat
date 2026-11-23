@@ -5,12 +5,16 @@
 """
 
 import os
+import sys
 import tempfile
 import unittest
-from importlib.machinery import SourceFileLoader
+import importlib.util
 
 dosya_yolu = os.path.join(os.path.dirname(__file__), "ihlas-synergy-model.py")
-ihlas_modulu = SourceFileLoader("ihlas_synergy_model", dosya_yolu).load_module()
+spec = importlib.util.spec_from_file_location("ihlas_synergy_model", dosya_yolu)
+ihlas_modulu = importlib.util.module_from_spec(spec)
+sys.modules[spec.name] = ihlas_modulu
+spec.loader.exec_module(ihlas_modulu)
 
 IhlasParametreleri = ihlas_modulu.IhlasParametreleri
 ihlas_simule_et = ihlas_modulu.ihlas_simule_et
