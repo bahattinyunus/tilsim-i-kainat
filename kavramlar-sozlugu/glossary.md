@@ -133,6 +133,8 @@ Hasenat ve iyilikleri nefsine verip iftihar etme hastalığı; Kader inancı ile
 **Farazî Hat** — Gerçekte var olmayan, ölçüm ve kıyas için varsayılan çizgi.  
 Geometrideki varsayımsal ekvator veya meridyen çizgileri gibi; ene de mutlak sıfatları ölçmek için çizilmiş farazî bir hattır. (30. Söz)
 
+**Fraktal Boyut ($D_f$) & Öz-Benzerlik** — Benoit Mandelbrot'un doğadaki dallanma ve kozmik ağ yapılarını açıklayan ölçekten bağımsız geometrik ölçü. Zerrede, çekirdekte, insanda ve galakside aynı Sikke-i Vahdet mührünün tekrarlanmasını matematiksel olarak gösterir. (30. Lem'a & 32. Söz) → [Esmâ-i Hüsnâ Fraktal Öz-Benzerliği](../docs/esma-fraktal-ve-olcek-degismezligi.md)
+
 **Ferah-ı Mukaddes** — Cenâb-ı Hakk'ın mahlûkatını ihsanıyla sevindirmesinden ve varlık vermesinden hâsıl olan, noksanlıktan ve beşerî hislerden münezzeh zâtî ve kudsî lezzeti. (24. Mektup) → [Şuûnât-ı İlâhiye](../docs/suunat-i-ilahiye-ve-faaliyet-i-daime.md)
 
 **Firavun-u Zelîl** — Dışarıdan firavun gibi kibirli, içeriden menfaat için her şeye tapan zelil insan.  

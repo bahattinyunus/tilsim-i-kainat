@@ -346,6 +346,7 @@
       <button class="tab-btn" onclick="switchTab('tab-mirac')">9. Mirac ve Görelilik</button>
       <button class="tab-btn" onclick="switchTab('tab-nazar')">10. Mânâ-yı Harfî & RQM</button>
       <button class="tab-btn" onclick="switchTab('tab-holografi')">11. Holografik Âlem & Ehadiyet</button>
+      <button class="tab-btn" onclick="switchTab('tab-fraktal')">12. Esmâ Fraktal & Ölçek</button>
     </div>
   </header>
 
@@ -1127,6 +1128,86 @@
           </div>
           <div class="verdict-box" id="holo-verdict">
             <strong>16. Söz Mührü:</strong> Kaynak bölünmeden (tecezzi=%0.0) ve mesafe engel olmadan her bir katrede bütün sıfatlarıyla tecelli etmektedir.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 12: ESMÂ-İ HÜSNÂ FRAKTAL ÖZ-BENZERLİK & ÖLÇEK DEĞİŞMEZLİĞİ -->
+    <div id="tab-fraktal" class="tab-content">
+      <div class="model-grid">
+        <div class="card">
+          <h2 class="card-title">🌀 Esmâ Fraktal & Ölçek Parametreleri</h2>
+          <div class="quote-box">
+            "Nasıl ki bir çekirdek, bütün ağacın fihristesini taşır; öyle de zerre, güneş sisteminin; insan ise bütün kâinatın misâl-i musaggarıdır."
+            <span class="author">— 30. Lem'a (İsm-i Âzam) & Mandelbrot Fraktal / Renormalizasyon Grubu</span>
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Ölçek Aralığı (10^N metre — Zerre → Kozmos)</span>
+              <span class="val" id="frak-olcek-val">10^41 m</span>
+            </div>
+            <input type="range" id="frak-olcek" min="1" max="61" step="1" value="41" oninput="simuleEtFraktal()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Öz-Benzerlik Oranı (Sikke-i Vahdet Uyumu)</span>
+              <span class="val" id="frak-benz-val">0.98</span>
+            </div>
+            <input type="range" id="frak-benz" min="0" max="1" step="0.01" value="0.98" oninput="simuleEtFraktal()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>Aktif Esmâ Tenevvüü (1 – 99 İsim)</span>
+              <span class="val" id="frak-esma-val">99</span>
+            </div>
+            <input type="range" id="frak-esma" min="1" max="99" step="1" value="99" oninput="simuleEtFraktal()">
+          </div>
+
+          <div class="control-group">
+            <div class="control-label">
+              <span>İntizam Direnci (İsm-i Kayyûm Kararlılığı)</span>
+              <span class="val" id="frak-intizam-val">0.97</span>
+            </div>
+            <input type="range" id="frak-intizam" min="0" max="1" step="0.01" value="0.97" oninput="simuleEtFraktal()">
+          </div>
+
+          <div class="btn-preset-group">
+            <button class="btn-preset" onclick="setFraktalPreset(41, 0.98, 99, 0.97)">🌌 İsm-i Âzam Kâinat</button>
+            <button class="btn-preset" onclick="setFraktalPreset(12, 0.95, 70, 0.94)">🧬 İnsan Fihristesi</button>
+            <button class="btn-preset" onclick="setFraktalPreset(6, 0.91, 40, 0.88)">🌳 Çekirdek & Ağaç</button>
+            <button class="btn-preset" onclick="setFraktalPreset(10, 0.08, 1, 0.10)">🌫️ Tesadüfî Gürültü</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2 class="card-title">📊 Fraktal Boyut (D_f), Sikke-i Vahdet & Ölçek Değişmezliği</h2>
+          <div class="metrics-row">
+            <div class="metric-badge">
+              <div class="metric-value" id="frak-df-son">2.914</div>
+              <div class="metric-label">Fraktal Boyut (D_f)</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="frak-vahdet-son">%98.1</div>
+              <div class="metric-label">Sikke-i Vahdet</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="frak-rg-son">%95.0</div>
+              <div class="metric-label">RG Kararlılığı</div>
+            </div>
+            <div class="metric-badge">
+              <div class="metric-value" id="frak-fihriste-son">%94.5</div>
+              <div class="metric-label">Fihriste Yoğunluğu</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartFraktal"></canvas>
+          </div>
+          <div class="verdict-box" id="frak-verdict">
+            <strong>30. Lem'a Mührü:</strong> Zerrede, insanda ve galakside aynı Sikke-i Vahdet okunur.
           </div>
         </div>
       </div>
@@ -2020,6 +2101,92 @@
       simuleEtHolografi();
     }
 
+    // ==========================================
+    // 12. ESMÂ-İ HÜSNÂ FRAKTAL & ÖLÇEK DEĞİŞMEZLİĞİ
+    // ==========================================
+    let chartFraktalInstance = null;
+    function simuleEtFraktal() {
+      const olcek = parseFloat(document.getElementById('frak-olcek').value);
+      const benz = parseFloat(document.getElementById('frak-benz').value);
+      const esma = parseInt(document.getElementById('frak-esma').value, 10);
+      const intizam = parseFloat(document.getElementById('frak-intizam').value);
+
+      document.getElementById('frak-olcek-val').innerText = '10^' + olcek.toFixed(0) + ' m';
+      document.getElementById('frak-benz-val').innerText = benz.toFixed(2);
+      document.getElementById('frak-esma-val').innerText = esma;
+      document.getElementById('frak-intizam-val').innerText = intizam.toFixed(2);
+
+      const esmaFaktor = Math.log10(esma + 1.0) / Math.log10(100.0);
+      const df = 1.0 + 1.95 * (0.55 * benz + 0.25 * intizam + 0.20 * esmaFaktor);
+      const olcekZorluk = Math.log10(olcek + 1.0) / Math.log10(62.0);
+      const rg = 100.0 * Math.pow(benz, 1.0 + 0.6 * olcekZorluk) * (0.35 + 0.65 * intizam);
+      const vahdet = 100.0 * (0.45 * benz + 0.35 * intizam + 0.20 * esmaFaktor);
+      const fihriste = Math.min(100.0, 100.0 * (0.50 * esmaFaktor + 0.30 * benz + 0.20 * olcekZorluk) * intizam);
+
+      document.getElementById('frak-df-son').innerText = df.toFixed(3);
+      document.getElementById('frak-vahdet-son').innerText = '%' + vahdet.toFixed(1);
+      document.getElementById('frak-rg-son').innerText = '%' + rg.toFixed(1);
+      document.getElementById('frak-fihriste-son').innerText = '%' + fihriste.toFixed(1);
+
+      let verdict = "";
+      if (vahdet >= 85.0) {
+        verdict = "İsm-i Âzam Mührü (Külli Ölçek Değişmezliği): Zerrede, insanda ve galakside aynı Sikke-i Vahdet okunur; 41 mertebe ölçek boyunca öz-benzerlik sabit kalır.";
+      } else if (vahdet >= 65.0) {
+        verdict = "Misâl-i Musaggar (Fihriste-i Âlem): Küçük parça büyük âlemin çekirdek programını taşır; çekirdekten ağaca aynı İlim ve Kudret kalemi işler.";
+      } else if (vahdet >= 40.0) {
+        verdict = "Cüz'î Fraktal Nizam: Yerel ölçekte geometrik düzen görülür; ancak külli ölçek kararlılığı henüz tam inkişaf etmemiştir.";
+      } else {
+        verdict = "Ölçek Kopukluğu (Tesadüf Varsayımı): Tesadüf ölçekler arası öz-benzerliği açıklayamaz; intizam direnci çöker.";
+      }
+      document.getElementById('frak-verdict').innerHTML = "<strong>30. Lem'a Mührü:</strong> " + verdict;
+
+      const mertebeler = ['Zerre (10⁻¹⁵)', 'DNA (10⁻⁹)', 'Hücre (10⁻⁵)', 'İnsan (10⁰)', 'Gezegen (10⁷)', 'Galaksi (10²¹)', 'Kozmos (10²⁶)'];
+      const vahdetSerisi = mertebeler.map((_, idx) => {
+        const z = (idx + 1) / mertebeler.length;
+        return Math.max(0, Math.min(100, vahdet * (1.0 - 0.18 * (1.0 - intizam) * z)));
+      });
+      const tesadufSerisi = mertebeler.map((_, idx) => Math.max(0, 60 * Math.pow(0.32, idx)));
+
+      if (chartFraktalInstance) chartFraktalInstance.destroy();
+      const ctx = document.getElementById('chartFraktal').getContext('2d');
+      chartFraktalInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: mertebeler,
+          datasets: [
+            {
+              label: 'Sikke-i Vahdet Ölçek Kararlılığı (%)',
+              data: vahdetSerisi,
+              borderColor: '#10B981',
+              backgroundColor: 'rgba(16, 185, 129, 0.16)',
+              fill: true,
+              tension: 0.3
+            },
+            {
+              label: 'Tesadüfî Düzenin Ölçekle Çöküşü (%)',
+              data: tesadufSerisi,
+              borderColor: '#F43F5E',
+              borderDash: [5, 5],
+              tension: 0.3
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: { y: { min: 0, max: 105 } }
+        }
+      });
+    }
+
+    function setFraktalPreset(o, b, e, i) {
+      document.getElementById('frak-olcek').value = o;
+      document.getElementById('frak-benz').value = b;
+      document.getElementById('frak-esma').value = e;
+      document.getElementById('frak-intizam').value = i;
+      simuleEtFraktal();
+    }
+
     // Sayfa Yüklendiğinde Bütün Simülasyonları Başlat
     window.addEventListener('DOMContentLoaded', () => {
       simuleEtEne();
@@ -2033,6 +2200,7 @@
       simuleEtMirac();
       simuleEtNazar();
       simuleEtHolografi();
+      simuleEtFraktal();
     });
   </script>
 </body>

@@ -7,6 +7,9 @@ venv/
 *.jpg
 !assets/**/*.png
 !assets/**/*.jpg
+!site/assets/**/*.png
+!site/assets/**/*.jpg
+.netlify/
 .DS_Store
 Thumbs.db
 desktop.ini

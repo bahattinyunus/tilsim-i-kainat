@@ -1,0 +1,135 @@
+[
+  {
+    "id": "dort-kelime-dort-kelam",
+    "file": "dort-kelime-dort-kelam.mmd",
+    "title": "Dört Kelime ve Dört Kelâm",
+    "description": "Mesnevî-i Nuriye'nin 4 epistemolojik simyası ve kelâmı",
+    "code": "flowchart LR\n    subgraph DÖRT_KELİME[\"MESNEVÎ-İ NURİYE: DÖRT KELİME\"]\n        direction TB\n        K1[\"1. Mânâ-yı Harfî<br/>(Ayna olmak, kâtibi göstermek)\"]\n        K2[\"2. Mânâ-yı İsmî<br/>(Kendine hasretmek, firavunlaşmak)\"]\n        K3[\"3. Niyet<br/>(Âdi ameli ibadete çeviren iksir)\"]\n        K4[\"4. Nazar<br/>(Kâinatı meşhere çeviren nuranî bakış)\"]\n    end\n    \n    subgraph DÖRT_KELÂM[\"MESNEVÎ-İ NURİYE: DÖRT KELÂM\"]\n        direction TB\n        L1[\"1. İnnî Lestü Mâlikî<br/>(Ben kendime mâlik değilim)\"]\n        L2[\"2. El-Mülkü Lillâh<br/>(Mülk bütünüyle Allah'ındır)\"]\n        L3[\"3. El-Fenâü fi'l-Hâlık<br/>(Yaratıcı'nın rızasında fani olmak)\"]\n        L4[\"4. Lâ İlâhe İllallâh<br/>(O'ndan başka ilâh ve fâil yoktur)\"]\n    end\n    \n    K1 ==> L1\n    K3 ==> L2\n    K4 ==> L3\n    L1 & L2 & L3 ==> L4"
+  },
+  {
+    "id": "ene-hal-degisimi",
+    "file": "ene-hal-degisimi.mmd",
+    "title": "Ene Hâl Değişimi",
+    "description": "30. Söz: Ene'nin şeffaflıktan yutulmaya 5 fazı",
+    "code": "stateDiagram-v2\n    direction LR\n    Hava: Hava gibi şeffaf\n    Bulut: Bulutlanma\n    Su: Su gibi akışkan\n    Toprak: Toprak gibi kesif\n    Tas: Taş gibi katı\n    Yutulma: Yutulma\n    [*] --> Hava: Fıtrat\n    Hava --> Bulut: Gaflet\n    Bulut --> Su: Malikiyet vehmi\n    Su --> Toprak: Esbabperestlik\n    Toprak --> Tas: İnkâr ve isyan\n    Tas --> Yutulma: Kendine tapma\n    Bulut --> Hava: Tefekkür\n    Su --> Hava: Şükür\n    Toprak --> Hava: Tevbe ve dua\n    Tas --> Hava: Tevbe ve dua"
+  },
+  {
+    "id": "esma-fraktal-rezonans",
+    "file": "esma-fraktal-rezonans.mmd",
+    "title": "Esmâ-i Hüsnâ Fraktal Öz-Benzerlik",
+    "description": "30. Lem'a & 32. Söz: 41 Mertebe Ölçek Değişmezliği, Mandelbrot $D_f$ ve Sikke-i Vahdet",
+    "code": "flowchart TD\n    IA((\"İSM-İ ÂZAM & ESMÂ-İ HÜSNÂ<br/>(30. Lem'a — Ferd, Hayy, Kayyûm, Hakem, Adl, Kuddûs)\"))\n\n    subgraph Olcekler[\"41 Mertebe Ölçek Değişmezliği (Renormalizasyon Grubu)\"]\n        Z[\"Mikro Ölçek: Zerre & DNA (10⁻¹⁵ – 10⁻⁹ m)\"]\n        I[\"Mezo Ölçek: İnsan & Fihriste-i Âlem (10⁰ m)\"]\n        G[\"Makro Ölçek: Güneş Sistemi & Galaksi Ağı (10¹¹ – 10²⁶ m)\"]\n    end\n\n    IA --> Z\n    IA --> I\n    IA --> G\n\n    Z <-->|\"Öz-Benzerlik (Fraktal D_f)\"| I\n    I <-->|\"Misâl-i Musaggar\"| G\n    Z <-->|\"Sikke-i Vahdet\"| G\n\n    subgraph Netice[\"Geometrik ve Kelâmî Bürhan\"]\n        RG[\"Sabit Nokta Kararlılığı (Scale Invariance)\"]\n        TEV[\"Tevhid Mührü: Zerre Kiminse, Galaksi de Onundur\"]\n    end\n\n    Olcekler --> RG --> TEV\n\n    style IA fill:#312e81,stroke:#f59e0b,stroke-width:3px,color:#fff\n    style TEV fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#fff\n    style RG fill:#0e7490,stroke:#06b6d4,stroke-width:2px,color:#fff"
+  },
+  {
+    "id": "gelecegin-teknolojileri",
+    "file": "gelecegin-teknolojileri.mmd",
+    "title": "Geleceğin Teknolojileri",
+    "description": "20. Söz Mucizât-ı Enbiya: Işınlanma, Kuantum, Warp Drive ve Nanoteknoloji",
+    "code": "flowchart TD\n    subgraph MucizeUfku[\"MUCİZÂT-I ENBİYA: FENNİN NİHAİ UFUKLARI (20. SÖZ)\"]\n        M1[\"Belkıs'ın Tahtı (Neml: 40)<br/>Tonlarca kütlenin salisede nakli\"]\n        M2[\"Hz. Süleyman'ın Tayaranı (Sebe: 12)<br/>Havada 2 aylık mesafenin 1 günde kat'ı\"]\n        M3[\"Hz. İsa'nın İhyası (Mâide: 110)<br/>Körlerin şifası ve mevtaların diriltilmesi\"]\n        M4[\"Hz. Davud'un Demiri (Sebe: 10)<br/>Demirin mum gibi soğuk işlenmesi\"]\n        M5[\"Hz. Musa'nın Asâsı (Bakara: 60)<br/>Taştan 12 pınarın fışkırtılması\"]\n        M6[\"Mirac-ı Nebevî (31. Söz)<br/>Cismin nuraniyetle semavatı aşması\"]\n    end\n    \n    subgraph Ontoloji[\"TILSIM-I KÂİNAT & MODERN FİZİK KÖPRÜLERİ\"]\n        O1[\"Wheeler: 'It from Bit' & Bekenstein Sınırı<br/>(Madde = Kudret Kalemi'nin Bilgi Harfi)\"]\n        O2[\"Higgs Modülasyonu & Letafet Fazı<br/>(Kütlesel Eylemsizlik Direncinin İptali)\"]\n        O3[\"Zerrelerin Nizam-ı Umumiye Tevfiki<br/>(Canlılıkta Negentropi & DNA Kodları)\"]\n        O4[\"Moleküler Manyeto-Rezonans & Kristal Kafes<br/>(Oda sıcaklığında atomik yeniden dizilim)\"]\n        O5[\"Sismik-Akustik Rezonans & Yeraltı Taraması<br/>(Akifer ve jeotermal haritalama)\"]\n        O6[\"Alcubierre Metriği & Esir Dalgalanması (ZPE)<br/>(Uzay-zaman katlanması & Sıfır Noktası Enerjisi)\"]\n        O7[\"İhlas Sinerjisi & Dolanıklık (4444 Sırrı)<br/>(Kolektif süperpozisyon & Noosfer)\"]\n    end\n    \n    subgraph GelecekTech[\"GELECEĞİN NİHAİ TEKNOLOJİLERİ\"]\n        T1[\"⚛️ KUANTUM TELEPORTASYON & TAYY-I MEKÂN<br/>Madde-enformasyon ayrışması ve anî rekonstrüksiyon\"]\n        T2[\"🛸 KÜTLESİZLİK & NURANİYET SÜRÜŞÜ (WARP DRIVE)<br/>Atmosfersiz hipersonik uçuş ve ışıktan hızlı intikal\"]\n        T3[\"🧬 REJENERATİF NANOTIP & HÜCRESEL İHYA<br/>Kanser/doku hasarını atom atom onaran biyobotlar\"]\n        T4[\"🦾 PROGRAMLANABİLİR MADDE (CLAYTRONICS)<br/>Isı gerektirmeyen esnek alaşımlar ve akıllı katomlar\"]\n        T5[\"💧 DERİN AKİFER VE JEOTERMAL HASAT<br/>Sismik sondajla kurak çöllerin vahaya dönüşmesi\"]\n        T6[\"⏳ BAST-I ZAMAN & BİLİNÇ HIZLANDIRICILAR<br/>Nöral frekans artırımıyla saniyede asırlık tefekkür\"]\n        T7[\"💻 4444 KUANTUM PARALEL İŞLEMCİLER<br/>Hatasız dağıtık süper-akıl ve şahs-ı manevî ağları\"]\n    end\n    \n    M1 & O1 ==> T1\n    M2 & O2 ==> T2\n    M3 & O3 ==> T3\n    M4 & O4 ==> T4\n    M5 & O5 ==> T5\n    M6 & O6 ==> T2\n    M6 ==> T6\n    O7 ==> T7"
+  },
+  {
+    "id": "geri-besleme-dongusu",
+    "file": "geri-besleme-dongusu.mmd",
+    "title": "Geri Besleme Döngüsü",
+    "description": "Kalınlaşmanın pozitif döngüsü ve vahiy ile kırılışı",
+    "code": "flowchart LR\n    A[\"Mana-yı ismî nazar\"] --> B[\"Malikiyet vehmi\"]\n    B --> C[\"Ene kalınlaşır\"]\n    C --> D[\"Nur geçmez\"]\n    D --> A\n    V[\"Vahiy / Nübüvvet nuru\"] -->|\"Döngüyü kırar\"| A\n    V --> T[\"Tefekkür, şükür, dua, ihlas\"]\n    T -->|\"İnceltir\"| C"
+  },
+  {
+    "id": "hasir-ve-ebediyet",
+    "file": "hasir-ve-ebediyet.mmd",
+    "title": "Haşir, Bahar İhyası ve Bilgi Korunumu",
+    "description": "10. Söz: İbdâ vs İade, Levh-i Mahfuz (Unitarity), Adalet ve Hikmet Terazisi",
+    "code": "flowchart TD\n    %% Tılsım-ı Kâinat: Haşir, Bahar İhyası ve Bilgi Korunumu (10. Söz)\n\n    subgraph Dunya[\"🌍 DÜNYA VE ÖLÜM / KIŞ FAZI\"]\n        YARATILIS[\"🌱 İbdâ (İlk Yaratılış)<br/>Yoktan Var Etme\"]\n        OLUM[\"🍂 Ölüm ve Kış<br/>(Zerrelerin Dağılması)\"]\n        YARATILIS --> OLUM\n    end\n\n    subgraph Korunum[\"💾 LEVH-İ MAHFUZ & BİLGİ KORUNUMU (UNITARITY)\"]\n        RUH[\"✨ Ruh ve Misal-i Musağğar<br/>(Kayıtsız Şartsız Korunur)\"]\n        AMEL[\"📜 Amel Defteri ve Zerre Hafızası<br/>(Enformasyon Yok Olmaz)\"]\n        OLUM -->|Madde Çözülür, Bilgi Saklanır| RUH\n        OLUM -->|İz ve Kod Kaydolur| AMEL\n    end\n\n    subgraph Sur[\"🎺 SUR-U İSRAFİL VE İADE EMRI ('KÜN FE YEKÛN')\"]\n        BORU[\"Tabur Kışlası Analojisi<br/>Tek Bir Emirle Zerratın Toplanması\"]\n        RUH --> BORU\n        AMEL --> BORU\n    end\n\n    subgraph Netice[\"⚖️ İKİ KOZMİK İHTİMAL MUKAYESESİ\"]\n        subgraph Ahiretsiz[\"❌ HAŞİRSİZ FARAZİYE\"]\n            Z1[\"Zâlim İzzetle, Mazlum Zilletle Gider<br/>➔ Mutlak Zulüm\"]\n            Z2[\"Kâinat Sarayı İsraf Olur<br/>➔ Abesiyet ve Anlamsızlık\"]\n        end\n\n        subgraph Ahiretli[\"✅ HAŞİR VE DÂR-I BEKĀ\"]\n            H1[\"Adalet-i Mahza Tecellisi<br/>(Hakların İadesi)\"]\n            H2[\"Hikmet ve Rahmetin Kemâli<br/>(Ebedî Meyvedarlık)\"]\n            H3[\"Ene'nin Bekā Aşkının Tatmini<br/>(Likaullah ve Cennet)\"]\n        end\n\n        BORU ==>|Tevhidî Hakikat| Ahiretli\n        OLUM -.->|Maddeci İnkar| Ahiretsiz\n    end"
+  },
+  {
+    "id": "hayat-ve-ruh-tilsimi",
+    "file": "hayat-ve-ruh-tilsimi.mmd",
+    "title": "Hayat, Şuur ve Ruh Tılsımı",
+    "description": "29. Söz & 30. Lem'a: Kesrette Vahdet, Âlem-i Emir ve Bütünleşik Bilgi (IIT Φ)",
+    "code": "%% -----------------------------------------------------------------------------\n%% Tılsım-ı Kâinat: 15. Diyagram\n%% Hayat, Şuur ve Ruh Tılsımı: Kesrette Vahdet ve Entegre Bilgi (IIT Φ)\n%% Kaynak: 29. Söz (Ruh Risalesi) & 30. Lem'a (İsm-i Hayy)\n%% -----------------------------------------------------------------------------\nflowchart TD\n    subgraph AlemIEmir[\"ÂLEM-İ EMİR (Maddesiz Kanunlar Sahası)\"]\n        TK[\"Tabiat Kanunları<br/>(Kütleçekim, Elektromanyetizma)<br/>Haricî Vücut: ❌ | Şuur: ❌\"]\n        KI[\"Kuvve-i İnbâtiye<br/>(Çekirdek Büyüme Programı)<br/>Haricî Vücut: ❌ | Biyolojik Emir: ✅\"]\n        RK[\"RUH: Vücud-u Haricî Giymiş Kanun-u Emrî<br/>(29. Söz, İkinci Esas)<br/>Haricî Vücut: ✅ | Şuur: ✅ | Basitlik: ✅\"]\n    end\n\n    subgraph SehadetAlemi[\"ŞEHÂDET ÂLEMİ (Maddî Zerrat & Kesafet)\"]\n        Z[\"Dağınık Maddî Zerreler<br/>(Termodinamik Entropi dS > 0)\"]\n        H[\"Hücreler & Biyolojik Doku<br/>(Metabolizma & Kimyasal Reaksiyonlar)\"]\n    end\n\n    subgraph TilsimIHayat[\"HAYATIN SIRR-I CÂMİİ (30. Lem'a - İsm-i Hayy)\"]\n        KV[\"Kesrette Vahdet Rabıtası<br/>(Dağınık zerratı tek merkezde toplama)\"]\n        NP[\"Kozmik Negentropi<br/>(Schrödinger: Kaosa karşı tekvînî nizam)\"]\n        IIT[\"Bütünleşik Bilgi (IIT Φ >> 0)<br/>(Parçalarına indirgenemeyen şuur birliği)\"]\n    end\n\n    subgraph NeticeiHilkat[\"HİLKATİN NETİCESİ & BEKĀ\"]\n        EB[\"Ebediyet ve Zevalsizlik<br/>(Ruh basittir, terkipsizdir; parçalanmaz)\"]\n        KL[\"Küllî İntisap ve Muhatabiyet<br/>(Bir göz güneşe, bir ene esmâya bakar)\"]\n    end\n\n    RK ==>|\"Vücut Libası Giydirilir\"| KV\n    Z -->|\"Câzibe-i İlâhiye ile Toplanır\"| KV\n    H --> KV\n    \n    KV --> NP\n    KV --> IIT\n    \n    NP & IIT ==> EB\n    IIT ==> KL"
+  },
+  {
+    "id": "holografik-alem-ve-ehadiyet",
+    "file": "holografik-alem-ve-ehadiyet.mmd",
+    "title": "Holografik Âlem-i Misâl ve Ehadiyet",
+    "description": "16. Söz & 28. Mektup: Güneş-Ayna Temessülü, Vâhidiyet-Ehadiyet, AdS/CFT ve ER=EPR",
+    "code": "flowchart TD\n    KAYNAK((\"☀️ ŞEMS-İ EZELÎ / NURANİYET KAYNAĞI<br/>(Tecezzi Etmez • Mekândan Münezzeh)\"))\n\n    KAYNAK --> VAHID[\"🌐 Vâhidiyet İhatası<br/>(Küllî Sınır / CFT & Âlem-i Misâl)\"]\n    KAYNAK --> EHAD[\"✨ Ehadiyet Tecellisi<br/>(Her Bir Parçada Bölünmez Bütünlük)\"]\n\n    VAHID --> HOLO[\"📐 Holografik İlke (AdS/CFT)<br/>I_max = A / (4 l_P² ln 2)<br/>2B Sınır ➔ 3B Şehadet Projeksiyonu\"]\n    EHAD --> EREPR[\"🔗 ER = EPR & Kurb-i İlâhî<br/>Mesafe Nuraniyete Engel Değildir\"]\n\n    HOLO --> A1[\"💧 Katre Aynası (10^24 Zerre)<br/>Kaynak Bölünme Kaybı = %0.0\"]\n    EREPR --> A2[\"💎 Kalb-i Selîm (Şeffaf Ayna)<br/>Kurb Etkinliği = %99+\"]\n    EREPR --> A3[\"🌫️ Puslu / Kesif Ayna (Gaflet)<br/>Bu'd Mesafeden Değil, Kesafettendir\"]\n\n    A1 --> SONUC[\"🌟 16. Söz Sırrı: Bir Katre ile Okyanus,<br/>Kaynak Karşısında Tecezzisiz Müsavidir\"]\n    A2 --> SONUC\n\n    style KAYNAK fill:#78350f,stroke:#f59e0b,color:#fff\n    style VAHID fill:#1e3a8a,stroke:#3b82f6,color:#fff\n    style EHAD fill:#064e3b,stroke:#10b981,color:#fff\n    style HOLO fill:#312e81,stroke:#818cf8,color:#fff\n    style EREPR fill:#0f766e,stroke:#06b6d4,color:#fff\n    style A1 fill:#14532d,stroke:#22c55e,color:#fff\n    style A2 fill:#14532d,stroke:#22c55e,color:#fff\n    style A3 fill:#7f1d1d,stroke:#ef4444,color:#fff\n    style SONUC fill:#1e1b4b,stroke:#f59e0b,color:#fff"
+  },
+  {
+    "id": "ihlas-sinerjisi",
+    "file": "ihlas-sinerjisi.mmd",
+    "title": "İhlas Sinerjisi ve Şahs-ı Manevî",
+    "description": "21. Lem'a: 4 ferdin 4444 kuvvetine yükselmesi",
+    "code": "flowchart TD\n    subgraph Ayrı[\"ENANİYET VE İTTİHADSIZLIK\"]\n        F1[\"Fert 1 (Değer: 1)\"]\n        F2[\"Fert 2 (Değer: 1)\"]\n        F3[\"Fert 3 (Değer: 1)\"]\n        F4[\"Fert 4 (Değer: 1)\"]\n        F1 & F2 & F3 & F4 --> Toplam[\"Adî Toplam: 1 + 1 + 1 + 1 = 4<br/>(Buzlar erimemiş, benlikler çatışıyor)\"]\n    end\n    \n    subgraph Sırr[\"SIRR-I İHLAS VE İTTİHAD (21. LEM'A)\"]\n        H1[\"1\"] --- H2[\"1\"] --- H3[\"1\"] --- H4[\"1\"]\n        H1 & H2 & H3 & H4 ==> Sinerji[\"Sırr-ı Adediyet: 4444 Kuvvet-i Maneviyesi!<br/>Kevser Havuzunda Eriyen Buzlar,<br/>Birbirinin Faziletiyle İftihar Eden Ruhlar\"]\n    end"
+  },
+  {
+    "id": "isinlanma-ve-tayy-i-mekan-fizigi",
+    "file": "isinlanma-ve-tayy-i-mekan-fizigi.mmd",
+    "title": "Işınlanma ve Tayy-ı Mekân Fiziği",
+    "description": "Belkıs'ın tahtının naklinde 3 fiziksel mod ve sequence diyagramı",
+    "code": "sequenceDiagram\n    autonumber\n    participant Y as Yemen / Sebe (Nokta A)\n    participant E as Esir / Kuantum Dolanık Alan\n    participant K as Kudüs / Süleyman (Nokta B)\n\n    Note over Y,K: SENARYO 1: KLASİK KÜTLESİ KESİF NAKİL (Saatler sürer, Ene/Kesafet Perdesi)\n    Y->>K: 500 kg Taht mekanik vasıta ile taşınır (Mesafe: 2500 km, v=900 km/h, Süre: ~2.8 saat)\n\n    Note over Y,K: SENARYO 2: KUANTUM REKONSTRÜKSİYON (Wheeler \"It from Bit\" & Zerre Sırrı)\n    Y->>Y: Kuantum Tarayıcı: 10^32 Qubit durum bilgisi (ψ) taranır\n    Y->>E: Işık hızında (c) koherent bilgi paketi eter/foton hattına basılır\n    E->>K: Kudüs terminaline bilgi 8.3 milisaniyede ulaşır\n    K->>K: 4444 Sinerjili Kuantum İşlemci ile yerel ham zerreler üzerinde anında inşa (Top. Süre: ~0.6 sn)\n\n    Note over Y,K: SENARYO 3: TAYY-I MEKÂN & NURANİYET SÜRÜŞÜ (Âsaf b. Berhiyâ / İsm-i Âzam Sırrı)\n    Y->>Y: Cismin kesafeti letafete inkılâb ettirilir (Higgs etkileşimi sıfırlanır, m_eff -> 0)\n    Y->>K: Uzay-zaman metriği katlanır (ER=EPR / Âlem-i Misal tüneli)\n    Note over Y,K: Tarfetü'l-Ayn (Göz açıp kapamadan evvel: < 0.05 sn) — Taht yanı başında hazır durur!\n    K->>K: \"Hâzâ min fadli Rabbî\" (Bu Rabbimin lütfudur — Kibir değil, Şükür ve Ubudiyet)"
+  },
+  {
+    "id": "kader-irade-matrisi",
+    "file": "kader-irade-matrisi.mmd",
+    "title": "Kader, İrade ve Levh-i Mahfuz Matrisi",
+    "description": "26. Söz: Ezelî İlim, Levh-i Mahv ve İspat, Cüz-i Kesb ve Kibir-Yeis Terazisi",
+    "code": "flowchart TD\n    %% Tılsım-ı Kâinat: Kader, İrade ve Levh-i Mahfuz Karar Matrisi\n    \n    subgraph Ezel[\"🌌 EZELÎ İLİM VE LEVH-İ MAHFUZ (ZAMANDAN MÜNEZZEH BİLGİ)\"]\n        LM[\"📜 Levh-i Mahfuz<br/>(Ana Kütük / Zamansız Kuşatıcı İlim)\"]\n        ILIM[\"İlim Malûma Tâbidir<br/>(P(İlim)=1, P(Cebir)=0)\"]\n        LM --- ILIM\n    end\n\n    subgraph Dinamik[\"⚡ LEVH-İ MAHV VE İSPAT (ZAMANIN SEYLÂNINDAKİ DEFTER)\"]\n        LMI[\"📝 Levh-i Mahv ve İspat<br/>(Şartlı Kader Sahifesi)\"]\n        DUA[\"🤲 Dua ve İltica<br/>(Kaza-i Muallakı Tebdil Eder)\"]\n        SADAKA[\"🎁 Sadaka ve İhsan<br/>(Belayı Def Eder)\"]\n        DUA -->|Kalkan Gücü| LMI\n        SADAKA -->|Kalkan Gücü| LMI\n    end\n\n    subgraph Insan[\"👤 İNSAN VE CÜZ-İ İHTİYARÎ (KESB MERKEZİ)\"]\n        CI[\"🔑 Cüz-i İhtiyarî<br/>(1-Bitlik Tercih / Cüz-i Meyil / E ≈ 0)\"]\n        \n        CI -->|Pozitif Meyil (+1)| HAYIR[\"🕊️ Hayır ve İbadet Talebi\"]\n        CI -->|Negatif Meyil (-1)| SER[\"🔥 Şer ve İsyan Meyli / İhmal\"]\n    end\n\n    subgraph Halk[\"⚡ KUDRET-İ MUTLAKA (HALK VE YARATILIŞ)\"]\n        KUDRET[\"Sonsuz İlâhî Kudret<br/>(Hâlık-ı Külli Şey)\"]\n        HAYIR -->|Talep & Kesb| KUDRET\n        SER -->|Terk & Kesb| KUDRET\n        KUDRET -->|Vücudî Fiili Halk Eder| FIIL_HAYIR[\"✨ Hasenat Vücuda Gelir\"]\n        KUDRET -->|Ademî Tahribi Serbest Bırakır| FIIL_SER[\"💥 Seyyiat ve Hasar Hasıl Olur\"]\n    end\n\n    subgraph Terazi[\"⚖️ HAKİKAT TERAZİSİ VE İKİ TEHLİKELİ UÇURUM\"]\n        subgraph Ucurum1[\"⚠️ UÇURUM 1: KİBİR & FİRAVUNİYET\"]\n            KIBIR[\"Hasenatı Kendine Mal Etmek<br/>'Ben yaptım, benim deham!'<br/>➔ Şirk ve Gurur\"]\n        end\n\n        subgraph Istikamet[\"🌟 İSTİKAMET VE RIZA (26. SÖZ)\"]\n            MIZAN[\"Nisa 79 Düsturu:<br/>Hasenat ➔ Kadere & Şükre Verilir<br/>Seyyiat ➔ Nefse & İstiğfara Verilir\"]\n        end\n\n        subgraph Ucurum2[\"⚠️ UÇURUM 2: YEİS & CEBRİYECİLİK\"]\n            YEIS[\"Seyyiatı Kadere İsnad Etmek<br/>'Kaderim böyleymiş, suçsuzum!'<br/>➔ Atalet ve Yeis\"]\n        end\n\n        FIIL_HAYIR -.->|Gurur Sapması| KIBIR\n        FIIL_HAYIR ==>|Tevhidî Şuur| MIZAN\n        FIIL_SER ==>|Tevbe & İtiraf| MIZAN\n        FIIL_SER -.->|Mesuliyetten Kaçış| YEIS\n    end\n\n    Ezel ==> Dinamik\n    Dinamik ==> Insan"
+  },
+  {
+    "id": "kainat-sarayi-uc-sual",
+    "file": "kainat-sarayi-uc-sual.mmd",
+    "title": "Kâinat Sarayı ve 3 Sual",
+    "description": "11. Söz: Necisin? Nereden? Nereye?",
+    "code": "flowchart TD\n    KS[\"🏛️ KÂİNAT SARAYI\"]\n    \n    subgraph Sorular[\"İnsanın Yüz Yüze Olduğu Üç Dehşetli Sual\"]\n        Q1[\"1. Necisin?\"]\n        Q2[\"2. Nereden geliyorsun?\"]\n        Q3[\"3. Nereye gidiyorsun?\"]\n    end\n    \n    KS --> Sorular\n    \n    subgraph FelsefeYolu[\"Felsefenin Karanlık Çıkmazı (Mânâ-yı İsmî)\"]\n        Q1 -.-> F1[\"Tesadüf oyuncağı, âciz et-kemik\"]\n        Q2 -.-> F2[\"Karanlık ademden / kör maddeden\"]\n        Q3 -.-> F3[\"Ebedî yokluğa ve çürümeye\"]\n        F1 & F2 & F3 --> FN[\"Netice: Mutlak Yeis ve Dehşet\"]\n    end\n    \n    subgraph Kur'anYolu[\"Kur'ân'ın Müşkilküşâ Cevabı (Mânâ-yı Harfî)\"]\n        Q1 ==> K1[\"Sultan-ı Ezelî'nin nazenin memuru ve âyinesi\"]\n        Q2 ==> K2[\"Rahmet ve Kudret hazinesinden\"]\n        Q3 ==> K3[\"Dâr-ı Saadet-i Ebediyeye ve Cemâlullah'a\"]\n        K1 & K2 & K3 --> KN[\"Netice: Ünsiyet, Küllî Şükür ve Ubudiyet\"]\n    end"
+  },
+  {
+    "id": "kuantum-ve-zerre",
+    "file": "kuantum-ve-zerre.mmd",
+    "title": "Kuantum, Entropi ve Kudret Kalemi",
+    "description": "Wheeler \"It from Bit\" ve Kuantum İmkânı vs. Kudret",
+    "code": "flowchart TD\n    subgraph Kuantum[\"KUANTUM DÜNYASI VE İMKÂN DAİRESİ\"]\n        S[\"Süperpozisyon / Dalga Fonksiyonu (ψ)<br/>(Zerre sonsuz ihtimaller denizinde)\"]\n        W[\"John Wheeler: 'It from Bit'<br/>(Madde bilgiden ve mânâdan türer)\"]\n    end\n    \n    subgraph Kudret[\"KUDRET KALEMİ VE TEKAYYÜD\"]\n        K1[\"İrade-i Ezelî'nin Taayyünü\"]\n        K2[\"Kün Fe-Yekûn Emri\"]\n        K3[\"Mebdede 'BİSMİLLÂH' ile Sevk\"]\n    end\n    \n    subgraph Tevhid[\"TEKÂMÜL VE NİZAM-I UMUMÎ\"]\n        N1[\"Entropiye Meydan Okuma (Negentropi)\"]\n        N2[\"Tevfik'in Gözbebeğinde Hikmetli Yerleşim\"]\n        N3[\"Hitâmda 'ELHAMDÜLİLLÂH' ile Kaside-i Methiye\"]\n    end\n    \n    S --> K1\n    W --> K2\n    K1 & K2 --> K3\n    K3 ==> N1 --> N2 --> N3"
+  },
+  {
+    "id": "mirac-ve-zamanin-izafiyeti",
+    "file": "mirac-ve-zamanin-izafiyeti.mmd",
+    "title": "Mirac-ı Nebevî ve Zamanın İzafiyeti",
+    "description": "31. Söz & 24. Mektup: Görelilik, Zaman Dürülmesi (Ân-ı Dâim), Sidre, Kab-ı Kavseyn ve 5 Hediye",
+    "code": "%% -----------------------------------------------------------------------------\n%% Tılsım-ı Kâinat: 16. Diyagram\n%% Mirac-ı Nebevî, Görelilik ve Tayy-ı Zaman: Kâinat Tılsımının Fethi\n%% Kaynak: 31. Söz (Mirac Risalesi) & 24. Mektup (Zamanın İzafiyeti)\n%% -----------------------------------------------------------------------------\nflowchart TD\n    subgraph MaddiAlem[\"1. MERTEBE: MADDÎ ÂLEM VE SEMÂVÂT\"]\n        Arz[\"Mescid-i Haram & Mekke-i Mükerreme\"]\n        Kamer[\"Tabakat-ı Kamer ve Gezegenler\"]\n        Samanyolu[\"Samanyolu ve Galaksiler (Maddî Kâinat Sarayı)\"]\n    end\n\n    subgraph FizikselDegisim[\"RÖLATİVİSTİK VE ONTOLOJİK DÖNÜŞÜM\"]\n        Hiz[\"Hız Limiti: v → c (Işık Hızı ve Ötesi)\"]\n        Letafet[\"Letafet: Cesedin Nura İnkılabı (m_eff → 0)\"]\n        Zaman[\"Zamanın Dürülmesi: Δτ = Δt / γ → 0 (Ân-ı Dâim)\"]\n        GForce[\"Sıfır G-Kuvveti (Higgs Direnci Sıfırlanır)\"]\n    end\n\n    subgraph BerzahVeNihayet[\"2. & 3. MERTEBE: SIDRE VE KAB-I KAVSEYN\"]\n        Sidre[\"Sidretü'l-Münteha<br/>(Kozmik Hudut / Esbap Perdelerinin Sonu)\"]\n        Kab[\"Kab-ı Kavseyn<br/>(İmkân ve Vücub Berzahı / Mekânsızlık)\"]\n        Ruyet[\"Rü'yet-i Cemâlullah<br/>(Sultan-ı Ezelî ile Bî-Kem-u Keyf Mükâleme)\"]\n    end\n\n    subgraph TilsimMüjdeleri[\"KÂİNATA GETİRİLEN 5 BÜYÜK HEDİYE\"]\n        H1[\"1. İmanın Hakikatlerini Gözle Müşahede\"]\n        H2[\"2. Beş Vakit Namaz (Mü'minin Miracı)\"]\n        H3[\"3. Ebedî Cennet ve Saadet Müjdesi\"]\n        H4[\"4. Cemâlullahı Görme Vaadi\"]\n        H5[\"5. Kâinatın Hikmet ve Şeref İlanı\"]\n    end\n\n    Arz -->|\"İsrâ (Gece Yürüyüşü)\"| Kamer\n    Kamer --> Samanyolu\n    \n    Samanyolu ==> Hiz & Letafet\n    Hiz & Letafet ==> Zaman & GForce\n    \n    Zaman & GForce ==> Sidre\n    Sidre -->|\"Refref ile Uruc\"| Kab\n    Kab ==> Ruyet\n    \n    Ruyet ==> H1 & H2 & H3 & H4 & H5"
+  },
+  {
+    "id": "nazar-ve-iliskisel-kuantum",
+    "file": "nazar-ve-iliskisel-kuantum.mmd",
+    "title": "Mânâ-yı Harfî, Niyet-Nazar ve RQM/ITP",
+    "description": "Mesnevî-i Nuriye (Dört Kelime): Rovelli İlişkisel Kuantum Mekaniği ve Hoffman Arayüz Kuramı",
+    "code": "flowchart TD\n    G((\"👁️ GÖZLEMCİ / ŞUUR<br/>(Mesnevî-i Nuriye: Dört Kelime)\"))\n\n    G --> NAZAR{\"Nazar & Niyet Tercihi\"}\n\n    NAZAR -- \"Mânâ-yı Harfî<br/>(Sâni' Hesabına Bakış)\" --> RQM[\"🔗 İlişkisel Kuantum (RQM - Rovelli)<br/>Varlık Tek Başına Değil, Nisbetle Kaimdir\"]\n    NAZAR -- \"Mânâ-yı İsmî<br/>(Kendi Hesabına / Tözcü Bakış)\" --> ITP_ERR[\"🖥️ Arayüz Yanılsaması (Hoffman ITP)<br/>Masaüstü İkonunu Hakikat Sanmak\"]\n\n    RQM --> NIYET[\"✨ Niyet İksiri<br/>Âdât ➔ İbadet Simyası<br/>(Üstel Anlam Kazancı)\"]\n    NIYET --> HARFI_SON[\"🌟 Huzur-u Dâimî & Epistemik Berraklık<br/>Şehadet Perdesinin Arkasındaki Esmâ Okunur\"]\n\n    ITP_ERR --> GAFLET[\"🌫️ Gaflet & Tabiatperestlik<br/>Sebeplere Uluhiyet / Tesadüfe İsnad\"]\n    GAFLET --> ISMI_SON[\"🌑 Anlam Kaybı & Enformasyon Gürültüsü<br/>Kâinat Kitabı Okunamaz\"]\n\n    style G fill:#1e1b4b,stroke:#6366f1,color:#fff\n    style RQM fill:#064e3b,stroke:#10b981,color:#fff\n    style NIYET fill:#0f766e,stroke:#06b6d4,color:#fff\n    style HARFI_SON fill:#14532d,stroke:#22c55e,color:#fff\n    style ITP_ERR fill:#7f1d1d,stroke:#ef4444,color:#fff\n    style GAFLET fill:#450a0a,stroke:#f43f5e,color:#fff\n    style ISMI_SON fill:#1f2937,stroke:#9ca3af,color:#fff"
+  },
+  {
+    "id": "suunat-ve-faaliyet",
+    "file": "suunat-ve-faaliyet.mmd",
+    "title": "Şuûnât ve Dâimî Faaliyet",
+    "description": "24. Mektup: Kâinattaki kozmik faaliyetin 4 ilâhî sırrı",
+    "code": "flowchart TD\n    subgraph Gayeler[\"KÂİNATTAKİ DÂİMÎ FAALİYETİN HİKMETLERİ (24. MEKTUP)\"]\n        G1[\"Muhabbet-i Zâtiye:<br/>Kendi cemâl ve kemâlini bizzat müşahede\"]\n        G2[\"Teşhir ve İlân:<br/>Zîşuur seyircilerin alkış ve ubudiyeti\"]\n        G3[\"Teceddüd-ü Emsal:<br/>Sınırlı zeminde sonsuz esmâyı sergilemek\"]\n        G4[\"Şuûnât-ı Kudsiyye:<br/>Memnûniyet, lezzet ve ferah-ı mukaddes\"]\n    end\n    \n    subgraph Neticeler[\"KOZMİK TECELLÎ\"]\n        N1[\"Yıldızların ve Galaksilerin Dönüşü\"]\n        N2[\"Zerrelerin Hummalı Tahavvülü\"]\n        N3[\"Mevsimlerin ve Canlıların Kafile Kafile Akışı\"]\n    end\n    \n    G1 & G2 & G3 & G4 ==> N1 & N2 & N3"
+  },
+  {
+    "id": "tabiat-risalesi-muhaller",
+    "file": "tabiat-risalesi-muhaller.mmd",
+    "title": "Tabiat Risalesi Muhalleri",
+    "description": "23. Lem'a: 4 ihtimal, 3 bâtıl yolun 9 muhali",
+    "code": "flowchart TD\n    M[\"Mevcudatın Vücuda Gelmesindeki Dört Yol\"]\n    \n    M --> Y1[\"1. Evcedethü'l-Esbâb<br/>(Sebepler yaptı)\"]\n    M --> Y2[\"2. Teşekkele Binefsihî<br/>(Kendi kendine oldu)\"]\n    M --> Y3[\"3. İktezathü't-Tabiat<br/>(Tabiat iktiza etti)\"]\n    M --> Y4[\"4. Tevhid & Vahdaniyet<br/>(Kādir-i Mutlak yarattı)\"]\n    \n    Y1 --> M1[\"Muhal: Eczahane misali;<br/>câmid sebepler hayat ve şuur veremez\"]\n    Y2 --> M2[\"Muhal: Zerreler adedince ilâh gerekir;<br/>her zerre kâinatı bilmelidir\"]\n    Y3 --> M3[\"Muhal: Tabiat bir sanattır sâni' olamaz;<br/>kanundur kādir olamaz\"]\n    \n    M1 & M2 & M3 --> BTL[\"❌ AKIL VE İLİM DIŞI SAFSATA\"]\n    \n    Y4 ==> TRU[\"✅ SÜHULET-İ MUTLAKA<br/>Kâinatı yaratmak bir ağacı yaratmak kadar kolay\"]"
+  },
+  {
+    "id": "tilsim-haritasi",
+    "file": "tilsim-haritasi.mmd",
+    "title": "Tılsım Haritası",
+    "description": "Kâinat tılsımının üst sistemik mimarisi",
+    "code": "flowchart TD\n    T((\"Tılsım-ı Kâinat\"))\n    T --> ENE[\"Ene<br/>(iç tılsım)\"]\n    T --> ZERRE[\"Zerre<br/>(dış tılsım)\"]\n    ENE --> VK[\"Vâhid-i Kıyasî\"]\n    ENE --> KAL[\"Kalınlaşma\"]\n    ENE --> NAH[\"Nahnu / İhlas\"]\n    ZERRE --> TAH[\"Tahavvülât\"]\n    ZERRE --> SAH[\"Acz ve Cümûd\"]\n    VK --> HARF[\"Mana-yı Harfî\"]\n    TAH --> HARF\n    KAL --> ISM[\"Mana-yı İsmî\"]\n    HARF --> NUB[\"Nübüvvet\"]\n    ISM --> FEL[\"Felsefe\"]\n    NUB --> MAR[\"Marifetullah\"]\n    MAR --> TAA[\"Taallüm ve Dua\"]\n    TAA --> HIZ[\"Sahil-i Selamet Hizmeti\"]"
+  },
+  {
+    "id": "zerre-seyahati-mertebeler",
+    "file": "zerre-seyahati-mertebeler.mmd",
+    "title": "Zerre Seyahati ve Mertebeler",
+    "description": "30. Söz: Bismillah'tan Elhamdülillah'a duraklar",
+    "code": "flowchart LR\n    subgraph Mebde[\"MEBDE-İ HAREKET\"]\n        Z0[\"Havadaki Zerre<br/>Lisan-ı Hâl: 'BİSMİLLÂH'\"]\n    end\n    \n    subgraph Mertebeler[\"KEMÂLÂT BASAMAKLARI\"]\n        Z1[\"Toprak ve Suya İntikal<br/>(Hizmet Dairesi)\"]\n        Z2[\"Bitkiye / Rızka Giriş<br/>(Hayat Mertebesi)\"]\n        Z3[\"Canlı Cismine / Hücreye Sevk<br/>(Nizam-ı Umumî)\"]\n        Z4[\"Tevfik'in Gözbebeği / Dimağı<br/>(Şuur ve Marifet Aynası)\"]\n    end\n    \n    subgraph Hitam[\"HİTÂM-I VAZİFE\"]\n        ZF[\"Ukûlü Hayrette Bırakan Sanat:<br/>Lisan-ı Hâl: 'ELHAMDÜLİLLÂH'\"]\n    end\n    \n    Z0 --> Z1 --> Z2 --> Z3 --> Z4 --> ZF"
+  }
+]

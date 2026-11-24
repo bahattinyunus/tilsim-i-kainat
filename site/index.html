@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌌 Tılsım-ı Kâinat — Ene, Zerre ve Varoluşun Şifreleri</title>
+  <meta name="description" content="Risale-i Nur ontolojisi ile 21. yüzyıl kuantum fiziği, enformasyon teorisi ve fraktal geometrinin kesişiminde 12 interaktif simülasyon modeli, 19 Mermaid diyagramı, 20+ derinlikli makale ve 145+ kavramlar sözlüğü.">
+  <meta property="og:title" content="Tılsım-ı Kâinat — Ene, Zerre ve Varoluşun Şifreleri">
+  <meta property="og:description" content="12 interaktif matematiksel simülasyon, 19 mimari diyagram, külliyat araştırmaları ve 145+ kavramlar sözlüğü.">
+  <meta property="og:image" content="assets/images/banner-tilsim-i-kainat.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- KaTeX for Math -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Marked for Markdown -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Mermaid for Diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+  <div class="nebula-bg"></div>
+
+  <!-- Üst Navigasyon -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand" onclick="navigateTo('home'); return false;">
+        <div class="brand-orb">🌌</div>
+        <div>
+          <span class="brand-title">TILSIM-I KÂİNAT</span>
+          <span class="brand-sub">Ontoloji · Kuantum · Tefekkür Laboratuvarı</span>
+        </div>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <button class="nav-btn active" data-view="home" onclick="navigateTo('home')">Ana Sayfa</button>
+        <button class="nav-btn" data-view="lab" onclick="navigateTo('lab')">🔬 Simülasyon Lab (12)</button>
+        <button class="nav-btn" data-view="docs" onclick="navigateTo('docs')">📚 Külliyat & Makaleler</button>
+        <button class="nav-btn" data-view="diagrams" onclick="navigateTo('diagrams')">🗺️ Diyagramlar (19)</button>
+        <button class="nav-btn" data-view="glossary" onclick="navigateTo('glossary')">📖 Sözlük</button>
+        <button class="nav-btn" data-view="matrix" onclick="navigateTo('matrix')">⚛️ Bilim Matrisi</button>
+      </div>
+
+      <a class="nav-gh" href="https://github.com/bahattinyunus/tilsim-i-kainat" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- VIEW 1: HOME -->
+    <section id="view-home" class="view-section active">
+      <div class="hero">
+        <div class="bismillah">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖيمِ</div>
+        <div class="hero-badge">✨ 12 Matematiksel Model · 87 Doğrulanmış Test · 19 Diyagram · Canlı Portal</div>
+        <h1>TILSIM-I KÂİNAT</h1>
+        <p class="hero-lead">
+          Risale-i Nur Külliyatı ekseninde <strong>Ene (Benlik)</strong>, <strong>Zerre (Madde/Atom)</strong>,
+          <strong>Holografik Ehadiyet</strong>, <strong>İlişkisel Kuantum</strong> ve <strong>Esmâ Fraktal Öz-Benzerliği</strong>
+          üzerine inşa edilmiş kapsamlı ontoloji, tefekkür ve hesaplamalı modelleme platformu.
+        </p>
+        <div class="hero-ayah">
+          "Biz emaneti göklere, yere ve dağlara arz ettik; onlar onu yüklenmekten çekindiler… Onu insan yüklendi." — Ahzâb Sûresi, 72
+        </div>
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="navigateTo('lab')">🔬 12 İnteraktif Simülasyonu Başlat</button>
+          <button class="btn-secondary" onclick="navigateTo('docs')">📚 Araştırma Kütüphanesini Oku</button>
+          <button class="btn-secondary" onclick="navigateTo('diagrams')">🗺️ 19 Mimari Diyagramı İncele</button>
+        </div>
+
+        <div class="stats-grid" id="hero-stats">
+          <div class="stat-card">
+            <div class="stat-num" id="stat-models">12</div>
+            <div class="stat-label">Matematiksel Model</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" id="stat-tests">87</div>
+            <div class="stat-label">Birim Testi (%100 Geçer)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" id="stat-docs">23</div>
+            <div class="stat-label">Derinlikli Makale</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" id="stat-diagrams">19</div>
+            <div class="stat-label">Mermaid Diyagramı</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" id="stat-glossary">145+</div>
+            <div class="stat-label">Şerhli Kavram</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Ana Kapı -->
+      <div class="section-head">
+        <div>
+          <h2>🏛️ Tılsımın Dört Büyük Kapısı</h2>
+          <p>İç âlemden (Ene) dış âleme (Zerre), şahs-ı manevîden (İhlas) küllî çözüme uzanan keşif hattı</p>
+        </div>
+      </div>
+
+      <div class="pillars-grid">
+        <article class="pillar-card" onclick="openDocByPath('docs/tilsim-i-kainat-kullî-cozum.md')">
+          <img class="pillar-img" src="assets/images/banner-tilsim-i-kainat.jpg" alt="Tılsım-ı Kâinat Küllî Çözüm">
+          <div class="pillar-body">
+            <span class="pillar-tag">Küllî Sentez</span>
+            <h3>Tılsım-ı Kâinat'ın Büyük Çözümü</h3>
+            <p>Kâinatın kilitli kapılarını açan iki anahtar: Ene'nin vâhid-i kıyasî sırrı ve kâinatın dokuz araştırma cephesinden bütünleşik okunuşu.</p>
+          </div>
+        </article>
+
+        <article class="pillar-card" onclick="openDocByPath('docs/ene-ontolojisi/01-vahid-i-kiyasi.md')">
+          <img class="pillar-img" src="assets/images/banner-ene-ontolojisi.jpg" alt="Ene Ontolojisi">
+          <div class="pillar-body">
+            <span class="pillar-tag">30. Söz · 1. Maksad</span>
+            <h3>Ene Ontolojisi ve Vâhid-i Kıyasî</h3>
+            <p>Mutlak sıfatları ölçen farazî hat olarak Ene, beş fazda kalınlaşma (firavuniyet) tehlikesi ve mânâ-yı harfî ile şeffafiyet.</p>
+          </div>
+        </article>
+
+        <article class="pillar-card" onclick="openDocByPath('docs/zerre-dinamikleri/01-tahavvulat-i-zerrat.md')">
+          <img class="pillar-img" src="assets/images/banner-zerre-dinamikleri.jpg" alt="Zerre Dinamikleri">
+          <div class="pillar-body">
+            <span class="pillar-tag">30. Söz · 2. Maksad</span>
+            <h3>Tahavvülât-ı Zerrât ve Kudret Kalemi</h3>
+            <p>Atomların durmaksızın hareketinin hikmeti, Wheeler'ın "It from Bit" ilkesi, kuantum alan titreşimleri ve zerrenin iki şahidi.</p>
+          </div>
+        </article>
+
+        <article class="pillar-card" onclick="openDocByPath('docs/ene-ontolojisi/03-eneden-nahnuya.md')">
+          <img class="pillar-img" src="assets/images/banner-ihlas-ve-kevser-havuzu.jpg" alt="İhlas ve Kevser Havuzu">
+          <div class="pillar-body">
+            <span class="pillar-tag">21. Lem'a · İhlas</span>
+            <h3>Ene'den Nahnu'ya: 4444 Sırrı</h3>
+            <p>Enaniyet buzunun kevser havuzunda erimesiyle 4 ferdin 4444 kuvvetine sıçraması, şahs-ı manevî ve kuantum süperpozisyon.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- 12 Model Kataloğu -->
+      <div class="section-head">
+        <div>
+          <h2>🔬 12 Matematiksel & Ontolojik Simülasyon Modeli</h2>
+          <p>Python standart kütüphanesi ve Chart.js ile gerçek zamanlı etkileşimli olarak doğrulanan 12 analitik model</p>
+        </div>
+        <button class="btn-secondary" onclick="navigateTo('lab')">Tümünü Laboratuvarda Aç →</button>
+      </div>
+
+      <div class="models-grid" id="models-preview-grid"></div>
+    </section>
+
+    <!-- VIEW 2: INTERACTIVE LAB -->
+    <section id="view-lab" class="view-section">
+      <div class="lab-toolbar">
+        <div>
+          <h2 style="font-family:'Cinzel',serif; font-size:1.35rem;">🔬 12 Modelli İnteraktif Simülasyon Laboratuvarı</h2>
+          <p style="color:var(--text-muted); font-size:0.86rem;">Parametre sürgülerini değiştirerek Ene, Zerre, İhlas, Entropi, Işınlanma, Kader, Haşir, Hayat (IIT Φ), Mirac, RQM, Holografi ve Esmâ Fraktal modellerini canlı test edin.</p>
+        </div>
+        <a href="lab.html" target="_blank" class="btn-primary" style="padding:0.6rem 1.2rem; font-size:0.85rem;">Tam Ekran Yeni Sekmede Aç ↗</a>
+      </div>
+      <iframe id="lab-iframe" class="lab-frame" src="lab.html" title="Tılsım-ı Kâinat 12 Modelli Simülasyon Laboratuvarı"></iframe>
+    </section>
+
+    <!-- VIEW 3: DOCS LIBRARY -->
+    <section id="view-docs" class="view-section">
+      <div class="section-head" style="margin-top:0.5rem;">
+        <div>
+          <h2>📚 Külliyat & Araştırma Kütüphanesi</h2>
+          <p>Tüm Risale-i Nur şerhleri, 21. yüzyıl fiziği sentezleri ve matematiksel çözümlemeler</p>
+        </div>
+      </div>
+
+      <div class="docs-layout">
+        <aside class="docs-sidebar">
+          <input type="search" id="doc-search" class="search-input" placeholder="Makale veya konu ara...">
+          <div class="pill-row" id="doc-categories"></div>
+          <div class="docs-list" id="docs-list"></div>
+        </aside>
+
+        <article class="doc-reader">
+          <div class="doc-meta-bar" id="doc-meta-bar"></div>
+          <div class="prose" id="doc-content">Yükleniyor...</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- VIEW 4: DIAGRAMS GALLERY -->
+    <section id="view-diagrams" class="view-section">
+      <div class="section-head" style="margin-top:0.5rem;">
+        <div>
+          <h2>🗺️ 19 Mimari & Kavramsal Diyagram</h2>
+          <p>Herhangi bir diyagrama tıklayarak tam ekran yakınlaştırabilir veya Mermaid kaynağını kopyalayabilirsiniz</p>
+        </div>
+        <input type="search" id="diagram-search" class="search-input" style="max-width:320px;" placeholder="Diyagram ara...">
+      </div>
+
+      <div class="diagrams-grid" id="diagrams-grid"></div>
+    </section>
+
+    <!-- VIEW 5: GLOSSARY -->
+    <section id="view-glossary" class="view-section">
+      <div class="section-head" style="margin-top:0.5rem;">
+        <div>
+          <h2>📖 Kavramlar Sözlüğü (Istılahlar Lügati)</h2>
+          <p>Risale-i Nur ve modern bilim terminolojisinden şerhli, alıntılı 145+ kavram</p>
+        </div>
+        <span id="glossary-count" class="doc-badge">Yükleniyor...</span>
+      </div>
+
+      <div class="glossary-controls">
+        <input type="search" id="glossary-search" class="search-input" placeholder="Kavram, risale veya fizik terimi ara (örn: Vâhid-i Kıyasî, IIT, Fraktal, Ehadiyet)...">
+        <div class="pill-row" id="glossary-letters"></div>
+      </div>
+
+      <div class="glossary-grid" id="glossary-grid"></div>
+    </section>
+
+    <!-- VIEW 6: SCIENCE MATRIX -->
+    <section id="view-matrix" class="view-section">
+      <div class="section-head" style="margin-top:0.5rem;">
+        <div>
+          <h2>⚛️ Külliyat & 21. Yüzyıl Bilim / Felsefe Çapraz Matrisi</h2>
+          <p>Risale-i Nur'daki temel ontolojik hakikatlerin modern fizik, matematik ve enformasyon teorisindeki yapısal paralelleri</p>
+        </div>
+        <input type="search" id="matrix-search" class="search-input" style="max-width:320px;" placeholder="Matriste ara...">
+      </div>
+
+      <div class="matrix-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th>Risale-i Nur Kavramı</th>
+              <th>Kaynak Eser</th>
+              <th>Modern Bilim / Felsefe Karşılığı</th>
+              <th>Temel Sentez ve Çıkarım</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- Diagram Zoom Modal -->
+  <div class="modal" id="diagram-modal" onclick="if(event.target===this) closeModal()">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3 id="modal-title" style="font-family:'Cinzel',serif;">Diyagram</h3>
+        <button class="btn-mini" onclick="closeModal()">✕ Kapat</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>🌌 <strong>Tılsım-ı Kâinat</strong> — Varlık, Bilgi ve Anlamın Küllî Haritası · <a href="https://github.com/bahattinyunus/tilsim-i-kainat" target="_blank" rel="noopener">GitHub Deposu</a> · <a href="lab.html" target="_blank">Doğrudan Laboratuvar</a></p>
+    <p style="margin-top:0.35rem; font-size:0.78rem;">Bütün hakikatler Hâlık-ı Zülcelâl'in sanatıdır.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

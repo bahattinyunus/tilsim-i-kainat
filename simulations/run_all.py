@@ -18,6 +18,7 @@ tek bir merkezden çalıştırmanızı ve karşılaştırmanızı sağlar:
 9. Mirac, Görelilik ve Tayy-ı Zaman Modeli (mirac-relativity-model.py)
 10. Mânâ-yı Harfî, Niyet-Nazar ve İlişkisel Kuantum Modeli (nazar-rqm-model.py)
 11. Holografik Âlem-i Misâl, Ehadiyet ve Aynalar Modeli (holographic-ayine-model.py)
+12. Esmâ-i Hüsnâ Fraktal Öz-Benzerlik ve Ölçek Değişmezliği Modeli (esma-fractal-resonance-model.py)
 """
 
 import subprocess
@@ -84,8 +85,12 @@ def main() -> int:
     print("1️⃣1️⃣ HOLOGRAFİK ÂLEM-İ MİSÂL, EHADİYET VE AYNALAR (16. SÖZ, AdS/CFT & ER=EPR):", flush=True)
     calistir("holographic-ayine-model.py", ["--tablo"])
 
+    print("\n" + "-" * 76 + "\n", flush=True)
+    print("1️⃣2️⃣ ESMÂ-İ HÜSNÂ FRAKTAL ÖZ-BENZERLİK VE ÖLÇEK DEĞİŞMEZLİĞİ (30. LEM'A & MANDELBROT):", flush=True)
+    calistir("esma-fractal-resonance-model.py", ["--tablo"])
+
     print("\n" + "=" * 76, flush=True)
-    print("  ✅ Bütün simülasyonlar (11 model, 73 birim testi) başarıyla icra edildi.", flush=True)
+    print("  ✅ Bütün simülasyonlar (12 model, 87 birim testi) başarıyla icra edildi.", flush=True)
     print("=" * 76 + "\n", flush=True)
     return 0
 

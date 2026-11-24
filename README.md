@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/bahattinyunus/tilsim-i-kainat/actions/workflows/tests.yml"><img src="https://img.shields.io/badge/CI%20Tests-73%2F73%20Passing-10B981?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Tests"></a>
+  <a href="https://github.com/bahattinyunus/tilsim-i-kainat/actions/workflows/tests.yml"><img src="https://img.shields.io/badge/CI%20Tests-87%2F87%20Passing-10B981?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI Tests"></a>
   <img src="https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Versions">
-  <img src="https://img.shields.io/badge/Sim%C3%BClasyon-11%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="11 Models">
-  <img src="https://img.shields.io/badge/Diyagram-18%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="18 Diagrams">
+  <img src="https://img.shields.io/badge/Sim%C3%BClasyon-12%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="12 Models">
+  <img src="https://img.shields.io/badge/Diyagram-19%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="19 Diagrams">
   <a href="dashboard/index.html"><img src="https://img.shields.io/badge/Web%20Dashboard-Chart.js%20SPA-F59E0B?style=for-the-badge" alt="Web Dashboard"></a>
 </p>
 
@@ -33,10 +33,10 @@ Projeyi yerel bilgisayarınıza klonlayıp **30 saniye** içinde hem Python sim�
 git clone https://github.com/bahattinyunus/tilsim-i-kainat.git
 cd tilsim-i-kainat
 
-# 2. On bir simülasyon modelini tek seferde çalıştırın
+# 2. On iki simülasyon modelini tek seferde çalıştırın
 python simulations/run_all.py
 
-# 3. 73 birim testinin tamamını doğrulayın
+# 3. 87 birim testinin tamamını doğrulayın
 python -m unittest discover -s simulations -p "test_*.py" -v
 ```
 
@@ -66,6 +66,7 @@ Risale-i Nur'daki köklü kavramların modern fizik, bilişim teorisi, termodina
 | **Hayatın Sırr-ı Câmii & Ruh** | *29. Söz & 30. Lem'a* | **Entegre Bilgi Teorisi (IIT $\Phi$ - G. Tononi)** | Parçalara indirgenemeyen bütünleşik bilgi ($\Phi \gg 0$), cansız zerratı tek bir kâinata muhatap zîşuur bir öze çevirir. |
 | **Mirac-ı Nebevî & Ân-ı Dâim** | *31. Söz & 24. Mektup* | **Özel Görelilik (Einstein) & Lorentz Dilation** | Cismin nuraniyet kesbetmesiyle Higgs eylemsizliği sıfırlanır ($0.0\text{ G}$); zaman dürülerek *tarfetü'l-ayn*da ezel-ebed seyrine erilir. |
 | **Şehadet Perdesi & Nazar** | *Mesnevî & 11. Söz* | **Arayüz Algı Kuramı (ITP - D. Hoffman)** | Uzay-zaman ve madde mutlak hakikat değil, şuurun muhatap olduğu bir "arayüz"dür; hakikat perde arkasındaki esmâdır. |
+| **İsm-i Âzam & Misâl-i Musaggar** | *30. Lem'a & 32. Söz* | **Fraktal Geometri (Mandelbrot) & Renormalizasyon (Wilson)** | 41 mertebe ölçek boyunca (zerre → insan → galaksi) korunan öz-benzerlik ve ölçek değişmezliği, tek bir Sâni'nin Sikke-i Vahdet'idir. |
 
 ---
 
@@ -92,9 +93,10 @@ Risale-i Nur'daki köklü kavramların modern fizik, bilişim teorisi, termodina
 | **15** | [**Hayat ve Ruh Tılsımı**](docs/hayat-ve-ruh-tilsimi.md) | *29. Söz & 30. Lem'a* | Hayatın sırr-ı câmii; Ruhun âlem-i emirden gelen zîşuur ve haricî vücut giydirilmiş kanun mahiyeti. |
 | **16** | [**Mirac, Görelilik ve Tayy-ı Zaman**](docs/mirac-ve-tayy-i-zaman.md) | *31. Söz (Mirac)* | **Kâinat Tılsımının Küllî Fethi:** Sidretü'l-Münteha, Kab-ı Kavseyn, Zamanın İzafiyeti ve Beş Kudsî Hediye. |
 | **17** | [**Holografik Âlem-i Misâl ve Ehadiyet**](docs/holografik-alem-ve-ehadiyet.md) | *16. Söz & 28. Mektup* | **Güneş-Ayna Temessülü & AdS/CFT:** Vâhidiyet vs. Ehadiyet, Tecezzisiz Tecelli, Kurb-Bu'd Sırrı ve ER=EPR. |
-| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 140+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
-| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 18 adet mimari akış şeması (Holografik Ehadiyet, Nazar-RQM, Mirac, Hayat-Ruh IIT, Haşir-Ebediyet, Kader-İrade, Kuantum, Işınlanma, Entropi, İhlas). |
-| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 11 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
+| **18** | [**Esmâ-i Hüsnâ Fraktal Öz-Benzerlik**](docs/esma-fraktal-ve-olcek-degismezligi.md) | *30. Lem'a & 32. Söz* | **İsm-i Âzam & Mandelbrot ($D_f$):** 41 mertebe ölçek değişmezliği, Renormalizasyon Grubu ve Misâl-i Musaggar. |
+| 📖 | [**Kavramlar Sözlüğü (Glossary)**](kavramlar-sozlugu/glossary.md) | *Tüm Külliyat* | 145+ ıstılahın metin alıntıları ve etimolojisiyle şerhli lügati. |
+| 🗺️ | [**Mermaid Diyagramları**](assets/diagrams/README.md) | *Kavramsal Şemalar* | 19 adet mimari akış şeması (Esmâ Fraktal, Holografik Ehadiyet, Nazar-RQM, Mirac, Hayat-Ruh IIT, Haşir-Ebediyet, Kader-İrade, Kuantum, Işınlanma, Entropi, İhlas). |
+| 💻 | [**İnteraktif Web Laboratuvarı**](dashboard/index.html) | *Chart.js SPA* | Tarayıcıda tek tıkla çalışan, 12 simülasyon modelini canlı grafiklerle kontrol eden Web Dashboard. |
 
 ---
 
