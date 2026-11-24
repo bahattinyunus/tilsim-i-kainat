@@ -151,14 +151,7 @@ def build_glossary() -> list[dict]:
 
 
 def copy_assets() -> None:
-    ASSETS_IMG_DIR.mkdir(parents=True, exist_ok=True)
-    src_img_dir = ROOT / "assets" / "images"
-    if src_img_dir.exists():
-        for img in src_img_dir.glob("*"):
-            if img.is_file():
-                shutil.copy2(img, ASSETS_IMG_DIR / img.name)
-
-    # Copy interactive 12-model simulation lab
+    # Copy interactive 12-model simulation lab (banner images are served from GitHub raw CDN)
     dash_src = ROOT / "dashboard" / "index.html"
     if dash_src.exists():
         shutil.copy2(dash_src, SITE_DIR / "lab.html")

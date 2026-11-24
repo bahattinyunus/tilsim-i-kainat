@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Versions">
   <img src="https://img.shields.io/badge/Sim%C3%BClasyon-12%20Matematiksel%20Model-06B6D4?style=for-the-badge" alt="12 Models">
   <img src="https://img.shields.io/badge/Diyagram-19%20Mermaid%20%C5%9Eemas%C4%B1-8B5CF6?style=for-the-badge" alt="19 Diagrams">
-  <a href="dashboard/index.html"><img src="https://img.shields.io/badge/Web%20Dashboard-Chart.js%20SPA-F59E0B?style=for-the-badge" alt="Web Dashboard"></a>
+  <a href="https://bahattinyunus.github.io/tilsim-i-kainat/"><img src="https://img.shields.io/badge/Canl%C4%B1%20Web%20Portal%C4%B1-T%C4%B1ls%C4%B1m--%C4%B1%20K%C3%A2inat-F59E0B?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Web Portal"></a>
 </p>
 
 # 🌌 Tılsım-ı Kâinat: Ene, Zerre ve Varoluşun Şifreleri
