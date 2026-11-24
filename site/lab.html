@@ -2201,6 +2201,20 @@
       simuleEtNazar();
       simuleEtHolografi();
       simuleEtFraktal();
+
+      // URL parametresi (?tab=tab-fraktal) ile doğrudan ilgili sekmeyi aç
+      const params = new URLSearchParams(window.location.search);
+      const initialTab = params.get('tab');
+      if (initialTab && document.getElementById(initialTab)) {
+        switchTab(initialTab);
+      }
+    });
+
+    // Ana portaldan (iframe postMessage) sekme değiştirme desteği
+    window.addEventListener('message', (event) => {
+      if (event.data && event.data.type === 'switchTab' && event.data.tabId) {
+        switchTab(event.data.tabId);
+      }
     });
   </script>
 </body>

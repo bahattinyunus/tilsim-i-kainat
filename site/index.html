@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🌌 Tılsım-ı Kâinat — Ene, Zerre ve Varoluşun Şifreleri</title>
-  <meta name="description" content="Risale-i Nur ontolojisi ile 21. yüzyıl kuantum fiziği, enformasyon teorisi ve fraktal geometrinin kesişiminde 12 interaktif simülasyon modeli, 19 Mermaid diyagramı, 20+ derinlikli makale ve 145+ kavramlar sözlüğü.">
+  <meta name="description" content="Risale-i Nur ontolojisi ile 21. yüzyıl kuantum fiziği, enformasyon teorisi ve fraktal geometrinin kesişiminde 12 interaktif simülasyon modeli, 19 Mermaid diyagramı, 22 derinlikli makale, 136+ kavramlar sözlüğü ve bilgi testi.">
   <meta property="og:title" content="Tılsım-ı Kâinat — Ene, Zerre ve Varoluşun Şifreleri">
-  <meta property="og:description" content="12 interaktif matematiksel simülasyon, 19 mimari diyagram, külliyat araştırmaları ve 145+ kavramlar sözlüğü.">
+  <meta property="og:description" content="12 interaktif matematiksel simülasyon, 19 mimari diyagram, külliyat araştırmaları, sözlük ve tefekkür testi.">
   <meta property="og:image" content="https://raw.githubusercontent.com/bahattinyunus/tilsim-i-kainat/main/assets/images/banner-tilsim-i-kainat.jpg">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
 
@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div id="read-progress"></div>
   <canvas id="starfield"></canvas>
   <div class="nebula-bg"></div>
 
@@ -44,14 +45,24 @@
 
       <div class="nav-links" id="nav-links">
         <button class="nav-btn active" data-view="home" onclick="navigateTo('home')">Ana Sayfa</button>
-        <button class="nav-btn" data-view="lab" onclick="navigateTo('lab')">🔬 Simülasyon Lab (12)</button>
-        <button class="nav-btn" data-view="docs" onclick="navigateTo('docs')">📚 Külliyat & Makaleler</button>
-        <button class="nav-btn" data-view="diagrams" onclick="navigateTo('diagrams')">🗺️ Diyagramlar (19)</button>
+        <button class="nav-btn" data-view="lab" onclick="navigateTo('lab')">🔬 Lab (12)</button>
+        <button class="nav-btn" data-view="docs" onclick="navigateTo('docs')">📚 Külliyat</button>
+        <button class="nav-btn" data-view="diagrams" onclick="navigateTo('diagrams')">🗺️ Diyagramlar</button>
         <button class="nav-btn" data-view="glossary" onclick="navigateTo('glossary')">📖 Sözlük</button>
-        <button class="nav-btn" data-view="matrix" onclick="navigateTo('matrix')">⚛️ Bilim Matrisi</button>
+        <button class="nav-btn" data-view="matrix" onclick="navigateTo('matrix')">⚛️ Matris</button>
+        <button class="nav-btn" data-view="quiz" onclick="navigateTo('quiz')">🎯 Tefekkür Testi</button>
       </div>
 
-      <a class="nav-gh" href="https://github.com/bahattinyunus/tilsim-i-kainat" target="_blank" rel="noopener">GitHub ↗</a>
+      <div class="nav-tools">
+        <button class="cmd-trigger" onclick="openCmdPalette()" title="Tüm portalda hızlı ara (Ctrl+K)">
+          <span>🔍</span>
+          <span class="cmd-label">Ara...</span>
+          <span class="kbd">Ctrl K</span>
+        </button>
+        <button class="icon-btn" id="theme-toggle" onclick="toggleTheme()" title="Tema değiştir (Kozmik / Tezhip)">📜</button>
+        <a class="nav-gh" href="https://github.com/bahattinyunus/tilsim-i-kainat" target="_blank" rel="noopener">GitHub ↗</a>
+        <button class="icon-btn mobile-menu-btn" onclick="toggleMobileMenu()" title="Menü">☰</button>
+      </div>
     </div>
   </nav>
 
@@ -60,7 +71,7 @@
     <section id="view-home" class="view-section active">
       <div class="hero">
         <div class="bismillah">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحٖيمِ</div>
-        <div class="hero-badge">✨ 12 Matematiksel Model · 87 Doğrulanmış Test · 19 Diyagram · Canlı Portal</div>
+        <div class="hero-badge">✨ 12 Matematiksel Model · 87 Doğrulanmış Test · 19 Diyagram · İnteraktif Portal</div>
         <h1>TILSIM-I KÂİNAT</h1>
         <p class="hero-lead">
           Risale-i Nur Külliyatı ekseninde <strong>Ene (Benlik)</strong>, <strong>Zerre (Madde/Atom)</strong>,
@@ -73,30 +84,46 @@
         <div class="hero-actions">
           <button class="btn-primary" onclick="navigateTo('lab')">🔬 12 İnteraktif Simülasyonu Başlat</button>
           <button class="btn-secondary" onclick="navigateTo('docs')">📚 Araştırma Kütüphanesini Oku</button>
-          <button class="btn-secondary" onclick="navigateTo('diagrams')">🗺️ 19 Mimari Diyagramı İncele</button>
+          <button class="btn-secondary" onclick="navigateTo('quiz')">🎯 Tılsım Bilgi Testine Katıl</button>
         </div>
 
         <div class="stats-grid" id="hero-stats">
-          <div class="stat-card">
+          <div class="stat-card" onclick="navigateTo('lab')">
             <div class="stat-num" id="stat-models">12</div>
             <div class="stat-label">Matematiksel Model</div>
           </div>
-          <div class="stat-card">
+          <div class="stat-card" onclick="navigateTo('lab')">
             <div class="stat-num" id="stat-tests">87</div>
             <div class="stat-label">Birim Testi (%100 Geçer)</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-num" id="stat-docs">23</div>
+          <div class="stat-card" onclick="navigateTo('docs')">
+            <div class="stat-num" id="stat-docs">22</div>
             <div class="stat-label">Derinlikli Makale</div>
           </div>
-          <div class="stat-card">
+          <div class="stat-card" onclick="navigateTo('diagrams')">
             <div class="stat-num" id="stat-diagrams">19</div>
             <div class="stat-label">Mermaid Diyagramı</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-num" id="stat-glossary">145+</div>
+          <div class="stat-card" onclick="navigateTo('glossary')">
+            <div class="stat-num" id="stat-glossary">136+</div>
             <div class="stat-label">Şerhli Kavram</div>
           </div>
+        </div>
+      </div>
+
+      <!-- Günün Tefekkür & Hikmet Kartı -->
+      <div class="wisdom-card" id="wisdom-card">
+        <div class="wisdom-top">
+          <span class="wisdom-label">✨ Tefekkür & Hikmet Penceresi</span>
+          <div style="display:flex; gap:0.45rem;">
+            <button class="btn-mini" onclick="copyCurrentWisdom()">📋 Kopyala</button>
+            <button class="btn-mini" onclick="nextWisdom()">↻ Yeni Hikmet</button>
+          </div>
+        </div>
+        <div class="wisdom-quote" id="wisdom-quote"></div>
+        <div class="wisdom-meta">
+          <span id="wisdom-source"></span>
+          <span class="wisdom-physics" id="wisdom-physics"></span>
         </div>
       </div>
 
@@ -150,9 +177,9 @@
       <div class="section-head">
         <div>
           <h2>🔬 12 Matematiksel & Ontolojik Simülasyon Modeli</h2>
-          <p>Python standart kütüphanesi ve Chart.js ile gerçek zamanlı etkileşimli olarak doğrulanan 12 analitik model</p>
+          <p>Herhangi bir modele tıklayarak doğrudan ilgili canlı simülasyon sekmesine geçin</p>
         </div>
-        <button class="btn-secondary" onclick="navigateTo('lab')">Tümünü Laboratuvarda Aç →</button>
+        <button class="btn-secondary" onclick="navigateTo('lab')">Laboratuvara Git →</button>
       </div>
 
       <div class="models-grid" id="models-preview-grid"></div>
@@ -162,24 +189,25 @@
     <section id="view-lab" class="view-section">
       <div class="lab-toolbar">
         <div>
-          <h2 style="font-family:'Cinzel',serif; font-size:1.35rem;">🔬 12 Modelli İnteraktif Simülasyon Laboratuvarı</h2>
-          <p style="color:var(--text-muted); font-size:0.86rem;">Parametre sürgülerini değiştirerek Ene, Zerre, İhlas, Entropi, Işınlanma, Kader, Haşir, Hayat (IIT Φ), Mirac, RQM, Holografi ve Esmâ Fraktal modellerini canlı test edin.</p>
+          <h2 style="font-family:'Cinzel',serif; font-size:1.3rem;">🔬 12 Modelli İnteraktif Simülasyon Laboratuvarı</h2>
+          <p style="color:var(--text-muted); font-size:0.85rem;">Aşağıdaki hızlı erişim düğmeleriyle veya laboratuvar içinden istediğiniz modele anında geçiş yapın.</p>
         </div>
-        <a href="lab.html" target="_blank" class="btn-primary" style="padding:0.6rem 1.2rem; font-size:0.85rem;">Tam Ekran Yeni Sekmede Aç ↗</a>
+        <a href="lab.html" target="_blank" class="btn-primary" style="padding:0.55rem 1.15rem; font-size:0.84rem;">Tam Ekran Yeni Sekmede Aç ↗</a>
       </div>
+      <div class="lab-quick-pills" id="lab-quick-pills"></div>
       <iframe id="lab-iframe" class="lab-frame" src="lab.html" title="Tılsım-ı Kâinat 12 Modelli Simülasyon Laboratuvarı"></iframe>
     </section>
 
     <!-- VIEW 3: DOCS LIBRARY -->
     <section id="view-docs" class="view-section">
-      <div class="section-head" style="margin-top:0.5rem;">
+      <div class="section-head" style="margin-top:0.4rem;">
         <div>
           <h2>📚 Külliyat & Araştırma Kütüphanesi</h2>
-          <p>Tüm Risale-i Nur şerhleri, 21. yüzyıl fiziği sentezleri ve matematiksel çözümlemeler</p>
+          <p>Risale-i Nur şerhleri, 21. yüzyıl fiziği sentezleri, otomatik İçindekiler ve odak okuma modu</p>
         </div>
       </div>
 
-      <div class="docs-layout">
+      <div class="docs-layout" id="docs-layout">
         <aside class="docs-sidebar">
           <input type="search" id="doc-search" class="search-input" placeholder="Makale veya konu ara...">
           <div class="pill-row" id="doc-categories"></div>
@@ -187,18 +215,28 @@
         </aside>
 
         <article class="doc-reader">
-          <div class="doc-meta-bar" id="doc-meta-bar"></div>
+          <div class="doc-reader-toolbar">
+            <div class="doc-meta-bar" id="doc-meta-bar"></div>
+            <div class="doc-controls">
+              <button class="btn-mini" onclick="changeFontSize(-0.08)" title="Yazıyı küçült">A-</button>
+              <button class="btn-mini" onclick="changeFontSize(0.08)" title="Yazıyı büyüt">A+</button>
+              <button class="btn-mini" id="btn-bookmark" onclick="toggleCurrentBookmark()">☆ Kaydet</button>
+              <button class="btn-mini" id="btn-focus" onclick="toggleFocusMode()">📖 Odak Modu</button>
+            </div>
+          </div>
+          <div id="doc-toc-wrap"></div>
           <div class="prose" id="doc-content">Yükleniyor...</div>
+          <div class="doc-nav-footer" id="doc-nav-footer"></div>
         </article>
       </div>
     </section>
 
     <!-- VIEW 4: DIAGRAMS GALLERY -->
     <section id="view-diagrams" class="view-section">
-      <div class="section-head" style="margin-top:0.5rem;">
+      <div class="section-head" style="margin-top:0.4rem;">
         <div>
           <h2>🗺️ 19 Mimari & Kavramsal Diyagram</h2>
-          <p>Herhangi bir diyagrama tıklayarak tam ekran yakınlaştırabilir veya Mermaid kaynağını kopyalayabilirsiniz</p>
+          <p>Yakınlaştırmak için diyagrama tıklayın, zoom kontrolleriyle inceleyin veya Mermaid kodunu kopyalayın</p>
         </div>
         <input type="search" id="diagram-search" class="search-input" style="max-width:320px;" placeholder="Diyagram ara...">
       </div>
@@ -208,10 +246,10 @@
 
     <!-- VIEW 5: GLOSSARY -->
     <section id="view-glossary" class="view-section">
-      <div class="section-head" style="margin-top:0.5rem;">
+      <div class="section-head" style="margin-top:0.4rem;">
         <div>
           <h2>📖 Kavramlar Sözlüğü (Istılahlar Lügati)</h2>
-          <p>Risale-i Nur ve modern bilim terminolojisinden şerhli, alıntılı 145+ kavram</p>
+          <p>Risale-i Nur ve modern bilim terminolojisinden şerhli, alıntılı 136+ kavram</p>
         </div>
         <span id="glossary-count" class="doc-badge">Yükleniyor...</span>
       </div>
@@ -226,7 +264,7 @@
 
     <!-- VIEW 6: SCIENCE MATRIX -->
     <section id="view-matrix" class="view-section">
-      <div class="section-head" style="margin-top:0.5rem;">
+      <div class="section-head" style="margin-top:0.4rem;">
         <div>
           <h2>⚛️ Külliyat & 21. Yüzyıl Bilim / Felsefe Çapraz Matrisi</h2>
           <p>Risale-i Nur'daki temel ontolojik hakikatlerin modern fizik, matematik ve enformasyon teorisindeki yapısal paralelleri</p>
@@ -248,6 +286,19 @@
         </table>
       </div>
     </section>
+
+    <!-- VIEW 7: INTERACTIVE QUIZ -->
+    <section id="view-quiz" class="view-section">
+      <div class="section-head" style="margin-top:0.4rem;">
+        <div>
+          <h2>🎯 Tılsım-ı Kâinat Bilgi & Tefekkür Testi</h2>
+          <p>12 model ve temel risale hakikatleri üzerinden kendi ontolojik keşif seviyenizi ölçün</p>
+        </div>
+        <span class="doc-badge" id="quiz-highscore-badge">En Yüksek Skor: —</span>
+      </div>
+
+      <div class="quiz-container" id="quiz-root"></div>
+    </section>
   </main>
 
   <!-- Diagram Zoom Modal -->
@@ -255,15 +306,37 @@
     <div class="modal-card">
       <div class="modal-head">
         <h3 id="modal-title" style="font-family:'Cinzel',serif;">Diyagram</h3>
-        <button class="btn-mini" onclick="closeModal()">✕ Kapat</button>
+        <div style="display:flex; gap:0.4rem; align-items:center;">
+          <button class="btn-mini" onclick="zoomModal(-0.2)">➖</button>
+          <button class="btn-mini" id="modal-zoom-label" onclick="resetModalZoom()">%100</button>
+          <button class="btn-mini" onclick="zoomModal(0.2)">➕</button>
+          <button class="btn-mini" onclick="closeModal()">✕ Kapat</button>
+        </div>
       </div>
-      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-body">
+        <div id="modal-zoom-wrap"></div>
+      </div>
     </div>
   </div>
 
+  <!-- Global Command Palette (Ctrl+K) -->
+  <div class="modal" id="cmd-modal" onclick="if(event.target===this) closeCmdPalette()">
+    <div class="cmd-card">
+      <div class="cmd-input-wrap">
+        <span>🔍</span>
+        <input type="text" id="cmd-input" class="cmd-input" placeholder="Model, makale, kavram veya diyagram ara... (ESC kapat)">
+        <span class="kbd">ESC</span>
+      </div>
+      <div class="cmd-results" id="cmd-results"></div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+  <button id="back-top" onclick="window.scrollTo({top:0, behavior:'smooth'})" title="Yukarı çık">↑</button>
+
   <footer>
     <p>🌌 <strong>Tılsım-ı Kâinat</strong> — Varlık, Bilgi ve Anlamın Küllî Haritası · <a href="https://github.com/bahattinyunus/tilsim-i-kainat" target="_blank" rel="noopener">GitHub Deposu</a> · <a href="lab.html" target="_blank">Doğrudan Laboratuvar</a></p>
-    <p style="margin-top:0.35rem; font-size:0.78rem;">Bütün hakikatler Hâlık-ı Zülcelâl'in sanatıdır.</p>
+    <p style="margin-top:0.3rem; font-size:0.78rem;">Bütün hakikatler Hâlık-ı Zülcelâl'in sanatıdır. · Hızlı arama için <kbd>Ctrl+K</kbd></p>
   </footer>
 
   <script src="app.js"></script>
